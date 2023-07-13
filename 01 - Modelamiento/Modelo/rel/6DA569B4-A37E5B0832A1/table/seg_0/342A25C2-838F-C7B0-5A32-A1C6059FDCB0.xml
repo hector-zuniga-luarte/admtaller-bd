@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="342A25C2-838F-C7B0-5A32-A1C6059FDCB0" name="PROG_ASIGN">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-11 02:52:13 UTC</createdTime>
+<generatorID>CC90F68C-563B-3B90-8213-6F98445DD646</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ano_academ" id="00573749-B442-21C6-2E9E-BA11253B996B">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-11 02:52:13 UTC</createdTime>
+<generatorID>25E85D89-877E-C1E2-5E30-898D2A6B35D6</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cod_periodo_academ" id="9E305051-48EC-8E06-B4C2-EC85F6BC25A7">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-11 02:52:13 UTC</createdTime>
+<generatorID>BD6C8918-D57A-DC24-730E-C9F0CFCFC97C</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1B2ACCF0-D995-9756-8CCC-C0FCC9EE4E43" referredColumn="F927FF00-A531-46B0-E132-84585B352E9D"/>
+</associations>
+</Column>
+<Column name="sigla" id="DDDD3FCB-C341-7DB6-9DE3-F6034D7137BE">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-11 02:52:13 UTC</createdTime>
+<generatorID>7F804199-BDD1-150C-18FE-F5CB3A12A62B</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="88C6752C-3EAF-FE69-7A65-354990915A5D" referredColumn="B9BCFE5A-1571-56D7-6C32-8817EE85D3A5"/>
+</associations>
+</Column>
+<Column name="seccion" id="91F83EA9-ED21-41C0-3B48-8A1C2C2FAC69">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-11 02:52:13 UTC</createdTime>
+<generatorID>ADD6E0BE-AF49-B69B-F4BF-E297D415B1F5</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E89B8EDD-C415-63A7-A7C9-C77C9E9A6EAB" name="PROG_ASIGN_PK">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-11 02:52:13 UTC</createdTime>
+<generatorID>78F702C6-8FE9-BA2E-5107-31BCEDF420BD</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91F83EA9-ED21-41C0-3B48-8A1C2C2FAC69"/>
+<colUsage columnID="00573749-B442-21C6-2E9E-BA11253B996B"/>
+<colUsage columnID="DDDD3FCB-C341-7DB6-9DE3-F6034D7137BE"/>
+<colUsage columnID="9E305051-48EC-8E06-B4C2-EC85F6BC25A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EDDEF4FC-D05D-08F5-5800-2C0DB1F0281D" name="PROG_ASIGN_PERIODO_ACADEM_FK">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-11 02:52:13 UTC</createdTime>
+<generatorID>FF3E0423-F996-D7ED-3A44-92CCCA62F67A</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E305051-48EC-8E06-B4C2-EC85F6BC25A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="18438B6A-9649-32E0-08C3-57D240DF7960" name="PROG_ASIGN_ASIGN_FK">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-11 02:52:13 UTC</createdTime>
+<generatorID>46ECDAF6-6C64-B2E5-7609-19D08E682F3F</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDDD3FCB-C341-7DB6-9DE3-F6034D7137BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

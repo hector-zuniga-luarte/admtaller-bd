@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1B2ACCF0-D995-9756-8CCC-C0FCC9EE4E43" containerWithKeyObject="342A25C2-838F-C7B0-5A32-A1C6059FDCB0" localFKIndex="EDDEF4FC-D05D-08F5-5800-2C0DB1F0281D" name="PROG_ASIGN_PERIODO_ACADEM_FK">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-11 02:52:13 UTC</createdTime>
+<generatorID>FF3E0423-F996-D7ED-3A44-92CCCA62F67A</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<referredTableLongName>PERIODO_ACADEM</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>01B9524C-6536-8CF9-8ACE-F023167CA5E7</referredTableID>
+<keyObject>543C2C1E-644E-DF7A-87B0-5A16915D320C</keyObject>
+<referredKeyID>543C2C1E-644E-DF7A-87B0-5A16915D320C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cod_periodo_academ</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

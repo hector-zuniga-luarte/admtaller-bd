@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7E199D3B-783F-AAC7-FAC5-B89D1C0459A8" name="ASIGN">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-28 01:12:08 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="6DA569B4-55AA-EEB5-3639-A37E5B0832A1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="sigla" id="28C95A48-0EEC-5913-2DF1-AC8B26185E71">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-28 01:13:20 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="6DA569B4-55AA-EEB5-3639-A37E5B0832A1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_asign" id="DA780F68-908D-5946-6AE6-2B8FF93C1031">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-28 01:13:27 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="6DA569B4-55AA-EEB5-3639-A37E5B0832A1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_asign_abrev" id="99153305-DFE6-D5A3-D204-6A750B19E930">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-28 01:13:35 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="6DA569B4-55AA-EEB5-3639-A37E5B0832A1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_carrera" id="36D36EC4-9F0E-510A-4468-26D99AA22A05">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-28 02:00:18 UTC</createdTime>
+<generatorID>2744771F-3331-4880-3543-FFF03FA0533B</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="6DA569B4-55AA-EEB5-3639-A37E5B0832A1" value="true"/>
+</engineerTo>
+<referedAttribute>76631B48-E5E7-B200-35FA-BAA387FA6A1A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E89F8880-78CB-566D-9AE0-CCA0A5A1794F" name="ASIGN PK">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-28 01:14:01 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="6DA569B4-55AA-EEB5-3639-A37E5B0832A1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>28C95A48-0EEC-5913-2DF1-AC8B26185E71</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

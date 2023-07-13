@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="69ED8D29-75BC-B3A7-A037-A4C02088C1DA" containerWithKeyObject="8EC1E729-21F0-1C38-5E3D-8A0887E0958A" localFKIndex="3A95DF16-A7CE-F321-8164-27056339080A" name="CONFIG_TALLER_AGRUPADOR_FK">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-28 02:26:13 UTC</createdTime>
+<generatorID>67D570BC-D940-E121-B9D4-DB316A29DEC4</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<referredTableLongName>AGRUPADOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2C86EC94-A8D8-E0F7-ADE8-88A3FBA83FF4</referredTableID>
+<keyObject>3D20B8EF-B6F2-AF1C-1F31-651E1994DFED</keyObject>
+<referredKeyID>3D20B8EF-B6F2-AF1C-1F31-651E1994DFED</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>cod_agrupador</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

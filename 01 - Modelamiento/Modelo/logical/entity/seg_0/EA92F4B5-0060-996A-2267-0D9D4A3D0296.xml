@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EA92F4B5-0060-996A-2267-0D9D4A3D0296" name="PRODUCTO">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-23 02:58:03 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="6DA569B4-55AA-EEB5-3639-A37E5B0832A1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_producto" id="65B71DC1-E396-72F5-0D49-69EBEF8DD3BB">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-28 01:23:36 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="6DA569B4-55AA-EEB5-3639-A37E5B0832A1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_producto" id="8E6D7E7E-2D11-C011-0F84-AA1C0674025D">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-28 01:23:42 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="6DA569B4-55AA-EEB5-3639-A37E5B0832A1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_producto" id="1D0C1700-3CA5-DC4A-39CE-ADF4A58C7007">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-28 01:23:50 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="6DA569B4-55AA-EEB5-3639-A37E5B0832A1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="4A5F4D01-4462-4CEE-4B7F-4146FD73843E">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-28 01:24:05 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="6DA569B4-55AA-EEB5-3639-A37E5B0832A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio" id="3B86CC63-87D6-A65D-6B0F-6C2119EAF449">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-28 01:24:32 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="6DA569B4-55AA-EEB5-3639-A37E5B0832A1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_unidad_medida" id="E1B78A9C-5BAC-A02E-7629-440A28504714">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-28 02:13:15 UTC</createdTime>
+<generatorID>438474B4-23EE-1CAC-8845-1439AB144B86</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="6DA569B4-55AA-EEB5-3639-A37E5B0832A1" value="true"/>
+</engineerTo>
+<referedAttribute>BD258ADF-8F4F-C4FB-088D-8253C55FDCA6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_categ_producto" id="969E49FF-63BD-BAD4-0940-CFCB4F6DD452">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-28 02:22:50 UTC</createdTime>
+<generatorID>44E59ED1-AC57-7924-CD9B-B29C341A7D45</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="6DA569B4-55AA-EEB5-3639-A37E5B0832A1" value="true"/>
+</engineerTo>
+<referedAttribute>30144660-10FE-250A-DC74-3B88A3BB6323</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="94AD66A9-16BF-C699-7B5B-C85C058ED9B0" name="PRODUCTO PK">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-28 01:25:08 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="6DA569B4-55AA-EEB5-3639-A37E5B0832A1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>65B71DC1-E396-72F5-0D49-69EBEF8DD3BB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

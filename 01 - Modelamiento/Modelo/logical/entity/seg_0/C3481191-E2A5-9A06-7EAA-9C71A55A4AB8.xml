@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C3481191-E2A5-9A06-7EAA-9C71A55A4AB8" name="CONFIG_TALLER">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-23 03:00:17 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="6DA569B4-55AA-EEB5-3639-A37E5B0832A1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_producto" id="A6306261-29D1-439C-EBF0-7A69882DA1F7">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-28 01:25:25 UTC</createdTime>
+<generatorID>93435446-84B9-C269-B84F-6F7EA50F98C2</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="6DA569B4-55AA-EEB5-3639-A37E5B0832A1" value="true"/>
+</engineerTo>
+<referedAttribute>65B71DC1-E396-72F5-0D49-69EBEF8DD3BB</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_taller" id="4CCF7966-E9D5-6255-9C19-D8D7F6BD37E6">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-28 02:02:28 UTC</createdTime>
+<generatorID>271A3FF7-B20E-0C77-A5E2-B01E978EF1EF</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="6DA569B4-55AA-EEB5-3639-A37E5B0832A1" value="true"/>
+</engineerTo>
+<referedAttribute>A9ED2D4C-5F2B-6845-A3B4-F9256B5E2692</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_agrupador" id="7ED6DE63-AEAA-FBCF-D1C3-6FD8910EB4C3">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-28 02:08:02 UTC</createdTime>
+<generatorID>67D570BC-D940-E121-B9D4-DB316A29DEC4</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="6DA569B4-55AA-EEB5-3639-A37E5B0832A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D559B59C-46C9-E822-E3AE-52C3E448D6BA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F8FAEEE3-BA19-F2E9-ED31-E80E96C7F104" name="CONFIG_TALLER PK">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-28 01:26:01 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="6DA569B4-55AA-EEB5-3639-A37E5B0832A1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A6306261-29D1-439C-EBF0-7A69882DA1F7</attributeRef>
+<attributeRef>4CCF7966-E9D5-6255-9C19-D8D7F6BD37E6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

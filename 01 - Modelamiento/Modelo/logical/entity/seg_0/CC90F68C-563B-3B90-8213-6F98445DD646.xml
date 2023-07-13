@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CC90F68C-563B-3B90-8213-6F98445DD646" name="PROG_ASIGN">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-11 02:47:18 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="6DA569B4-55AA-EEB5-3639-A37E5B0832A1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ano_academ" id="25E85D89-877E-C1E2-5E30-898D2A6B35D6">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-11 02:47:48 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="6DA569B4-55AA-EEB5-3639-A37E5B0832A1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_periodo_academ" id="BD6C8918-D57A-DC24-730E-C9F0CFCFC97C">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-11 02:47:32 UTC</createdTime>
+<generatorID>FF3E0423-F996-D7ED-3A44-92CCCA62F67A</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="6DA569B4-55AA-EEB5-3639-A37E5B0832A1" value="true"/>
+</engineerTo>
+<referedAttribute>703F04BB-AD1A-9360-80B0-A29EE3A3611E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sigla" id="7F804199-BDD1-150C-18FE-F5CB3A12A62B">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-11 02:47:40 UTC</createdTime>
+<generatorID>46ECDAF6-6C64-B2E5-7609-19D08E682F3F</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="6DA569B4-55AA-EEB5-3639-A37E5B0832A1" value="true"/>
+</engineerTo>
+<referedAttribute>28C95A48-0EEC-5913-2DF1-AC8B26185E71</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="seccion" id="ADD6E0BE-AF49-B69B-F4BF-E297D415B1F5">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-11 02:47:58 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="6DA569B4-55AA-EEB5-3639-A37E5B0832A1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="78F702C6-8FE9-BA2E-5107-31BCEDF420BD" name="PROG_ASIGN PK">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-11 02:48:04 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6DA569B4-55AA-EEB5-3639-A37E5B0832A1" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ADD6E0BE-AF49-B69B-F4BF-E297D415B1F5</attributeRef>
+<attributeRef>25E85D89-877E-C1E2-5E30-898D2A6B35D6</attributeRef>
+<attributeRef>7F804199-BDD1-150C-18FE-F5CB3A12A62B</attributeRef>
+<attributeRef>BD6C8918-D57A-DC24-730E-C9F0CFCFC97C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

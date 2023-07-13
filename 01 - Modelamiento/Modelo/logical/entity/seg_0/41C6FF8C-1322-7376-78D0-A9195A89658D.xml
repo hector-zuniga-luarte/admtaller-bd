@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="41C6FF8C-1322-7376-78D0-A9195A89658D" name="REGIS_TALLER">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-23 03:13:59 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="6DA569B4-55AA-EEB5-3639-A37E5B0832A1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="fecha" id="96E3941C-E686-8F3B-8A68-E81E70185B27">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-23 03:30:18 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="6DA569B4-55AA-EEB5-3639-A37E5B0832A1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="CD942335-65F5-C2CA-7827-E54359197513">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-28 02:19:24 UTC</createdTime>
+<generatorID>74078B5B-50C5-C8F4-1F3C-EF957ECD4D7D</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="6DA569B4-55AA-EEB5-3639-A37E5B0832A1" value="true"/>
+</engineerTo>
+<referedAttribute>9F592766-386E-60F1-D48D-B084C468121C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_periodo_academ" id="90D97074-4CEC-5E26-3404-B82FC39BAAC1">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-11 02:50:25 UTC</createdTime>
+<generatorID>754D9BC9-37AE-631D-2A9E-F5E9C46CE7E8</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="6DA569B4-55AA-EEB5-3639-A37E5B0832A1" value="true"/>
+</engineerTo>
+<referedAttribute>F2D6405C-FA99-8BEB-9167-D42C5B41F6BE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sigla" id="062F58D0-B8BF-201C-7476-A8A3540903EF">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-11 02:50:26 UTC</createdTime>
+<generatorID>754D9BC9-37AE-631D-2A9E-F5E9C46CE7E8</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="6DA569B4-55AA-EEB5-3639-A37E5B0832A1" value="true"/>
+</engineerTo>
+<referedAttribute>E81B2C5F-D161-9367-6694-DAB5C427C6D7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ano_academ" id="938D2CE2-6A65-11FB-4DE3-E20621745EAA">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-11 02:50:28 UTC</createdTime>
+<generatorID>754D9BC9-37AE-631D-2A9E-F5E9C46CE7E8</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="6DA569B4-55AA-EEB5-3639-A37E5B0832A1" value="true"/>
+</engineerTo>
+<referedAttribute>656518F1-DC8E-3466-B434-AE1E6475AD2C</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="seccion" id="DF9F3C11-25AE-97D6-39B0-15F08D9C9C90">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-11 02:50:30 UTC</createdTime>
+<generatorID>754D9BC9-37AE-631D-2A9E-F5E9C46CE7E8</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="6DA569B4-55AA-EEB5-3639-A37E5B0832A1" value="true"/>
+</engineerTo>
+<referedAttribute>D89E616D-FA5E-F0AB-4E85-D0D2F86EC7CE</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha1" id="21A73AFE-134B-035C-DF19-26E0C41228E2">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-11 02:50:33 UTC</createdTime>
+<generatorID>754D9BC9-37AE-631D-2A9E-F5E9C46CE7E8</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="6DA569B4-55AA-EEB5-3639-A37E5B0832A1" value="true"/>
+</engineerTo>
+<referedAttribute>FB9DC8CC-CAF8-3F76-F5B8-993B24CF5AFE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_taller" id="500F82EC-540E-D470-57AF-4FE609A8F7D6">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-11 02:51:48 UTC</createdTime>
+<generatorID>754D9BC9-37AE-631D-2A9E-F5E9C46CE7E8</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="6DA569B4-55AA-EEB5-3639-A37E5B0832A1" value="true"/>
+</engineerTo>
+<referedAttribute>78F28996-B13F-726E-DB3B-ED91ACA11045</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BE5AE0AB-D1B7-1444-57C6-3A85345E5FFE" name="REGISTRO_TALLER PK">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-28 01:50:27 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6DA569B4-55AA-EEB5-3639-A37E5B0832A1" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>90D97074-4CEC-5E26-3404-B82FC39BAAC1</attributeRef>
+<attributeRef>062F58D0-B8BF-201C-7476-A8A3540903EF</attributeRef>
+<attributeRef>938D2CE2-6A65-11FB-4DE3-E20621745EAA</attributeRef>
+<attributeRef>DF9F3C11-25AE-97D6-39B0-15F08D9C9C90</attributeRef>
+<attributeRef>21A73AFE-134B-035C-DF19-26E0C41228E2</attributeRef>
+<attributeRef>500F82EC-540E-D470-57AF-4FE609A8F7D6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

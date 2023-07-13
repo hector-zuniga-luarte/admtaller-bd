@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0C3FAF91-8EAB-A61D-FBC6-408255E8EDDD" containerWithKeyObject="A9C5745B-43C0-000E-C23A-A613478296DD" localFKIndex="E6D2877B-B99B-3880-D801-1793B8D7C2E6" name="PRODUCTO_UNIDAD_MEDIDA_FK">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-28 02:26:13 UTC</createdTime>
+<generatorID>438474B4-23EE-1CAC-8845-1439AB144B86</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<referredTableLongName>UNIDAD_MEDIDA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>46589C49-5106-F4AC-C61F-CC0C9B715BFE</referredTableID>
+<keyObject>770DA2E0-C2EA-2F1C-8E43-5F42A34BC08B</keyObject>
+<referredKeyID>770DA2E0-C2EA-2F1C-8E43-5F42A34BC08B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cod_unidad_medida</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

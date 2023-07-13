@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8EC1E729-21F0-1C38-5E3D-8A0887E0958A" name="CONFIG_TALLER">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-28 02:26:13 UTC</createdTime>
+<generatorID>C3481191-E2A5-9A06-7EAA-9C71A55A4AB8</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_producto" id="F71D1068-E35E-D2BC-587A-AE7F7ED3323C">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-28 02:26:13 UTC</createdTime>
+<generatorID>A6306261-29D1-439C-EBF0-7A69882DA1F7</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="955BB45B-44BA-E639-5896-81D4EEB6FC94" referredColumn="2460171A-C75F-B7E7-9DCD-E273F2220EB9"/>
+</associations>
+</Column>
+<Column name="id_taller" id="B8F4D071-59F3-6C97-8BA0-C1F05E26AE0B">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-28 02:26:13 UTC</createdTime>
+<generatorID>4CCF7966-E9D5-6255-9C19-D8D7F6BD37E6</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D62131DC-BD8E-31E5-C546-041673EE95E7" referredColumn="C322F5DB-CD22-640A-F55A-4C68E432FADB"/>
+</associations>
+</Column>
+<Column name="cod_agrupador" id="DAEBF688-2E76-9D3C-601C-AB9D4A17245B">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-28 02:26:13 UTC</createdTime>
+<generatorID>7ED6DE63-AEAA-FBCF-D1C3-6FD8910EB4C3</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="69ED8D29-75BC-B3A7-A037-A4C02088C1DA" referredColumn="B082EAD0-2E9A-C80D-C08A-AE4A0AF40039"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0F586216-6C2D-F69D-0BDF-02981B8B0FC9" name="CONFIG_TALLER_PK">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-28 02:26:13 UTC</createdTime>
+<generatorID>F8FAEEE3-BA19-F2E9-ED31-E80E96C7F104</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F71D1068-E35E-D2BC-587A-AE7F7ED3323C"/>
+<colUsage columnID="B8F4D071-59F3-6C97-8BA0-C1F05E26AE0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D2CB50C-8FCB-BB34-A270-3F78D51F535A" name="CONFIG_TALLER_TALLER_FK">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-28 02:26:13 UTC</createdTime>
+<generatorID>271A3FF7-B20E-0C77-A5E2-B01E978EF1EF</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8F4D071-59F3-6C97-8BA0-C1F05E26AE0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A95DF16-A7CE-F321-8164-27056339080A" name="CONFIG_TALLER_AGRUPADOR_FK">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-28 02:26:13 UTC</createdTime>
+<generatorID>67D570BC-D940-E121-B9D4-DB316A29DEC4</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAEBF688-2E76-9D3C-601C-AB9D4A17245B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D54D8662-359C-E9B3-A430-6914F6B8A74E" name="CONFIG_TALLER_PRODUCTO_FK">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-28 02:26:13 UTC</createdTime>
+<generatorID>93435446-84B9-C269-B84F-6F7EA50F98C2</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F71D1068-E35E-D2BC-587A-AE7F7ED3323C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

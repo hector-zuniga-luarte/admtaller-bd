@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D4D8A325-EA66-40D7-A929-EBB3FFC18EDD" name="CONFIG_PERFIL">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-25 03:23:40 UTC</createdTime>
+<generatorID>3A1DD65C-377B-62AF-C3C9-324D65518E5F</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_item_menu" id="6C52DB0E-B85B-0AC1-CE5A-82C68877B0AF">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-25 03:23:40 UTC</createdTime>
+<generatorID>D4F8FB7F-6FE8-A735-62D8-9A7CD6E1E458</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6743EF0B-1630-F8CF-2FED-CFF8027FCFC2" referredColumn="DD382206-6E3B-A69F-C051-C1137964410A"/>
+</associations>
+</Column>
+<Column name="cod_perfil" id="45E35E59-51B2-7D1D-5592-F6E1B04744E0">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-25 03:23:40 UTC</createdTime>
+<generatorID>96506BA4-D789-30D4-C5CB-55C0A34F35BF</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1304C055-4DD1-53D1-62A9-D0C3B2882AB5" referredColumn="E053F5FF-5903-E935-E547-DC19F454B6D1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E02D33B2-840B-4482-136E-3EF8C097B438" name="CONFIG_PERFIL_PK">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-25 03:29:25 UTC</createdTime>
+<generatorID>F1D263DD-C238-7AC7-FA02-CAC0348D9E68</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C52DB0E-B85B-0AC1-CE5A-82C68877B0AF"/>
+<colUsage columnID="45E35E59-51B2-7D1D-5592-F6E1B04744E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30F879CF-0BC6-B163-B951-AA00DC9B63D7" name="CONFIG_PERFIL_ITEM_MENU_FK">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-25 03:23:40 UTC</createdTime>
+<generatorID>6B580F0D-2B93-AC71-65EA-778326244957</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C52DB0E-B85B-0AC1-CE5A-82C68877B0AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="137DD1D3-7B65-7FF9-9D54-FA9B129979C0" name="CONFIG_PERFIL_PERFIL_FK">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-25 03:23:40 UTC</createdTime>
+<generatorID>285ED056-DBB1-CCDC-6727-D86B004C6ED1</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45E35E59-51B2-7D1D-5592-F6E1B04744E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

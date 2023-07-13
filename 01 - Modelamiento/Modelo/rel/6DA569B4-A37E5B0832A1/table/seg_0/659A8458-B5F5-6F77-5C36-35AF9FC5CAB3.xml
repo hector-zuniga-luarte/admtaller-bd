@@ -1,0 +1,258 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="659A8458-B5F5-6F77-5C36-35AF9FC5CAB3" name="PROG_TALLER">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-28 02:26:13 UTC</createdTime>
+<generatorID>58B01436-06C6-65BA-4446-B0EED9402C14</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fecha" id="0E9B68A0-B69E-E9BF-2644-263211B4F1B4">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-28 02:26:13 UTC</createdTime>
+<generatorID>FB9DC8CC-CAF8-3F76-F5B8-993B24CF5AFE</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ano_academ" id="EE6C02D9-E462-F259-7A2F-93A6D6C60FF9">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-28 02:26:13 UTC</createdTime>
+<generatorID>C6410455-2E41-0B73-4EAF-175B42B3EE4D</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_taller" id="96773A77-68DA-8C3C-F59B-67E9DD19E76D">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-28 02:26:13 UTC</createdTime>
+<generatorID>BD32E1CD-5BF7-D751-3071-FD9807235DE9</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD376118-353E-151C-69AF-8E84E32BB0D7" referredColumn="C322F5DB-CD22-640A-F55A-4C68E432FADB"/>
+</associations>
+</Column>
+<Column name="id_usuario" id="64C397B8-D859-F951-7995-0F0313175313">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-28 02:26:13 UTC</createdTime>
+<generatorID>9B76D4C8-5BD7-CB6B-95BD-149A4E91791C</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A0A78FC-8ED1-1958-E43D-89C3AF06D808" referredColumn="529D1B8A-C1F3-884A-72D5-80DF2E6F4C27"/>
+</associations>
+</Column>
+<Column name="cod_periodo_academ" id="F1867FFF-C9A8-D849-297D-66F0110DAB95">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-28 02:26:13 UTC</createdTime>
+<generatorID>610D73D7-E7B6-D8C8-0AE9-2BC5B547D2E6</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7F1703E-431B-BEB9-A998-0DE2888F4965" referredColumn="F927FF00-A531-46B0-E132-84585B352E9D"/>
+</associations>
+</Column>
+<Column name="seccion" id="961CAD08-618C-5C05-402A-42E48C99A603">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-11 02:52:13 UTC</createdTime>
+<generatorID>D89E616D-FA5E-F0AB-4E85-D0D2F86EC7CE</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C3FE14E6-1135-2C51-A4A2-E92055F0D319" referredColumn="91F83EA9-ED21-41C0-3B48-8A1C2C2FAC69"/>
+</associations>
+</Column>
+<Column name="ano_academ2" id="F881B4E3-1E30-A0A4-3847-A45F4EB9CB30">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-11 02:52:13 UTC</createdTime>
+<generatorID>656518F1-DC8E-3466-B434-AE1E6475AD2C</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C3FE14E6-1135-2C51-A4A2-E92055F0D319" referredColumn="00573749-B442-21C6-2E9E-BA11253B996B"/>
+</associations>
+</Column>
+<Column name="sigla" id="F215FFDD-6C0C-8402-E60E-5D7C481E898F">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-11 02:52:13 UTC</createdTime>
+<generatorID>E81B2C5F-D161-9367-6694-DAB5C427C6D7</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C3FE14E6-1135-2C51-A4A2-E92055F0D319" referredColumn="DDDD3FCB-C341-7DB6-9DE3-F6034D7137BE"/>
+</associations>
+</Column>
+<Column name="cod_periodo_academ2" id="9A7DE3A0-1935-9942-56EB-B14A77827C98">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-11 02:52:13 UTC</createdTime>
+<generatorID>F2D6405C-FA99-8BEB-9167-D42C5B41F6BE</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C3FE14E6-1135-2C51-A4A2-E92055F0D319" referredColumn="9E305051-48EC-8E06-B4C2-EC85F6BC25A7"/>
+</associations>
+</Column>
+<Column name="id_taller2" id="ADABD42D-8940-97EB-0988-FE4FA8480FBA">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-11 02:52:13 UTC</createdTime>
+<generatorID>78F28996-B13F-726E-DB3B-ED91ACA11045</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C237EBD-8D6B-771B-A14D-FE7C16FEB86B" referredColumn="C322F5DB-CD22-640A-F55A-4C68E432FADB"/>
+</associations>
+</Column>
+<Column name="id_usuario1" id="EB890892-3789-3DE7-80AA-BF8C13780038">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-11 02:54:13 UTC</createdTime>
+<generatorID>02702D59-A9A5-2481-DBDA-3436F54859DB</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CCE510C2-3297-7BBA-0B38-CF48F83F9F69" referredColumn="529D1B8A-C1F3-884A-72D5-80DF2E6F4C27"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6ED0E7B5-37AC-E311-11F7-1DB4036A5457" name="PROG_TALLER_PK">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-28 02:26:13 UTC</createdTime>
+<generatorID>3BE60EEB-17D0-5F4D-E700-548E38E7C382</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A7DE3A0-1935-9942-56EB-B14A77827C98"/>
+<colUsage columnID="F215FFDD-6C0C-8402-E60E-5D7C481E898F"/>
+<colUsage columnID="F881B4E3-1E30-A0A4-3847-A45F4EB9CB30"/>
+<colUsage columnID="961CAD08-618C-5C05-402A-42E48C99A603"/>
+<colUsage columnID="0E9B68A0-B69E-E9BF-2644-263211B4F1B4"/>
+<colUsage columnID="ADABD42D-8940-97EB-0988-FE4FA8480FBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="003C926C-C263-F0AD-5FCE-6A1F7A0DD51E" name="PROG_TALLER_USUARIO_FK">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-28 02:26:13 UTC</createdTime>
+<generatorID>38E1E4DC-BD9D-20C2-193E-1E46C1AF372E</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64C397B8-D859-F951-7995-0F0313175313"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65AB5F73-B288-0176-C701-982B1F4D4244" name="PROGTALLER_TALLER_FK">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-28 02:26:13 UTC</createdTime>
+<generatorID>EF42C525-53F4-890A-6F68-D40B777D1151</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96773A77-68DA-8C3C-F59B-67E9DD19E76D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46DCF8F7-6A94-386A-8595-97B94D4D46E7" name="PROG_TALLER_PERIODO_ACADEM_FK">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-03-28 02:26:13 UTC</createdTime>
+<generatorID>010CB370-5DFB-980B-899B-C2372E9EA97C</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1867FFF-C9A8-D849-297D-66F0110DAB95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9EBAEBEC-D9C4-646C-41EF-37BA97CFAAD6" name="PROG_TALLER_PROG_ASIGN_FK">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-11 02:52:13 UTC</createdTime>
+<generatorID>C26B41D0-80A7-5328-6DD5-FDAD51E27209</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="961CAD08-618C-5C05-402A-42E48C99A603"/>
+<colUsage columnID="F881B4E3-1E30-A0A4-3847-A45F4EB9CB30"/>
+<colUsage columnID="F215FFDD-6C0C-8402-E60E-5D7C481E898F"/>
+<colUsage columnID="9A7DE3A0-1935-9942-56EB-B14A77827C98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28D15387-C5F7-9566-41F2-1BFA94CCE02A" name="PROG_TALLER_TALLER_FK">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-11 02:52:13 UTC</createdTime>
+<generatorID>3E8D8BF9-2115-13F3-D5B9-319DBB1A254B</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADABD42D-8940-97EB-0988-FE4FA8480FBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B558810B-78B0-3147-7EBC-7332528A282E" name="PROG_TALLER_USUARIO_FKv1">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-11 02:54:13 UTC</createdTime>
+<generatorID>FC036EFB-3F6C-8DA9-B718-F0B1EE29D532</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB890892-3789-3DE7-80AA-BF8C13780038"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

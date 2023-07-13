@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F7022A05-E3FD-9C53-46AF-5BAA4925B645" name="ITEM_MENU">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-25 03:23:40 UTC</createdTime>
+<generatorID>22477ADA-F9DA-373F-EF00-96C71E579D13</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_item_menu" id="DD382206-6E3B-A69F-C051-C1137964410A">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-25 03:23:40 UTC</createdTime>
+<generatorID>BD485D05-E4A4-6281-DB4F-B2E0F91B4688</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_item_menu" id="59E40CDC-0BBB-3E19-D9E3-2DCBF97B79DB">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-25 03:23:40 UTC</createdTime>
+<generatorID>3C10FF4C-85CC-01A4-1B71-89CB2F2194B1</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="76100D10-5D68-A0FF-5680-D685CB21FD69">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-25 03:23:40 UTC</createdTime>
+<generatorID>5FE2E9B1-F619-BE94-67E4-701D59A89FE4</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cod_item_menu_padre" id="F71DCA60-9103-145F-F25C-77FBBFC65A3E">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-25 03:23:40 UTC</createdTime>
+<generatorID>2A05C68E-DC03-FD87-0E5C-C83354D75AFE</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="454A4AA2-C5AF-FB95-DDA1-17D5AB8DA02E" referredColumn="DD382206-6E3B-A69F-C051-C1137964410A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F7785B20-C5A9-E6B0-3DD6-21B3C653FD92" name="ITEM_MENU_PK">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-25 03:23:40 UTC</createdTime>
+<generatorID>EC73BC1B-D511-E1E4-BD25-0C2A76F09765</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD382206-6E3B-A69F-C051-C1137964410A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="41D2894F-4DEF-38F3-24E9-3FD0E6EC3947" name="ITEM_MENU_ITEM_MENU_FK">
+<createdBy>Administrador</createdBy>
+<createdTime>2023-04-25 03:23:40 UTC</createdTime>
+<generatorID>587DC924-8728-4599-FAB4-F704422B703E</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F71DCA60-9103-145F-F25C-77FBBFC65A3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
