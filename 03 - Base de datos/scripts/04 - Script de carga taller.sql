@@ -9,7 +9,7 @@ insert into taller (
 values (
 	1,
 	'Inducción al taller',
-	'Conocimiento big four. tecnicas de repaso. montaje de mesas. ejecución práctica de montaje de mesas: a la carta y al menú. ejecución práctica de tipos de servicio: al plato, inglesa, francesa, con campana, servicio de bebidas calientes. juego de roles. toma inventario big four.',
+	'Conocimiento big four. Técnicas de repaso. montaje de mesas. ejecución práctica de montaje de mesas: a la carta y al menú. ejecución práctica de tipos de servicio: al plato, inglesa, francesa, con campana, servicio de bebidas calientes. juego de roles. toma inventario big four.',
 	1,
 	'ABT3111');
 
@@ -47,7 +47,7 @@ insert into taller (
 	sigla)
 values (
 	4,
-	'Organización y desarrollo de los procesos de servicio y atencion de comensales',
+	'Organización y desarrollo de los procesos de servicio y atención de comensales',
 	'Actividades de mise en place. actividades de servicio. actividades de servicio de vinos. actividades de servicio de aperitivos: pisco sour peruano y bella luna. servicio de pan a la inglesa, servicio emplatado en alimentos, servicio de té e infusiones',
 	4,
 	'ABT3111');
@@ -1069,7 +1069,7 @@ values (
 	82,
 	'Demostración práctica',
 	'Piscola, Tequila sunrise, Godfather, Screwdriver,Negroni (DIRECTOS). Demostración práctica por parte del docente y 1 réplica por grupo.',
-	1,
+	10,
 	'ABT3131');
 
 insert into taller (
@@ -1082,7 +1082,7 @@ values (
 	83,
 	'Batidos - Coctelera',
 	'Pisco Sour, White Lady, Ruso Blanco,Margarita clásico',
-	2,
+	11,
 	'ABT3131');
 
 insert into taller (
@@ -1094,8 +1094,8 @@ insert into taller (
 values (
 	84,
 	'Machacados directo al vaso',
-	'Caipirinha, Sour apple vodka,  Mojito, Fresco del Limarí . ',
-	3,
+	'Caipirinha, Sour apple vodka,  Mojito, Fresco del Limarí .',
+	12,
 	'ABT3131');
 
 insert into taller (
@@ -1108,7 +1108,7 @@ values (
 	85,
 	'Evaluación práctica',
 	'Pisco Sour peruano, Mojito, Tequila Sunrise.',
-	4,
+	13,
 	'ABT3131');
 
 insert into taller (
@@ -1121,7 +1121,7 @@ values (
 	86,
 	'Licuados',
 	'Piña Colada, Daiquiri de Pepino-plátano, margarita de Fruta.',
-	5,
+	14,
 	'ABT3131');
 
 insert into taller (
@@ -1134,7 +1134,7 @@ values (
 	87,
 	'Refrescados y clásicos chilenos',
 	'Martini dry, Manhattan, Mi to, Capitán, Bitter a la Francesa,Pichuncho,Pantera rosa',
-	6,
+	15,
 	'ABT3131');
 
 insert into taller (
@@ -1147,7 +1147,7 @@ values (
 	88,
 	'Elaboración especial',
 	'Bloody Mary, espresso martini, café irlandes, Bellini, Aperol Spritz,  & evaluación de  Martini dry, bitter a la francesa, daiquiri plátano',
-	7,
+	16,
 	'ABT3131');
 
 insert into taller (
@@ -1160,7 +1160,7 @@ values (
 	89,
 	'Tragos varios',
 	'Old Fashioned, Santiago Sour, Cardonnay Sour, Kirsch Royale, Laguna Azul, Blue Hawaiian',
-	8,
+	17,
 	'ABT3131');
 
 insert into taller (
@@ -1173,7 +1173,7 @@ values (
 	90,
 	'Pedido examen',
 	'Canasta base para creación de propuesta examen.',
-	9,
+	18,
 	'ABT3131');
 
 insert into taller (
@@ -1186,7 +1186,7 @@ values (
 	91,
 	'Bocados fríos para cocktail',
 	'Canapé, crostini y bocados fríos en vajilla.',
-	10,
+	1,
 	'ABT3131');
 
 insert into taller (
@@ -1198,8 +1198,8 @@ insert into taller (
 values (
 	92,
 	'Preparaciones para cocktail',
-	'Preparaciones en vajilla tipo buffet, roulade y terrina                                                                                                                                               ',
-	11,
+	'Preparaciones en vajilla tipo buffet, roulade y terrina',
+	2,
 	'ABT3131');
 
 insert into taller (
@@ -1212,7 +1212,7 @@ values (
 	93,
 	'Evaluación',
 	'Bocados fríos (canasta sorpresa)',
-	12,
+	3,
 	'ABT3131');
 
 insert into taller (
@@ -1225,7 +1225,7 @@ values (
 	94,
 	'Preparaciones calientes para evento de pie',
 	'Empanadas, brochetas de vacuno, satté.',
-	13,
+	4,
 	'ABT3131');
 
 insert into taller (
@@ -1238,7 +1238,7 @@ values (
 	95,
 	'Trinchado de filete y hamburguesas',
 	'Trinchado de filete y hamburguesas',
-	14,
+	5,
 	'ABT3131');
 
 insert into taller (
@@ -1251,7 +1251,7 @@ values (
 	96,
 	'Evaluación',
 	'Bocados calientes (canasta sorpresa)',
-	15,
+	6,
 	'ABT3131');
 
 insert into taller (
@@ -1264,7 +1264,7 @@ values (
 	97,
 	'Buffet de sushi',
 	'Buffet de sushi',
-	16,
+	7,
 	'ABT3131');
 
 insert into taller (
@@ -1276,8 +1276,8 @@ insert into taller (
 values (
 	98,
 	'Bocadillos dulces',
-	'Cake pop de bizcocho o galleta molida con manjar boleado. Cup cakes de vainilla rellenos con frutos rojos y frostin de queso. Mini pie de limón.                                                                                                                                              ',
-	17,
+	'Cake pop de bizcocho o galleta molida con manjar boleado. Cup cakes de vainilla rellenos con frutos rojos y frostin de queso. Mini pie de limón.',
+	8,
 	'ABT3131');
 
 insert into taller (
@@ -1290,7 +1290,7 @@ values (
 	99,
 	'Examen',
 	'Pedido examen',
-	18,
+	9,
 	'ABT3131');
 
 insert into taller (
@@ -1301,8 +1301,8 @@ insert into taller (
 	sigla)
 values (
 	100,
-	'Preparación',
-	'Semana 1',
+	'CLASE 1',
+	'Sin servicio',
 	1,
 	'ABT3141');
 
@@ -1314,8 +1314,8 @@ insert into taller (
 	sigla)
 values (
 	101,
-	'Preparación',
-	'Semana 2',
+	'CLASE 2',
+	'CLASE 2',
 	2,
 	'ABT3141');
 
@@ -1327,8 +1327,8 @@ insert into taller (
 	sigla)
 values (
 	102,
-	'Preparación',
-	'Semana 3',
+	'CLASE 3',
+	'CLASE 3',
 	3,
 	'ABT3141');
 
@@ -1340,8 +1340,8 @@ insert into taller (
 	sigla)
 values (
 	103,
-	'Preparación',
-	'Semana 4',
+	'CLASE 4',
+	'CLASE 4',
 	4,
 	'ABT3141');
 
@@ -1353,8 +1353,8 @@ insert into taller (
 	sigla)
 values (
 	104,
-	'Preparación',
-	'Semana 5',
+	'CLASE 5',
+	'CLASE 5',
 	5,
 	'ABT3141');
 
@@ -1366,8 +1366,8 @@ insert into taller (
 	sigla)
 values (
 	105,
-	'Preparación',
-	'Semana 6',
+	'CLASE 6',
+	'CLASE 6',
 	6,
 	'ABT3141');
 
@@ -1379,8 +1379,8 @@ insert into taller (
 	sigla)
 values (
 	106,
-	'Preparación',
-	'Semana 7',
+	'CLASE 7',
+	'CLASE 7',
 	7,
 	'ABT3141');
 
@@ -1392,8 +1392,8 @@ insert into taller (
 	sigla)
 values (
 	107,
-	'Preparación',
-	'Semana 8',
+	'CLASE 8',
+	'CLASE  8',
 	8,
 	'ABT3141');
 
@@ -1405,8 +1405,8 @@ insert into taller (
 	sigla)
 values (
 	108,
-	'Preparación',
-	'Semana 9',
+	'CLASE 9',
+	'CLASE 9',
 	9,
 	'ABT3141');
 
@@ -1778,13 +1778,13 @@ insert into taller (
 values (
 	136,
 	'Elaborando entradas frías y calientes',
-	'* Ensalada rusa con mayonesa, sopa de pollo deshidratada, huevo cocido a 72º por 17 minutos. topping de tocino crocante
+	'* Ensalada rusa con mayonesa, sopa de pollo deshidratada, huevo cocido a 72Âº por 17 minutos. topping de tocino crocante
 
-* Ensalada César pollo, aderezo César. Crema de espárragos deshidratadas, huevo cocido a 85º por 15 minutos
+* Ensalada César pollo, aderezo César. Crema de espárragos deshidratadas, huevo cocido a 85Âº por 15 minutos
 
-* Ensalada mixta, vinagreta de frambuesa liofilizada, crema de tomtes. Huevo cocinado a 85º por 12 minutos, topping de pesto y nueces
+* Ensalada mixta, vinagreta de frambuesa liofilizada, crema de tomtes. Huevo cocinado a 85Âº por 12 minutos, topping de pesto y nueces
 
-* Ensalada templada con aderezo agridulce de mostaza. Crema de papas deshidratada, huevo cocido a 72 º por 21 minutos, topping papas hilo
+* Ensalada templada con aderezo agridulce de mostaza. Crema de papas deshidratada, huevo cocido a 72 Âº por 21 minutos, topping papas hilo
 
 ',
 	2,
@@ -2028,9 +2028,9 @@ values (
 	'Elaboración de postres para la cocina institucional',
 	'1.- Tartaleta de frutas/peras confitadas sous vide/leche asada
 
-2.- Pie de limón/compòta de manzana jengibre sous vide/babaroisse
+2.- Pie de limón/compÃ²ta de manzana jengibre sous vide/babaroisse
 
-3.- Küchen de manzana/manzana sous videarroz con leche de coco
+3.- KÃ¼chen de manzana/manzana sous videarroz con leche de coco
 
 4.- Brownie con mousse de chocolate/peras sous vide/ sémola con leche
 ',
@@ -2133,7 +2133,7 @@ values (
 Entradas: Cuarto Frío
 - Sopa de cebollas y pan gratinado.
 - Degustación de quiche (lorraine, espinaca, setas), mini ensalada con vinagreta.
-- Mantequilla Maitre d´Hotel. 
+- Mantequilla Maitre dÂ´Hotel. 
 Platos de Fondo: Cuarto Caliente
 - Magret de pato sous vide, papa dauphinoise, torneado/sacabocado de vegetales salteados a la mostaza dijon y reducción de naranja y cedrón.
 - Costillas de cordero a la francesa, puré habas con queso roquefort, ratatouille y salsa reducción de vino tinto.
@@ -2159,7 +2159,7 @@ values (
 Entradas: Cuarto Frío
 - Sopa de cebollas y pan gratinado.
 - Degustación de quiche (lorraine, espinaca, setas), mini ensalada con vinagreta.
-- Mantequilla Maitre d´Hotel. 
+- Mantequilla Maitre dÂ´Hotel. 
 Platos de Fondo: Cuarto Caliente
 - Magret de pato sous vide, papa dauphinoise, torneado/sacabocado de vegetales salteados a la mostaza dijon y reducción de naranja y cedrón.
 - Costillas de cordero a la francesa, puré habas con queso roquefort, ratatouille y salsa reducción de vino tinto.
@@ -2859,6 +2859,1128 @@ values (
 	'Examen práctico portafolio',
 	1,
 	'PTT6697');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	203,
+	'Inducción',
+	'El instructor realizará una masa de pan para luego ser replicada por los/las estudiantes.',
+	1,
+	'PGG1108');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	205,
+	'Pan amasado/Tortilla con chicharrones/Churrascas',
+	'Panes',
+	2,
+	'PGG1108');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	206,
+	'Evaluación individual de pan amasado, 1/2 receta por estudiante',
+	'Evaluación',
+	3,
+	'PGG1108');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	207,
+	'Hallulla/Coliza/Bocado de dama/Dobladitas',
+	'Panes',
+	4,
+	'PGG1108');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	208,
+	'Hallullas integrales/Colizas integrales/Bollos multigrano',
+	'Panes',
+	5,
+	'PGG1108');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	209,
+	'Empanadas fritas de queso/Empanadas de horno/Sopaipillas con levadura',
+	'Empanadas',
+	6,
+	'PGG1108');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	210,
+	'Evaluación en parejas de bocado de dama',
+	'Evaluación en parejas',
+	7,
+	'PGG1108');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	211,
+	'Pan batido/Rosita y Baguette',
+	'Marraqueta o Tira de pan (método directo), Rosita y Baguette (con prefermento poolish o esponja)',
+	8,
+	'PGG1108');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	212,
+	'Pan de molde blanco/Pan frica/Pan de completo',
+	'Panes',
+	9,
+	'PGG1108');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	213,
+	'Molde integral/De trigo integral ovillo individual/Centeno individual',
+	'Panes integrales',
+	10,
+	'PGG1108');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	214,
+	'Pan de betarragas/Pan saborizado',
+	'Pan de betarragas (betarraga fresca), pan de betarraga (betarraga liofilizada), pan saborizado (tomate deshidratado, tocino, ajo y pimentón rojo)',
+	11,
+	'PGG1108');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	215,
+	'Evaluación pan batido, 1/2 receta por estudiante',
+	'Evaluación pan batido (Marraqueta, Pan Francés o Tira de pan)',
+	12,
+	'PGG1108');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	216,
+	'Pan Ciabatta/Pan Toscano/Focaccia con tomates cherry',
+	'Panes italianos',
+	13,
+	'PGG1108');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	217,
+	'PIZZA (masa con levadura)/CALZONE (masa con levadura)/ PAN PITA',
+	'Masas italianas',
+	14,
+	'PGG1108');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	218,
+	'Pan de masa madre/Pizza Margarita, Prosciutto/Focaccia',
+	'Pan de masa madre deshidratada de betarraga, Pan de masa madre deshidratada integral multisemillas, Pizza Margarita y Pizza Prosciutto, Focaccia',
+	15,
+	'PGG1108');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	219,
+	'Pan multigrano/Pan alto en proteína vegetal y fibra (Premezcla Focaccia',
+	'Pan multigrano oscuro con semillas soft grain, Pan alto en proteína vegetal y fibra, Premezcla Focaccia',
+	16,
+	'PGG1108');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	220,
+	'Examen individual',
+	'Examen individual 1° 50% del curso, 10 estudiantes, se sortea el tipo de masa/ pan a elaborar el mismo día que deben rendir el examen entre las siguientes opciones: PAN INTEGRAL CENTENO OVILLADO/PAN FRICA/PAN SABORIZADO DE TOMATE DESHIDRATADO.',
+	17,
+	'PGG1108');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	222,
+	'CLASE 1',
+	'Pataska, calapurca, picante de conejo con arroz, pebre de quinoa y sopaipillas.',
+	1,
+	'RCT5111');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	223,
+	'CLASE 2',
+	'Ceviche, chairo, albacora escabechada, escalopines de pescado.',
+	2,
+	'RCT5111');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	224,
+	'CLASE 3',
+	'Ostiones a la parmesana, merluza frita con papas mayo y ensalada chilena, cordero al horno con papas gratinadas.',
+	3,
+	'RCT5111');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	225,
+	'EVALUACION N° 1',
+	'Chairo, albacora en escabeche, picante de conejo con arroz al ajo, pebre de quínoa, sopaipilla nortina.',
+	4,
+	'RCT5111');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	226,
+	'CLASE 5',
+	'Empanada de pino horno, empanada de queso macha frita, caldillo de congrio, pantrucas.',
+	5,
+	'RCT5111');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	227,
+	'CLASE 6',
+	'Humitas de choclo, pastel de choclo, pollo arvejado con arroz, ajiaco, pebre de quínoa.',
+	6,
+	'RCT5111');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	228,
+	'CLASE 7',
+	'Longaniza, arrollado de huaso, queso de cabeza (marraqueta, lactonesa y pebre)',
+	7,
+	'RCT5111');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	229,
+	'CLASE 8',
+	'Ceviche de atún, Poe, empanadas de atún, costillar de cerdo con piña caramelizada y yuca frita.',
+	8,
+	'RCT5111');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	230,
+	'EVALUACIÓN N° 2',
+	'Empanada de pino al horno, Costillar de cerdo en adobo chileno y papas con mote, Dobladitas, Lactonesa cilantro.',
+	9,
+	'RCT5111');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	231,
+	'CLASE 10',
+	'Lomo de equino asado con pisku, Korru de pollo y harina tostada.',
+	10,
+	'RCT5111');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	232,
+	'CLASE 11',
+	'Valdiviano, Pulmay, Milcao y Chapalele, Cancato de salmón con papas asadas.',
+	11,
+	'RCT5111');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	235,
+	'CLASE 12',
+	'Chupe de centolla, Merluza austral con puré de papas rústico, Sopaipilla sureña.',
+	12,
+	'RCT5111');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	236,
+	'EVALUACIÓN N° 3',
+	'Charquicán con huevo frito, Milcao, Cancato de salmón con papas asadas.',
+	13,
+	'RCT5111');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	237,
+	'CLASE 14',
+	'Pichanga fría, Pichanga caliente, Lomo a lo pobre, Plateada con puré picante.',
+	14,
+	'RCT5111');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	238,
+	'CLASE 15',
+	'Chacarero, Barros Luco, Lomito italiano, Chemilico, Papas fritas.',
+	15,
+	'RCT5111');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	239,
+	'EXAMEN FINAL',
+	'MENÃš A: Ceviche raspado, Lomo a lo pobre, Pan amasado, Pebre.
+
+MENÃš B: Crudo valdiviano, Calugas de congrio apanadas en sémola con papas salteadas al huacatay, Pan amasado, Chancho en piedra.',
+	16,
+	'RCT5111');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	240,
+	'CLASE 1',
+	'Chumbeque y Tarta de camote',
+	1,
+	'RCT5121');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	241,
+	'CLASE 2',
+	'Macho ruso, Hojuelas, Budín de manzanas y Peras al vino tinto.',
+	2,
+	'RCT5121');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	242,
+	'CLASE 3',
+	'Cachitos rellenos con manjar, manjar duro y Dulce de papayas.',
+	3,
+	'RCT5121');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	243,
+	'CLASE 4',
+	'Mini pasteles de lúcuma, frambuesa, huevo mol y manjar.',
+	4,
+	'RCT5121');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	244,
+	'EVALUACIÓN N° 1',
+	'Tarta de camote con guarnición peras al vino tinto.',
+	5,
+	'RCT5121');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	245,
+	'CLASE 6',
+	'Turrón de vino, Sémola con leche, Flan de quinoa, Arroz con leche, Leche asada.',
+	6,
+	'RCT5121');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	246,
+	'CLASE 7',
+	'Dulcería chilena, Rellenos de manjar, Dulce de moras y betún, Torta curicana y Hojarasca.',
+	7,
+	'RCT5121');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	247,
+	'CLASE 8',
+	'Mote con huesillo, Suspiro de monjas, Picarones , Sopaipillas con levadura y con zapallo.',
+	8,
+	'RCT5121');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	248,
+	'CLASE 9',
+	'Pajaritos, Colegial y Mantecados.',
+	9,
+	'RCT5121');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	249,
+	'EVALUACIÓN N° 2',
+	'Evaluación Sémola con salsa de vino tinto y Hojuelas',
+	10,
+	'RCT5121');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	250,
+	'CLASE 11',
+	'Roscas chonchinas, Kuchen sureño, Sopaipillas con papa.',
+	11,
+	'RCT5121');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	251,
+	'CLASE 12',
+	'Streussel y Strudel',
+	12,
+	'RCT5121');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	252,
+	'CLASE 13',
+	'Acaramelados, Chancaquitas y San Estanislao.',
+	13,
+	'RCT5121');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	253,
+	'EVALUACIÓN N° 3',
+	'Streussel de Frambuesa',
+	14,
+	'RCT5121');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	254,
+	'CLASE 1',
+	'Clase teórica: cortes de vegetales',
+	1,
+	'PGG1101');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	255,
+	'CLASE 2',
+	'Cortes de verduras',
+	2,
+	'PGG1101');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	256,
+	'CLASE 3',
+	'Ensalada chilena, mixta, César pollo, salsa César, dressing.',
+	3,
+	'PGG1101');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	257,
+	'CLASE 4',
+	'Fondo blanco de ave, Fumet de pescado.',
+	4,
+	'PGG1101');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	258,
+	'EVALUACIÓN N° 1',
+	'Cortes, Ensalada mixta con dressing de limón, Crema de zapallo.',
+	5,
+	'PGG1101');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	259,
+	'EVALUACIÓN N° 1',
+	'Cortes, Ensalada mixta con dressing de limón, Crema de zapallo.',
+	5,
+	'PGG1101');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	260,
+	'CLASE 6',
+	'Pasta lisa, salsa pomodoro y derivados.',
+	6,
+	'PGG1101');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	261,
+	'CLASE 7',
+	'Pasta rellena, Gnocchi y Pesto.',
+	7,
+	'PGG1101');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	262,
+	'EVALUACIÓN N° 2',
+	'Pastas frescas, Fettuccines al huevo con salsa puttanesca.',
+	8,
+	'PGG1101');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	263,
+	'CLASE 9',
+	'Puré de papas y derivados, Pollo grillado, Pollo cordon blue, Salsas de reducción (champiñones)',
+	9,
+	'PGG1101');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	264,
+	'CLASE 10',
+	'Strogonoff, Vacuno grillado, Cazuela, Arroz pilaf.',
+	10,
+	'PGG1101');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	265,
+	'CLASE 11',
+	'Carne mechada, Osobuco milanesa con polenta, Roast beef, Masa duquesa y papas torneadas.',
+	11,
+	'PGG1101');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	266,
+	'CLASE 12',
+	'Preparaciones',
+	12,
+	'PGG1101');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	267,
+	'CLASE 13',
+	'Evaluación Vacuno Grillado, Masa duquesa, salsa champiñón y vegetales saltados.',
+	13,
+	'PGG1101');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	268,
+	'CLASE 14',
+	'Pescado del día, salsa de alcaparras y arroz creole.',
+	14,
+	'PGG1101');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	269,
+	'CLASE 15',
+	'Mariscos',
+	15,
+	'PGG1101');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	270,
+	'CLASE 16',
+	'Pescado del día, Salsa bechamel y papas torneadas.',
+	16,
+	'PGG1101');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	271,
+	'CLASE 17-18 EXAMEN',
+	'EXAMEN',
+	17,
+	'PGG1101');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	272,
+	'CLASE 1',
+	'Clase teórica',
+	1,
+	'PAT020');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	273,
+	'CLASE 2',
+	'Torta Andaluza de café, Tarta de ricotta, jengibre y uvas.',
+	2,
+	'PAT020');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	274,
+	'CLASE 3',
+	'Torta Opera, Tarta Tatín',
+	3,
+	'PAT020');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	275,
+	'Introducción a la coctelería',
+	'Piscola, Tequila sunrise, Godfather, Screwdriver, Negroni(DIRECTOS). Demostración práctica del docente.',
+	1,
+	'ABT3131B');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	276,
+	'CLASE 2',
+	'Pisco sour, White Lady, Ruso Blanco, Margarita clásico (BATIDOS, COCTELERA)',
+	2,
+	'ABT3131B');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	277,
+	'CLASE 3',
+	'Caipirinha, Sour apple vodka, Mojito, Fresco del Limarí(MACHACADO)',
+	3,
+	'ABT3131B');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	278,
+	'CLASE 4',
+	'Evaluación práctica de sour peruano, Mojito, Tequila sunrise.',
+	4,
+	'ABT3131B');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	279,
+	'CLASE 5',
+	'Piña colada, Daiquiri de pepino-plátano, Margarita de fruta (LICUADOS)',
+	5,
+	'ABT3131B');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	280,
+	'CLASE 6',
+	'Martini dry, Manhattan, Mi to, Capitán (REFRESCADOS)
+
+CLÃSICOS CHILENOS Bitter a la francesa, Pichuncho, Pantera Rosa.',
+	6,
+	'ABT3131B');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	282,
+	'CLASE 7',
+	'ELABORACIÓN ESPECIAL Bloody Mary, espresso martini, café irlandés, Bellini, Aperol Spritz, & evaluación de Martini dry, Bitter a la francesa, Daiquiri de plátano.',
+	7,
+	'ABT3131B');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	283,
+	'CLASE 8',
+	'Old fashioned, Santiago sour, Chardonnay sour, Kir Royale, Laguna Azul, Blue Hawaian.',
+	8,
+	'ABT3131B');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	284,
+	'CLASE 9',
+	'EXAMEN. Canasta base para creación de propuesta examen.',
+	9,
+	'ABT3131B');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	286,
+	'CLASE 10',
+	'Canapé, Crostini y bocados fríos en vajilla',
+	10,
+	'ABT3131B');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	287,
+	'CLASE 11',
+	'Preparaciones para cocktail en vajilla tipo buffet, Roulade y Terrina',
+	11,
+	'ABT3131B');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	288,
+	'EVALUACION N° 1',
+	'Bocados fríos (Canasta sorpresa)',
+	12,
+	'ABT3131B');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	289,
+	'CLASE 13',
+	'Preparaciones calientes para evento de pie. Empanadas, Brochetas de vacuno satté.',
+	13,
+	'ABT3131B');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	290,
+	'CLASE 14',
+	'Trinchado de filete y hamburguesas.',
+	14,
+	'ABT3131B');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	291,
+	'CLASE 15',
+	'EVALUACIÓN CALIENTE, carro sorpresa.',
+	15,
+	'ABT3131B');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	292,
+	'CLASE 16',
+	'Buffet de sushi.',
+	16,
+	'ABT3131B');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	293,
+	'CLASE 17',
+	'Bocadillos dulces',
+	17,
+	'ABT3131B');
+
+insert into taller (
+	id_taller,
+	titulo_preparacion,
+	detalle_preparacion,
+	semana,
+	sigla)
+values (
+	294,
+	'CLASE 18',
+	'PEDIDO EXAMEN',
+	18,
+	'ABT3131B');
 /* Fin tabla: taller */
 
 commit;

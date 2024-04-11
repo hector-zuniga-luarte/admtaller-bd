@@ -7,7 +7,7 @@ insert into param (
 values (
 	1,
 	'Año académico vigente',
-	'2023');
+	'2024');
 /* Fin tabla: param */
 
 /* Inicio tabla: agrupador */
@@ -207,180 +207,246 @@ values (
 
 /* Inicio tabla: asign */
 insert into asign (
-	sigla,
 	nom_asign,
+	sigla,
 	nom_asign_abrev,
 	cod_carrera)
 values (
-	'ABT3111',
+	'Cata de vinos',
+	'ABT2131',
+	'Cata vinos',
+	1);
+
+insert into asign (
+	nom_asign,
+	sigla,
+	nom_asign_abrev,
+	cod_carrera)
+values (
 	'Salón básico hotelería',
+	'ABT3111',
 	'Básico',
 	2);
 
 insert into asign (
-	sigla,
 	nom_asign,
+	sigla,
 	nom_asign_abrev,
 	cod_carrera)
 values (
-	'ABT3121',
 	'Taller de bar',
-	'Bar',
+	'ABT3121',
+	'Taller bar',
 	2);
 
 insert into asign (
-	sigla,
 	nom_asign,
+	sigla,
 	nom_asign_abrev,
 	cod_carrera)
 values (
-	'ABT3142',
-	'Taller de gastronomía de hotelería',
-	'Gastronomía de hotelería',
-	2);
-
-insert into asign (
-	sigla,
-	nom_asign,
-	nom_asign_abrev,
-	cod_carrera)
-values (
-	'RHT2121',
-	'Taller de pisos',
-	'Pisos',
-	2);
-
-insert into asign (
-	sigla,
-	nom_asign,
-	nom_asign_abrev,
-	cod_carrera)
-values (
-	'TCC3301',
-	'Taller de gastronomía optativo',
-	'Gastronomía optativo',
-	2);
-
-insert into asign (
-	sigla,
-	nom_asign,
-	nom_asign_abrev,
-	cod_carrera)
-values (
-	'ABT2131',
-	'Cata de vinos',
-	'Cata',
-	1);
-
-insert into asign (
-	sigla,
-	nom_asign,
-	nom_asign_abrev,
-	cod_carrera)
-values (
+	'Bar y coctelería',
 	'ABT3131',
 	'Bar y coctelería',
-	'Bar',
 	1);
 
 insert into asign (
-	sigla,
 	nom_asign,
+	sigla,
 	nom_asign_abrev,
 	cod_carrera)
 values (
-	'ABT3141',
+	'Bar y Coctelería',
+	'ABT3131B',
+	'Bar y coctelería',
+	1);
+
+insert into asign (
+	nom_asign,
+	sigla,
+	nom_asign_abrev,
+	cod_carrera)
+values (
 	'Salón comedor básico',
+	'ABT3141',
 	'Comedor básico',
 	1);
 
 insert into asign (
-	sigla,
 	nom_asign,
+	sigla,
 	nom_asign_abrev,
 	cod_carrera)
 values (
-	'ABT4151',
+	'Taller de gastronomía de hotelería',
+	'ABT3142',
+	'Gastronomía de hotelería',
+	2);
+
+insert into asign (
+	nom_asign,
+	sigla,
+	nom_asign_abrev,
+	cod_carrera)
+values (
 	'Salón comedor avanzado',
+	'ABT4151',
 	'Comedor avanzado',
 	1);
 
 insert into asign (
-	sigla,
 	nom_asign,
+	sigla,
 	nom_asign_abrev,
 	cod_carrera)
 values (
-	'CIT1111',
 	'Taller de cocina básica',
+	'CIT1111',
 	'Cocina básica',
 	1);
 
 insert into asign (
-	sigla,
 	nom_asign,
+	sigla,
 	nom_asign_abrev,
 	cod_carrera)
 values (
-	'CIT2111',
 	'Taller de cocina institucional',
+	'CIT2111',
 	'Cocina institucional',
 	1);
 
 insert into asign (
-	sigla,
 	nom_asign,
+	sigla,
 	nom_asign_abrev,
 	cod_carrera)
 values (
+	'Cocina internacional',
 	'CRT3111',
-	'Taller de cocina internacional',
 	'Cocina internacional',
 	1);
 
 insert into asign (
-	sigla,
 	nom_asign,
+	sigla,
 	nom_asign_abrev,
 	cod_carrera)
 values (
-	'CRT4111',
 	'Taller de cocina chilena',
+	'CRT4111',
 	'Cocina chilena',
 	1);
 
 insert into asign (
-	sigla,
 	nom_asign,
+	sigla,
 	nom_asign_abrev,
 	cod_carrera)
 values (
-	'PRT1131',
-	'Taller de panadería',
+	'Pastelería avanzada',
+	'PAT020',
+	'Pastelería avanzada',
+	1);
+
+insert into asign (
+	nom_asign,
+	sigla,
+	nom_asign_abrev,
+	cod_carrera)
+values (
+	'Cocina básica',
+	'PGG1101',
+	'Cocina básica',
+	1);
+
+insert into asign (
+	nom_asign,
+	sigla,
+	nom_asign_abrev,
+	cod_carrera)
+values (
+	'Panadería',
+	'PGG1108',
 	'Panadería',
 	1);
 
 insert into asign (
-	sigla,
 	nom_asign,
+	sigla,
 	nom_asign_abrev,
 	cod_carrera)
 values (
-	'PRT2121',
-	'Taller de pastelería',
-	'Pastelería',
+	'Taller de panadería',
+	'PRT1131',
+	'Taller panadería',
 	1);
 
 insert into asign (
-	sigla,
 	nom_asign,
+	sigla,
 	nom_asign_abrev,
 	cod_carrera)
 values (
-	'PTT6697',
+	'Taller de pastelería',
+	'PRT2121',
+	'Taller pastelería',
+	1);
+
+insert into asign (
+	nom_asign,
+	sigla,
+	nom_asign_abrev,
+	cod_carrera)
+values (
 	'Portafolio de título',
+	'PTT6697',
 	'Portafolio',
 	1);
+
+insert into asign (
+	nom_asign,
+	sigla,
+	nom_asign_abrev,
+	cod_carrera)
+values (
+	'Cocina regional chilena',
+	'RCT5111',
+	'Cocina regional chilena',
+	1);
+
+insert into asign (
+	nom_asign,
+	sigla,
+	nom_asign_abrev,
+	cod_carrera)
+values (
+	'Pastelería regional chilena',
+	'RCT5121',
+	'Pastelería regional chilena',
+	1);
+
+insert into asign (
+	nom_asign,
+	sigla,
+	nom_asign_abrev,
+	cod_carrera)
+values (
+	'Taller de pisos',
+	'RHT2121',
+	'Pisos',
+	2);
+
+insert into asign (
+	nom_asign,
+	sigla,
+	nom_asign_abrev,
+	cod_carrera)
+values (
+	'Taller de gastronomía optativo',
+	'TCC3301',
+	'Gastronomía optativo',
+	2);
 /* Fin tabla: asign */
 
 /* Inicio tabla: item_menu */

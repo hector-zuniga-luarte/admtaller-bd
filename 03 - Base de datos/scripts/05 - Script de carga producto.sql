@@ -9,7 +9,7 @@ insert into producto (
 values (
 	1,
 	'Aceite de maravilla',
-	3892,
+	5160,
 	3,
 	6);
 
@@ -22,7 +22,7 @@ insert into producto (
 values (
 	2,
 	'Aceite de oliva',
-	7286,
+	9000,
 	3,
 	6);
 
@@ -35,9 +35,9 @@ insert into producto (
 values (
 	3,
 	'Aceite de palta',
-	0,
+	1,
 	3,
-	2);
+	6);
 
 insert into producto (
 	id_producto,
@@ -48,7 +48,7 @@ insert into producto (
 values (
 	4,
 	'Aceite de sésamo',
-	14633,
+	14440,
 	3,
 	6);
 
@@ -87,7 +87,7 @@ insert into producto (
 values (
 	7,
 	'Aceite vegetal',
-	3524,
+	3280,
 	3,
 	6);
 
@@ -126,9 +126,9 @@ insert into producto (
 values (
 	10,
 	'Aceitunas negras',
-	7807,
+	8012,
 	1,
-	1);
+	6);
 
 insert into producto (
 	id_producto,
@@ -139,7 +139,7 @@ insert into producto (
 values (
 	11,
 	'Aceitunas negras sin carozo',
-	9338,
+	6790,
 	1,
 	6);
 
@@ -177,10 +177,10 @@ insert into producto (
 	cod_categ_producto)
 values (
 	14,
-	'Acelga',
-	0,
-	1,
-	2);
+	'Acelga (paquete)',
+	2840,
+	5,
+	1);
 
 insert into producto (
 	id_producto,
@@ -204,9 +204,9 @@ insert into producto (
 values (
 	16,
 	'Achicoria',
-	0,
 	1,
-	2);
+	1,
+	1);
 
 insert into producto (
 	id_producto,
@@ -243,7 +243,7 @@ insert into producto (
 values (
 	19,
 	'Agua mineral c/gas (1,5 lts) botella',
-	0,
+	1364,
 	5,
 	7);
 
@@ -282,7 +282,7 @@ insert into producto (
 values (
 	22,
 	'Agua mineral s/ gas (6 lts) bidón',
-	1850,
+	2890,
 	5,
 	7);
 
@@ -334,9 +334,9 @@ insert into producto (
 values (
 	26,
 	'Ahumador para bar',
-	0,
+	1,
 	5,
-	8);
+	10);
 
 insert into producto (
 	id_producto,
@@ -360,7 +360,7 @@ insert into producto (
 values (
 	28,
 	'Ají amarillo',
-	20076,
+	12350,
 	1,
 	1);
 
@@ -386,7 +386,7 @@ insert into producto (
 values (
 	30,
 	'Ají cacho de cabra',
-	1000,
+	32240,
 	5,
 	1);
 
@@ -399,7 +399,7 @@ insert into producto (
 values (
 	31,
 	'Ají de color',
-	15500,
+	4617,
 	1,
 	6);
 
@@ -412,9 +412,9 @@ insert into producto (
 values (
 	32,
 	'Ají en escabeche (ají oro)',
-	0,
+	69020,
 	1,
-	2);
+	6);
 
 insert into producto (
 	id_producto,
@@ -425,7 +425,7 @@ insert into producto (
 values (
 	33,
 	'Ají en pasta sin pepa',
-	3250,
+	7021,
 	2,
 	6);
 
@@ -451,9 +451,9 @@ insert into producto (
 values (
 	35,
 	'Ají panca entero',
-	20076,
 	1,
-	1);
+	1,
+	6);
 
 insert into producto (
 	id_producto,
@@ -477,7 +477,7 @@ insert into producto (
 values (
 	37,
 	'Ají rocoto',
-	12500,
+	12960,
 	1,
 	1);
 
@@ -529,7 +529,7 @@ insert into producto (
 values (
 	41,
 	'Ají verde fresco',
-	2446,
+	3700,
 	1,
 	1);
 
@@ -555,7 +555,7 @@ insert into producto (
 values (
 	43,
 	'Ajo cabeza',
-	4413,
+	200,
 	5,
 	1);
 
@@ -568,9 +568,9 @@ insert into producto (
 values (
 	44,
 	'Ajo chilote',
-	0,
 	1,
-	2);
+	1,
+	1);
 
 insert into producto (
 	id_producto,
@@ -581,7 +581,7 @@ insert into producto (
 values (
 	45,
 	'Albahaca fresca paquete',
-	2155,
+	800,
 	5,
 	1);
 
@@ -594,7 +594,7 @@ insert into producto (
 values (
 	46,
 	'Albúmina polvo',
-	4014,
+	11480,
 	1,
 	6);
 
@@ -607,9 +607,9 @@ insert into producto (
 values (
 	47,
 	'Alcachofa baby',
-	0,
 	1,
-	2);
+	1,
+	1);
 
 insert into producto (
 	id_producto,
@@ -620,9 +620,9 @@ insert into producto (
 values (
 	48,
 	'Alcachofas fresca',
-	0,
+	1,
 	5,
-	2);
+	1);
 
 insert into producto (
 	id_producto,
@@ -724,7 +724,7 @@ insert into producto (
 values (
 	56,
 	'Almejas frescas',
-	4240,
+	46903800,
 	1,
 	3);
 
@@ -737,7 +737,7 @@ insert into producto (
 values (
 	57,
 	'Almendras efiladas',
-	7000,
+	1,
 	1,
 	6);
 
@@ -750,7 +750,7 @@ insert into producto (
 values (
 	58,
 	'Almendras enteras',
-	10132,
+	12960,
 	1,
 	6);
 
@@ -763,7 +763,7 @@ insert into producto (
 values (
 	59,
 	'Almidón de maíz',
-	12271,
+	4200,
 	1,
 	6);
 
@@ -788,8 +788,8 @@ insert into producto (
 	cod_categ_producto)
 values (
 	61,
-	'Anchoas lata',
-	22783,
+	'Anchoas (50 grs)',
+	2990,
 	5,
 	6);
 
@@ -815,7 +815,7 @@ insert into producto (
 values (
 	63,
 	'Apio vara',
-	3263,
+	1610,
 	5,
 	1);
 
@@ -828,8 +828,8 @@ insert into producto (
 values (
 	64,
 	'Arándanos',
-	8757,
-	2,
+	7410,
+	1,
 	1);
 
 insert into producto (
@@ -854,7 +854,7 @@ insert into producto (
 values (
 	66,
 	'Arrollado de huaso',
-	840,
+	8400,
 	1,
 	2);
 
@@ -879,8 +879,8 @@ insert into producto (
 	cod_categ_producto)
 values (
 	68,
-	'Arroz grado 1',
-	1727,
+	'Arroz',
+	1990,
 	1,
 	6);
 
@@ -906,7 +906,7 @@ insert into producto (
 values (
 	70,
 	'Arvejas congeladas',
-	4020,
+	3440,
 	1,
 	4);
 
@@ -997,9 +997,9 @@ insert into producto (
 values (
 	77,
 	'Avellanas chilenas tostadas',
-	0,
 	1,
-	2);
+	1,
+	6);
 
 insert into producto (
 	id_producto,
@@ -1010,9 +1010,9 @@ insert into producto (
 values (
 	78,
 	'Avellanas europeas tostadas',
-	0,
 	1,
-	2);
+	1,
+	6);
 
 insert into producto (
 	id_producto,
@@ -1049,7 +1049,7 @@ insert into producto (
 values (
 	81,
 	'Azúcar flor',
-	2297,
+	4022,
 	1,
 	6);
 
@@ -1062,7 +1062,7 @@ insert into producto (
 values (
 	82,
 	'Azúcar granulada',
-	1470,
+	1461,
 	1,
 	6);
 
@@ -1114,7 +1114,7 @@ insert into producto (
 values (
 	86,
 	'Azúcar rubia',
-	12266,
+	1,
 	1,
 	6);
 
@@ -1166,9 +1166,9 @@ insert into producto (
 values (
 	90,
 	'Bandejas de alumnio desechables c-18',
-	0,
+	1,
 	5,
-	2);
+	8);
 
 insert into producto (
 	id_producto,
@@ -1205,9 +1205,9 @@ insert into producto (
 values (
 	93,
 	'Bebida San Pellegrino naranja',
-	0,
+	1,
 	5,
-	2);
+	7);
 
 insert into producto (
 	id_producto,
@@ -1231,7 +1231,7 @@ insert into producto (
 values (
 	95,
 	'Berenjenas',
-	970,
+	610,
 	5,
 	1);
 
@@ -1257,7 +1257,7 @@ insert into producto (
 values (
 	97,
 	'Berros hidropónicos',
-	8490,
+	6170,
 	1,
 	1);
 
@@ -1269,9 +1269,9 @@ insert into producto (
 	cod_categ_producto)
 values (
 	98,
-	'Betarraga',
-	1525,
-	5,
+	'Betarraga ',
+	1050,
+	1,
 	1);
 
 insert into producto (
@@ -1309,7 +1309,7 @@ insert into producto (
 values (
 	101,
 	'Bolsas de basura',
-	308,
+	310,
 	5,
 	9);
 
@@ -1348,7 +1348,7 @@ insert into producto (
 values (
 	104,
 	'Bombillas (papel o cartón)',
-	50,
+	49,
 	5,
 	8);
 
@@ -1387,7 +1387,7 @@ insert into producto (
 values (
 	107,
 	'Brócoli fresco',
-	1305,
+	1350,
 	5,
 	1);
 
@@ -1400,7 +1400,7 @@ insert into producto (
 values (
 	108,
 	'Brote alfalfa (70 grs) bandeja',
-	7933,
+	1840,
 	5,
 	1);
 
@@ -1425,9 +1425,9 @@ insert into producto (
 	cod_categ_producto)
 values (
 	110,
-	'Brotes de diente de dragón (250 grs) bandeja',
-	3800,
-	5,
+	'Brotes de diente de dragón ',
+	1980,
+	1,
 	1);
 
 insert into producto (
@@ -1438,7 +1438,7 @@ insert into producto (
 	cod_categ_producto)
 values (
 	111,
-	'Browies pack de 4 unidades 140 grs. Braunichoc',
+	'Brownies pack de 4 unidades 140 grs. Braunichoc',
 	1690,
 	5,
 	6);
@@ -1465,7 +1465,7 @@ insert into producto (
 values (
 	113,
 	'Cacao amargo',
-	9260,
+	4097,
 	1,
 	6);
 
@@ -1491,7 +1491,7 @@ insert into producto (
 values (
 	115,
 	'Café en grano',
-	13996,
+	14459,
 	1,
 	6);
 
@@ -1582,8 +1582,8 @@ insert into producto (
 values (
 	122,
 	'Caldo de pescado deshidratado',
-	500,
-	5,
+	10151,
+	1,
 	6);
 
 insert into producto (
@@ -1633,10 +1633,10 @@ insert into producto (
 	cod_categ_producto)
 values (
 	126,
-	'Camarón ecuatoriano 21/25',
-	14500,
+	'Camarón ecuatoriano 36/40',
+	14800,
 	1,
-	3);
+	4);
 
 insert into producto (
 	id_producto,
@@ -1646,10 +1646,10 @@ insert into producto (
 	cod_categ_producto)
 values (
 	127,
-	'Camarones',
-	11174,
+	'Camarones 100/200',
+	21182,
 	1,
-	3);
+	4);
 
 insert into producto (
 	id_producto,
@@ -1687,7 +1687,7 @@ values (
 	130,
 	'Canela polvo',
 	50195,
-	2,
+	1,
 	6);
 
 insert into producto (
@@ -1700,7 +1700,7 @@ values (
 	131,
 	'Canela rama',
 	84978,
-	5,
+	1,
 	6);
 
 insert into producto (
@@ -1712,9 +1712,9 @@ insert into producto (
 values (
 	132,
 	'Cápsula diseño ojal 5 cm de diametro',
-	0,
+	1,
 	5,
-	10);
+	8);
 
 insert into producto (
 	id_producto,
@@ -1803,8 +1803,8 @@ insert into producto (
 values (
 	139,
 	'Cebollas',
-	1028,
-	5,
+	1230,
+	1,
 	1);
 
 insert into producto (
@@ -1816,9 +1816,9 @@ insert into producto (
 values (
 	140,
 	'Cebollas en escabeche',
-	0,
 	1,
-	2);
+	1,
+	6);
 
 insert into producto (
 	id_producto,
@@ -1828,8 +1828,8 @@ insert into producto (
 	cod_categ_producto)
 values (
 	141,
-	'Cebollas morada',
-	1695,
+	'Cebolla morada',
+	1470,
 	1,
 	1);
 
@@ -1855,7 +1855,7 @@ insert into producto (
 values (
 	143,
 	'Cebollín paquete',
-	1092,
+	740,
 	5,
 	1);
 
@@ -1894,9 +1894,9 @@ insert into producto (
 values (
 	146,
 	'Centolla',
-	0,
+	57120,
 	1,
-	2);
+	3);
 
 insert into producto (
 	id_producto,
@@ -1920,7 +1920,7 @@ insert into producto (
 values (
 	148,
 	'Cerdo chuletas centro',
-	9073,
+	5180,
 	1,
 	2);
 
@@ -1932,8 +1932,8 @@ insert into producto (
 	cod_categ_producto)
 values (
 	149,
-	'Cerdo costillar (desgrasado)',
-	0,
+	'Cerdo costillar ',
+	5950,
 	1,
 	2);
 
@@ -1946,7 +1946,7 @@ insert into producto (
 values (
 	150,
 	'Cerdo costillar ahumado',
-	0,
+	12850,
 	1,
 	2);
 
@@ -1959,7 +1959,7 @@ insert into producto (
 values (
 	151,
 	'Cerdo cuero',
-	0,
+	4748,
 	1,
 	2);
 
@@ -1972,7 +1972,7 @@ insert into producto (
 values (
 	152,
 	'Cerdo grasa',
-	9200,
+	3230,
 	1,
 	2);
 
@@ -1997,8 +1997,8 @@ insert into producto (
 	cod_categ_producto)
 values (
 	154,
-	'Cerdo pernil asado',
-	0,
+	'Cerdo pernil ahumado',
+	15458,
 	5,
 	2);
 
@@ -2011,7 +2011,7 @@ insert into producto (
 values (
 	155,
 	'Cerdo plateada',
-	0,
+	6500,
 	1,
 	2);
 
@@ -2024,7 +2024,7 @@ insert into producto (
 values (
 	156,
 	'Cerdo pulpa',
-	0,
+	4284,
 	1,
 	2);
 
@@ -2037,7 +2037,7 @@ insert into producto (
 values (
 	157,
 	'Cerdo solomillo',
-	0,
+	5590,
 	1,
 	2);
 
@@ -2050,7 +2050,7 @@ insert into producto (
 values (
 	158,
 	'Cerezas conserva (310 grs) tarro',
-	2000,
+	1,
 	5,
 	6);
 
@@ -2076,7 +2076,7 @@ insert into producto (
 values (
 	160,
 	'Chalotas',
-	3667,
+	7420,
 	1,
 	1);
 
@@ -2102,7 +2102,7 @@ insert into producto (
 values (
 	162,
 	'Champiñón parís',
-	7762,
+	8500,
 	1,
 	1);
 
@@ -2115,7 +2115,7 @@ insert into producto (
 values (
 	163,
 	'Champiñón portobello',
-	9294,
+	6615,
 	1,
 	1);
 
@@ -2180,7 +2180,7 @@ insert into producto (
 values (
 	168,
 	'Charqui equino',
-	0,
+	5990,
 	1,
 	2);
 
@@ -2206,9 +2206,9 @@ insert into producto (
 values (
 	170,
 	'Chícharos/arvejas secas',
-	0,
 	1,
-	2);
+	1,
+	6);
 
 insert into producto (
 	id_producto,
@@ -2271,9 +2271,9 @@ insert into producto (
 values (
 	175,
 	'Choclo congelado',
-	3435,
+	3846,
 	1,
-	1);
+	4);
 
 insert into producto (
 	id_producto,
@@ -2283,8 +2283,8 @@ insert into producto (
 	cod_categ_producto)
 values (
 	176,
-	'Choclo entero',
-	1000,
+	'Choclo pastelero entero',
+	490,
 	5,
 	1);
 
@@ -2323,9 +2323,9 @@ insert into producto (
 values (
 	179,
 	'Choclo peruano desgranado',
-	7725,
+	5385,
 	1,
-	6);
+	1);
 
 insert into producto (
 	id_producto,
@@ -2401,9 +2401,9 @@ insert into producto (
 values (
 	185,
 	'Choritos congelados',
-	5000,
+	3808,
 	1,
-	3);
+	4);
 
 insert into producto (
 	id_producto,
@@ -2416,7 +2416,7 @@ values (
 	'Choritos conserva (190 grs) tarro',
 	1519,
 	5,
-	3);
+	6);
 
 insert into producto (
 	id_producto,
@@ -2427,7 +2427,7 @@ insert into producto (
 values (
 	187,
 	'Choritos frescos',
-	2867,
+	2000,
 	1,
 	3);
 
@@ -2440,7 +2440,7 @@ insert into producto (
 values (
 	188,
 	'Chorizo artesanal',
-	4999,
+	8910,
 	5,
 	2);
 
@@ -2453,9 +2453,9 @@ insert into producto (
 values (
 	189,
 	'Chumbeque',
-	0,
 	1,
-	2);
+	1,
+	6);
 
 insert into producto (
 	id_producto,
@@ -2465,9 +2465,9 @@ insert into producto (
 	cod_categ_producto)
 values (
 	190,
-	'Ciboulette',
-	37500,
-	1,
+	'Ciboulette (pqte)',
+	350,
+	5,
 	1);
 
 insert into producto (
@@ -2478,9 +2478,9 @@ insert into producto (
 	cod_categ_producto)
 values (
 	191,
-	'Cilantro',
-	4368,
-	1,
+	'Cilantro (paquete 100 grs)',
+	1220,
+	5,
 	1);
 
 insert into producto (
@@ -2504,9 +2504,9 @@ insert into producto (
 	cod_categ_producto)
 values (
 	193,
-	'Clavo de olor (5grs) sobre',
-	509,
-	5,
+	'Clavo de olor ',
+	82458,
+	1,
 	6);
 
 insert into producto (
@@ -2518,9 +2518,9 @@ insert into producto (
 values (
 	194,
 	'Cloro',
-	0,
+	1,
 	3,
-	2);
+	9);
 
 insert into producto (
 	id_producto,
@@ -2531,7 +2531,7 @@ insert into producto (
 values (
 	195,
 	'Cobertura bitter 80%',
-	13167,
+	9624,
 	1,
 	6);
 
@@ -2635,9 +2635,9 @@ insert into producto (
 values (
 	203,
 	'Cochayuyo',
-	0,
 	1,
-	2);
+	1,
+	1);
 
 insert into producto (
 	id_producto,
@@ -2674,7 +2674,7 @@ insert into producto (
 values (
 	206,
 	'Coco rallado',
-	9445,
+	11662,
 	1,
 	6);
 
@@ -2727,7 +2727,7 @@ values (
 	210,
 	'Colapez láminas',
 	129900,
-	5,
+	1,
 	6);
 
 insert into producto (
@@ -2739,7 +2739,7 @@ insert into producto (
 values (
 	211,
 	'Coliflor',
-	1645,
+	2090,
 	5,
 	1);
 
@@ -2752,7 +2752,7 @@ insert into producto (
 values (
 	212,
 	'Colorante liposoluble frasco',
-	2669,
+	4001,
 	5,
 	6);
 
@@ -2791,7 +2791,7 @@ insert into producto (
 values (
 	215,
 	'Comino molido',
-	26650,
+	47634,
 	1,
 	6);
 
@@ -2830,7 +2830,7 @@ insert into producto (
 values (
 	218,
 	'Conejo entero',
-	0,
+	15990,
 	1,
 	2);
 
@@ -2843,7 +2843,7 @@ insert into producto (
 values (
 	219,
 	'Congrio dorado entero fresco',
-	17667,
+	14042,
 	1,
 	3);
 
@@ -2856,7 +2856,7 @@ insert into producto (
 values (
 	220,
 	'Congrio fresco filete',
-	0,
+	28322,
 	1,
 	3);
 
@@ -2895,7 +2895,7 @@ insert into producto (
 values (
 	223,
 	'Cordero pulpa',
-	24500,
+	13830,
 	1,
 	2);
 
@@ -2907,10 +2907,10 @@ insert into producto (
 	cod_categ_producto)
 values (
 	224,
-	'Crema ácida',
-	0,
-	1,
-	2);
+	'Crema ácida (200 ml)',
+	3450,
+	5,
+	5);
 
 insert into producto (
 	id_producto,
@@ -2960,7 +2960,7 @@ insert into producto (
 values (
 	228,
 	'Crema de leche',
-	3972,
+	4150,
 	3,
 	5);
 
@@ -3012,7 +3012,7 @@ insert into producto (
 values (
 	232,
 	'Crema vegetal',
-	3923,
+	4350,
 	3,
 	5);
 
@@ -3103,9 +3103,9 @@ insert into producto (
 values (
 	239,
 	'Decantador',
-	0,
+	1,
 	5,
-	2);
+	10);
 
 insert into producto (
 	id_producto,
@@ -3128,10 +3128,10 @@ insert into producto (
 	cod_categ_producto)
 values (
 	241,
-	'Desinfectante de superficies',
-	0,
+	'Desinfectante de superficies (key higienizante)',
+	3325,
 	3,
-	2);
+	9);
 
 insert into producto (
 	id_producto,
@@ -3233,7 +3233,7 @@ insert into producto (
 values (
 	249,
 	'Eneldo seco (8 grs) sobre',
-	0,
+	18520,
 	1,
 	6);
 
@@ -3246,7 +3246,7 @@ insert into producto (
 values (
 	250,
 	'Ensalada toscana (300 grs)',
-	1990,
+	2856,
 	5,
 	1);
 
@@ -3259,7 +3259,7 @@ insert into producto (
 values (
 	251,
 	'Esencia de vainilla',
-	5936,
+	5623,
 	3,
 	6);
 
@@ -3272,7 +3272,7 @@ insert into producto (
 values (
 	252,
 	'Espárragos frescos',
-	3667,
+	5833,
 	1,
 	1);
 
@@ -3285,7 +3285,7 @@ insert into producto (
 values (
 	253,
 	'Espinacas',
-	7906,
+	2470,
 	1,
 	1);
 
@@ -3297,8 +3297,8 @@ insert into producto (
 	cod_categ_producto)
 values (
 	254,
-	'Esponja abrasiva',
-	241,
+	'Esponja ',
+	240,
 	5,
 	9);
 
@@ -3350,7 +3350,7 @@ insert into producto (
 values (
 	258,
 	'Fetuccinis (400 grs) pqte',
-	5145,
+	2199,
 	5,
 	6);
 
@@ -3440,8 +3440,8 @@ insert into producto (
 	cod_categ_producto)
 values (
 	265,
-	'Finas hierbas mix bandeja',
-	16462,
+	'Finas hierbas mix (bandeja 100 grs)',
+	3334,
 	5,
 	1);
 
@@ -3467,7 +3467,7 @@ insert into producto (
 values (
 	267,
 	'Flores comestibles (30 grs) bandeja',
-	1295,
+	4725,
 	5,
 	1);
 
@@ -3519,8 +3519,8 @@ insert into producto (
 values (
 	271,
 	'Fondo de pescado deshidratado',
-	2000,
-	1,
+	773,
+	5,
 	6);
 
 insert into producto (
@@ -3597,7 +3597,7 @@ insert into producto (
 values (
 	277,
 	'Frutilllas frescas',
-	7611,
+	3460,
 	1,
 	1);
 
@@ -3636,7 +3636,7 @@ insert into producto (
 values (
 	280,
 	'Galletas de agua (180 grs)pqtes.',
-	0,
+	1123,
 	5,
 	6);
 
@@ -3701,7 +3701,7 @@ insert into producto (
 values (
 	285,
 	'Garbanzos',
-	3335,
+	3210,
 	1,
 	6);
 
@@ -3726,8 +3726,8 @@ insert into producto (
 	cod_categ_producto)
 values (
 	287,
-	'Gelatina sabor piña caja',
-	10395,
+	'Gelatina sabor piña (caja 100grs)',
+	790,
 	5,
 	6);
 
@@ -3779,7 +3779,7 @@ insert into producto (
 values (
 	291,
 	'Glucosa',
-	8900,
+	4524,
 	1,
 	6);
 
@@ -3857,7 +3857,7 @@ insert into producto (
 values (
 	297,
 	'Habas congeladas',
-	5439,
+	4880,
 	1,
 	4);
 
@@ -3883,9 +3883,9 @@ insert into producto (
 values (
 	299,
 	'Harina de arroz',
-	0,
 	1,
-	2);
+	1,
+	6);
 
 insert into producto (
 	id_producto,
@@ -3935,7 +3935,7 @@ insert into producto (
 values (
 	303,
 	'Harina fuerte (10% - 13%) proteínas',
-	1500,
+	1785,
 	1,
 	6);
 
@@ -3961,7 +3961,7 @@ insert into producto (
 values (
 	305,
 	'Harina tostada',
-	2518,
+	2040,
 	1,
 	6);
 
@@ -3974,7 +3974,7 @@ insert into producto (
 values (
 	306,
 	'Harina trigo',
-	4793,
+	1785,
 	1,
 	6);
 
@@ -4013,7 +4013,7 @@ insert into producto (
 values (
 	309,
 	'Hielo (cubos)',
-	1306,
+	833,
 	1,
 	4);
 
@@ -4051,9 +4051,9 @@ insert into producto (
 	cod_categ_producto)
 values (
 	312,
-	'Hoja de betarraga',
-	0,
-	1,
+	'Hoja de betarraga (bandeja 100 grs)',
+	6666,
+	5,
 	1);
 
 insert into producto (
@@ -4090,10 +4090,10 @@ insert into producto (
 	cod_categ_producto)
 values (
 	315,
-	'Hojas de amaranto',
-	0,
-	1,
-	2);
+	'Hojas de amaranto (bandeja 100 grs)',
+	6666,
+	5,
+	1);
 
 insert into producto (
 	id_producto,
@@ -4116,10 +4116,10 @@ insert into producto (
 	cod_categ_producto)
 values (
 	317,
-	'Hojas de capuccino (espuela galán)',
-	0,
-	1,
-	2);
+	'Hojas de capuccino (espuela galán) (bandeja 100 grs)',
+	6666,
+	5,
+	1);
 
 insert into producto (
 	id_producto,
@@ -4130,9 +4130,9 @@ insert into producto (
 values (
 	318,
 	'Hojas de mostaza',
-	0,
 	1,
-	2);
+	1,
+	1);
 
 insert into producto (
 	id_producto,
@@ -4156,9 +4156,9 @@ insert into producto (
 values (
 	320,
 	'Huacatay',
-	0,
+	4690,
 	1,
-	2);
+	1);
 
 insert into producto (
 	id_producto,
@@ -4182,7 +4182,7 @@ insert into producto (
 values (
 	322,
 	'Huesillos sin carozo',
-	0,
+	3700,
 	1,
 	6);
 
@@ -4195,7 +4195,7 @@ insert into producto (
 values (
 	323,
 	'Huevos',
-	269,
+	220,
 	5,
 	5);
 
@@ -4208,7 +4208,7 @@ insert into producto (
 values (
 	324,
 	'Huevos de codorniz',
-	1170,
+	250,
 	5,
 	5);
 
@@ -4299,7 +4299,7 @@ insert into producto (
 values (
 	331,
 	'Jalea frambuesa 90 grs',
-	969,
+	1083,
 	5,
 	6);
 
@@ -4338,7 +4338,7 @@ insert into producto (
 values (
 	334,
 	'Jamón de pavo trozo',
-	0,
+	12500,
 	1,
 	2);
 
@@ -4390,7 +4390,7 @@ insert into producto (
 values (
 	338,
 	'Jamón sandwich',
-	12000,
+	6950,
 	1,
 	2);
 
@@ -4442,7 +4442,7 @@ insert into producto (
 values (
 	342,
 	'Jengibre fresco',
-	13992,
+	8400,
 	1,
 	1);
 
@@ -4507,7 +4507,7 @@ insert into producto (
 values (
 	347,
 	'Jugo de naranja (1 lt) caja',
-	3127,
+	1490,
 	3,
 	7);
 
@@ -4572,7 +4572,7 @@ insert into producto (
 values (
 	352,
 	'Jugo en polvo sin azúcar (7grs) sobre',
-	290,
+	277,
 	5,
 	6);
 
@@ -4585,7 +4585,7 @@ insert into producto (
 values (
 	353,
 	'Jugo naranja (1 Lt) caja',
-	4000,
+	1,
 	3,
 	7);
 
@@ -4637,7 +4637,7 @@ insert into producto (
 values (
 	357,
 	'Ketchup (100 grs) sachet',
-	3610,
+	899,
 	5,
 	6);
 
@@ -4650,7 +4650,7 @@ insert into producto (
 values (
 	358,
 	'Kiwi',
-	3490,
+	4690,
 	1,
 	1);
 
@@ -4701,8 +4701,8 @@ insert into producto (
 	cod_categ_producto)
 values (
 	362,
-	'Laurel seco (5 grs) sobre',
-	20933,
+	'Laurel seco',
+	26730,
 	1,
 	6);
 
@@ -4715,7 +4715,7 @@ insert into producto (
 values (
 	363,
 	'Lavalozas (500 cc) botella',
-	1500,
+	2200,
 	3,
 	9);
 
@@ -4740,7 +4740,7 @@ insert into producto (
 	cod_categ_producto)
 values (
 	365,
-	'Leche de almendras',
+	'Bebida de almendras',
 	18500,
 	3,
 	6);
@@ -4754,7 +4754,7 @@ insert into producto (
 values (
 	366,
 	'Leche de coco',
-	1990,
+	2790,
 	3,
 	6);
 
@@ -4767,7 +4767,7 @@ insert into producto (
 values (
 	367,
 	'Leche descremada líquida',
-	1200,
+	1488,
 	3,
 	5);
 
@@ -4793,7 +4793,7 @@ insert into producto (
 values (
 	369,
 	'Leche entera líquida',
-	1436,
+	1250,
 	3,
 	5);
 
@@ -4819,7 +4819,7 @@ insert into producto (
 values (
 	371,
 	'Lechuga costina',
-	1395,
+	1220,
 	5,
 	1);
 
@@ -4832,7 +4832,7 @@ insert into producto (
 values (
 	372,
 	'Lechuga escarola',
-	1090,
+	1050,
 	5,
 	1);
 
@@ -4858,7 +4858,7 @@ insert into producto (
 values (
 	374,
 	'Lechuga Lollo green',
-	1775,
+	833,
 	5,
 	1);
 
@@ -4871,7 +4871,7 @@ insert into producto (
 values (
 	375,
 	'Lechuga Lollo Rossa',
-	1738,
+	833,
 	5,
 	1);
 
@@ -4884,7 +4884,7 @@ insert into producto (
 values (
 	376,
 	'Lechuga mizuna morada',
-	6000,
+	5384,
 	1,
 	1);
 
@@ -4897,7 +4897,7 @@ insert into producto (
 values (
 	377,
 	'Lechuga mizuna verde',
-	6000,
+	6790,
 	1,
 	1);
 
@@ -4923,7 +4923,7 @@ insert into producto (
 values (
 	379,
 	'Lentejas',
-	2339,
+	3615,
 	1,
 	6);
 
@@ -4949,7 +4949,7 @@ insert into producto (
 values (
 	381,
 	'Levadura fresca',
-	16447,
+	7900,
 	1,
 	6);
 
@@ -4975,7 +4975,7 @@ insert into producto (
 values (
 	383,
 	'Levadura seca instantánea',
-	16753,
+	7128,
 	1,
 	6);
 
@@ -5014,7 +5014,7 @@ insert into producto (
 values (
 	386,
 	'Licor Amaretto (750 cc) botella',
-	18000,
+	1,
 	5,
 	7);
 
@@ -5104,7 +5104,7 @@ insert into producto (
 	cod_categ_producto)
 values (
 	393,
-	'Licor Cachaça (1000 cc) botella',
+	'Licor CachaÃ§a (1000 cc) botella',
 	8000,
 	5,
 	7);
@@ -5221,7 +5221,7 @@ insert into producto (
 	cod_categ_producto)
 values (
 	402,
-	'Licor de Curaçao azul (750 cc) botella',
+	'Licor de CuraÃ§ao azul (750 cc) botella',
 	8000,
 	3,
 	7);
@@ -5352,7 +5352,7 @@ insert into producto (
 values (
 	412,
 	'Limón de pica',
-	3297,
+	5190,
 	1,
 	1);
 
@@ -5378,7 +5378,7 @@ insert into producto (
 values (
 	414,
 	'Limón sutil',
-	3283,
+	3690,
 	1,
 	1);
 
@@ -5391,7 +5391,7 @@ insert into producto (
 values (
 	415,
 	'Limones',
-	1684,
+	1100,
 	1,
 	1);
 
@@ -5456,7 +5456,7 @@ insert into producto (
 values (
 	420,
 	'Longanizas ahumadas',
-	0,
+	9232,
 	1,
 	2);
 
@@ -5508,7 +5508,7 @@ insert into producto (
 values (
 	424,
 	'Machas frescas',
-	8000,
+	11662,
 	1,
 	3);
 
@@ -5534,7 +5534,7 @@ insert into producto (
 values (
 	426,
 	'Mandarinas',
-	2497,
+	2167,
 	1,
 	1);
 
@@ -5573,7 +5573,7 @@ insert into producto (
 values (
 	429,
 	'Mango fresco',
-	4500,
+	3580,
 	1,
 	1);
 
@@ -5664,7 +5664,7 @@ insert into producto (
 values (
 	436,
 	'Manteca vegetal hidrogenada',
-	7375,
+	3970,
 	1,
 	5);
 
@@ -5690,7 +5690,7 @@ insert into producto (
 values (
 	438,
 	'Mantequilla con sal',
-	10827,
+	11400,
 	1,
 	5);
 
@@ -5716,7 +5716,7 @@ insert into producto (
 values (
 	440,
 	'Mantequilla sin sal',
-	14037,
+	1,
 	1,
 	5);
 
@@ -5729,7 +5729,7 @@ insert into producto (
 values (
 	441,
 	'Manzanas rojas',
-	2557,
+	1610,
 	1,
 	1);
 
@@ -5742,7 +5742,7 @@ insert into producto (
 values (
 	442,
 	'Manzanas verdes',
-	2562,
+	1610,
 	1,
 	1);
 
@@ -5781,7 +5781,7 @@ insert into producto (
 values (
 	445,
 	'Margarina maestra hoja',
-	7325,
+	5150,
 	1,
 	5);
 
@@ -5794,7 +5794,7 @@ insert into producto (
 values (
 	446,
 	'Margarina maestra horneo',
-	8330,
+	4150,
 	1,
 	5);
 
@@ -5820,7 +5820,7 @@ insert into producto (
 values (
 	448,
 	'Marrasquino rojo (140 grs) frasco',
-	21,
+	1,
 	1,
 	6);
 
@@ -5871,9 +5871,9 @@ insert into producto (
 	cod_categ_producto)
 values (
 	452,
-	'Mayonesa Kraft',
-	7821,
-	5,
+	'Mayonesa Kraft (1 Kg)',
+	17640,
+	1,
 	6);
 
 insert into producto (
@@ -5910,9 +5910,9 @@ insert into producto (
 	cod_categ_producto)
 values (
 	455,
-	'Menta fresca (30 grs) bandeja',
-	9885,
-	1,
+	'Menta fresca (bandeja)',
+	860,
+	5,
 	1);
 
 insert into producto (
@@ -5937,9 +5937,9 @@ insert into producto (
 values (
 	457,
 	'Merkén',
-	0,
+	7900,
 	1,
-	2);
+	6);
 
 insert into producto (
 	id_producto,
@@ -5976,7 +5976,7 @@ insert into producto (
 values (
 	460,
 	'Merluza entera',
-	0,
+	4522,
 	1,
 	3);
 
@@ -5989,7 +5989,7 @@ insert into producto (
 values (
 	461,
 	'Merluza filete',
-	7890,
+	6426,
 	1,
 	3);
 
@@ -6066,7 +6066,7 @@ insert into producto (
 	cod_categ_producto)
 values (
 	467,
-	'Mermelada frutilla',
+	'Mermelada frutilla (sobre 250)',
 	1099,
 	5,
 	6);
@@ -6158,9 +6158,9 @@ insert into producto (
 values (
 	474,
 	'Mermelada rosa mosqueta',
-	0,
 	1,
-	2);
+	1,
+	6);
 
 insert into producto (
 	id_producto,
@@ -6171,7 +6171,7 @@ insert into producto (
 values (
 	475,
 	'Micas',
-	2500,
+	200,
 	5,
 	8);
 
@@ -6184,7 +6184,7 @@ insert into producto (
 values (
 	476,
 	'Miel de abejas',
-	20975,
+	5930,
 	1,
 	6);
 
@@ -6197,9 +6197,9 @@ insert into producto (
 values (
 	477,
 	'Miel de palma',
-	0,
+	6293,
 	1,
-	2);
+	6);
 
 insert into producto (
 	id_producto,
@@ -6210,9 +6210,9 @@ insert into producto (
 values (
 	478,
 	'Miel de papaya',
-	0,
 	1,
-	2);
+	1,
+	6);
 
 insert into producto (
 	id_producto,
@@ -6315,7 +6315,7 @@ values (
 	486,
 	'Mix frutos secos',
 	9090,
-	5,
+	1,
 	6);
 
 insert into producto (
@@ -6379,7 +6379,7 @@ insert into producto (
 values (
 	491,
 	'Mondadientes (100 un)',
-	581,
+	390,
 	5,
 	8);
 
@@ -6392,7 +6392,7 @@ insert into producto (
 values (
 	492,
 	'Moras congeladas',
-	18320,
+	7693,
 	1,
 	4);
 
@@ -6457,9 +6457,9 @@ insert into producto (
 values (
 	497,
 	'Mostaza antigua',
-	0,
 	1,
-	2);
+	1,
+	6);
 
 insert into producto (
 	id_producto,
@@ -6483,9 +6483,9 @@ insert into producto (
 values (
 	499,
 	'Motemei',
-	0,
 	1,
-	2);
+	1,
+	1);
 
 insert into producto (
 	id_producto,
@@ -6522,8 +6522,8 @@ insert into producto (
 values (
 	502,
 	'Nabos',
-	1500,
-	5,
+	3460,
+	1,
 	1);
 
 insert into producto (
@@ -6535,7 +6535,7 @@ insert into producto (
 values (
 	503,
 	'Naranjas',
-	1513,
+	1100,
 	1,
 	1);
 
@@ -6548,7 +6548,7 @@ insert into producto (
 values (
 	504,
 	'Nueces enteras',
-	20193,
+	12960,
 	1,
 	6);
 
@@ -6561,7 +6561,7 @@ insert into producto (
 values (
 	505,
 	'Nueces partidas',
-	19900,
+	12040,
 	1,
 	6);
 
@@ -6625,8 +6625,8 @@ insert into producto (
 	cod_categ_producto)
 values (
 	510,
-	'Orégano seco entero (20 grs) bolsa',
-	8000,
+	'Orégano seco entero ',
+	15370,
 	1,
 	6);
 
@@ -6729,8 +6729,8 @@ insert into producto (
 	cod_categ_producto)
 values (
 	518,
-	'Palta Hass',
-	4807,
+	'Palta',
+	4800,
 	1,
 	1);
 
@@ -6873,7 +6873,7 @@ insert into producto (
 values (
 	529,
 	'Pan marraqueta',
-	549,
+	2500,
 	1,
 	6);
 
@@ -6886,7 +6886,7 @@ insert into producto (
 values (
 	530,
 	'Pan molde blanco guagua',
-	0,
+	4010,
 	1,
 	6);
 
@@ -7042,7 +7042,7 @@ insert into producto (
 values (
 	542,
 	'Papas',
-	1452,
+	2070,
 	1,
 	1);
 
@@ -7068,7 +7068,7 @@ insert into producto (
 values (
 	544,
 	'Papas camote',
-	1490,
+	1470,
 	1,
 	1);
 
@@ -7107,9 +7107,9 @@ insert into producto (
 values (
 	547,
 	'Papas michuñe',
-	0,
+	4615,
 	1,
-	2);
+	1);
 
 insert into producto (
 	id_producto,
@@ -7120,7 +7120,7 @@ insert into producto (
 values (
 	548,
 	'Papas semilla',
-	2290,
+	2500,
 	1,
 	1);
 
@@ -7185,7 +7185,7 @@ insert into producto (
 values (
 	553,
 	'Papel absorbente rollo',
-	9695,
+	594,
 	5,
 	9);
 
@@ -7276,7 +7276,7 @@ insert into producto (
 values (
 	560,
 	'Pasas corinto',
-	6643,
+	4615,
 	1,
 	6);
 
@@ -7289,7 +7289,7 @@ insert into producto (
 values (
 	561,
 	'Pasas rubias',
-	8190,
+	8070,
 	1,
 	6);
 
@@ -7328,7 +7328,7 @@ insert into producto (
 values (
 	564,
 	'Pastelera de choclo congelada',
-	4890,
+	4820,
 	1,
 	4);
 
@@ -7341,7 +7341,7 @@ insert into producto (
 values (
 	565,
 	'Pastrami',
-	26000,
+	29500,
 	1,
 	2);
 
@@ -7380,7 +7380,7 @@ insert into producto (
 values (
 	568,
 	'Pepinillo dill',
-	3000,
+	4879,
 	1,
 	1);
 
@@ -7406,8 +7406,8 @@ insert into producto (
 values (
 	570,
 	'Pepino ensalada',
-	707,
-	1,
+	410,
+	5,
 	1);
 
 insert into producto (
@@ -7419,7 +7419,7 @@ insert into producto (
 values (
 	571,
 	'Peras',
-	1974,
+	1690,
 	1,
 	1);
 
@@ -7432,7 +7432,7 @@ insert into producto (
 values (
 	572,
 	'Perejil crespo (20 grs) bandeja',
-	10714,
+	1850,
 	5,
 	1);
 
@@ -7444,9 +7444,9 @@ insert into producto (
 	cod_categ_producto)
 values (
 	573,
-	'Perejil fresco',
-	4452,
-	1,
+	'Perejil fresco (bandeja)',
+	1178,
+	5,
 	1);
 
 insert into producto (
@@ -7496,9 +7496,9 @@ insert into producto (
 	cod_categ_producto)
 values (
 	577,
-	'Physalis bandeja',
-	0,
-	5,
+	'Physalis',
+	22220,
+	1,
 	1);
 
 insert into producto (
@@ -7510,9 +7510,9 @@ insert into producto (
 values (
 	578,
 	'Pickles',
-	0,
+	7223,
 	1,
-	2);
+	6);
 
 insert into producto (
 	id_producto,
@@ -7523,7 +7523,7 @@ insert into producto (
 values (
 	579,
 	'Pimentón amarillo',
-	1600,
+	1730,
 	5,
 	1);
 
@@ -7549,7 +7549,7 @@ insert into producto (
 values (
 	581,
 	'Pimentón rojo',
-	1464,
+	1730,
 	5,
 	1);
 
@@ -7562,7 +7562,7 @@ insert into producto (
 values (
 	582,
 	'Pimentón verde',
-	1143,
+	990,
 	5,
 	1);
 
@@ -7575,7 +7575,7 @@ insert into producto (
 values (
 	583,
 	'Pimienta blanca molida',
-	0,
+	77671,
 	1,
 	6);
 
@@ -7588,9 +7588,9 @@ insert into producto (
 values (
 	584,
 	'Pimienta mapuche',
-	0,
 	1,
-	2);
+	1,
+	6);
 
 insert into producto (
 	id_producto,
@@ -7613,9 +7613,9 @@ insert into producto (
 	cod_categ_producto)
 values (
 	586,
-	'Pimienta negra molida (15 grs) sobre',
-	29004,
-	2,
+	'Pimienta negra molida',
+	25750,
+	1,
 	6);
 
 insert into producto (
@@ -7666,7 +7666,7 @@ insert into producto (
 values (
 	590,
 	'Piña fresca entera',
-	2968,
+	3090,
 	5,
 	1);
 
@@ -7705,9 +7705,9 @@ insert into producto (
 values (
 	593,
 	'Pipoca',
-	0,
+	15470,
 	1,
-	2);
+	6);
 
 insert into producto (
 	id_producto,
@@ -7783,7 +7783,7 @@ insert into producto (
 values (
 	599,
 	'Pistachos',
-	23000,
+	22220,
 	1,
 	6);
 
@@ -7796,8 +7796,8 @@ insert into producto (
 values (
 	600,
 	'Pitilla',
-	200,
-	6,
+	1210,
+	5,
 	8);
 
 insert into producto (
@@ -7809,9 +7809,9 @@ insert into producto (
 values (
 	601,
 	'Piure sin peña',
-	0,
 	1,
-	2);
+	1,
+	3);
 
 insert into producto (
 	id_producto,
@@ -7822,7 +7822,7 @@ insert into producto (
 values (
 	602,
 	'Plátano barraganete',
-	2890,
+	1530,
 	1,
 	1);
 
@@ -7835,7 +7835,7 @@ insert into producto (
 values (
 	603,
 	'Plátanos',
-	1350,
+	1610,
 	1,
 	1);
 
@@ -7913,7 +7913,7 @@ insert into producto (
 values (
 	609,
 	'Pollo entero',
-	12000,
+	2850,
 	1,
 	2);
 
@@ -7926,7 +7926,7 @@ insert into producto (
 values (
 	610,
 	'Pollo filetillo',
-	11200,
+	4990,
 	1,
 	2);
 
@@ -7938,7 +7938,7 @@ insert into producto (
 	cod_categ_producto)
 values (
 	611,
-	'Pollo ganso',
+	'Vacuno Pollo ganso',
 	11000,
 	1,
 	2);
@@ -7965,8 +7965,8 @@ insert into producto (
 values (
 	613,
 	'Pollo pechuga',
-	7922,
-	5,
+	3200,
+	1,
 	2);
 
 insert into producto (
@@ -7978,7 +7978,7 @@ insert into producto (
 values (
 	614,
 	'Pollo pechuga deshuesada',
-	5520,
+	3950,
 	1,
 	2);
 
@@ -7990,8 +7990,8 @@ insert into producto (
 	cod_categ_producto)
 values (
 	615,
-	'Pollo truto entero',
-	3890,
+	'Pollo truto corto',
+	3250,
 	1,
 	2);
 
@@ -8004,7 +8004,7 @@ insert into producto (
 values (
 	616,
 	'Polvos de hornear',
-	9791,
+	8033,
 	1,
 	6);
 
@@ -8016,8 +8016,8 @@ insert into producto (
 	cod_categ_producto)
 values (
 	617,
-	'Pomelo fresco entero',
-	945,
+	'Pomelo rosado ',
+	1840,
 	1,
 	1);
 
@@ -8030,9 +8030,9 @@ insert into producto (
 values (
 	618,
 	'Poroto pallar manchado (variedad)',
-	0,
+	2430,
 	1,
-	2);
+	6);
 
 insert into producto (
 	id_producto,
@@ -8069,7 +8069,7 @@ insert into producto (
 values (
 	621,
 	'Porotos granados congelados',
-	6460,
+	4539,
 	1,
 	4);
 
@@ -8095,8 +8095,8 @@ insert into producto (
 values (
 	623,
 	'Porotos negros conserva (380 grs) caja',
-	1449,
-	5,
+	1895,
+	1,
 	6);
 
 insert into producto (
@@ -8121,7 +8121,7 @@ insert into producto (
 values (
 	625,
 	'Porotos verdes frescos enteros',
-	2550,
+	3700,
 	1,
 	1);
 
@@ -8173,7 +8173,7 @@ insert into producto (
 values (
 	629,
 	'Prietas',
-	9160,
+	6040,
 	1,
 	2);
 
@@ -8199,7 +8199,7 @@ insert into producto (
 values (
 	631,
 	'Puerros',
-	1100,
+	1730,
 	5,
 	1);
 
@@ -8279,7 +8279,7 @@ values (
 	'Pulpa guallarauco (chirimoya, mango y frambuesa)',
 	4667,
 	1,
-	2);
+	4);
 
 insert into producto (
 	id_producto,
@@ -8433,7 +8433,7 @@ insert into producto (
 values (
 	649,
 	'Pulpa maracuyá',
-	6638,
+	10000,
 	1,
 	4);
 
@@ -8510,9 +8510,9 @@ insert into producto (
 	cod_categ_producto)
 values (
 	655,
-	'Puré de Papas deshidratadas ( 1 kg) caja',
-	3403,
-	5,
+	'Puré de Papas deshidratadas',
+	8462,
+	1,
 	6);
 
 insert into producto (
@@ -8537,7 +8537,7 @@ insert into producto (
 values (
 	657,
 	'Queso brie (125 grs) pqte',
-	22785,
+	23150,
 	5,
 	5);
 
@@ -8576,7 +8576,7 @@ insert into producto (
 values (
 	660,
 	'Queso chanco trozo',
-	0,
+	1,
 	1,
 	5);
 
@@ -8589,7 +8589,7 @@ insert into producto (
 values (
 	661,
 	'Queso chedar laminado (144 grs)',
-	0,
+	10850,
 	1,
 	5);
 
@@ -8601,7 +8601,7 @@ insert into producto (
 	cod_categ_producto)
 values (
 	662,
-	'Queso crema (150 grs)',
+	'Queso crema',
 	10141,
 	1,
 	5);
@@ -8641,7 +8641,7 @@ insert into producto (
 values (
 	665,
 	'Queso de cabra fresco',
-	25789,
+	25500,
 	1,
 	5);
 
@@ -8653,8 +8653,8 @@ insert into producto (
 	cod_categ_producto)
 values (
 	666,
-	'Queso edam (180 grs)',
-	0,
+	'Queso edam (350 grs)',
+	18500,
 	5,
 	5);
 
@@ -8706,7 +8706,7 @@ insert into producto (
 values (
 	670,
 	'Queso gouda laminado',
-	13000,
+	7600,
 	1,
 	5);
 
@@ -8732,7 +8732,7 @@ insert into producto (
 values (
 	672,
 	'Queso Gruyère trozo',
-	23559,
+	20000,
 	1,
 	5);
 
@@ -8745,7 +8745,7 @@ insert into producto (
 values (
 	673,
 	'Queso mantecoso trozo',
-	14233,
+	9250,
 	1,
 	5);
 
@@ -8757,7 +8757,7 @@ insert into producto (
 	cod_categ_producto)
 values (
 	674,
-	'Queso mozzarela granulado (250 grs) bolsa',
+	'Queso mozzarela granulado',
 	16245,
 	1,
 	5);
@@ -8771,8 +8771,8 @@ insert into producto (
 values (
 	675,
 	'Queso parmesano trozo',
-	41998,
-	2,
+	23500,
+	1,
 	5);
 
 insert into producto (
@@ -8784,8 +8784,8 @@ insert into producto (
 values (
 	676,
 	'Queso rallado (80 grs) sobre',
-	4474,
-	1,
+	1650,
+	5,
 	5);
 
 insert into producto (
@@ -8823,7 +8823,7 @@ insert into producto (
 values (
 	679,
 	'Quinoa',
-	8796,
+	4940,
 	1,
 	6);
 
@@ -8836,7 +8836,7 @@ insert into producto (
 values (
 	680,
 	'Quinoa mix',
-	0,
+	5307,
 	1,
 	6);
 
@@ -8862,9 +8862,9 @@ insert into producto (
 values (
 	682,
 	'Rabanitos',
-	0,
+	1178,
 	1,
-	2);
+	1);
 
 insert into producto (
 	id_producto,
@@ -8901,7 +8901,7 @@ insert into producto (
 values (
 	685,
 	'Reineta fresca entera',
-	6000,
+	8090,
 	1,
 	3);
 
@@ -8914,7 +8914,7 @@ insert into producto (
 values (
 	686,
 	'Reineta fresca filete',
-	13874,
+	19990,
 	1,
 	3);
 
@@ -8927,7 +8927,7 @@ insert into producto (
 values (
 	687,
 	'Repollo blanco',
-	1300,
+	2840,
 	5,
 	1);
 
@@ -8940,7 +8940,7 @@ insert into producto (
 values (
 	688,
 	'Repollo morado',
-	1200,
+	3460,
 	5,
 	1);
 
@@ -8952,10 +8952,10 @@ insert into producto (
 	cod_categ_producto)
 values (
 	689,
-	'Romero fresco (30 grs) bandeja',
-	7000,
+	'Romero seco',
+	26730,
 	1,
-	1);
+	6);
 
 insert into producto (
 	id_producto,
@@ -9070,7 +9070,7 @@ insert into producto (
 values (
 	698,
 	'Sal fina',
-	784,
+	362,
 	1,
 	6);
 
@@ -9148,7 +9148,7 @@ insert into producto (
 values (
 	704,
 	'Salmón fresco entero',
-	18000,
+	16422,
 	1,
 	3);
 
@@ -9161,7 +9161,7 @@ insert into producto (
 values (
 	705,
 	'Salmón fresco filete',
-	21483,
+	23562,
 	1,
 	3);
 
@@ -9226,7 +9226,7 @@ insert into producto (
 values (
 	710,
 	'Salsa de soya',
-	12222,
+	4700,
 	3,
 	6);
 
@@ -9278,7 +9278,7 @@ insert into producto (
 values (
 	714,
 	'Salsa española deshidratada',
-	12975,
+	13660,
 	1,
 	6);
 
@@ -9356,7 +9356,7 @@ insert into producto (
 values (
 	720,
 	'Semillas de sésamo tostado',
-	0,
+	14000,
 	1,
 	6);
 
@@ -9369,7 +9369,7 @@ insert into producto (
 values (
 	721,
 	'Sémola',
-	3600,
+	2430,
 	1,
 	6);
 
@@ -9407,7 +9407,7 @@ insert into producto (
 	cod_categ_producto)
 values (
 	724,
-	'Sésamo',
+	'Semilla de sésamo',
 	14000,
 	1,
 	6);
@@ -9732,8 +9732,8 @@ insert into producto (
 	cod_categ_producto)
 values (
 	749,
-	'Tocino',
-	26093,
+	'Tocino ahumado',
+	12990,
 	1,
 	2);
 
@@ -9759,7 +9759,7 @@ insert into producto (
 values (
 	751,
 	'Tomate cherry',
-	5938,
+	3580,
 	1,
 	1);
 
@@ -9772,7 +9772,7 @@ insert into producto (
 values (
 	752,
 	'Tomate cherry amarillo',
-	6700,
+	4440,
 	1,
 	1);
 
@@ -9785,9 +9785,9 @@ insert into producto (
 values (
 	753,
 	'Tomate cherry morado',
-	0,
+	4440,
 	1,
-	2);
+	1);
 
 insert into producto (
 	id_producto,
@@ -9837,7 +9837,7 @@ insert into producto (
 values (
 	757,
 	'Tomate pera',
-	2389,
+	1960,
 	1,
 	1);
 
@@ -9850,7 +9850,7 @@ insert into producto (
 values (
 	758,
 	'Tomates',
-	1846,
+	1600,
 	1,
 	1);
 
@@ -9863,7 +9863,7 @@ insert into producto (
 values (
 	759,
 	'Tomillo ',
-	0,
+	172840,
 	1,
 	6);
 
@@ -9876,7 +9876,7 @@ insert into producto (
 values (
 	760,
 	'Tomillo fresco (30 grs) bandeja',
-	9130,
+	1480,
 	1,
 	1);
 
@@ -9967,7 +9967,7 @@ insert into producto (
 values (
 	767,
 	'Traperos',
-	841,
+	872,
 	5,
 	9);
 
@@ -9979,10 +9979,10 @@ insert into producto (
 	cod_categ_producto)
 values (
 	768,
-	'Trigo mote cocido',
-	0,
+	'Trigo mote ',
+	2586,
 	1,
-	1);
+	6);
 
 insert into producto (
 	id_producto,
@@ -10018,8 +10018,8 @@ insert into producto (
 	cod_categ_producto)
 values (
 	771,
-	'Uvas',
-	5327,
+	'Uva blanca',
+	3950,
 	1,
 	1);
 
@@ -10084,7 +10084,7 @@ insert into producto (
 values (
 	776,
 	'Vacuno filete',
-	18845,
+	11490,
 	1,
 	2);
 
@@ -10097,7 +10097,7 @@ insert into producto (
 values (
 	777,
 	'Vacuno Huachalomo',
-	0,
+	5260,
 	1,
 	2);
 
@@ -10110,7 +10110,7 @@ insert into producto (
 values (
 	778,
 	'Vacuno huesos',
-	3271,
+	4990,
 	1,
 	2);
 
@@ -10136,7 +10136,7 @@ insert into producto (
 values (
 	780,
 	'Vacuno lomo liso',
-	16000,
+	12990,
 	1,
 	2);
 
@@ -10149,7 +10149,7 @@ insert into producto (
 values (
 	781,
 	'Vacuno lomo vetado',
-	22000,
+	13990,
 	1,
 	2);
 
@@ -10188,7 +10188,7 @@ insert into producto (
 values (
 	784,
 	'Vacuno plateada',
-	8000,
+	8335,
 	1,
 	2);
 
@@ -10214,7 +10214,7 @@ insert into producto (
 values (
 	786,
 	'Vacuno posta negra trozo',
-	10490,
+	7770,
 	1,
 	2);
 
@@ -10266,7 +10266,7 @@ insert into producto (
 values (
 	790,
 	'Vainilla vaina',
-	4000,
+	3924,
 	5,
 	6);
 
@@ -10278,8 +10278,8 @@ insert into producto (
 	cod_categ_producto)
 values (
 	791,
-	'Vasos desechables pequeños pqte',
-	2390,
+	'Vasos desechables pequeños ',
+	96,
 	5,
 	9);
 
@@ -10382,9 +10382,9 @@ insert into producto (
 	cod_categ_producto)
 values (
 	799,
-	'Vienesas paquete',
-	6000,
-	5,
+	'Vienesas',
+	3159,
+	1,
 	2);
 
 insert into producto (
@@ -10422,8 +10422,8 @@ insert into producto (
 values (
 	802,
 	'Vinagre blanco',
-	2436,
-	5,
+	1930,
+	3,
 	6);
 
 insert into producto (
@@ -10474,7 +10474,7 @@ insert into producto (
 values (
 	806,
 	'Vinagre de manzana',
-	4490,
+	4198,
 	3,
 	6);
 
@@ -10487,7 +10487,7 @@ insert into producto (
 values (
 	807,
 	'Vinagre tinto',
-	3500,
+	1450,
 	3,
 	6);
 
@@ -10512,7 +10512,7 @@ insert into producto (
 	cod_categ_producto)
 values (
 	809,
-	'Vino blanco cepa Gewürztraminer (750 cc) botella',
+	'Vino blanco cepa GewÃ¼rztraminer (750 cc) botella',
 	7500,
 	5,
 	7);
@@ -10604,7 +10604,7 @@ insert into producto (
 values (
 	816,
 	'Vino blanco tetra',
-	2691,
+	1,
 	3,
 	7);
 
@@ -11033,8 +11033,8 @@ insert into producto (
 values (
 	849,
 	'Yogur natural',
-	529,
 	1,
+	5,
 	5);
 
 insert into producto (
@@ -11046,7 +11046,7 @@ insert into producto (
 values (
 	850,
 	'Yogurt sabores',
-	0,
+	350,
 	3,
 	5);
 
@@ -11085,7 +11085,7 @@ insert into producto (
 values (
 	853,
 	'Zanahorias',
-	1511,
+	1590,
 	1,
 	1);
 
@@ -11098,7 +11098,7 @@ insert into producto (
 values (
 	854,
 	'Zapallo camote',
-	2850,
+	1600,
 	1,
 	1);
 
@@ -11111,7 +11111,7 @@ insert into producto (
 values (
 	855,
 	'Zapallo italiano',
-	1425,
+	310,
 	5,
 	1);
 
@@ -11137,9 +11137,1725 @@ insert into producto (
 values (
 	857,
 	'Zucchini',
-	4000,
+	730,
+	5,
+	1);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	858,
+	'Mostaza morada hoja',
+	61530,
 	1,
 	1);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	859,
+	'Cordero cazuela cadera',
+	3540,
+	1,
+	2);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	860,
+	'Cordero costillar',
+	13276,
+	1,
+	2);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	861,
+	'Cordero estofado',
+	7140,
+	1,
+	2);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	862,
+	'Cordero guatitas',
+	10590,
+	1,
+	2);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	863,
+	'Cordero medallón',
+	9350,
+	1,
+	2);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	864,
+	'Cordero pierna deshuesada',
+	25010,
+	1,
+	2);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	866,
+	'Cordero riñones',
+	4463,
+	1,
+	2);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	867,
+	'Avena',
+	1,
+	1,
+	6);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	868,
+	'Chuño',
+	1,
+	1,
+	6);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	869,
+	'Cordero paleta deshuesada',
+	1,
+	1,
+	2);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	870,
+	'Albacora',
+	14280,
+	1,
+	3);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	871,
+	'Aliño completo',
+	1,
+	1,
+	6);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	872,
+	'Romero fresco',
+	11110,
+	1,
+	1);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	874,
+	'Fósforos',
+	1734,
+	5,
+	8);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	875,
+	'Vacuno choclillo',
+	9246,
+	1,
+	2);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	876,
+	'Tocino blanco',
+	1,
+	1,
+	2);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	877,
+	'Atún aleta amarilla',
+	1,
+	1,
+	3);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	878,
+	'Kana kana, mahi mahi',
+	1,
+	1,
+	3);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	879,
+	'Margarina',
+	6000,
+	1,
+	5);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	880,
+	'Mix hierbas frescas',
+	1,
+	1,
+	1);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	881,
+	'Gas butano',
+	3439,
+	5,
+	8);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	882,
+	'Cápsulas papel cupcakes N° 9',
+	32,
+	5,
+	8);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	883,
+	'Mangas pasteleras desechables',
+	803,
+	5,
+	8);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	885,
+	'Alcohol 70° (Asepcol)',
+	6231,
+	3,
+	9);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	886,
+	'Huevas de pescada',
+	11662,
+	1,
+	3);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	887,
+	'Jaiba entera',
+	3546,
+	5,
+	3);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	888,
+	'Diente de dragón (bandeja)',
+	1428,
+	5,
+	1);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	889,
+	'Cerdo grasa de empella',
+	1,
+	1,
+	2);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	890,
+	'Wypall (paños)',
+	1,
+	5,
+	9);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	891,
+	'Premezcla Easy Puravita multigrano Dark PURATOS',
+	1,
+	1,
+	6);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	892,
+	'Premezcla Tegral Puravita Proteína pulses',
+	1,
+	1,
+	6);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	893,
+	'Premezcla Focaccia COLLICO',
+	1,
+	1,
+	6);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	894,
+	'Salvado de trigo',
+	1,
+	1,
+	6);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	895,
+	'Semilla de sesamo negro',
+	1,
+	1,
+	6);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	896,
+	'Passata de tomates',
+	4940,
+	1,
+	6);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	897,
+	'Soft grain PURATOS',
+	1,
+	1,
+	6);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	898,
+	'Tomate en conserva (galón 2950 grs)',
+	11662,
+	5,
+	6);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	899,
+	'Mejorador Marraqueta ',
+	1,
+	1,
+	6);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	900,
+	'Mejorador Baguette S-500',
+	1,
+	1,
+	6);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	901,
+	'Semilla de linaza',
+	1,
+	1,
+	6);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	902,
+	'Semilla de maravilla',
+	1,
+	1,
+	6);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	904,
+	'Semilla de zapallo',
+	1,
+	1,
+	6);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	905,
+	'Harina de Centeno Integral',
+	1,
+	1,
+	6);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	906,
+	'Tocino ahumado laminado',
+	1,
+	1,
+	2);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	907,
+	'Betarraga liofilizada',
+	1,
+	1,
+	6);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	908,
+	'Pepperoni',
+	1,
+	1,
+	2);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	909,
+	'Avena integral',
+	1,
+	1,
+	6);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	911,
+	'Choclo americano',
+	470,
+	5,
+	1);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	912,
+	'Lechuga española',
+	930,
+	5,
+	1);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	913,
+	'Lechuga francesa',
+	930,
+	5,
+	1);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	914,
+	'Lechuga hidropónica roja',
+	680,
+	5,
+	1);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	915,
+	'Lechuga hidropónica verde',
+	680,
+	5,
+	1);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	916,
+	'Lechuga marina',
+	930,
+	5,
+	1);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	917,
+	'Lechuga milanesa',
+	1100,
+	5,
+	1);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	918,
+	'Aceite de coco',
+	16280,
+	3,
+	6);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	919,
+	'Uva rosada',
+	3950,
+	1,
+	1);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	920,
+	'Papas chuño negra',
+	1,
+	1,
+	1);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	921,
+	'Ají rocoto molido',
+	1,
+	1,
+	6);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	922,
+	'Vacuno guatas callo',
+	1,
+	1,
+	2);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	923,
+	'Cordero paletilla ',
+	17530,
+	1,
+	2);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	924,
+	'Cabrito paleta',
+	1,
+	1,
+	2);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	925,
+	'Ostión calibre A (c/concha)',
+	1,
+	1,
+	3);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	926,
+	'Cabeza de congrio',
+	1,
+	5,
+	3);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	927,
+	'Congrio negro',
+	1,
+	1,
+	3);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	928,
+	'Congrio colorado entero fresco',
+	14042,
+	1,
+	3);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	929,
+	'Machas lengua congelada',
+	1,
+	1,
+	3);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	930,
+	'Cerdo cabeza',
+	1,
+	5,
+	2);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	931,
+	'Cerdo patita (partida a la mitad)',
+	1,
+	5,
+	2);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	932,
+	'Cerdo pernil',
+	1,
+	1,
+	2);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	933,
+	'Cerdo tripa (30mm)',
+	1,
+	6,
+	2);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	934,
+	'Género muselina',
+	1,
+	5,
+	8);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	935,
+	'Yuca congelada',
+	1,
+	1,
+	4);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	936,
+	'Paño abrasivo',
+	1,
+	5,
+	9);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	937,
+	'Plátanos verdes',
+	1,
+	1,
+	1);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	938,
+	'Porotos negros',
+	1,
+	1,
+	6);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	939,
+	'Porotos hallados',
+	1,
+	1,
+	6);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	940,
+	'Piñones en conserva',
+	1,
+	1,
+	6);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	941,
+	'Equino lomo',
+	1,
+	1,
+	2);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	942,
+	'Pollo truto largo',
+	2450,
+	1,
+	2);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	943,
+	'Queso gouda trozo',
+	8750,
+	1,
+	5);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	944,
+	'Centolla carne',
+	1,
+	1,
+	3);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	945,
+	'Queso mantecoso laminado',
+	9500,
+	1,
+	5);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	946,
+	'Jamón ahumado en trozo',
+	1,
+	1,
+	2);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	947,
+	'Pan frica',
+	1,
+	1,
+	6);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	949,
+	'Cebolla en polvo',
+	1,
+	1,
+	6);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	950,
+	'Cerdo Lomo centro',
+	5250,
+	1,
+	2);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	951,
+	'Manjar blanco ',
+	1,
+	1,
+	6);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	952,
+	'Mostacillas palitos de chocolate',
+	1,
+	1,
+	6);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	953,
+	'Nidos de merengue (pequeños)',
+	1,
+	5,
+	6);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	954,
+	'Besitos de merengue (pequeños)',
+	1,
+	5,
+	6);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	955,
+	'Cobertura de leche',
+	1,
+	1,
+	6);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	956,
+	'Frascos conserveros',
+	1,
+	5,
+	8);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	957,
+	'Huesillos',
+	1,
+	1,
+	6);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	958,
+	'Manjar Nestlé',
+	1,
+	1,
+	5);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	959,
+	'Mermelada de alcayota',
+	1,
+	1,
+	6);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	960,
+	'Mote fresco',
+	1,
+	1,
+	1);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	961,
+	'Galletas mantequilla/limón(paquete)',
+	1,
+	5,
+	6);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	962,
+	'Mazapán',
+	1,
+	1,
+	6);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	963,
+	'Cápsulas cerecinadas',
+	1,
+	5,
+	6);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	964,
+	'Papel volantín rosado',
+	1,
+	5,
+	8);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	965,
+	'Papayas',
+	1,
+	1,
+	1);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	966,
+	'Cápsulas N° 1-2',
+	1,
+	5,
+	8);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	967,
+	'Cordero chuleta francesa',
+	45500,
+	1,
+	2);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	968,
+	'Cordero garrón delantero-trasero',
+	21000,
+	1,
+	2);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	969,
+	'Cordero lomo',
+	31500,
+	1,
+	2);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	970,
+	'Queso Ricotta',
+	13500,
+	1,
+	5);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	971,
+	'Conejo entero',
+	1,
+	5,
+	2);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	972,
+	'Tomate pomodoro (tarro 400 grs)',
+	1,
+	5,
+	6);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	973,
+	'Ají guindilla',
+	1,
+	1,
+	1);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	974,
+	'Polenta',
+	1,
+	1,
+	6);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	975,
+	'Salvia fresca (bandeja 100 grs)',
+	1,
+	5,
+	1);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	976,
+	'Cerdo Lomo',
+	1,
+	1,
+	2);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	977,
+	'Ulte',
+	1,
+	1,
+	3);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	978,
+	'Picorocos sin concha',
+	1,
+	1,
+	3);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	979,
+	'Licor de jerez',
+	1,
+	3,
+	7);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	980,
+	'Brochetas nudo bambú(50 unid)',
+	1,
+	5,
+	8);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	981,
+	'Decoración cítricos deshidratados (caja)',
+	1,
+	5,
+	8);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	982,
+	'Jugo cramberries',
+	1,
+	3,
+	7);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	983,
+	'Néctar de duraznos',
+	1,
+	3,
+	7);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	984,
+	'Vino espumante Moscato (botella)',
+	1,
+	3,
+	7);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	985,
+	'Jamón de cerdo acaramelado laminado',
+	1,
+	1,
+	2);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	986,
+	'Tocino laminado',
+	1,
+	1,
+	2);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	987,
+	'Pistachos pelados',
+	1,
+	1,
+	6);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	988,
+	'Microgreen',
+	1,
+	1,
+	1);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	989,
+	'Semilla sésamo mix',
+	1,
+	1,
+	6);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	990,
+	'Tocino entero',
+	1,
+	1,
+	2);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	991,
+	'Papel antigrasa (para sandwich)',
+	1,
+	5,
+	8);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	992,
+	'Camarón ecuatoriano 100/200',
+	1,
+	1,
+	3);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	993,
+	'Caviar rojo (frasco 100 grs) unidad',
+	1,
+	5,
+	6);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	994,
+	'Brochetas de bambú nudo 12 cms',
+	1,
+	5,
+	8);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	995,
+	'Brochetas de bambú nudo 5 cms',
+	1,
+	5,
+	8);
 /* Fin tabla: producto */
 
 commit;

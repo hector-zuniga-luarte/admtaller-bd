@@ -56,7 +56,7 @@ values (
 	3,
 	'maalvarez@duoc.cl',
 	'68dbb47e38b2c86c14ceebea4341b4fbc5aa0ec711a72fdbe7036be1ba93bfd8d2f453e53ef7411a8fabb4f6e5282c3c667d750e0e0e2f47162d7bb6d03a2261',
-	'Álvarez',
+	'Álvarez',
 	'Román',
 	'Marco',
 	'Marco',
@@ -263,27 +263,6 @@ insert into usuario (
 	cod_perfil,
 	cod_carrera)
 values (
-	13,
-	'cr.madariagam@profesor.duoc.cl',
-	'dbb8d24a3166d17cd46539f4dca51ac945174b0ed8491859f690ddb24fe6cb74fbbf3338766d273903b8748da32c5a9c645ff0a2013c7412edc38b64cf8f2ec0',
-	'Madariaga',
-	'Martínez',
-	'Cristian',
-	'Cristian',
-	2,
-	1);
-
-insert into usuario (
-	id_usuario,
-	login,
-	hash_password,
-	primer_apellido,
-	segundo_apellido,
-	nom,
-	nom_preferido,
-	cod_perfil,
-	cod_carrera)
-values (
 	14,
 	'i.inostroza@profesor.duoc.cl',
 	'dbb8d24a3166d17cd46539f4dca51ac945174b0ed8491859f690ddb24fe6cb74fbbf3338766d273903b8748da32c5a9c645ff0a2013c7412edc38b64cf8f2ec0',
@@ -461,6 +440,111 @@ values (
 	'Mauricio',
 	2,
 	2);
+
+insert into usuario (
+	id_usuario,
+	login,
+	hash_password,
+	primer_apellido,
+	segundo_apellido,
+	nom,
+	nom_preferido,
+	cod_perfil,
+	cod_carrera)
+values (
+	23,
+	'en.garcia@profesor.duoc.cl',
+	'7d54b860c6e127243467320f75f683570d112410f2fa30cb53316643e1f72a7bf7b03e98f2ee95abd669935d657565fae8015c8f340cb4f001ff7257f1df1142',
+	'García',
+	'Villablanca',
+	'Enrique',
+	'Enrique',
+	2,
+	1);
+
+insert into usuario (
+	id_usuario,
+	login,
+	hash_password,
+	primer_apellido,
+	segundo_apellido,
+	nom,
+	nom_preferido,
+	cod_perfil,
+	cod_carrera)
+values (
+	24,
+	'cami.alvarados@profesor.duoc.cl',
+	'7d54b860c6e127243467320f75f683570d112410f2fa30cb53316643e1f72a7bf7b03e98f2ee95abd669935d657565fae8015c8f340cb4f001ff7257f1df1142',
+	'Alvarado',
+	'Saavedra',
+	'Camila',
+	'Camila Alvarado',
+	2,
+	1);
+
+insert into usuario (
+	id_usuario,
+	login,
+	hash_password,
+	primer_apellido,
+	segundo_apellido,
+	nom,
+	nom_preferido,
+	cod_perfil,
+	cod_carrera)
+values (
+	25,
+	'nico.palominos@profesor.duoc.cl',
+	'7d54b860c6e127243467320f75f683570d112410f2fa30cb53316643e1f72a7bf7b03e98f2ee95abd669935d657565fae8015c8f340cb4f001ff7257f1df1142',
+	'Palominos',
+	'Aravena',
+	'Nicole',
+	'Nicole',
+	2,
+	1);
+
+insert into usuario (
+	id_usuario,
+	login,
+	hash_password,
+	primer_apellido,
+	segundo_apellido,
+	nom,
+	nom_preferido,
+	cod_perfil,
+	cod_carrera)
+values (
+	26,
+	'lm.gonzalez@profesor.duoc.cl',
+	'7d54b860c6e127243467320f75f683570d112410f2fa30cb53316643e1f72a7bf7b03e98f2ee95abd669935d657565fae8015c8f340cb4f001ff7257f1df1142',
+	'González',
+	'López',
+	'Luz María',
+	'Luz María',
+	2,
+	1);
+
+insert into usuario (
+	id_usuario,
+	login,
+	hash_password,
+	primer_apellido,
+	segundo_apellido,
+	nom,
+	nom_preferido,
+	cod_perfil,
+	cod_carrera)
+values (
+	27,
+	'roc.vergara@profesor.duoc.cl',
+	'274ad1a24014ff7f5102ace0fb916e479dd8900012ccecaf2279ae89b62c2bfbd0cf4b63c2697dbf6cec49cfb2dbcd8d95f0b1021ce70834a3f90bfa467a56f5',
+	'Vergara',
+	'Vásquez',
+	'Rocío Belén',
+	'Rocío',
+	2,
+	1);
 /* Fin tabla: usuario */
 
 commit;
