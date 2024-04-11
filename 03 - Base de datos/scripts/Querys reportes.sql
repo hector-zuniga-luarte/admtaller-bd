@@ -120,7 +120,8 @@ select cp.nom_categ_producto as nom_categ_producto,
     pt.sigla as sigla,
     a.nom_asign as nom_asign,
     pt.seccion as seccion,
-    t.semana
+    t.semana,
+    t.titulo_preparacion as titulo_preparacion
 from prog_taller pt,
 	asign a,
     config_taller ct,
@@ -133,9 +134,10 @@ where p.cod_categ_producto = cp.cod_categ_producto and
 	pt.sigla = t.sigla and
 	pt.sigla = a.sigla and
 	pt.id_taller = ct.id_taller and
-	pt.fecha between '2024-04-15' and '2024-04-21'
+	pt.fecha between '2024-05-01' and '2024-05-31'
 order by cp.nom_categ_producto asc,
 	p.nom_producto asc,
 	pt.fecha asc,
 	pt.sigla asc,
-    pt.seccion asc;
+    pt.seccion asc,
+    t.semana asc;
