@@ -82,3 +82,60 @@ order by c.cod_carrera asc,
 	u.primer_apellido asc,
     u.segundo_apellido asc,
     u.nom_preferido asc;
+
+/* Reporte 4: Resumen por producto para un período de tiempo */
+select cp.nom_categ_producto as nom_categ_producto,
+	ct.id_producto as id_producto,
+    p.nom_producto as nom_producto,
+    sum(ct.cantidad) as cantidad_producto,
+    sum(p.precio) as precio_producto,
+    sum(ct.cantidad) * sum(p.precio) as precio_total_producto
+from prog_taller pt,
+    config_taller ct,
+    producto p,
+    categ_producto cp
+where p.cod_categ_producto = cp.cod_categ_producto and
+	ct.id_producto = p.id_producto and
+	pt.id_taller = ct.id_taller and
+	pt.fecha between '2024-04-15' and '2024-04-21'
+group by cp.nom_categ_producto,
+	ct.id_producto,
+    p.nom_producto
+order by cp.nom_categ_producto asc,
+	p.nom_producto asc,
+	pt.fecha asc,
+	pt.sigla asc,
+    pt.seccion asc;
+
+/* Reporte 5: Detalle por producto y taller para un período de tiempo */
+select cp.nom_categ_producto as nom_categ_producto,
+	ct.id_producto as id_producto,
+    p.nom_producto as nom_producto,
+    ct.cantidad as cantidad,
+    p.precio as precio,
+    (ct.cantidad * p.precio) as precio_total,
+    pt.fecha as fecha,
+	pt.ano_academ as ano_academ,
+	pt.cod_periodo_academ as cod_periodo_academ,
+    pt.sigla as sigla,
+    a.nom_asign as nom_asign,
+    pt.seccion as seccion,
+    t.semana
+from prog_taller pt,
+	asign a,
+    config_taller ct,
+    taller t,
+    producto p,
+    categ_producto cp
+where p.cod_categ_producto = cp.cod_categ_producto and
+	ct.id_producto = p.id_producto and
+	pt.id_taller = t.id_taller and
+	pt.sigla = t.sigla and
+	pt.sigla = a.sigla and
+	pt.id_taller = ct.id_taller and
+	pt.fecha between '2024-04-15' and '2024-04-21'
+order by cp.nom_categ_producto asc,
+	p.nom_producto asc,
+	pt.fecha asc,
+	pt.sigla asc,
+    pt.seccion asc;
