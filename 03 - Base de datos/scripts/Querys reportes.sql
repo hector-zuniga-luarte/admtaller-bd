@@ -87,9 +87,9 @@ order by c.cod_carrera asc,
 select cp.nom_categ_producto as nom_categ_producto,
 	ct.id_producto as id_producto,
     p.nom_producto as nom_producto,
-    sum(ct.cantidad) as cantidad_producto,
-    sum(p.precio) as precio_producto,
-    sum(ct.cantidad) * sum(p.precio) as precio_total_producto
+    sum(ct.cantidad) as cantidad_total_productos,
+    p.precio as precio_producto,
+    sum(ct.cantidad) * p.precio as precio_total_productos
 from prog_taller pt,
     config_taller ct,
     producto p,
