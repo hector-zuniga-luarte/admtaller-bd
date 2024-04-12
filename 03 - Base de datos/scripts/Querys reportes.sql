@@ -97,15 +97,12 @@ from prog_taller pt,
 where p.cod_categ_producto = cp.cod_categ_producto and
 	ct.id_producto = p.id_producto and
 	pt.id_taller = ct.id_taller and
-	pt.fecha between '2024-04-15' and '2024-04-21'
+	pt.fecha between '2024-05-01' and '2024-05-31'
 group by cp.nom_categ_producto,
 	ct.id_producto,
     p.nom_producto
 order by cp.nom_categ_producto asc,
-	p.nom_producto asc,
-	pt.fecha asc,
-	pt.sigla asc,
-    pt.seccion asc;
+	p.nom_producto asc;
 
 /* Reporte 5: Detalle por producto y taller para un período de tiempo */
 select cp.nom_categ_producto as nom_categ_producto,
