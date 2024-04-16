@@ -83,7 +83,6 @@ order by c.cod_carrera asc,
     u.segundo_apellido asc,
     u.nom_preferido asc;
 
-/* Reporte 4: Resumen por producto para un período de tiempo */
 select cp.nom_categ_producto as nom_categ_producto,
 	ct.id_producto as id_producto,
     p.nom_producto as nom_producto,
@@ -104,6 +103,29 @@ group by cp.nom_categ_producto,
 order by cp.nom_categ_producto asc,
 	p.nom_producto asc;
 
+/* Reporte 4: Resumen por producto para un período de tiempo */
+select cp.nom_categ_producto as nom_categ_producto,
+	ct.id_producto as id_producto,
+    p.nom_producto as nom_producto,
+    sum(ct.cantidad) as cantidad_total_productos,
+    p.precio as precio_producto,
+    sum(ct.cantidad) * p.precio as precio_total_productos
+from prog_taller pt
+join config_taller ct on pt.id_taller = ct.id_taller
+join producto p on ct.id_producto = p.id_producto
+join categ_producto cp on p.cod_categ_producto = cp.cod_categ_producto
+join asign a on pt.sigla = a.sigla
+join carrera c on a.cod_carrera = c.cod_carrera
+join usuario u on a.cod_carrera = u.cod_carrera
+where pt.ano_academ = 2024 and
+	u.id_usuario = 2 and
+	pt.fecha between '2024-05-01' and '2024-05-31'
+group by cp.nom_categ_producto,
+	ct.id_producto,
+    p.nom_producto
+order by cp.nom_categ_producto asc,
+	p.nom_producto asc;
+
 /* Reporte 5: Detalle por producto y taller para un período de tiempo */
 select cp.nom_categ_producto as nom_categ_producto,
 	ct.id_producto as id_producto,
@@ -117,20 +139,18 @@ select cp.nom_categ_producto as nom_categ_producto,
     pt.sigla as sigla,
     a.nom_asign as nom_asign,
     pt.seccion as seccion,
-    t.semana,
+    t.semana as semana,
     t.titulo_preparacion as titulo_preparacion
-from prog_taller pt,
-	asign a,
-    config_taller ct,
-    taller t,
-    producto p,
-    categ_producto cp
-where p.cod_categ_producto = cp.cod_categ_producto and
-	ct.id_producto = p.id_producto and
-	pt.id_taller = t.id_taller and
-	pt.sigla = t.sigla and
-	pt.sigla = a.sigla and
-	pt.id_taller = ct.id_taller and
+from prog_taller pt
+join asign a on pt.sigla = a.sigla
+join config_taller ct on pt.id_taller = ct.id_taller
+join taller t on pt.id_taller = t.id_taller
+join producto p on ct.id_producto = p.id_producto
+join categ_producto cp on p.cod_categ_producto = cp.cod_categ_producto
+join carrera c on a.cod_carrera = c.cod_carrera
+join usuario u on a.cod_carrera = u.cod_carrera
+where pt.ano_academ = 2024 and
+    u.id_usuario = 2 and
 	pt.fecha between '2024-04-15' and '2024-04-21'
 order by cp.nom_categ_producto asc,
 	p.nom_producto asc,
