@@ -107,8 +107,8 @@ order by cp.nom_categ_producto asc,
 select cp.nom_categ_producto as nom_categ_producto,
     p.nom_producto as nom_producto,
     sum(ct.cantidad) as cantidad_total_productos,
-    p.precio as precio_producto,
     um.nom_unidad_medida as nom_unidad_medida,
+    p.precio as precio_producto,
     round(sum(ct.cantidad) * p.precio, 0) as precio_total_productos
 from prog_taller pt
 join config_taller ct on pt.id_taller = ct.id_taller
@@ -129,6 +129,7 @@ order by cp.nom_categ_producto asc,
 select cp.nom_categ_producto as nom_categ_producto,
     p.nom_producto as nom_producto,
     ct.cantidad as cantidad,
+    um.nom_unidad_medida as nom_unidad_medida,
     p.precio as precio,
     ct.cantidad * p.precio as precio_total,
     pt.fecha as fecha,
@@ -144,6 +145,7 @@ join asign a on pt.sigla = a.sigla
 join config_taller ct on pt.id_taller = ct.id_taller
 join taller t on pt.id_taller = t.id_taller
 join producto p on ct.id_producto = p.id_producto
+join unidad_medida um on p.cod_unidad_medida = um.cod_unidad_medida
 join categ_producto cp on p.cod_categ_producto = cp.cod_categ_producto
 join carrera c on a.cod_carrera = c.cod_carrera
 join usuario u on a.cod_carrera = u.cod_carrera
