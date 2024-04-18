@@ -103,7 +103,7 @@ group by cp.nom_categ_producto,
 order by cp.nom_categ_producto asc,
 	p.nom_producto asc;
 
-/* Reporte 4: Resumen por producto para un período de tiempo */
+/* Reporte 4: Resumen por producto para un rango de fechas */
 select cp.nom_categ_producto as nom_categ_producto,
 	ct.id_producto as id_producto,
     p.nom_producto as nom_producto,
@@ -126,7 +126,7 @@ group by cp.nom_categ_producto,
 order by cp.nom_categ_producto asc,
 	p.nom_producto asc;
 
-/* Reporte 5: Detalle por producto y taller para un período de tiempo */
+/* Reporte 5: Detalle por producto y taller para un rango de fechas */
 select cp.nom_categ_producto as nom_categ_producto,
 	ct.id_producto as id_producto,
     p.nom_producto as nom_producto,
