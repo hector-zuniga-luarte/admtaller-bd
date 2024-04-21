@@ -214,7 +214,7 @@ insert into asign (
 values (
 	'Cata de vinos',
 	'ABT2131',
-	'Cata vinos',
+	'Cata',
 	1);
 
 insert into asign (
@@ -236,7 +236,7 @@ insert into asign (
 values (
 	'Taller de bar',
 	'ABT3121',
-	'Taller bar',
+	'Bar',
 	2);
 
 insert into asign (
@@ -247,7 +247,7 @@ insert into asign (
 values (
 	'Bar y coctelería',
 	'ABT3131',
-	'Bar y coctelería',
+	'Bar',
 	1);
 
 insert into asign (
@@ -258,7 +258,7 @@ insert into asign (
 values (
 	'Bar y Coctelería',
 	'ABT3131B',
-	'Bar y coctelería',
+	'Bar y Coctelería',
 	1);
 
 insert into asign (
@@ -344,9 +344,9 @@ insert into asign (
 	nom_asign_abrev,
 	cod_carrera)
 values (
-	'Pastelería avanzada',
+	'Pastelería Avanzada',
 	'PAT020',
-	'Pastelería avanzada',
+	'Pastelería Avanzada',
 	1);
 
 insert into asign (
@@ -355,9 +355,9 @@ insert into asign (
 	nom_asign_abrev,
 	cod_carrera)
 values (
-	'Cocina básica',
+	'Cocina Básica',
 	'PGG1101',
-	'Cocina básica',
+	'Cocina Básica',
 	1);
 
 insert into asign (
@@ -379,7 +379,7 @@ insert into asign (
 values (
 	'Taller de panadería',
 	'PRT1131',
-	'Taller panadería',
+	'Panadería',
 	1);
 
 insert into asign (
@@ -390,7 +390,7 @@ insert into asign (
 values (
 	'Taller de pastelería',
 	'PRT2121',
-	'Taller pastelería',
+	'Pastelería',
 	1);
 
 insert into asign (
@@ -410,7 +410,7 @@ insert into asign (
 	nom_asign_abrev,
 	cod_carrera)
 values (
-	'Cocina regional chilena',
+	'Cocina Regional Chilena',
 	'RCT5111',
 	'Cocina regional chilena',
 	1);

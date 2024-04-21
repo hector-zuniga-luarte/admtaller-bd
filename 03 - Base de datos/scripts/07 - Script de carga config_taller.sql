@@ -3485,7 +3485,7 @@ values (
 	12,
 	88,
 	1,
-	200);
+	0.2);
 
 insert into config_taller (
 	id_producto,
@@ -7005,7 +7005,7 @@ values (
 	46,
 	88,
 	1,
-	100);
+	0.1);
 
 insert into config_taller (
 	id_producto,
@@ -7016,7 +7016,7 @@ values (
 	46,
 	89,
 	1,
-	100);
+	0.1);
 
 insert into config_taller (
 	id_producto,
@@ -7027,7 +7027,7 @@ values (
 	46,
 	90,
 	1,
-	100);
+	0.1);
 
 insert into config_taller (
 	id_producto,
@@ -11339,7 +11339,7 @@ values (
 	79,
 	152,
 	1,
-	0.001);
+	1);
 
 insert into config_taller (
 	id_producto,
@@ -19644,7 +19644,7 @@ values (
 	116,
 	199,
 	1,
-	50);
+	0.05);
 
 insert into config_taller (
 	id_producto,
@@ -20810,7 +20810,7 @@ values (
 	131,
 	101,
 	1,
-	10);
+	0.01);
 
 insert into config_taller (
 	id_producto,
@@ -20821,7 +20821,7 @@ values (
 	131,
 	102,
 	1,
-	10);
+	0.01);
 
 insert into config_taller (
 	id_producto,
@@ -20832,7 +20832,7 @@ values (
 	131,
 	103,
 	1,
-	10);
+	0.01);
 
 insert into config_taller (
 	id_producto,
@@ -20843,7 +20843,7 @@ values (
 	131,
 	104,
 	1,
-	10);
+	0.01);
 
 insert into config_taller (
 	id_producto,
@@ -20854,7 +20854,7 @@ values (
 	131,
 	105,
 	1,
-	10);
+	0.01);
 
 insert into config_taller (
 	id_producto,
@@ -20865,7 +20865,7 @@ values (
 	131,
 	106,
 	1,
-	10);
+	0.01);
 
 insert into config_taller (
 	id_producto,
@@ -20876,7 +20876,7 @@ values (
 	131,
 	107,
 	1,
-	10);
+	0.01);
 
 insert into config_taller (
 	id_producto,
@@ -26629,7 +26629,7 @@ values (
 	193,
 	101,
 	1,
-	10);
+	0.01);
 
 insert into config_taller (
 	id_producto,
@@ -26640,7 +26640,7 @@ values (
 	193,
 	102,
 	1,
-	10);
+	0.01);
 
 insert into config_taller (
 	id_producto,
@@ -26651,7 +26651,7 @@ values (
 	193,
 	103,
 	1,
-	10);
+	0.01);
 
 insert into config_taller (
 	id_producto,
@@ -26662,7 +26662,7 @@ values (
 	193,
 	104,
 	1,
-	10);
+	0.01);
 
 insert into config_taller (
 	id_producto,
@@ -26673,7 +26673,7 @@ values (
 	193,
 	105,
 	1,
-	10);
+	0.01);
 
 insert into config_taller (
 	id_producto,
@@ -26684,7 +26684,7 @@ values (
 	193,
 	106,
 	1,
-	10);
+	0.01);
 
 insert into config_taller (
 	id_producto,
@@ -26695,7 +26695,7 @@ values (
 	193,
 	107,
 	1,
-	10);
+	0.01);
 
 insert into config_taller (
 	id_producto,
@@ -26706,7 +26706,7 @@ values (
 	193,
 	155,
 	1,
-	5);
+	0.01);
 
 insert into config_taller (
 	id_producto,
@@ -26717,7 +26717,7 @@ values (
 	193,
 	158,
 	1,
-	5);
+	0.01);
 
 insert into config_taller (
 	id_producto,
@@ -26739,7 +26739,7 @@ values (
 	193,
 	188,
 	1,
-	10);
+	0.01);
 
 insert into config_taller (
 	id_producto,
@@ -26782,28 +26782,6 @@ insert into config_taller (
 values (
 	194,
 	160,
-	1,
-	2);
-
-insert into config_taller (
-	id_producto,
-	id_taller,
-	cod_agrupador,
-	cantidad)
-values (
-	194,
-	161,
-	1,
-	2);
-
-insert into config_taller (
-	id_producto,
-	id_taller,
-	cod_agrupador,
-	cantidad)
-values (
-	194,
-	162,
 	1,
 	2);
 
@@ -46518,17 +46496,6 @@ values (
 	158,
 	1,
 	1);
-
-insert into config_taller (
-	id_producto,
-	id_taller,
-	cod_agrupador,
-	cantidad)
-values (
-	360,
-	164,
-	1,
-	30);
 
 insert into config_taller (
 	id_producto,
@@ -104400,6 +104367,17 @@ values (
 	288,
 	1,
 	50);
+
+insert into config_taller (
+	id_producto,
+	id_taller,
+	cod_agrupador,
+	cantidad)
+values (
+	1002,
+	164,
+	1,
+	2);
 /* Fin tabla: config_taller */
 
 commit;

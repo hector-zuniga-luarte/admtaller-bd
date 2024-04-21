@@ -56,7 +56,7 @@ values (
 	3,
 	'maalvarez@duoc.cl',
 	'68dbb47e38b2c86c14ceebea4341b4fbc5aa0ec711a72fdbe7036be1ba93bfd8d2f453e53ef7411a8fabb4f6e5282c3c667d750e0e0e2f47162d7bb6d03a2261',
-	'Álvarez',
+	'Álvarez',
 	'Román',
 	'Marco',
 	'Marco',

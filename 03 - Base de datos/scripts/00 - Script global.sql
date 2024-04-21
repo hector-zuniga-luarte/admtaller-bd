@@ -491,250 +491,6 @@ values (
 	null);
 /* Fin tabla: unidad_medida */
 
-/* Inicio tabla: asign */
-insert into asign (
-	nom_asign,
-	sigla,
-	nom_asign_abrev,
-	cod_carrera)
-values (
-	'Cata de vinos',
-	'ABT2131',
-	'Cata vinos',
-	1);
-
-insert into asign (
-	nom_asign,
-	sigla,
-	nom_asign_abrev,
-	cod_carrera)
-values (
-	'Salón básico hotelería',
-	'ABT3111',
-	'Básico',
-	2);
-
-insert into asign (
-	nom_asign,
-	sigla,
-	nom_asign_abrev,
-	cod_carrera)
-values (
-	'Taller de bar',
-	'ABT3121',
-	'Taller bar',
-	2);
-
-insert into asign (
-	nom_asign,
-	sigla,
-	nom_asign_abrev,
-	cod_carrera)
-values (
-	'Bar y coctelería',
-	'ABT3131',
-	'Bar y coctelería',
-	1);
-
-insert into asign (
-	nom_asign,
-	sigla,
-	nom_asign_abrev,
-	cod_carrera)
-values (
-	'Bar y Coctelería',
-	'ABT3131B',
-	'Bar y coctelería',
-	1);
-
-insert into asign (
-	nom_asign,
-	sigla,
-	nom_asign_abrev,
-	cod_carrera)
-values (
-	'Salón comedor básico',
-	'ABT3141',
-	'Comedor básico',
-	1);
-
-insert into asign (
-	nom_asign,
-	sigla,
-	nom_asign_abrev,
-	cod_carrera)
-values (
-	'Taller de gastronomía de hotelería',
-	'ABT3142',
-	'Gastronomía de hotelería',
-	2);
-
-insert into asign (
-	nom_asign,
-	sigla,
-	nom_asign_abrev,
-	cod_carrera)
-values (
-	'Salón comedor avanzado',
-	'ABT4151',
-	'Comedor avanzado',
-	1);
-
-insert into asign (
-	nom_asign,
-	sigla,
-	nom_asign_abrev,
-	cod_carrera)
-values (
-	'Taller de cocina básica',
-	'CIT1111',
-	'Cocina básica',
-	1);
-
-insert into asign (
-	nom_asign,
-	sigla,
-	nom_asign_abrev,
-	cod_carrera)
-values (
-	'Taller de cocina institucional',
-	'CIT2111',
-	'Cocina institucional',
-	1);
-
-insert into asign (
-	nom_asign,
-	sigla,
-	nom_asign_abrev,
-	cod_carrera)
-values (
-	'Cocina internacional',
-	'CRT3111',
-	'Cocina internacional',
-	1);
-
-insert into asign (
-	nom_asign,
-	sigla,
-	nom_asign_abrev,
-	cod_carrera)
-values (
-	'Taller de cocina chilena',
-	'CRT4111',
-	'Cocina chilena',
-	1);
-
-insert into asign (
-	nom_asign,
-	sigla,
-	nom_asign_abrev,
-	cod_carrera)
-values (
-	'Pastelería avanzada',
-	'PAT020',
-	'Pastelería avanzada',
-	1);
-
-insert into asign (
-	nom_asign,
-	sigla,
-	nom_asign_abrev,
-	cod_carrera)
-values (
-	'Cocina básica',
-	'PGG1101',
-	'Cocina básica',
-	1);
-
-insert into asign (
-	nom_asign,
-	sigla,
-	nom_asign_abrev,
-	cod_carrera)
-values (
-	'Panadería',
-	'PGG1108',
-	'Panadería',
-	1);
-
-insert into asign (
-	nom_asign,
-	sigla,
-	nom_asign_abrev,
-	cod_carrera)
-values (
-	'Taller de panadería',
-	'PRT1131',
-	'Taller panadería',
-	1);
-
-insert into asign (
-	nom_asign,
-	sigla,
-	nom_asign_abrev,
-	cod_carrera)
-values (
-	'Taller de pastelería',
-	'PRT2121',
-	'Taller pastelería',
-	1);
-
-insert into asign (
-	nom_asign,
-	sigla,
-	nom_asign_abrev,
-	cod_carrera)
-values (
-	'Portafolio de título',
-	'PTT6697',
-	'Portafolio',
-	1);
-
-insert into asign (
-	nom_asign,
-	sigla,
-	nom_asign_abrev,
-	cod_carrera)
-values (
-	'Cocina regional chilena',
-	'RCT5111',
-	'Cocina regional chilena',
-	1);
-
-insert into asign (
-	nom_asign,
-	sigla,
-	nom_asign_abrev,
-	cod_carrera)
-values (
-	'Pastelería regional chilena',
-	'RCT5121',
-	'Pastelería regional chilena',
-	1);
-
-insert into asign (
-	nom_asign,
-	sigla,
-	nom_asign_abrev,
-	cod_carrera)
-values (
-	'Taller de pisos',
-	'RHT2121',
-	'Pisos',
-	2);
-
-insert into asign (
-	nom_asign,
-	sigla,
-	nom_asign_abrev,
-	cod_carrera)
-values (
-	'Taller de gastronomía optativo',
-	'TCC3301',
-	'Gastronomía optativo',
-	2);
-/* Fin tabla: asign */
-
 /* Inicio tabla: item_menu */
 insert into item_menu (
 	cod_item_menu,
@@ -1438,7 +1194,7 @@ values (
 	3,
 	'maalvarez@duoc.cl',
 	'68dbb47e38b2c86c14ceebea4341b4fbc5aa0ec711a72fdbe7036be1ba93bfd8d2f453e53ef7411a8fabb4f6e5282c3c667d750e0e0e2f47162d7bb6d03a2261',
-	'Álvarez',
+	'Álvarez',
 	'Román',
 	'Marco',
 	'Marco',
@@ -1931,6 +1687,252 @@ values (
 
 commit;
 
+/* Inicio tabla: asign */
+insert into asign (
+	nom_asign,
+	sigla,
+	nom_asign_abrev,
+	cod_carrera)
+values (
+	'Cata de vinos',
+	'ABT2131',
+	'Cata',
+	1);
+
+insert into asign (
+	nom_asign,
+	sigla,
+	nom_asign_abrev,
+	cod_carrera)
+values (
+	'Salón básico hotelería',
+	'ABT3111',
+	'Básico',
+	2);
+
+insert into asign (
+	nom_asign,
+	sigla,
+	nom_asign_abrev,
+	cod_carrera)
+values (
+	'Taller de bar',
+	'ABT3121',
+	'Bar',
+	2);
+
+insert into asign (
+	nom_asign,
+	sigla,
+	nom_asign_abrev,
+	cod_carrera)
+values (
+	'Bar y coctelería',
+	'ABT3131',
+	'Bar',
+	1);
+
+insert into asign (
+	nom_asign,
+	sigla,
+	nom_asign_abrev,
+	cod_carrera)
+values (
+	'Bar y Coctelería',
+	'ABT3131B',
+	'Bar y Coctelería',
+	1);
+
+insert into asign (
+	nom_asign,
+	sigla,
+	nom_asign_abrev,
+	cod_carrera)
+values (
+	'Salón comedor básico',
+	'ABT3141',
+	'Comedor básico',
+	1);
+
+insert into asign (
+	nom_asign,
+	sigla,
+	nom_asign_abrev,
+	cod_carrera)
+values (
+	'Taller de gastronomía de hotelería',
+	'ABT3142',
+	'Gastronomía de hotelería',
+	2);
+
+insert into asign (
+	nom_asign,
+	sigla,
+	nom_asign_abrev,
+	cod_carrera)
+values (
+	'Salón comedor avanzado',
+	'ABT4151',
+	'Comedor avanzado',
+	1);
+
+insert into asign (
+	nom_asign,
+	sigla,
+	nom_asign_abrev,
+	cod_carrera)
+values (
+	'Taller de cocina básica',
+	'CIT1111',
+	'Cocina básica',
+	1);
+
+insert into asign (
+	nom_asign,
+	sigla,
+	nom_asign_abrev,
+	cod_carrera)
+values (
+	'Taller de cocina institucional',
+	'CIT2111',
+	'Cocina institucional',
+	1);
+
+insert into asign (
+	nom_asign,
+	sigla,
+	nom_asign_abrev,
+	cod_carrera)
+values (
+	'Cocina internacional',
+	'CRT3111',
+	'Cocina internacional',
+	1);
+
+insert into asign (
+	nom_asign,
+	sigla,
+	nom_asign_abrev,
+	cod_carrera)
+values (
+	'Taller de cocina chilena',
+	'CRT4111',
+	'Cocina chilena',
+	1);
+
+insert into asign (
+	nom_asign,
+	sigla,
+	nom_asign_abrev,
+	cod_carrera)
+values (
+	'Pastelería Avanzada',
+	'PAT020',
+	'Pastelería Avanzada',
+	1);
+
+insert into asign (
+	nom_asign,
+	sigla,
+	nom_asign_abrev,
+	cod_carrera)
+values (
+	'Cocina Básica',
+	'PGG1101',
+	'Cocina Básica',
+	1);
+
+insert into asign (
+	nom_asign,
+	sigla,
+	nom_asign_abrev,
+	cod_carrera)
+values (
+	'Panadería',
+	'PGG1108',
+	'Panadería',
+	1);
+
+insert into asign (
+	nom_asign,
+	sigla,
+	nom_asign_abrev,
+	cod_carrera)
+values (
+	'Taller de panadería',
+	'PRT1131',
+	'Panadería',
+	1);
+
+insert into asign (
+	nom_asign,
+	sigla,
+	nom_asign_abrev,
+	cod_carrera)
+values (
+	'Taller de pastelería',
+	'PRT2121',
+	'Pastelería',
+	1);
+
+insert into asign (
+	nom_asign,
+	sigla,
+	nom_asign_abrev,
+	cod_carrera)
+values (
+	'Portafolio de título',
+	'PTT6697',
+	'Portafolio',
+	1);
+
+insert into asign (
+	nom_asign,
+	sigla,
+	nom_asign_abrev,
+	cod_carrera)
+values (
+	'Cocina Regional Chilena',
+	'RCT5111',
+	'Cocina regional chilena',
+	1);
+
+insert into asign (
+	nom_asign,
+	sigla,
+	nom_asign_abrev,
+	cod_carrera)
+values (
+	'Pastelería regional chilena',
+	'RCT5121',
+	'Pastelería regional chilena',
+	1);
+
+insert into asign (
+	nom_asign,
+	sigla,
+	nom_asign_abrev,
+	cod_carrera)
+values (
+	'Taller de pisos',
+	'RHT2121',
+	'Pisos',
+	2);
+
+insert into asign (
+	nom_asign,
+	sigla,
+	nom_asign_abrev,
+	cod_carrera)
+values (
+	'Taller de gastronomía optativo',
+	'TCC3301',
+	'Gastronomía optativo',
+	2);
+/* Fin tabla: asign */
+
+commit;
+
 /* Inicio tabla: taller */
 insert into taller (
 	id_taller,
@@ -1941,7 +1943,7 @@ insert into taller (
 values (
 	1,
 	'Inducción al taller',
-	'Conocimiento big four. Técnicas de repaso. montaje de mesas. ejecución práctica de montaje de mesas: a la carta y al menú. ejecución práctica de tipos de servicio: al plato, inglesa, francesa, con campana, servicio de bebidas calientes. juego de roles. toma inventario big four.',
+	'Conocimiento big four. tecnicas de repaso. montaje de mesas. ejecución práctica de montaje de mesas: a la carta y al menú. ejecución práctica de tipos de servicio: al plato, inglesa, francesa, con campana, servicio de bebidas calientes. juego de roles. toma inventario big four.',
 	1,
 	'ABT3111');
 
@@ -1979,7 +1981,7 @@ insert into taller (
 	sigla)
 values (
 	4,
-	'Organización y desarrollo de los procesos de servicio y atención de comensales',
+	'Organización y desarrollo de los procesos de servicio y atencion de comensales',
 	'Actividades de mise en place. actividades de servicio. actividades de servicio de vinos. actividades de servicio de aperitivos: pisco sour peruano y bella luna. servicio de pan a la inglesa, servicio emplatado en alimentos, servicio de té e infusiones',
 	4,
 	'ABT3111');
@@ -2201,8 +2203,7 @@ insert into taller (
 values (
 	21,
 	'Técnicas de elaboración de cócteles',
-	'Cosmopolitan, Manhattan, Caipirihna, Pisco Sour
-Preparar goma en clases',
+	'Cosmopolitan, Manhattan, Caipirihna, Pisco Sour Preparar goma en clases',
 	7,
 	'ABT3121');
 
@@ -2215,8 +2216,7 @@ insert into taller (
 values (
 	22,
 	'Coctelera',
-	'Daiquiri - Margarita - Aviation - Side Car - Last Word - Alexander - Pisco Sour - White Lady - Florida - Cosmopolitan
-Preparar goma',
+	'Daiquiri - Margarita - Aviation - Side Car - Last Word - Alexander - Pisco Sour - White Lady - Florida - Cosmopolitan Preparar goma',
 	8,
 	'ABT3121');
 
@@ -2229,8 +2229,7 @@ insert into taller (
 values (
 	23,
 	'Machacados directo al vaso',
-	'Negroni - Screw Driver - John Collins - Black Russian - Caipirihna - Long Island Tea - Mint Julep - Old Fashioned
-Preparar goma',
+	'Negroni - Screw Driver - John Collins - Black Russian - Caipirihna - Long Island Tea - Mint Julep - Old Fashioned Preparar goma',
 	9,
 	'ABT3121');
 
@@ -2269,8 +2268,7 @@ insert into taller (
 values (
 	26,
 	'Aperitivos',
-	'Side Car, Old Fashioned, Martini Dry, Manhattan, Whisky Sour, Martinez, Americano, Champagmne Cocktail, Kir Royal
-Preparar goma',
+	'Side Car, Old Fashioned, Martini Dry, Manhattan, Whisky Sour, Martinez, Americano, Champagmne Cocktail, Kir Royal Preparar goma',
 	12,
 	'ABT3121');
 
@@ -2283,8 +2281,7 @@ insert into taller (
 values (
 	27,
 	'Cócteles refrescantes',
-	'Daiquiri, Florida, White Lady, Piña Colada, Blue Lagoon, Tequila Sunrise, Gin Fizz, Mojito, Moscow Mule.
-Preparar jarabe de goma',
+	'Daiquiri, Florida, White Lady, Piña Colada, Blue Lagoon, Tequila Sunrise, Gin Fizz, Mojito, Moscow Mule. Preparar jarabe de goma',
 	13,
 	'ABT3121');
 
@@ -2297,8 +2294,7 @@ insert into taller (
 values (
 	28,
 	'Cócteles digestivos',
-	'Alexander, Black Russian, Grasshopper, Rusty Nail, Irish Coffee, Velvet Hammer, God Father
-Preparar Jarabe de goma',
+	'Alexander, Black Russian, Grasshopper, Rusty Nail, Irish Coffee, Velvet Hammer, God Father Preparar Jarabe de goma',
 	14,
 	'ABT3121');
 
@@ -3689,15 +3685,7 @@ insert into taller (
 values (
 	135,
 	'Inducción, bases deshidratadas y pre mezclas + sous vide',
-	'* Elaboración de puré en caja
-
-* Pechuga de pollo sous vide sazonada con bases deshidratadas
-
-* Sopa de pollo (sobre)
-
-* Crema de espárragos
-
-* Brownie chocolate premezcla',
+	'* Elaboración de puré en caja  * Pechuga de pollo sous vide sazonada con bases deshidratadas  * Sopa de pollo (sobre)  * Crema de espárragos  * Brownie chocolate premezcla',
 	1,
 	'CIT2111');
 
@@ -3710,15 +3698,7 @@ insert into taller (
 values (
 	136,
 	'Elaborando entradas frías y calientes',
-	'* Ensalada rusa con mayonesa, sopa de pollo deshidratada, huevo cocido a 72Âº por 17 minutos. topping de tocino crocante
-
-* Ensalada César pollo, aderezo César. Crema de espárragos deshidratadas, huevo cocido a 85Âº por 15 minutos
-
-* Ensalada mixta, vinagreta de frambuesa liofilizada, crema de tomtes. Huevo cocinado a 85Âº por 12 minutos, topping de pesto y nueces
-
-* Ensalada templada con aderezo agridulce de mostaza. Crema de papas deshidratada, huevo cocido a 72 Âº por 21 minutos, topping papas hilo
-
-',
+	'* Ensalada rusa con mayonesa, sopa de pollo deshidratada, huevo cocido a 72º por 17 minutos. topping de tocino crocante  * Ensalada César pollo, aderezo César. Crema de espárragos deshidratadas, huevo cocido a 85º por 15 minutos  * Ensalada mixta, vinagreta de frambuesa liofilizada, crema de tomtes. Huevo cocinado a 85º por 12 minutos, topping de pesto y nueces  * Ensalada templada con aderezo agridulce de mostaza. Crema de papas deshidratada, huevo cocido a 72 º por 21 minutos, topping papas hilo  ',
 	2,
 	'CIT2111');
 
@@ -3731,15 +3711,7 @@ insert into taller (
 values (
 	137,
 	'Dietas especiales',
-	'1.- Menú hipocalórico:
-Ensalada de repollo zanahoria con lactonesa y frutos secos. reineta sous vide (marinada cítrica) con verduras asadas. gelatina de piña con manzana rallada
-2.- Menú hipercalórico
-Ensalada capresse con limoneta. lasaña de carne y espinaca. brownie de chocolate
-3.- Menú vegetariano:
-Ensaladamix de hojas verdes, pepino tomate y aceitunas con dressing de mostaza y miel. albóndigas de carne de soya en salsa pomodoro con pasta lisa. peras pochadas al vino tinto
-4.-Menú vegano:
-Ensalada primaveral con vinagreta de aceitunas y pimentón asado.  milanesa deberenjenas con humus. arroz con coco
-',
+	'1.- Menú hipocalórico: Ensalada de repollo zanahoria con lactonesa y frutos secos. reineta sous vide (marinada cítrica) con verduras asadas. gelatina de piña con manzana rallada 2.- Menú hipercalórico Ensalada capresse con limoneta. lasaña de carne y espinaca. brownie de chocolate 3.- Menú vegetariano: Ensaladamix de hojas verdes, pepino tomate y aceitunas con dressing de mostaza y miel. albóndigas de carne de soya en salsa pomodoro con pasta lisa. peras pochadas al vino tinto 4.-Menú vegano: Ensalada primaveral con vinagreta de aceitunas y pimentón asado.  milanesa deberenjenas con humus. arroz con coco ',
 	3,
 	'CIT2111');
 
@@ -3752,15 +3724,7 @@ insert into taller (
 values (
 	138,
 	'Requerimientos alimentarios específicos',
-	'1.- Menú para celíacos:
-Ensalada apio palta con limoneta. fideos de arroz con salsa bolognesa. Leche asada.
-2.- Menú para hipertensos y colesteron alto:
-Ensalada de lechuga con choclo, tomte y zanahoria + vinagreta. Bistec con budín de verduras. Crepe con fruta fesca.
-3.- Menú para diabéticos:
-Ensalada de tomates y pepino con vinagreta. Lentejas con arroz. Brownie de manzana
-4.- Menú mediterranéo (como prevención de enfermedades: cáncer, diabetes etc)
-Crema de zapallo con crutones al oliva. Pechuga de pollo sous vide con brocolis y coliflor. Macedonia de frutas.
-',
+	'1.- Menú para celíacos: Ensalada apio palta con limoneta. fideos de arroz con salsa bolognesa. Leche asada. 2.- Menú para hipertensos y colesteron alto: Ensalada de lechuga con choclo, tomte y zanahoria + vinagreta. Bistec con budín de verduras. Crepe con fruta fesca. 3.- Menú para diabéticos: Ensalada de tomates y pepino con vinagreta. Lentejas con arroz. Brownie de manzana 4.- Menú mediterranéo (como prevención de enfermedades: cáncer, diabetes etc) Crema de zapallo con crutones al oliva. Pechuga de pollo sous vide con brocolis y coliflor. Macedonia de frutas. ',
 	4,
 	'CIT2111');
 
@@ -3773,10 +3737,7 @@ insert into taller (
 values (
 	139,
 	'Evaluación',
-	'1.- Menú hipocalórico
-2.- Menú hipercalórico
-3.- Menú vegetariano
-4.- Menú vegano',
+	'1.- Menú hipocalórico 2.- Menú hipercalórico 3.- Menú vegetariano 4.- Menú vegano',
 	5,
 	'CIT2111');
 
@@ -3789,14 +3750,7 @@ insert into taller (
 values (
 	140,
 	'Elaborando principales en base a vacuno y pescado',
-	'1.- Albóndigas pomodoro, arroz árabe y vegetales salteados: cebollín, berenjenas, choclo, brócoli, zapallo italiano, pimentón.
-
-2.- Hamburguesas en salsa española. Arroz primavera, vegetales salteados. cebollín, berenjenas, choclo, brócoli, zapallo italiano y pimentón.
-
-3.- Asado alemán con salsa de tomates. Arroz al perejil, vegetales salteados: cebollín, berenjenas,choclo, brócoli, zapallo italiano y pimentón
-
-4.- Pimentones rellenos. Arroz pilaf, vegetales salteados: cebollín, berenjenas,choclo, brócoli, zapallo italiano y pimentón
-',
+	'1.- Albóndigas pomodoro, arroz árabe y vegetales salteados: cebollín, berenjenas, choclo, brócoli, zapallo italiano, pimentón.  2.- Hamburguesas en salsa española. Arroz primavera, vegetales salteados. cebollín, berenjenas, choclo, brócoli, zapallo italiano y pimentón.  3.- Asado alemán con salsa de tomates. Arroz al perejil, vegetales salteados: cebollín, berenjenas,choclo, brócoli, zapallo italiano y pimentón  4.- Pimentones rellenos. Arroz pilaf, vegetales salteados: cebollín, berenjenas,choclo, brócoli, zapallo italiano y pimentón ',
 	6,
 	'CIT2111');
 
@@ -3809,15 +3763,7 @@ insert into taller (
 values (
 	141,
 	'Elaborando principales en base a ave y cerdo',
-	'1.- Chapsui de ave/chuleta parrillera la plancha. Papas lyonesa
-
-2.-Chapsui de ave/chuleta de cerdo parrillera a la plancha/papas lyonesa
-
-3.-Trutro de pollo al jugo/chuleta de cerdo a la cazadora/papas lyonesa
-
-4.-Trutro de pollo al jugo/chuleta a la cazadora/papas lyonesa
-
-',
+	'1.- Chapsui de ave/chuleta parrillera la plancha. Papas lyonesa  2.-Chapsui de ave/chuleta de cerdo parrillera a la plancha/papas lyonesa  3.-Trutro de pollo al jugo/chuleta de cerdo a la cazadora/papas lyonesa  4.-Trutro de pollo al jugo/chuleta a la cazadora/papas lyonesa  ',
 	7,
 	'CIT2111');
 
@@ -3830,13 +3776,7 @@ insert into taller (
 values (
 	142,
 	'Elaborando línea de servicio',
-	'1.- Bistec de res a la plancha con tortilla de verduras y arroz pilaf
-
-2.- Bistec de res a la plancha con tortilla de verduras y arroz primavera
-
-3.- Pechuga de ave a la plancha con tortilla de papas y quinoa al curry
-
-4.- Pechuga de ave a la plancha con tortilla de papas y quinoa',
+	'1.- Bistec de res a la plancha con tortilla de verduras y arroz pilaf  2.- Bistec de res a la plancha con tortilla de verduras y arroz primavera  3.- Pechuga de ave a la plancha con tortilla de papas y quinoa al curry  4.- Pechuga de ave a la plancha con tortilla de papas y quinoa',
 	8,
 	'CIT2111');
 
@@ -3849,11 +3789,7 @@ insert into taller (
 values (
 	143,
 	'Evaluación',
-	'Todos los grupos elaboran:
-
-Bistec de res a la plancha con salsa española con tortilla de verduras y papas lyonesa. Peras al vino tinto
-
-',
+	'Todos los grupos elaboran:  Bistec de res a la plancha con salsa española con tortilla de verduras y papas lyonesa. Peras al vino tinto  ',
 	9,
 	'CIT2111');
 
@@ -3866,17 +3802,7 @@ insert into taller (
 values (
 	144,
 	'Recetas clásicas de legumbres',
-	'1.-  Porotos:
-Ensalada chilena/porotos granados con mazamorra y longaniza/jalea de frambuesas con crema
-
-2.- Lentejas:
-ensalada chilena/lentejas con arros y gordas/flan
-
-3.- Garbanzos:
-ensalada chilena/garbanzos con arroz/ensalada de frutas
-
-4.- Arvejas
-ensalada chilena/arvejas partidas con tocino a la parmesana/ compota de manzana',
+	'1.-  Porotos: Ensalada chilena/porotos granados con mazamorra y longaniza/jalea de frambuesas con crema  2.- Lentejas: ensalada chilena/lentejas con arros y gordas/flan  3.- Garbanzos: ensalada chilena/garbanzos con arroz/ensalada de frutas  4.- Arvejas ensalada chilena/arvejas partidas con tocino a la parmesana/ compota de manzana',
 	10,
 	'CIT2111');
 
@@ -3889,21 +3815,7 @@ insert into taller (
 values (
 	145,
 	'Mixtura de legumbres',
-	'1.- Porotos:
-Ensalada de porotos negros con albahaca y pepino + topping de almendras esfiladas
-salmón sous vide compañado de tacu tacu
-
-2.- Lentejas:
-Ensalada de lentejas rojas con tomate cherry y menta + salsa de yoghurt natural
-hamburgeuesas de lentejas con puré de papas con aceitunas
-
-3.- Garbanzos:
-Hummus xo masas crujientes con topping de crudities
-falafel de garbanzos con arroz árabe
-
-4.- Arvejas:
-Ensalada de arvejas con tomate, choclo, menta, limoneta
-tortilla de arvejas con verduras de la estación',
+	'1.- Porotos: Ensalada de porotos negros con albahaca y pepino + topping de almendras esfiladas salmón sous vide compañado de tacu tacu  2.- Lentejas: Ensalada de lentejas rojas con tomate cherry y menta + salsa de yoghurt natural hamburgeuesas de lentejas con puré de papas con aceitunas  3.- Garbanzos: Hummus xo masas crujientes con topping de crudities falafel de garbanzos con arroz árabe  4.- Arvejas: Ensalada de arvejas con tomate, choclo, menta, limoneta tortilla de arvejas con verduras de la estación',
 	11,
 	'CIT2111');
 
@@ -3916,17 +3828,7 @@ insert into taller (
 values (
 	146,
 	'Evaluación legumbres',
-	'1.-  Porotos:
-Ensalada chilena/porotos granados con mazamorra y longaniza/jalea de frambuesas con crema
-
-2.- Lentejas:
-Ensalada chilena/lentejas con arroz y gordas/flan
-
-3.- Garbanzos:
-Ensalada chilena/garbanzos con arroz/ensalada de frutas
-
-4.- Arvejas
-Ensalada chilena/arvejas partidas con tocino a la parmesana/ compota de manzana',
+	'1.-  Porotos: Ensalada chilena/porotos granados con mazamorra y longaniza/jalea de frambuesas con crema  2.- Lentejas: Ensalada chilena/lentejas con arroz y gordas/flan  3.- Garbanzos: Ensalada chilena/garbanzos con arroz/ensalada de frutas  4.- Arvejas Ensalada chilena/arvejas partidas con tocino a la parmesana/ compota de manzana',
 	12,
 	'CIT2111');
 
@@ -3939,13 +3841,7 @@ insert into taller (
 values (
 	147,
 	'Postres en base a pre mezclas',
-	'1.- Brazo de reina/flan
-
-2.- Profiteroles con crema pastelera
-
-3.- Muffins de chocolate con frosting de queso crema y vainilla/ jalea con fruta
-
-4.- Panqueques con crema diplomática/ peras sous vide/sémola con leche',
+	'1.- Brazo de reina/flan  2.- Profiteroles con crema pastelera  3.- Muffins de chocolate con frosting de queso crema y vainilla/ jalea con fruta  4.- Panqueques con crema diplomática/ peras sous vide/sémola con leche',
 	13,
 	'CIT2111');
 
@@ -3958,14 +3854,7 @@ insert into taller (
 values (
 	148,
 	'Elaboración de postres para la cocina institucional',
-	'1.- Tartaleta de frutas/peras confitadas sous vide/leche asada
-
-2.- Pie de limón/compÃ²ta de manzana jengibre sous vide/babaroisse
-
-3.- KÃ¼chen de manzana/manzana sous videarroz con leche de coco
-
-4.- Brownie con mousse de chocolate/peras sous vide/ sémola con leche
-',
+	'1.- Tartaleta de frutas/peras confitadas sous vide/leche asada  2.- Pie de limón/compòta de manzana jengibre sous vide/babaroisse  3.- Küchen de manzana/manzana sous videarroz con leche de coco  4.- Brownie con mousse de chocolate/peras sous vide/ sémola con leche ',
 	14,
 	'CIT2111');
 
@@ -3991,14 +3880,7 @@ insert into taller (
 values (
 	150,
 	'Inducción y nivelación',
-	'Clase demostrativa/participativa (taller laboratorio/nivelación)
-todos los cuartos realizan las mismas preparaciones (técnicas).
-* Filetear, limpiar ,porcionar salmón, limpiar, marinar reservar
-* Limpiar, mencionar y mostrar partes del filete de vacuno , porcionar, marinar  y reservar
-* Fondo de pollo, salsa española mixta, salsa rducción crema (mirepoix, b. garnie, etc)
-* Risotto (sabor libre), vegetales salteados /grillados , tulle salada,craquelado ,deshidratado
-* Papa a la crema, fettuccini de espinaca (opcional), coulis de vegetales
-* Helado(sabor libre) salsa de berries, decoracion de 4/4, brandy snap, chocolate, caramelo,   isomalt, transfer.                                                                                                                                                                                          ',
+	'Clase demostrativa/participativa (taller laboratorio/nivelación) todos los cuartos realizan las mismas preparaciones (técnicas). * Filetear, limpiar ,porcionar salmón, limpiar, marinar reservar * Limpiar, mencionar y mostrar partes del filete de vacuno , porcionar, marinar  y reservar * Fondo de pollo, salsa española mixta, salsa rducción crema (mirepoix, b. garnie, etc) * Risotto (sabor libre), vegetales salteados /grillados , tulle salada,craquelado ,deshidratado * Papa a la crema, fettuccini de espinaca (opcional), coulis de vegetales * Helado(sabor libre) salsa de berries, decoracion de 4/4, brandy snap, chocolate, caramelo,   isomalt, transfer.                                                                                                                                                                                          ',
 	1,
 	'CRT3111');
 
@@ -4011,19 +3893,7 @@ insert into taller (
 values (
 	151,
 	'Evaluación - España',
-	'Evaluación clase cocina española. Clase con comensales.
-Entradas: Cuarto Frío
-- Tortilla de patatas y escalibada.
-- Chipirones en su tinta.
-- Mantequilla con pimiento del piquillo.
-Platos de Fondo: Cuarto Caliente
-- Congrio asado a la plancha acompañado de fideuá.
-- Cordero braseado acompañado de pisto manchego, patatas bravas y alioli.
-- Almuerzo de personal: garbanzos con longaniza y postre.
-Postre: Pastelería
-- Leche frita, helado de mora, zarzaparrilla.
-- Crema catalana, helado de vino dulce e higos.
-- Pan: saborizado con morcilla (prietas) y aceitunas verdes/queso.',
+	'Evaluación clase cocina española. Clase con comensales. Entradas: Cuarto Frío - Tortilla de patatas y escalibada. - Chipirones en su tinta. - Mantequilla con pimiento del piquillo. Platos de Fondo: Cuarto Caliente - Congrio asado a la plancha acompañado de fideuá. - Cordero braseado acompañado de pisto manchego, patatas bravas y alioli. - Almuerzo de personal: garbanzos con longaniza y postre. Postre: Pastelería - Leche frita, helado de mora, zarzaparrilla. - Crema catalana, helado de vino dulce e higos. - Pan: saborizado con morcilla (prietas) y aceitunas verdes/queso.',
 	2,
 	'CRT3111');
 
@@ -4036,19 +3906,7 @@ insert into taller (
 values (
 	152,
 	'Evaluación - España',
-	'Evaluación clase cocina española. Clase con comensales.
-Entradas: Cuarto Frío
-- Tortilla de patatas y escalibada.
-- Chipirones en su tinta.
-- Mantequilla con pimiento del piquillo.
-Platos de Fondo: Cuarto Caliente
-- Congrio asado a la plancha acompañado de fideuá.
-- Cordero braseado acompañado de pisto manchego, patatas bravas y alioli.
-- Almuerzo de personal: garbanzos con longaniza y postre.
-Postre: Pastelería
-- Leche frita, helado de mora, zarzaparrilla.
-- Crema catalana, helado de vino dulce e higos.
-- Pan: saborizado con morcilla (prietas) y aceitunas verdes/queso.',
+	'Evaluación clase cocina española. Clase con comensales. Entradas: Cuarto Frío - Tortilla de patatas y escalibada. - Chipirones en su tinta. - Mantequilla con pimiento del piquillo. Platos de Fondo: Cuarto Caliente - Congrio asado a la plancha acompañado de fideuá. - Cordero braseado acompañado de pisto manchego, patatas bravas y alioli. - Almuerzo de personal: garbanzos con longaniza y postre. Postre: Pastelería - Leche frita, helado de mora, zarzaparrilla. - Crema catalana, helado de vino dulce e higos. - Pan: saborizado con morcilla (prietas) y aceitunas verdes/queso.',
 	3,
 	'CRT3111');
 
@@ -4061,20 +3919,7 @@ insert into taller (
 values (
 	153,
 	'Evaluación - Francia',
-	'Cocina francesa. Clase con comensales.
-Entradas: Cuarto Frío
-- Sopa de cebollas y pan gratinado.
-- Degustación de quiche (lorraine, espinaca, setas), mini ensalada con vinagreta.
-- Mantequilla Maitre dÂ´Hotel. 
-Platos de Fondo: Cuarto Caliente
-- Magret de pato sous vide, papa dauphinoise, torneado/sacabocado de vegetales salteados a la mostaza dijon y reducción de naranja y cedrón.
-- Costillas de cordero a la francesa, puré habas con queso roquefort, ratatouille y salsa reducción de vino tinto.
-- Almuerzo de personal: pescado al horno, puré de papas y postre.
-Postre: Pastelería
-- Creme brulée con helado de nueces aromatizadas con cava.
-- Tarte tatin, helado de creme de cassis.
-- Pan: croissant y mini baguette.
-',
+	'Cocina francesa. Clase con comensales. Entradas: Cuarto Frío - Sopa de cebollas y pan gratinado. - Degustación de quiche (lorraine, espinaca, setas), mini ensalada con vinagreta. - Mantequilla Maitre d´Hotel.  Platos de Fondo: Cuarto Caliente - Magret de pato sous vide, papa dauphinoise, torneado/sacabocado de vegetales salteados a la mostaza dijon y reducción de naranja y cedrón. - Costillas de cordero a la francesa, puré habas con queso roquefort, ratatouille y salsa reducción de vino tinto. - Almuerzo de personal: pescado al horno, puré de papas y postre. Postre: Pastelería - Creme brulée con helado de nueces aromatizadas con cava. - Tarte tatin, helado de creme de cassis. - Pan: croissant y mini baguette. ',
 	4,
 	'CRT3111');
 
@@ -4087,20 +3932,7 @@ insert into taller (
 values (
 	154,
 	'Evaluación - Francia',
-	'EVALUACIÓN COCINA FRANCESA, CLASE CON COMENSALES.
-Entradas: Cuarto Frío
-- Sopa de cebollas y pan gratinado.
-- Degustación de quiche (lorraine, espinaca, setas), mini ensalada con vinagreta.
-- Mantequilla Maitre dÂ´Hotel. 
-Platos de Fondo: Cuarto Caliente
-- Magret de pato sous vide, papa dauphinoise, torneado/sacabocado de vegetales salteados a la mostaza dijon y reducción de naranja y cedrón.
-- Costillas de cordero a la francesa, puré habas con queso roquefort, ratatouille y salsa reducción de vino tinto.
-- Almuerzo de personal: vacuno bourguignon, papa asada y postre.
-Postre: Pastelería
-- Creme brulée con helado de nueces aromatizadas con cava.
-- Tarte tatin, helado de creme de cassis.
-- Pan: croissant y mini baguette.
-',
+	'EVALUACIÓN COCINA FRANCESA, CLASE CON COMENSALES. Entradas: Cuarto Frío - Sopa de cebollas y pan gratinado. - Degustación de quiche (lorraine, espinaca, setas), mini ensalada con vinagreta. - Mantequilla Maitre d´Hotel.  Platos de Fondo: Cuarto Caliente - Magret de pato sous vide, papa dauphinoise, torneado/sacabocado de vegetales salteados a la mostaza dijon y reducción de naranja y cedrón. - Costillas de cordero a la francesa, puré habas con queso roquefort, ratatouille y salsa reducción de vino tinto. - Almuerzo de personal: vacuno bourguignon, papa asada y postre. Postre: Pastelería - Creme brulée con helado de nueces aromatizadas con cava. - Tarte tatin, helado de creme de cassis. - Pan: croissant y mini baguette. ',
 	5,
 	'CRT3111');
 
@@ -4113,19 +3945,7 @@ insert into taller (
 values (
 	155,
 	'Evaluación asistida - Italia',
-	'Cocina Italiana / Evaluación asistida. Clase con comensales.
-Entradas: Cuarto Frío
-- Lasaña de vegetales, salsa pomodoro y pesto.
-- Selección de bruschettas (prosciutto, pulpo y peperonatta).
-- Mantequilla de orégano fresco y pistachos.
-Platos de Fondo: Cuarto Caliente
-- Risotto negro (tinta de calamar) y frutos del mar.
-- Canelones rellenos con pollo asado, tocino y ricotta, gratinados con salsa bechamel y acompañados de salsa pomodoro.
-- Almuerzo de personal:  Pasta con salsa de champiñón, aceitunas y perejil (base tomate) y postre.
-Postre: Pastelería
-- Panna cotta de frambuesa, salsa de naranja ácida y helado de nutella, frutas al zabaione.
-- Tiramisú, helado de pistacho y salsa de moras con arándanos.
-- Pan: ciabatta y focaccia.',
+	'Cocina Italiana / Evaluación asistida. Clase con comensales. Entradas: Cuarto Frío - Lasaña de vegetales, salsa pomodoro y pesto. - Selección de bruschettas (prosciutto, pulpo y peperonatta). - Mantequilla de orégano fresco y pistachos. Platos de Fondo: Cuarto Caliente - Risotto negro (tinta de calamar) y frutos del mar. - Canelones rellenos con pollo asado, tocino y ricotta, gratinados con salsa bechamel y acompañados de salsa pomodoro. - Almuerzo de personal:  Pasta con salsa de champiñón, aceitunas y perejil (base tomate) y postre. Postre: Pastelería - Panna cotta de frambuesa, salsa de naranja ácida y helado de nutella, frutas al zabaione. - Tiramisú, helado de pistacho y salsa de moras con arándanos. - Pan: ciabatta y focaccia.',
 	6,
 	'CRT3111');
 
@@ -4138,19 +3958,7 @@ insert into taller (
 values (
 	156,
 	'Evaluación asistida - Medio Oriente, Tailandia, Japón',
-	'Cocina de Oriente / Evaluación asistida. Clase con comensales.
-Entradas: Cuarto Frío
-- Duo de Tataki (salmón y atún), salsa ponzu y pequeña ensalada (Japón).
-- Hojita de parra rellenas, labban y zahatar (Medio oriente).
-- Mantequilla de especias 
-Platos de Fondo: Cuarto Caliente
-- Pad thai de pollo y tofu (Tailandia).
-- Yakisoba de mariscos (Japón).
-- Almuerzo de personal: zapallo italiano relleno o guiso, arroz y postre.
-- Postre: Pastelería
-- Baklawe, helado de dátiles, salsa de té e higos, peras al jengibre con pistachos y decoración de caramelo (Medio oriente).
-- Satay de piña, helado de té matcha y coco, salsa de mango picante, lichees y pasta frita (Tailandia).
-- Pan: al vapor (Japón), Pita (Medio oriente).',
+	'Cocina de Oriente / Evaluación asistida. Clase con comensales. Entradas: Cuarto Frío - Duo de Tataki (salmón y atún), salsa ponzu y pequeña ensalada (Japón). - Hojita de parra rellenas, labban y zahatar (Medio oriente). - Mantequilla de especias  Platos de Fondo: Cuarto Caliente - Pad thai de pollo y tofu (Tailandia). - Yakisoba de mariscos (Japón). - Almuerzo de personal: zapallo italiano relleno o guiso, arroz y postre. - Postre: Pastelería - Baklawe, helado de dátiles, salsa de té e higos, peras al jengibre con pistachos y decoración de caramelo (Medio oriente). - Satay de piña, helado de té matcha y coco, salsa de mango picante, lichees y pasta frita (Tailandia). - Pan: al vapor (Japón), Pita (Medio oriente).',
 	7,
 	'CRT3111');
 
@@ -4163,19 +3971,7 @@ insert into taller (
 values (
 	157,
 	'Evaluación asistida - Perú',
-	'Cocina Peruana / Evaluación asistida. Clase con comensales.
-Entradas: Cuarto Frío
-- Pulpo a la Parrilla, solterito arequipeño y salsa al olivo.
-- Causa de camarón y tiradito nikkei de salmón.
-- Mantequilla: ají panca y huacatay.
-Platos de Fondo: Cuarto Caliente
-- Pescado fresco a la chorrillana, arroz chaufa y yuca frita.
-- Lomo saltado y tacu tacu.
-- Almuerzo de personal: Arroz chaufa de pollo y postre.
-Postre: Pastelería
-- Suspiro de limeña, helado de mazamorra morada, salsa de maracuyá.
-- Crema volteada, helado de plátano, salsa de tumbo.
-- Pan: Mollete y de papa amarilla.',
+	'Cocina Peruana / Evaluación asistida. Clase con comensales. Entradas: Cuarto Frío - Pulpo a la Parrilla, solterito arequipeño y salsa al olivo. - Causa de camarón y tiradito nikkei de salmón. - Mantequilla: ají panca y huacatay. Platos de Fondo: Cuarto Caliente - Pescado fresco a la chorrillana, arroz chaufa y yuca frita. - Lomo saltado y tacu tacu. - Almuerzo de personal: Arroz chaufa de pollo y postre. Postre: Pastelería - Suspiro de limeña, helado de mazamorra morada, salsa de maracuyá. - Crema volteada, helado de plátano, salsa de tumbo. - Pan: Mollete y de papa amarilla.',
 	8,
 	'CRT3111');
 
@@ -4188,19 +3984,7 @@ insert into taller (
 values (
 	158,
 	'Evaluación final',
-	'Examen final, menú dirigido. Clase con comensales.
-Entradas: Cuarto Frío
-- Degustación de quiche (lorraine, espinaca, setas), mini ensalada con vinagreta (Francia).
-- Causa de camarón y tiradito nikkei de salmón (Perú).
-- Manteqilla de finas hierbas.
-Platos de Fondo: Cuarto Caliente
-- Pad thai de pollo (Tailandia).
-- Risotto negro (tinta de calamar) y frutos del mar (Italia).
-- Almuerzo de personal: pastel de papas y postre.
-Postre: Pastelería
-- Leche frita, helado de mora, zarzaparrilla (España).
-- Tiramisú con helado de nutella y salsa de moras con arándanos (Italia).
-- Pan: Vapor (japonés) y Focaccia (italiano).',
+	'Examen final, menú dirigido. Clase con comensales. Entradas: Cuarto Frío - Degustación de quiche (lorraine, espinaca, setas), mini ensalada con vinagreta (Francia). - Causa de camarón y tiradito nikkei de salmón (Perú). - Manteqilla de finas hierbas. Platos de Fondo: Cuarto Caliente - Pad thai de pollo (Tailandia). - Risotto negro (tinta de calamar) y frutos del mar (Italia). - Almuerzo de personal: pastel de papas y postre. Postre: Pastelería - Leche frita, helado de mora, zarzaparrilla (España). - Tiramisú con helado de nutella y salsa de moras con arándanos (Italia). - Pan: Vapor (japonés) y Focaccia (italiano).',
 	9,
 	'CRT3111');
 
@@ -4213,8 +3997,7 @@ insert into taller (
 values (
 	159,
 	'Preparación',
-	'Langosta marinada, picante de conejo y arroz con ajo, cordero arvejado y puré rústico, 
-quinoa con leche y mango, helado de chumbeque y guayaba, catutos con rosa mosqueta, mini chapalele y mini churrascas.',
+	'Langosta marinada, picante de conejo y arroz con ajo, cordero arvejado y puré rústico,  quinoa con leche y mango, helado de chumbeque y guayaba, catutos con rosa mosqueta, mini chapalele y mini churrascas.',
 	1,
 	'CRT4111');
 
@@ -4240,8 +4023,7 @@ insert into taller (
 values (
 	161,
 	'Evaluación',
-	'Pulpo con vinagreta de aceituna azapa/empanada de prieta/queso de cabra; pastel
-de jaibas en papa michuñe/arriero; cancato/puré de habas; sobrecostilla al pipeño/porotos granados; mote c/huesillos/helado de cola de mono.',
+	'Pulpo con vinagreta de aceituna azapa/empanada de prieta/queso de cabra; pastel de jaibas en papa michuñe/arriero; cancato/puré de habas; sobrecostilla al pipeño/porotos granados; mote c/huesillos/helado de cola de mono.',
 	3,
 	'CRT4111');
 
@@ -4254,8 +4036,7 @@ insert into taller (
 values (
 	162,
 	'Preparación',
-	'Mini chacarero/causeo de atún y cochayuyo; arrollado de huaso/pequén c/queso; 
-pescado del día/arroz al ajo; ccostillar de cerdo/cremoso de motemei; leche nevada/helado de frutillas c/menta.',
+	'Mini chacarero/causeo de atún y cochayuyo; arrollado de huaso/pequén c/queso;  pescado del día/arroz al ajo; ccostillar de cerdo/cremoso de motemei; leche nevada/helado de frutillas c/menta.',
 	4,
 	'CRT4111');
 
@@ -4294,8 +4075,7 @@ insert into taller (
 values (
 	165,
 	'Evaluación guiada',
-	'Mini sánguche pescado frito/lengua de vacuno; Caldillo de congrio/empanadta 
-de charqui; Plateada de cerdo/porotos pallares; Costillas de cordero/charquicán; Mousse de chirimoya alegre y queso de cabra/helado de carmenere y berries.',
+	'Mini sánguche pescado frito/lengua de vacuno; Caldillo de congrio/empanadta  de charqui; Plateada de cerdo/porotos pallares; Costillas de cordero/charquicán; Mousse de chirimoya alegre y queso de cabra/helado de carmenere y berries.',
 	7,
 	'CRT4111');
 
@@ -4308,8 +4088,7 @@ insert into taller (
 values (
 	166,
 	'Evaluación guiada',
-	'Tártaro de centolla/macha con queso, merluza ahumada/huevas de pescado fritas, 
-Congrio frito/salsa camarón mailon, Mini parrilla, Leche asada/helado de arándano, limón y menta',
+	'Tártaro de centolla/macha con queso, merluza ahumada/huevas de pescado fritas,  Congrio frito/salsa camarón mailon, Mini parrilla, Leche asada/helado de arándano, limón y menta',
 	8,
 	'CRT4111');
 
@@ -4322,8 +4101,7 @@ insert into taller (
 values (
 	167,
 	'Evaluación final',
-	'Pulpo con vinagreta de aceitunas de azapa, empanadita de prieta/queso de cabra, 
-Merluza ahumada, huevas de pescado frita, congrio frito, cordero y charquicán, Mousse de chirimoya alegre',
+	'Pulpo con vinagreta de aceitunas de azapa, empanadita de prieta/queso de cabra,  Merluza ahumada, huevas de pescado frita, congrio frito, cordero y charquicán, Mousse de chirimoya alegre',
 	9,
 	'CRT4111');
 
@@ -4583,9 +4361,7 @@ insert into taller (
 values (
 	187,
 	'Preparación',
-	'Brazo de reina con manjar y crema chantilly
-Brazo de reina con frutillas con manjar y crema chantilly
-Brazo de reina con mermelada de guindas, manjar y crema chantilly                                                                                                                                                                                            Brazo de reina con piñas, manjar y crema chantilly ',
+	'Brazo de reina con manjar y crema chantilly Brazo de reina con frutillas con manjar y crema chantilly Brazo de reina con mermelada de guindas, manjar y crema chantilly                                                                                                                                                                                            Brazo de reina con piñas, manjar y crema chantilly ',
 	3,
 	'PRT2121');
 
@@ -4598,10 +4374,7 @@ insert into taller (
 values (
 	188,
 	'Preparación',
-	'Torta de bizcocho relleno con piñas   
-Torta de bizcocho selva negra
-Torta de bizcocho de amapolas, crema chantilly, manjar    
-Torta de bizcocho de limón, relleno con chantilly y frutillas',
+	'Torta de bizcocho relleno con piñas    Torta de bizcocho selva negra Torta de bizcocho de amapolas, crema chantilly, manjar     Torta de bizcocho de limón, relleno con chantilly y frutillas',
 	4,
 	'PRT2121');
 
@@ -4627,9 +4400,7 @@ insert into taller (
 values (
 	190,
 	'Preparación',
-	'Galletas crujientes, aromatizadas con vainilla, rellenas de mermelada y decoradas con cobertura
-Galletas de chocholate mangueadas de chocolate                                                                                                                                                                                                                                         Galletas de parmesano y limon galletas troqueladas de chocolate galletas bicolores
-Galletas bicolores ',
+	'Galletas crujientes, aromatizadas con vainilla, rellenas de mermelada y decoradas con cobertura Galletas de chocholate mangueadas de chocolate                                                                                                                                                                                                                                         Galletas de parmesano y limon galletas troqueladas de chocolate galletas bicolores Galletas bicolores ',
 	6,
 	'PRT2121');
 
@@ -4642,10 +4413,7 @@ insert into taller (
 values (
 	191,
 	'Preparación',
-	'Quiche lorraine
-Quiche pollo con champiñones
-Quiche vegetariano                                                                                                                                                                                                                                                                                                           Tartaletas de frutas
-Pie de limón',
+	'Quiche lorraine Quiche pollo con champiñones Quiche vegetariano                                                                                                                                                                                                                                                                                                           Tartaletas de frutas Pie de limón',
 	7,
 	'PRT2121');
 
@@ -5217,9 +4985,7 @@ insert into taller (
 values (
 	239,
 	'EXAMEN FINAL',
-	'MENÃš A: Ceviche raspado, Lomo a lo pobre, Pan amasado, Pebre.
-
-MENÃš B: Crudo valdiviano, Calugas de congrio apanadas en sémola con papas salteadas al huacatay, Pan amasado, Chancho en piedra.',
+	'MENÚ A: Ceviche raspado, Lomo a lo pobre, Pan amasado, Pebre. MENÚ B: Crudo valdiviano, Calugas de congrio apanadas en sémola con papas salteadas al huacatay, Pan amasado, Chancho en piedra.',
 	16,
 	'RCT5111');
 
@@ -5752,9 +5518,7 @@ insert into taller (
 values (
 	280,
 	'CLASE 6',
-	'Martini dry, Manhattan, Mi to, Capitán (REFRESCADOS)
-
-CLÃSICOS CHILENOS Bitter a la francesa, Pichuncho, Pantera Rosa.',
+	'Martini dry, Manhattan, Mi to, Capitán (REFRESCADOS) CLÁSICOS CHILENOS Bitter a la francesa, Pichuncho, Pantera Rosa.',
 	6,
 	'ABT3131B');
 
@@ -6071,7 +5835,7 @@ values (
 	12,
 	'Aceitunas sevillana',
 	4532,
-	5,
+	1,
 	6);
 
 insert into producto (
@@ -6200,7 +5964,7 @@ insert into producto (
 values (
 	22,
 	'Agua mineral s/ gas (6 lts) bidón',
-	2890,
+	2500,
 	5,
 	7);
 
@@ -6395,7 +6159,7 @@ insert into producto (
 values (
 	37,
 	'Ají rocoto',
-	12960,
+	16050,
 	1,
 	1);
 
@@ -6408,7 +6172,7 @@ insert into producto (
 values (
 	38,
 	'Ají rojo fresco',
-	6750,
+	5550,
 	1,
 	1);
 
@@ -6447,7 +6211,7 @@ insert into producto (
 values (
 	41,
 	'Ají verde fresco',
-	3700,
+	8030,
 	1,
 	1);
 
@@ -6551,7 +6315,7 @@ insert into producto (
 values (
 	49,
 	'Alcaparras frasco de 140 grs',
-	7833,
+	4010,
 	5,
 	6);
 
@@ -6642,7 +6406,7 @@ insert into producto (
 values (
 	56,
 	'Almejas frescas',
-	46903800,
+	4690,
 	1,
 	3);
 
@@ -6733,7 +6497,7 @@ insert into producto (
 values (
 	63,
 	'Apio vara',
-	1610,
+	3090,
 	5,
 	1);
 
@@ -6746,7 +6510,7 @@ insert into producto (
 values (
 	64,
 	'Arándanos',
-	7410,
+	12100,
 	1,
 	1);
 
@@ -6850,7 +6614,7 @@ insert into producto (
 values (
 	72,
 	'Asepcol',
-	4835,
+	6860,
 	5,
 	9);
 
@@ -6889,7 +6653,7 @@ insert into producto (
 values (
 	75,
 	'Atún al aceite (104 grs) tarro',
-	0,
+	1720,
 	5,
 	6);
 
@@ -6902,7 +6666,7 @@ insert into producto (
 values (
 	76,
 	'Atún fresco',
-	23000,
+	19990,
 	1,
 	3);
 
@@ -6940,9 +6704,9 @@ insert into producto (
 	cod_categ_producto)
 values (
 	79,
-	'Azafrán',
-	5818667,
-	1,
+	'Azafrán hebras (0.5 grs) gourmet',
+	5430,
+	5,
 	6);
 
 insert into producto (
@@ -6967,7 +6731,7 @@ insert into producto (
 values (
 	81,
 	'Azúcar flor',
-	4022,
+	4900,
 	1,
 	6);
 
@@ -7149,7 +6913,7 @@ insert into producto (
 values (
 	95,
 	'Berenjenas',
-	610,
+	490,
 	5,
 	1);
 
@@ -7162,7 +6926,7 @@ insert into producto (
 values (
 	96,
 	'Berenjenas baby',
-	650,
+	490,
 	5,
 	1);
 
@@ -7175,7 +6939,7 @@ insert into producto (
 values (
 	97,
 	'Berros hidropónicos',
-	6170,
+	5190,
 	1,
 	1);
 
@@ -7188,7 +6952,7 @@ insert into producto (
 values (
 	98,
 	'Betarraga ',
-	1050,
+	1490,
 	1,
 	1);
 
@@ -7331,7 +7095,7 @@ insert into producto (
 values (
 	109,
 	'Brote arvejas (150 grs) bandeja',
-	0,
+	2470,
 	5,
 	1);
 
@@ -7448,7 +7212,7 @@ insert into producto (
 values (
 	118,
 	'Calamar vaina',
-	12900,
+	18280,
 	1,
 	3);
 
@@ -7461,7 +7225,7 @@ insert into producto (
 values (
 	119,
 	'Calamares',
-	0,
+	19510,
 	1,
 	3);
 
@@ -7565,7 +7329,7 @@ insert into producto (
 values (
 	127,
 	'Camarones 100/200',
-	21182,
+	21180,
 	1,
 	4);
 
@@ -7590,8 +7354,8 @@ insert into producto (
 	cod_categ_producto)
 values (
 	129,
-	'Campari (750 cc) botella',
-	13033,
+	'Licor Campari (750 cc) botella',
+	11990,
 	5,
 	7);
 
@@ -7617,7 +7381,7 @@ insert into producto (
 values (
 	131,
 	'Canela rama',
-	84978,
+	81480,
 	1,
 	6);
 
@@ -7721,7 +7485,7 @@ insert into producto (
 values (
 	139,
 	'Cebollas',
-	1230,
+	1100,
 	1,
 	1);
 
@@ -7760,7 +7524,7 @@ insert into producto (
 values (
 	142,
 	'Cebollas perla',
-	4326,
+	5190,
 	1,
 	6);
 
@@ -7773,7 +7537,7 @@ insert into producto (
 values (
 	143,
 	'Cebollín paquete',
-	740,
+	700,
 	5,
 	1);
 
@@ -8020,7 +7784,7 @@ insert into producto (
 values (
 	162,
 	'Champiñón parís',
-	8500,
+	10490,
 	1,
 	1);
 
@@ -8046,7 +7810,7 @@ insert into producto (
 values (
 	164,
 	'Champiñón shitake',
-	18200,
+	16670,
 	1,
 	1);
 
@@ -8098,7 +7862,7 @@ insert into producto (
 values (
 	168,
 	'Charqui equino',
-	5990,
+	32100,
 	1,
 	2);
 
@@ -8318,8 +8082,8 @@ insert into producto (
 	cod_categ_producto)
 values (
 	185,
-	'Choritos congelados',
-	3808,
+	'Choritos IQF',
+	8090,
 	1,
 	4);
 
@@ -8345,7 +8109,7 @@ insert into producto (
 values (
 	187,
 	'Choritos frescos',
-	2000,
+	2470,
 	1,
 	3);
 
@@ -8384,7 +8148,7 @@ insert into producto (
 values (
 	190,
 	'Ciboulette (pqte)',
-	350,
+	360,
 	5,
 	1);
 
@@ -8397,7 +8161,7 @@ insert into producto (
 values (
 	191,
 	'Cilantro (paquete 100 grs)',
-	1220,
+	1600,
 	5,
 	1);
 
@@ -8683,7 +8447,7 @@ insert into producto (
 values (
 	213,
 	'Colorante vegetal (3 colores) caja',
-	2669,
+	4010,
 	5,
 	6);
 
@@ -8695,8 +8459,8 @@ insert into producto (
 	cod_categ_producto)
 values (
 	214,
-	'Comandas',
-	0,
+	'Comandas (100 unid.)',
+	1440,
 	5,
 	8);
 
@@ -8878,7 +8642,7 @@ insert into producto (
 values (
 	228,
 	'Crema de leche',
-	4150,
+	6050,
 	3,
 	5);
 
@@ -9047,7 +8811,7 @@ insert into producto (
 values (
 	241,
 	'Desinfectante de superficies (key higienizante)',
-	3325,
+	3610,
 	3,
 	9);
 
@@ -9203,7 +8967,7 @@ insert into producto (
 values (
 	253,
 	'Espinacas',
-	2470,
+	6790,
 	1,
 	1);
 
@@ -9216,7 +8980,7 @@ insert into producto (
 values (
 	254,
 	'Esponja ',
-	240,
+	230,
 	5,
 	9);
 
@@ -9385,7 +9149,7 @@ insert into producto (
 values (
 	267,
 	'Flores comestibles (30 grs) bandeja',
-	4725,
+	5560,
 	5,
 	1);
 
@@ -9463,7 +9227,7 @@ insert into producto (
 values (
 	273,
 	'Frambuesas congeladas',
-	24888,
+	12100,
 	1,
 	4);
 
@@ -9502,7 +9266,7 @@ insert into producto (
 values (
 	276,
 	'Frutillas congeladas',
-	7890,
+	4820,
 	1,
 	1);
 
@@ -9541,7 +9305,7 @@ insert into producto (
 values (
 	279,
 	'Galletas criollitas (100 grs) bolsa',
-	13490,
+	1050,
 	5,
 	6);
 
@@ -9657,9 +9421,9 @@ insert into producto (
 	cod_categ_producto)
 values (
 	288,
-	'Gin (750 cc) botella',
-	12548,
-	5,
+	'Licor Gin 40°(1 Lt) ',
+	5990,
+	3,
 	7);
 
 insert into producto (
@@ -9671,7 +9435,7 @@ insert into producto (
 values (
 	289,
 	'Ginger ale (1,5 lts) botella',
-	1810,
+	2000,
 	5,
 	7);
 
@@ -9853,7 +9617,7 @@ insert into producto (
 values (
 	303,
 	'Harina fuerte (10% - 13%) proteínas',
-	1785,
+	2650,
 	1,
 	6);
 
@@ -9892,7 +9656,7 @@ insert into producto (
 values (
 	306,
 	'Harina trigo',
-	1785,
+	2570,
 	1,
 	6);
 
@@ -9905,9 +9669,9 @@ insert into producto (
 values (
 	307,
 	'Helado de piña',
-	0,
+	1,
 	3,
-	2);
+	4);
 
 insert into producto (
 	id_producto,
@@ -9918,9 +9682,9 @@ insert into producto (
 values (
 	308,
 	'Helado de vainilla',
-	0,
+	1,
 	3,
-	2);
+	4);
 
 insert into producto (
 	id_producto,
@@ -9931,7 +9695,7 @@ insert into producto (
 values (
 	309,
 	'Hielo (cubos)',
-	833,
+	930,
 	1,
 	4);
 
@@ -9943,10 +9707,10 @@ insert into producto (
 	cod_categ_producto)
 values (
 	310,
-	'Hierba buena',
-	0,
-	1,
-	2);
+	'Hierba buena (bandeja)',
+	1850,
+	5,
+	1);
 
 insert into producto (
 	id_producto,
@@ -9982,10 +9746,10 @@ insert into producto (
 	cod_categ_producto)
 values (
 	313,
-	'Hoja de mostaza morada',
-	0,
+	'Hojas de mostaza morada',
 	1,
-	2);
+	1,
+	1);
 
 insert into producto (
 	id_producto,
@@ -10334,7 +10098,7 @@ insert into producto (
 values (
 	340,
 	'Jarabe de goma (900 cc) botella',
-	5725,
+	5290,
 	5,
 	7);
 
@@ -10425,7 +10189,7 @@ insert into producto (
 values (
 	347,
 	'Jugo de naranja (1 lt) caja',
-	1490,
+	1350,
 	3,
 	7);
 
@@ -10451,7 +10215,7 @@ insert into producto (
 values (
 	349,
 	'Jugo de piña (1 lt) caja',
-	0,
+	1350,
 	3,
 	7);
 
@@ -10503,7 +10267,7 @@ insert into producto (
 values (
 	353,
 	'Jugo naranja (1 Lt) caja',
-	1,
+	1490,
 	3,
 	7);
 
@@ -10698,7 +10462,7 @@ insert into producto (
 values (
 	368,
 	'Leche en polvo',
-	0,
+	7765,
 	1,
 	6);
 
@@ -10711,7 +10475,7 @@ insert into producto (
 values (
 	369,
 	'Leche entera líquida',
-	1250,
+	1850,
 	3,
 	5);
 
@@ -10750,7 +10514,7 @@ insert into producto (
 values (
 	372,
 	'Lechuga escarola',
-	1050,
+	1730,
 	5,
 	1);
 
@@ -10763,7 +10527,7 @@ insert into producto (
 values (
 	373,
 	'Lechuga hidropónica',
-	0,
+	1110,
 	5,
 	1);
 
@@ -10815,7 +10579,7 @@ insert into producto (
 values (
 	377,
 	'Lechuga mizuna verde',
-	6790,
+	1850,
 	1,
 	1);
 
@@ -10867,7 +10631,7 @@ insert into producto (
 values (
 	381,
 	'Levadura fresca',
-	7900,
+	7700,
 	1,
 	6);
 
@@ -10971,7 +10735,7 @@ insert into producto (
 values (
 	389,
 	'Licor Aperol (750 cc) botella',
-	9000,
+	10490,
 	5,
 	7);
 
@@ -11022,7 +10786,7 @@ insert into producto (
 	cod_categ_producto)
 values (
 	393,
-	'Licor CachaÃ§a (1000 cc) botella',
+	'Licor Cachaça (1000 cc) botella',
 	8000,
 	5,
 	7);
@@ -11088,7 +10852,7 @@ insert into producto (
 values (
 	398,
 	'Licor de café (750 cc) botella',
-	8000,
+	5990,
 	5,
 	7);
 
@@ -11126,8 +10890,8 @@ insert into producto (
 	cod_categ_producto)
 values (
 	401,
-	'Licor de crema de cassis (750 cc) botella',
-	10000,
+	'Licor de cassis (750 cc) botella',
+	5990,
 	5,
 	7);
 
@@ -11139,7 +10903,7 @@ insert into producto (
 	cod_categ_producto)
 values (
 	402,
-	'Licor de CuraÃ§ao azul (750 cc) botella',
+	'Licor de Curaçao azul (750 cc) botella',
 	8000,
 	3,
 	7);
@@ -11296,7 +11060,7 @@ insert into producto (
 values (
 	414,
 	'Limón sutil',
-	3690,
+	6050,
 	1,
 	1);
 
@@ -11309,7 +11073,7 @@ insert into producto (
 values (
 	415,
 	'Limones',
-	1100,
+	3090,
 	1,
 	1);
 
@@ -11452,7 +11216,7 @@ insert into producto (
 values (
 	426,
 	'Mandarinas',
-	2167,
+	3090,
 	1,
 	1);
 
@@ -11478,9 +11242,9 @@ insert into producto (
 values (
 	428,
 	'Mango congelado',
-	0,
+	7160,
 	1,
-	2);
+	4);
 
 insert into producto (
 	id_producto,
@@ -11569,7 +11333,7 @@ insert into producto (
 values (
 	435,
 	'Manteca de cerdo',
-	2500,
+	5190,
 	1,
 	5);
 
@@ -11582,7 +11346,7 @@ insert into producto (
 values (
 	436,
 	'Manteca vegetal hidrogenada',
-	3970,
+	9260,
 	1,
 	5);
 
@@ -11634,7 +11398,7 @@ insert into producto (
 values (
 	440,
 	'Mantequilla sin sal',
-	1,
+	14720,
 	1,
 	5);
 
@@ -11660,7 +11424,7 @@ insert into producto (
 values (
 	442,
 	'Manzanas verdes',
-	1610,
+	3090,
 	1,
 	1);
 
@@ -11712,7 +11476,7 @@ insert into producto (
 values (
 	446,
 	'Margarina maestra horneo',
-	4150,
+	4690,
 	1,
 	5);
 
@@ -11738,8 +11502,8 @@ insert into producto (
 values (
 	448,
 	'Marrasquino rojo (140 grs) frasco',
-	1,
-	1,
+	5620,
+	5,
 	6);
 
 insert into producto (
@@ -11790,7 +11554,7 @@ insert into producto (
 values (
 	452,
 	'Mayonesa Kraft (1 Kg)',
-	17640,
+	14224,
 	1,
 	6);
 
@@ -11829,7 +11593,7 @@ insert into producto (
 values (
 	455,
 	'Menta fresca (bandeja)',
-	860,
+	1850,
 	5,
 	1);
 
@@ -11868,9 +11632,9 @@ insert into producto (
 values (
 	458,
 	'Merkén ahumado',
-	0,
+	7900,
 	1,
-	2);
+	6);
 
 insert into producto (
 	id_producto,
@@ -11894,7 +11658,7 @@ insert into producto (
 values (
 	460,
 	'Merluza entera',
-	4522,
+	4520,
 	1,
 	3);
 
@@ -11984,7 +11748,7 @@ insert into producto (
 	cod_categ_producto)
 values (
 	467,
-	'Mermelada frutilla (sobre 250)',
+	'Mermelada frutilla (sobre 250 grs)',
 	1099,
 	5,
 	6);
@@ -12310,7 +12074,7 @@ insert into producto (
 values (
 	492,
 	'Moras congeladas',
-	7693,
+	12100,
 	1,
 	4);
 
@@ -12389,7 +12153,7 @@ values (
 	498,
 	'Mostaza de Dijon',
 	16709,
-	2,
+	1,
 	6);
 
 insert into producto (
@@ -12401,7 +12165,7 @@ insert into producto (
 values (
 	499,
 	'Motemei',
-	1,
+	4690,
 	1,
 	1);
 
@@ -12856,7 +12620,7 @@ insert into producto (
 values (
 	534,
 	'Pan tapadito (350 grs) bolsa',
-	4500,
+	4010,
 	5,
 	6);
 
@@ -12960,7 +12724,7 @@ insert into producto (
 values (
 	542,
 	'Papas',
-	2070,
+	1220,
 	1,
 	1);
 
@@ -13102,8 +12866,8 @@ insert into producto (
 	cod_categ_producto)
 values (
 	553,
-	'Papel absorbente rollo',
-	594,
+	'Papel absorbente rollo(250 mts)',
+	3050,
 	5,
 	9);
 
@@ -13337,7 +13101,7 @@ insert into producto (
 values (
 	571,
 	'Peras',
-	1690,
+	2960,
 	1,
 	1);
 
@@ -13363,7 +13127,7 @@ insert into producto (
 values (
 	573,
 	'Perejil fresco (bandeja)',
-	1178,
+	1980,
 	5,
 	1);
 
@@ -13610,9 +13374,9 @@ insert into producto (
 values (
 	592,
 	'Piñones cocidos',
-	0,
 	1,
-	2);
+	1,
+	6);
 
 insert into producto (
 	id_producto,
@@ -13636,7 +13400,7 @@ insert into producto (
 values (
 	594,
 	'Pisco 35° (750 cc) botella',
-	8621,
+	4850,
 	5,
 	7);
 
@@ -14169,7 +13933,7 @@ insert into producto (
 values (
 	635,
 	'Pulpa frambuesa',
-	0,
+	6790,
 	1,
 	4);
 
@@ -14767,9 +14531,9 @@ insert into producto (
 values (
 	681,
 	'Quinoa roja',
-	0,
 	1,
-	2);
+	1,
+	6);
 
 insert into producto (
 	id_producto,
@@ -14780,7 +14544,7 @@ insert into producto (
 values (
 	682,
 	'Rabanitos',
-	1178,
+	5000,
 	1,
 	1);
 
@@ -14884,7 +14648,7 @@ insert into producto (
 values (
 	690,
 	'Ron blanco (1000 cc) botella',
-	4856,
+	5990,
 	5,
 	7);
 
@@ -14936,7 +14700,7 @@ insert into producto (
 values (
 	694,
 	'Rúcula baby',
-	8600,
+	8400,
 	1,
 	1);
 
@@ -15066,7 +14830,7 @@ insert into producto (
 values (
 	704,
 	'Salmón fresco entero',
-	16422,
+	16420,
 	1,
 	3);
 
@@ -15079,7 +14843,7 @@ insert into producto (
 values (
 	705,
 	'Salmón fresco filete',
-	23562,
+	23560,
 	1,
 	3);
 
@@ -15611,8 +15375,8 @@ insert into producto (
 	cod_categ_producto)
 values (
 	746,
-	'Tequila (750 cc) botella',
-	15000,
+	'Tequila Blanco 38° (750 cc) botella',
+	7990,
 	5,
 	7);
 
@@ -15638,8 +15402,8 @@ insert into producto (
 values (
 	748,
 	'Tinta calamar (90 grs) frasco',
-	70211,
-	1,
+	12840,
+	5,
 	6);
 
 insert into producto (
@@ -15677,7 +15441,7 @@ insert into producto (
 values (
 	751,
 	'Tomate cherry',
-	3580,
+	5930,
 	1,
 	1);
 
@@ -15716,9 +15480,9 @@ insert into producto (
 values (
 	754,
 	'Tomate cherry pera',
-	0,
 	1,
-	2);
+	1,
+	1);
 
 insert into producto (
 	id_producto,
@@ -15755,7 +15519,7 @@ insert into producto (
 values (
 	757,
 	'Tomate pera',
-	1960,
+	3460,
 	1,
 	1);
 
@@ -15768,7 +15532,7 @@ insert into producto (
 values (
 	758,
 	'Tomates',
-	1600,
+	1850,
 	1,
 	1);
 
@@ -15872,7 +15636,7 @@ insert into producto (
 values (
 	766,
 	'Transfer',
-	2500,
+	2940,
 	5,
 	6);
 
@@ -15885,7 +15649,7 @@ insert into producto (
 values (
 	767,
 	'Traperos',
-	872,
+	960,
 	5,
 	9);
 
@@ -15911,7 +15675,7 @@ insert into producto (
 values (
 	769,
 	'Triple sec (750 cc) botella',
-	7536,
+	5250,
 	5,
 	7);
 
@@ -16002,7 +15766,7 @@ insert into producto (
 values (
 	776,
 	'Vacuno filete',
-	11490,
+	16040,
 	1,
 	2);
 
@@ -16054,7 +15818,7 @@ insert into producto (
 values (
 	780,
 	'Vacuno lomo liso',
-	12990,
+	13330,
 	1,
 	2);
 
@@ -16119,7 +15883,7 @@ insert into producto (
 values (
 	785,
 	'Vacuno posta negra molida',
-	10490,
+	13330,
 	1,
 	2);
 
@@ -16132,7 +15896,7 @@ insert into producto (
 values (
 	786,
 	'Vacuno posta negra trozo',
-	7770,
+	9870,
 	1,
 	2);
 
@@ -16158,7 +15922,7 @@ insert into producto (
 values (
 	788,
 	'Vacuno posta rosada molida',
-	0,
+	12330,
 	1,
 	2);
 
@@ -16235,8 +15999,8 @@ insert into producto (
 	cod_categ_producto)
 values (
 	794,
-	'Vermouth Rosso (750 cc) botella',
-	6000,
+	'Vermouth Rosso (1 Lt) botella',
+	5790,
 	5,
 	7);
 
@@ -16418,7 +16182,7 @@ insert into producto (
 values (
 	808,
 	'Vino blanco cepa Chardonnay (750 cc) botella',
-	5098,
+	2690,
 	5,
 	7);
 
@@ -16430,8 +16194,8 @@ insert into producto (
 	cod_categ_producto)
 values (
 	809,
-	'Vino blanco cepa GewÃ¼rztraminer (750 cc) botella',
-	7500,
+	'Vino blanco cepa Gewürztraminer (750 cc) botella',
+	4990,
 	5,
 	7);
 
@@ -16522,7 +16286,7 @@ insert into producto (
 values (
 	816,
 	'Vino blanco tetra',
-	1,
+	2150,
 	3,
 	7);
 
@@ -16535,7 +16299,7 @@ insert into producto (
 values (
 	817,
 	'Vino blanco varietal cepa Riesling (750 cc) botella',
-	7345,
+	2990,
 	5,
 	7);
 
@@ -16600,7 +16364,7 @@ insert into producto (
 values (
 	822,
 	'Vino Espumante Brut (750 cc) botella',
-	5318,
+	3450,
 	5,
 	7);
 
@@ -16652,7 +16416,7 @@ insert into producto (
 values (
 	826,
 	'Vino Espumante rosado (750 cc) botella',
-	5590,
+	3450,
 	5,
 	7);
 
@@ -16743,7 +16507,7 @@ insert into producto (
 values (
 	833,
 	'Vino tinto cepa Carmenere (750 cc) botella',
-	5830,
+	4990,
 	5,
 	7);
 
@@ -16808,7 +16572,7 @@ insert into producto (
 values (
 	838,
 	'Vino tinto cepa Pinot gris (750 cc) botella',
-	0,
+	4750,
 	5,
 	7);
 
@@ -16860,8 +16624,8 @@ insert into producto (
 values (
 	842,
 	'Vino tinto tetra',
-	2769,
-	3,
+	2150,
+	5,
 	7);
 
 insert into producto (
@@ -16951,7 +16715,7 @@ insert into producto (
 values (
 	849,
 	'Yogur natural',
-	1,
+	560,
 	5,
 	5);
 
@@ -17003,7 +16767,7 @@ insert into producto (
 values (
 	853,
 	'Zanahorias',
-	1590,
+	990,
 	1,
 	1);
 
@@ -17029,7 +16793,7 @@ insert into producto (
 values (
 	855,
 	'Zapallo italiano',
-	310,
+	680,
 	5,
 	1);
 
@@ -17172,7 +16936,7 @@ insert into producto (
 values (
 	867,
 	'Avena',
-	1,
+	5620,
 	1,
 	6);
 
@@ -17211,7 +16975,7 @@ insert into producto (
 values (
 	870,
 	'Albacora',
-	14280,
+	19510,
 	1,
 	3);
 
@@ -17263,7 +17027,7 @@ insert into producto (
 values (
 	875,
 	'Vacuno choclillo',
-	9246,
+	11100,
 	1,
 	2);
 
@@ -17379,9 +17143,9 @@ insert into producto (
 	cod_categ_producto)
 values (
 	885,
-	'Alcohol 70° (Asepcol)',
+	'Alcohol 70° (Asepcol)Pulverizador 1 lt',
 	6231,
-	3,
+	5,
 	9);
 
 insert into producto (
@@ -17445,7 +17209,7 @@ insert into producto (
 values (
 	890,
 	'Wypall (paños)',
-	1,
+	46,
 	5,
 	9);
 
@@ -17640,7 +17404,7 @@ insert into producto (
 values (
 	906,
 	'Tocino ahumado laminado',
-	1,
+	17160,
 	1,
 	2);
 
@@ -17809,7 +17573,7 @@ insert into producto (
 values (
 	920,
 	'Papas chuño negra',
-	1,
+	5190,
 	1,
 	1);
 
@@ -17822,7 +17586,7 @@ insert into producto (
 values (
 	921,
 	'Ají rocoto molido',
-	1,
+	12960,
 	1,
 	6);
 
@@ -18108,7 +17872,7 @@ insert into producto (
 values (
 	943,
 	'Queso gouda trozo',
-	8750,
+	16540,
 	1,
 	5);
 
@@ -18290,7 +18054,7 @@ insert into producto (
 values (
 	958,
 	'Manjar Nestlé',
-	1,
+	4690,
 	1,
 	5);
 
@@ -18770,10 +18534,166 @@ insert into producto (
 	cod_categ_producto)
 values (
 	995,
-	'Brochetas de bambú nudo 5 cms',
+	'Brochetas de bambu nudo 5 cms',
 	1,
 	5,
 	8);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	996,
+	'Duraznos',
+	3090,
+	1,
+	1);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	997,
+	'Pollo cazuela',
+	4750,
+	1,
+	2);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	998,
+	'Camarón ecuatoriano 21/25',
+	19510,
+	1,
+	3);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	999,
+	'Langostinos',
+	20370,
+	1,
+	3);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	1000,
+	'Espárragos congelados',
+	12100,
+	1,
+	4);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	1001,
+	'Habas',
+	4880,
+	1,
+	1);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	1002,
+	'Langostino entero (70 grs)',
+	1,
+	1,
+	3);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	1003,
+	'Vacuno posta negra porcionada',
+	13330,
+	1,
+	2);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	1004,
+	'Pollo truto ala',
+	7400,
+	1,
+	2);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	1005,
+	'Licor Brandy Tres palos (1 lt)',
+	4990,
+	3,
+	7);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	1006,
+	'Vino tinto Cabernet Sauvignon Gran Reserva',
+	12490,
+	5,
+	7);
+
+insert into producto (
+	id_producto,
+	nom_producto,
+	precio,
+	cod_unidad_medida,
+	cod_categ_producto)
+values (
+	1007,
+	'Licor Grand Marnier',
+	34990,
+	5,
+	7);
 /* Fin tabla: producto */
 
 commit;
@@ -22264,7 +22184,7 @@ values (
 	12,
 	88,
 	1,
-	200);
+	0.2);
 
 insert into config_taller (
 	id_producto,
@@ -25784,7 +25704,7 @@ values (
 	46,
 	88,
 	1,
-	100);
+	0.1);
 
 insert into config_taller (
 	id_producto,
@@ -25795,7 +25715,7 @@ values (
 	46,
 	89,
 	1,
-	100);
+	0.1);
 
 insert into config_taller (
 	id_producto,
@@ -25806,7 +25726,7 @@ values (
 	46,
 	90,
 	1,
-	100);
+	0.1);
 
 insert into config_taller (
 	id_producto,
@@ -30118,7 +30038,7 @@ values (
 	79,
 	152,
 	1,
-	0.001);
+	1);
 
 insert into config_taller (
 	id_producto,
@@ -38423,7 +38343,7 @@ values (
 	116,
 	199,
 	1,
-	50);
+	0.05);
 
 insert into config_taller (
 	id_producto,
@@ -39589,7 +39509,7 @@ values (
 	131,
 	101,
 	1,
-	10);
+	0.01);
 
 insert into config_taller (
 	id_producto,
@@ -39600,7 +39520,7 @@ values (
 	131,
 	102,
 	1,
-	10);
+	0.01);
 
 insert into config_taller (
 	id_producto,
@@ -39611,7 +39531,7 @@ values (
 	131,
 	103,
 	1,
-	10);
+	0.01);
 
 insert into config_taller (
 	id_producto,
@@ -39622,7 +39542,7 @@ values (
 	131,
 	104,
 	1,
-	10);
+	0.01);
 
 insert into config_taller (
 	id_producto,
@@ -39633,7 +39553,7 @@ values (
 	131,
 	105,
 	1,
-	10);
+	0.01);
 
 insert into config_taller (
 	id_producto,
@@ -39644,7 +39564,7 @@ values (
 	131,
 	106,
 	1,
-	10);
+	0.01);
 
 insert into config_taller (
 	id_producto,
@@ -39655,7 +39575,7 @@ values (
 	131,
 	107,
 	1,
-	10);
+	0.01);
 
 insert into config_taller (
 	id_producto,
@@ -45408,7 +45328,7 @@ values (
 	193,
 	101,
 	1,
-	10);
+	0.01);
 
 insert into config_taller (
 	id_producto,
@@ -45419,7 +45339,7 @@ values (
 	193,
 	102,
 	1,
-	10);
+	0.01);
 
 insert into config_taller (
 	id_producto,
@@ -45430,7 +45350,7 @@ values (
 	193,
 	103,
 	1,
-	10);
+	0.01);
 
 insert into config_taller (
 	id_producto,
@@ -45441,7 +45361,7 @@ values (
 	193,
 	104,
 	1,
-	10);
+	0.01);
 
 insert into config_taller (
 	id_producto,
@@ -45452,7 +45372,7 @@ values (
 	193,
 	105,
 	1,
-	10);
+	0.01);
 
 insert into config_taller (
 	id_producto,
@@ -45463,7 +45383,7 @@ values (
 	193,
 	106,
 	1,
-	10);
+	0.01);
 
 insert into config_taller (
 	id_producto,
@@ -45474,7 +45394,7 @@ values (
 	193,
 	107,
 	1,
-	10);
+	0.01);
 
 insert into config_taller (
 	id_producto,
@@ -45485,7 +45405,7 @@ values (
 	193,
 	155,
 	1,
-	5);
+	0.01);
 
 insert into config_taller (
 	id_producto,
@@ -45496,7 +45416,7 @@ values (
 	193,
 	158,
 	1,
-	5);
+	0.01);
 
 insert into config_taller (
 	id_producto,
@@ -45518,7 +45438,7 @@ values (
 	193,
 	188,
 	1,
-	10);
+	0.01);
 
 insert into config_taller (
 	id_producto,
@@ -45561,28 +45481,6 @@ insert into config_taller (
 values (
 	194,
 	160,
-	1,
-	2);
-
-insert into config_taller (
-	id_producto,
-	id_taller,
-	cod_agrupador,
-	cantidad)
-values (
-	194,
-	161,
-	1,
-	2);
-
-insert into config_taller (
-	id_producto,
-	id_taller,
-	cod_agrupador,
-	cantidad)
-values (
-	194,
-	162,
 	1,
 	2);
 
@@ -65297,17 +65195,6 @@ values (
 	158,
 	1,
 	1);
-
-insert into config_taller (
-	id_producto,
-	id_taller,
-	cod_agrupador,
-	cantidad)
-values (
-	360,
-	164,
-	1,
-	30);
 
 insert into config_taller (
 	id_producto,
@@ -123179,6 +123066,17 @@ values (
 	288,
 	1,
 	50);
+
+insert into config_taller (
+	id_producto,
+	id_taller,
+	cod_agrupador,
+	cantidad)
+values (
+	1002,
+	164,
+	1,
+	2);
 /* Fin tabla: config_taller */
 
 commit;
@@ -123190,963 +123088,6 @@ insert into prog_asign (
 	sigla,
 	seccion)
 values (
-	2023,
-	1,
-	'ABT3111',
-	1);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'ABT3111',
-	2);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'ABT3121',
-	1);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'ABT3121',
-	2);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'ABT3131',
-	1);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'ABT3131',
-	2);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'ABT3131',
-	3);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'ABT3131',
-	4);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'ABT3131',
-	5);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'ABT3131',
-	6);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'ABT3131',
-	7);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'ABT3131',
-	8);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'ABT3131',
-	9);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'ABT3131',
-	10);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'ABT3131',
-	11);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'ABT3131',
-	12);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'ABT3131',
-	13);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'ABT3131',
-	14);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'ABT3131',
-	15);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'ABT3131',
-	16);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'ABT3141',
-	1);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'ABT3141',
-	2);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'ABT3141',
-	3);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'ABT3141',
-	4);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'ABT3141',
-	5);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'ABT3141',
-	6);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'ABT3141',
-	7);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'ABT3141',
-	8);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'ABT3141',
-	9);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'ABT3141',
-	10);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'ABT3141',
-	11);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'ABT3141',
-	12);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'ABT3141',
-	13);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'ABT3141',
-	14);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'CIT1111',
-	1);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'CIT1111',
-	2);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'CIT1111',
-	3);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'CIT1111',
-	4);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'CIT1111',
-	5);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'CIT1111',
-	6);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'CIT1111',
-	7);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'CIT1111',
-	8);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'CIT1111',
-	9);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'CIT1111',
-	10);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'CIT1111',
-	11);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'CIT1111',
-	12);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'CIT1111',
-	13);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'CIT1111',
-	14);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'CIT1111',
-	15);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'CIT1111',
-	16);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'CRT3111',
-	1);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'CRT3111',
-	2);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'CRT3111',
-	3);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'CRT3111',
-	4);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'CRT3111',
-	5);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'CRT3111',
-	6);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'CRT3111',
-	7);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'CRT3111',
-	8);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'CRT3111',
-	9);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'CRT3111',
-	10);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'CRT3111',
-	11);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'CRT3111',
-	12);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'CRT3111',
-	13);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'CRT3111',
-	14);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'PRT1131',
-	1);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'PRT1131',
-	2);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'PRT1131',
-	3);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'PRT1131',
-	4);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'PRT1131',
-	5);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'PRT1131',
-	6);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'PRT1131',
-	7);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'PRT1131',
-	8);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'PRT1131',
-	9);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'PRT1131',
-	10);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'PRT1131',
-	11);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'PRT1131',
-	12);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'PRT1131',
-	13);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'PRT1131',
-	14);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'PRT1131',
-	15);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'PRT1131',
-	16);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'PTT6697',
-	1);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'PTT6697',
-	2);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'PTT6697',
-	3);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'PTT6697',
-	4);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'PTT6697',
-	5);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'PTT6697',
-	6);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	1,
-	'PTT6697',
-	7);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
 	2024,
 	1,
 	'ABT3131',
@@ -124921,930 +123862,6 @@ values (
 	1,
 	'PGG1108',
 	15);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'ABT2131',
-	1);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'ABT2131',
-	2);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'ABT2131',
-	3);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'ABT2131',
-	4);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'ABT2131',
-	5);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'ABT2131',
-	6);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'ABT2131',
-	7);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'ABT2131',
-	8);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'ABT2131',
-	9);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'ABT2131',
-	10);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'ABT2131',
-	11);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'ABT2131',
-	12);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'ABT2131',
-	13);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'ABT2131',
-	14);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'ABT2131',
-	15);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'ABT2131',
-	16);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'ABT3142',
-	1);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'ABT3142',
-	2);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'ABT4151',
-	1);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'ABT4151',
-	2);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'ABT4151',
-	3);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'ABT4151',
-	4);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'ABT4151',
-	5);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'ABT4151',
-	6);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'ABT4151',
-	7);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'ABT4151',
-	8);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'ABT4151',
-	9);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'ABT4151',
-	10);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'ABT4151',
-	11);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'ABT4151',
-	12);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'ABT4151',
-	13);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'ABT4151',
-	14);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'CIT2111',
-	1);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'CIT2111',
-	2);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'CIT2111',
-	3);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'CIT2111',
-	4);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'CIT2111',
-	5);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'CIT2111',
-	6);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'CIT2111',
-	7);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'CIT2111',
-	8);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'CIT2111',
-	9);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'CIT2111',
-	10);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'CIT2111',
-	11);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'CIT2111',
-	12);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'CIT2111',
-	13);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'CIT2111',
-	14);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'CIT2111',
-	15);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'CIT2111',
-	16);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'CRT4111',
-	1);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'CRT4111',
-	2);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'CRT4111',
-	3);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'CRT4111',
-	4);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'CRT4111',
-	5);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'CRT4111',
-	6);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'CRT4111',
-	7);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'CRT4111',
-	8);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'CRT4111',
-	9);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'CRT4111',
-	10);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'CRT4111',
-	11);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'CRT4111',
-	12);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'CRT4111',
-	13);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'CRT4111',
-	14);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'PRT2121',
-	1);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'PRT2121',
-	2);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'PRT2121',
-	3);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'PRT2121',
-	4);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'PRT2121',
-	5);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'PRT2121',
-	6);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'PRT2121',
-	7);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'PRT2121',
-	8);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'PRT2121',
-	9);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'PRT2121',
-	10);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'PRT2121',
-	11);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'PRT2121',
-	12);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'PRT2121',
-	13);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'PRT2121',
-	14);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'PRT2121',
-	15);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'PRT2121',
-	16);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'PTT6697',
-	1);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'PTT6697',
-	2);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'RHT2121',
-	1);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'RHT2121',
-	2);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'TCC3301',
-	1);
-
-insert into prog_asign (
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion)
-values (
-	2023,
-	2,
-	'TCC3301',
-	2);
 /* Fin tabla: prog_asign */
 
 commit;
@@ -125859,115 +123876,13 @@ insert into prog_taller (
 	id_taller,
 	id_usuario)
 values (
-	'2023-03-06',
-	2023,
+	'2024-03-15',
+	2024,
 	1,
 	'ABT3131',
-	3,
-	82,
-	3);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2023-03-14',
-	2023,
 	1,
-	'ABT3131',
-	3,
-	83,
-	3);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2023-03-30',
-	2023,
-	1,
-	'ABT3131',
-	3,
-	85,
-	3);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2023-04-06',
-	2023,
-	1,
-	'ABT3131',
-	3,
-	86,
-	3);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2023-04-17',
-	2023,
-	1,
-	'ABT3131',
-	3,
-	88,
-	3);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2023-04-24',
-	2023,
-	1,
-	'ABT3131',
-	3,
-	89,
-	3);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2023-05-10',
-	2023,
-	1,
-	'ABT3131',
-	3,
 	91,
-	3);
+	4);
 
 insert into prog_taller (
 	fecha,
@@ -125978,13 +123893,30 @@ insert into prog_taller (
 	id_taller,
 	id_usuario)
 values (
-	'2023-05-27',
-	2023,
+	'2024-03-22',
+	2024,
 	1,
 	'ABT3131',
-	3,
+	1,
+	92,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-29',
+	2024,
+	1,
+	'ABT3131',
+	1,
 	93,
-	3);
+	4);
 
 insert into prog_taller (
 	fecha,
@@ -125995,13 +123927,13 @@ insert into prog_taller (
 	id_taller,
 	id_usuario)
 values (
-	'2023-06-03',
-	2023,
+	'2024-04-05',
+	2024,
 	1,
 	'ABT3131',
-	3,
+	1,
 	94,
-	3);
+	4);
 
 insert into prog_taller (
 	fecha,
@@ -126012,13 +123944,30 @@ insert into prog_taller (
 	id_taller,
 	id_usuario)
 values (
-	'2023-06-17',
-	2023,
+	'2024-04-12',
+	2024,
 	1,
 	'ABT3131',
-	3,
+	1,
+	95,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-19',
+	2024,
+	1,
+	'ABT3131',
+	1,
 	96,
-	3);
+	4);
 
 insert into prog_taller (
 	fecha,
@@ -126029,13 +123978,13 @@ insert into prog_taller (
 	id_taller,
 	id_usuario)
 values (
-	'2023-06-23',
-	2023,
+	'2024-04-26',
+	2024,
 	1,
 	'ABT3131',
-	3,
+	1,
 	97,
-	3);
+	4);
 
 insert into prog_taller (
 	fecha,
@@ -126046,13 +123995,336 @@ insert into prog_taller (
 	id_taller,
 	id_usuario)
 values (
-	'2023-07-07',
-	2023,
+	'2024-05-03',
+	2024,
 	1,
 	'ABT3131',
-	3,
+	1,
+	98,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-10',
+	2024,
+	1,
+	'ABT3131',
+	1,
 	99,
-	3);
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-17',
+	2024,
+	1,
+	'ABT3131',
+	1,
+	82,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-24',
+	2024,
+	1,
+	'ABT3131',
+	1,
+	83,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-31',
+	2024,
+	1,
+	'ABT3131',
+	1,
+	84,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-07',
+	2024,
+	1,
+	'ABT3131',
+	1,
+	85,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-14',
+	2024,
+	1,
+	'ABT3131',
+	1,
+	86,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-21',
+	2024,
+	1,
+	'ABT3131',
+	1,
+	87,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-28',
+	2024,
+	1,
+	'ABT3131',
+	1,
+	88,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-05',
+	2024,
+	1,
+	'ABT3131',
+	1,
+	89,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-12',
+	2024,
+	1,
+	'ABT3131',
+	1,
+	90,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-13',
+	2024,
+	1,
+	'ABT3141',
+	1,
+	100,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-20',
+	2024,
+	1,
+	'ABT3141',
+	1,
+	101,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-27',
+	2024,
+	1,
+	'ABT3141',
+	1,
+	102,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-03',
+	2024,
+	1,
+	'ABT3141',
+	1,
+	103,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-10',
+	2024,
+	1,
+	'ABT3141',
+	1,
+	104,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-17',
+	2024,
+	1,
+	'ABT3141',
+	1,
+	105,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-24',
+	2024,
+	1,
+	'ABT3141',
+	1,
+	106,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-01',
+	2024,
+	1,
+	'ABT3141',
+	1,
+	107,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-08',
+	2024,
+	1,
+	'ABT3141',
+	1,
+	108,
+	16);
 
 insert into prog_taller (
 	fecha,
@@ -126069,40 +124341,6 @@ values (
 	'CRT3111',
 	1,
 	150,
-	3);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-12',
-	2024,
-	1,
-	'CRT3111',
-	3,
-	150,
-	3);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-12',
-	2024,
-	1,
-	'PGG1101',
-	14,
-	254,
 	3);
 
 insert into prog_taller (
@@ -126131,80 +124369,12 @@ insert into prog_taller (
 	id_taller,
 	id_usuario)
 values (
-	'2024-03-19',
-	2024,
-	1,
-	'CRT3111',
-	3,
-	151,
-	3);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-19',
-	2024,
-	1,
-	'PGG1101',
-	14,
-	255,
-	3);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
 	'2024-03-25',
 	2024,
 	1,
 	'CRT3111',
 	1,
 	152,
-	3);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-26',
-	2024,
-	1,
-	'CRT3111',
-	3,
-	152,
-	3);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-26',
-	2024,
-	1,
-	'PGG1101',
-	14,
-	256,
 	3);
 
 insert into prog_taller (
@@ -126233,80 +124403,12 @@ insert into prog_taller (
 	id_taller,
 	id_usuario)
 values (
-	'2024-04-02',
-	2024,
-	1,
-	'CRT3111',
-	3,
-	153,
-	3);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-02',
-	2024,
-	1,
-	'PGG1101',
-	14,
-	257,
-	3);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
 	'2024-04-08',
 	2024,
 	1,
 	'CRT3111',
 	1,
 	154,
-	3);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-09',
-	2024,
-	1,
-	'CRT3111',
-	3,
-	154,
-	3);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-09',
-	2024,
-	1,
-	'PGG1101',
-	14,
-	258,
 	3);
 
 insert into prog_taller (
@@ -126335,80 +124437,12 @@ insert into prog_taller (
 	id_taller,
 	id_usuario)
 values (
-	'2024-04-16',
-	2024,
-	1,
-	'CRT3111',
-	3,
-	155,
-	3);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-16',
-	2024,
-	1,
-	'PGG1101',
-	14,
-	260,
-	3);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
 	'2024-04-22',
 	2024,
 	1,
 	'CRT3111',
 	1,
 	156,
-	3);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-23',
-	2024,
-	1,
-	'CRT3111',
-	3,
-	156,
-	3);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-23',
-	2024,
-	1,
-	'PGG1101',
-	14,
-	261,
 	3);
 
 insert into prog_taller (
@@ -126437,40 +124471,6 @@ insert into prog_taller (
 	id_taller,
 	id_usuario)
 values (
-	'2024-04-30',
-	2024,
-	1,
-	'CRT3111',
-	3,
-	157,
-	3);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-30',
-	2024,
-	1,
-	'PGG1101',
-	14,
-	262,
-	3);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
 	'2024-05-06',
 	2024,
 	1,
@@ -126488,13 +124488,13 @@ insert into prog_taller (
 	id_taller,
 	id_usuario)
 values (
-	'2024-05-07',
+	'2024-03-11',
 	2024,
 	1,
-	'CRT3111',
-	3,
-	158,
-	3);
+	'PGG1101',
+	1,
+	254,
+	8);
 
 insert into prog_taller (
 	fecha,
@@ -126505,13 +124505,982 @@ insert into prog_taller (
 	id_taller,
 	id_usuario)
 values (
-	'2024-05-07',
+	'2024-03-18',
 	2024,
 	1,
 	'PGG1101',
-	14,
+	1,
+	255,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-25',
+	2024,
+	1,
+	'PGG1101',
+	1,
+	256,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-01',
+	2024,
+	1,
+	'PGG1101',
+	1,
+	257,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-08',
+	2024,
+	1,
+	'PGG1101',
+	1,
+	258,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-15',
+	2024,
+	1,
+	'PGG1101',
+	1,
+	260,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-22',
+	2024,
+	1,
+	'PGG1101',
+	1,
+	261,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-29',
+	2024,
+	1,
+	'PGG1101',
+	1,
+	262,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-06',
+	2024,
+	1,
+	'PGG1101',
+	1,
 	263,
-	3);
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-13',
+	2024,
+	1,
+	'PGG1101',
+	1,
+	264,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-20',
+	2024,
+	1,
+	'PGG1101',
+	1,
+	265,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-27',
+	2024,
+	1,
+	'PGG1101',
+	1,
+	266,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-03',
+	2024,
+	1,
+	'PGG1101',
+	1,
+	267,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-10',
+	2024,
+	1,
+	'PGG1101',
+	1,
+	268,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-17',
+	2024,
+	1,
+	'PGG1101',
+	1,
+	269,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-24',
+	2024,
+	1,
+	'PGG1101',
+	1,
+	270,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-01',
+	2024,
+	1,
+	'PGG1101',
+	1,
+	271,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-14',
+	2024,
+	1,
+	'PGG1108',
+	1,
+	203,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-21',
+	2024,
+	1,
+	'PGG1108',
+	1,
+	205,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-28',
+	2024,
+	1,
+	'PGG1108',
+	1,
+	206,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-04',
+	2024,
+	1,
+	'PGG1108',
+	1,
+	207,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-11',
+	2024,
+	1,
+	'PGG1108',
+	1,
+	208,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-18',
+	2024,
+	1,
+	'PGG1108',
+	1,
+	209,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-25',
+	2024,
+	1,
+	'PGG1108',
+	1,
+	210,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-02',
+	2024,
+	1,
+	'PGG1108',
+	1,
+	211,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-09',
+	2024,
+	1,
+	'PGG1108',
+	1,
+	212,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-16',
+	2024,
+	1,
+	'PGG1108',
+	1,
+	213,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-23',
+	2024,
+	1,
+	'PGG1108',
+	1,
+	214,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-30',
+	2024,
+	1,
+	'PGG1108',
+	1,
+	215,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-06',
+	2024,
+	1,
+	'PGG1108',
+	1,
+	216,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-13',
+	2024,
+	1,
+	'PGG1108',
+	1,
+	217,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-20',
+	2024,
+	1,
+	'PGG1108',
+	1,
+	218,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-27',
+	2024,
+	1,
+	'PGG1108',
+	1,
+	218,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-15',
+	2024,
+	1,
+	'ABT3131B',
+	2,
+	275,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-22',
+	2024,
+	1,
+	'ABT3131B',
+	2,
+	276,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-29',
+	2024,
+	1,
+	'ABT3131B',
+	2,
+	277,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-05',
+	2024,
+	1,
+	'ABT3131B',
+	2,
+	278,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-12',
+	2024,
+	1,
+	'ABT3131B',
+	2,
+	279,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-19',
+	2024,
+	1,
+	'ABT3131B',
+	2,
+	280,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-26',
+	2024,
+	1,
+	'ABT3131B',
+	2,
+	282,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-03',
+	2024,
+	1,
+	'ABT3131B',
+	2,
+	283,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-10',
+	2024,
+	1,
+	'ABT3131B',
+	2,
+	284,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-24',
+	2024,
+	1,
+	'ABT3131B',
+	2,
+	287,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-31',
+	2024,
+	1,
+	'ABT3131B',
+	2,
+	288,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-07',
+	2024,
+	1,
+	'ABT3131B',
+	2,
+	289,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-14',
+	2024,
+	1,
+	'ABT3131B',
+	2,
+	290,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-21',
+	2024,
+	1,
+	'ABT3131B',
+	2,
+	291,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-28',
+	2024,
+	1,
+	'ABT3131B',
+	2,
+	292,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-05',
+	2024,
+	1,
+	'ABT3131B',
+	2,
+	293,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-12',
+	2024,
+	1,
+	'ABT3131B',
+	2,
+	294,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-11',
+	2024,
+	1,
+	'ABT3141',
+	2,
+	100,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-18',
+	2024,
+	1,
+	'ABT3141',
+	2,
+	101,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-25',
+	2024,
+	1,
+	'ABT3141',
+	2,
+	102,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-01',
+	2024,
+	1,
+	'ABT3141',
+	2,
+	103,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-08',
+	2024,
+	1,
+	'ABT3141',
+	2,
+	104,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-15',
+	2024,
+	1,
+	'ABT3141',
+	2,
+	105,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-22',
+	2024,
+	1,
+	'ABT3141',
+	2,
+	106,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-29',
+	2024,
+	1,
+	'ABT3141',
+	2,
+	107,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-06',
+	2024,
+	1,
+	'ABT3141',
+	2,
+	108,
+	16);
 
 insert into prog_taller (
 	fecha,
@@ -126539,13 +125508,285 @@ insert into prog_taller (
 	id_taller,
 	id_usuario)
 values (
-	'2024-05-14',
+	'2024-05-20',
 	2024,
 	1,
 	'CRT3111',
-	4,
-	150,
+	2,
+	151,
 	3);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-27',
+	2024,
+	1,
+	'CRT3111',
+	2,
+	152,
+	3);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-03',
+	2024,
+	1,
+	'CRT3111',
+	2,
+	153,
+	3);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-10',
+	2024,
+	1,
+	'CRT3111',
+	2,
+	154,
+	3);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-17',
+	2024,
+	1,
+	'CRT3111',
+	2,
+	155,
+	3);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-24',
+	2024,
+	1,
+	'CRT3111',
+	2,
+	156,
+	3);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-01',
+	2024,
+	1,
+	'CRT3111',
+	2,
+	157,
+	3);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-08',
+	2024,
+	1,
+	'CRT3111',
+	2,
+	158,
+	3);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-12',
+	2024,
+	1,
+	'PGG1101',
+	2,
+	254,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-19',
+	2024,
+	1,
+	'PGG1101',
+	2,
+	255,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-26',
+	2024,
+	1,
+	'PGG1101',
+	2,
+	256,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-02',
+	2024,
+	1,
+	'PGG1101',
+	2,
+	257,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-09',
+	2024,
+	1,
+	'PGG1101',
+	2,
+	258,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-16',
+	2024,
+	1,
+	'PGG1101',
+	2,
+	260,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-23',
+	2024,
+	1,
+	'PGG1101',
+	2,
+	261,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-30',
+	2024,
+	1,
+	'PGG1101',
+	2,
+	262,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-07',
+	2024,
+	1,
+	'PGG1101',
+	2,
+	263,
+	7);
 
 insert into prog_taller (
 	fecha,
@@ -126560,9 +125801,587 @@ values (
 	2024,
 	1,
 	'PGG1101',
-	14,
+	2,
 	264,
-	3);
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-28',
+	2024,
+	1,
+	'PGG1101',
+	2,
+	265,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-28',
+	2024,
+	1,
+	'PGG1101',
+	2,
+	266,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-04',
+	2024,
+	1,
+	'PGG1101',
+	2,
+	267,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-11',
+	2024,
+	1,
+	'PGG1101',
+	2,
+	268,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-18',
+	2024,
+	1,
+	'PGG1101',
+	2,
+	269,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-25',
+	2024,
+	1,
+	'PGG1101',
+	2,
+	270,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-02',
+	2024,
+	1,
+	'PGG1101',
+	2,
+	271,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-14',
+	2024,
+	1,
+	'PGG1108',
+	2,
+	203,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-21',
+	2024,
+	1,
+	'PGG1108',
+	2,
+	205,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-28',
+	2024,
+	1,
+	'PGG1108',
+	2,
+	206,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-04',
+	2024,
+	1,
+	'PGG1108',
+	2,
+	207,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-11',
+	2024,
+	1,
+	'PGG1108',
+	2,
+	208,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-18',
+	2024,
+	1,
+	'PGG1108',
+	2,
+	209,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-25',
+	2024,
+	1,
+	'PGG1108',
+	2,
+	210,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-02',
+	2024,
+	1,
+	'PGG1108',
+	2,
+	211,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-09',
+	2024,
+	1,
+	'PGG1108',
+	2,
+	212,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-16',
+	2024,
+	1,
+	'PGG1108',
+	2,
+	213,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-23',
+	2024,
+	1,
+	'PGG1108',
+	2,
+	214,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-30',
+	2024,
+	1,
+	'PGG1108',
+	2,
+	215,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-06',
+	2024,
+	1,
+	'PGG1108',
+	2,
+	216,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-13',
+	2024,
+	1,
+	'PGG1108',
+	2,
+	217,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-20',
+	2024,
+	1,
+	'PGG1108',
+	2,
+	218,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-27',
+	2024,
+	1,
+	'PGG1108',
+	2,
+	219,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-04',
+	2024,
+	1,
+	'PGG1108',
+	2,
+	220,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-11',
+	2024,
+	1,
+	'ABT3131',
+	3,
+	91,
+	11);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-18',
+	2024,
+	1,
+	'ABT3131',
+	3,
+	92,
+	11);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-25',
+	2024,
+	1,
+	'ABT3131',
+	3,
+	93,
+	11);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-01',
+	2024,
+	1,
+	'ABT3131',
+	3,
+	94,
+	11);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-08',
+	2024,
+	1,
+	'ABT3131',
+	3,
+	95,
+	11);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-15',
+	2024,
+	1,
+	'ABT3131',
+	3,
+	96,
+	11);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-22',
+	2024,
+	1,
+	'ABT3131',
+	3,
+	97,
+	11);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-29',
+	2024,
+	1,
+	'ABT3131',
+	3,
+	98,
+	11);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-06',
+	2024,
+	1,
+	'ABT3131',
+	3,
+	99,
+	11);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-13',
+	2024,
+	1,
+	'ABT3131',
+	3,
+	82,
+	18);
 
 insert into prog_taller (
 	fecha,
@@ -126576,9 +126395,1488 @@ values (
 	'2024-05-20',
 	2024,
 	1,
+	'ABT3131',
+	3,
+	83,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-27',
+	2024,
+	1,
+	'ABT3131',
+	3,
+	84,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-03',
+	2024,
+	1,
+	'ABT3131',
+	3,
+	85,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-10',
+	2024,
+	1,
+	'ABT3131',
+	3,
+	86,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-17',
+	2024,
+	1,
+	'ABT3131',
+	3,
+	87,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-24',
+	2024,
+	1,
+	'ABT3131',
+	3,
+	88,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-01',
+	2024,
+	1,
+	'ABT3131',
+	3,
+	89,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-08',
+	2024,
+	1,
+	'ABT3131',
+	3,
+	90,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-14',
+	2024,
+	1,
+	'ABT3141',
+	3,
+	100,
+	26);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-28',
+	2024,
+	1,
+	'ABT3141',
+	3,
+	101,
+	26);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-28',
+	2024,
+	1,
+	'ABT3141',
+	3,
+	102,
+	26);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-04',
+	2024,
+	1,
+	'ABT3141',
+	3,
+	103,
+	26);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-11',
+	2024,
+	1,
+	'ABT3141',
+	3,
+	104,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-18',
+	2024,
+	1,
+	'ABT3141',
+	3,
+	105,
+	26);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-25',
+	2024,
+	1,
+	'ABT3141',
+	3,
+	106,
+	26);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-02',
+	2024,
+	1,
+	'ABT3141',
+	3,
+	107,
+	26);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-09',
+	2024,
+	1,
+	'ABT3141',
+	3,
+	108,
+	26);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-12',
+	2024,
+	1,
 	'CRT3111',
-	2,
+	3,
+	150,
+	3);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-19',
+	2024,
+	1,
+	'CRT3111',
+	3,
 	151,
+	3);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-26',
+	2024,
+	1,
+	'CRT3111',
+	3,
+	152,
+	3);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-02',
+	2024,
+	1,
+	'CRT3111',
+	3,
+	153,
+	3);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-09',
+	2024,
+	1,
+	'CRT3111',
+	3,
+	154,
+	3);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-16',
+	2024,
+	1,
+	'CRT3111',
+	3,
+	155,
+	3);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-23',
+	2024,
+	1,
+	'CRT3111',
+	3,
+	156,
+	3);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-30',
+	2024,
+	1,
+	'CRT3111',
+	3,
+	157,
+	3);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-07',
+	2024,
+	1,
+	'CRT3111',
+	3,
+	158,
+	3);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-12',
+	2024,
+	1,
+	'PGG1101',
+	3,
+	254,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-19',
+	2024,
+	1,
+	'PGG1101',
+	3,
+	255,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-26',
+	2024,
+	1,
+	'PGG1101',
+	3,
+	256,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-02',
+	2024,
+	1,
+	'PGG1101',
+	3,
+	257,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-09',
+	2024,
+	1,
+	'PGG1101',
+	3,
+	258,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-16',
+	2024,
+	1,
+	'PGG1101',
+	3,
+	260,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-23',
+	2024,
+	1,
+	'PGG1101',
+	3,
+	261,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-30',
+	2024,
+	1,
+	'PGG1101',
+	3,
+	262,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-07',
+	2024,
+	1,
+	'PGG1101',
+	3,
+	263,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-14',
+	2024,
+	1,
+	'PGG1101',
+	3,
+	264,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-28',
+	2024,
+	1,
+	'PGG1101',
+	3,
+	265,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-28',
+	2024,
+	1,
+	'PGG1101',
+	3,
+	266,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-04',
+	2024,
+	1,
+	'PGG1101',
+	3,
+	267,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-11',
+	2024,
+	1,
+	'PGG1101',
+	3,
+	268,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-18',
+	2024,
+	1,
+	'PGG1101',
+	3,
+	269,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-25',
+	2024,
+	1,
+	'PGG1101',
+	3,
+	270,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-02',
+	2024,
+	1,
+	'PGG1101',
+	3,
+	271,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-14',
+	2024,
+	1,
+	'PGG1108',
+	3,
+	203,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-21',
+	2024,
+	1,
+	'PGG1108',
+	3,
+	205,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-04',
+	2024,
+	1,
+	'PGG1108',
+	3,
+	206,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-11',
+	2024,
+	1,
+	'PGG1108',
+	3,
+	207,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-11',
+	2024,
+	1,
+	'PGG1108',
+	3,
+	208,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-18',
+	2024,
+	1,
+	'PGG1108',
+	3,
+	209,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-25',
+	2024,
+	1,
+	'PGG1108',
+	3,
+	210,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-02',
+	2024,
+	1,
+	'PGG1108',
+	3,
+	211,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-09',
+	2024,
+	1,
+	'PGG1108',
+	3,
+	212,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-16',
+	2024,
+	1,
+	'PGG1108',
+	3,
+	213,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-23',
+	2024,
+	1,
+	'PGG1108',
+	3,
+	214,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-30',
+	2024,
+	1,
+	'PGG1108',
+	3,
+	215,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-06',
+	2024,
+	1,
+	'PGG1108',
+	3,
+	216,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-13',
+	2024,
+	1,
+	'PGG1108',
+	3,
+	217,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-20',
+	2024,
+	1,
+	'PGG1108',
+	3,
+	218,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-27',
+	2024,
+	1,
+	'PGG1108',
+	3,
+	219,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-04',
+	2024,
+	1,
+	'PGG1108',
+	3,
+	220,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-11',
+	2024,
+	1,
+	'ABT3131B',
+	4,
+	275,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-18',
+	2024,
+	1,
+	'ABT3131B',
+	4,
+	276,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-25',
+	2024,
+	1,
+	'ABT3131B',
+	4,
+	277,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-01',
+	2024,
+	1,
+	'ABT3131B',
+	4,
+	278,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-08',
+	2024,
+	1,
+	'ABT3131B',
+	4,
+	279,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-15',
+	2024,
+	1,
+	'ABT3131B',
+	4,
+	280,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-22',
+	2024,
+	1,
+	'ABT3131B',
+	4,
+	282,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-29',
+	2024,
+	1,
+	'ABT3131B',
+	4,
+	283,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-06',
+	2024,
+	1,
+	'ABT3131B',
+	4,
+	284,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-13',
+	2024,
+	1,
+	'ABT3131B',
+	4,
+	286,
+	11);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-20',
+	2024,
+	1,
+	'ABT3131B',
+	4,
+	287,
+	11);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-27',
+	2024,
+	1,
+	'ABT3131B',
+	4,
+	288,
+	11);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-03',
+	2024,
+	1,
+	'ABT3131B',
+	4,
+	289,
+	11);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-10',
+	2024,
+	1,
+	'ABT3131B',
+	4,
+	290,
+	11);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-17',
+	2024,
+	1,
+	'ABT3131B',
+	4,
+	291,
+	11);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-24',
+	2024,
+	1,
+	'ABT3131B',
+	4,
+	292,
+	11);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-01',
+	2024,
+	1,
+	'ABT3131B',
+	4,
+	293,
+	11);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-08',
+	2024,
+	1,
+	'ABT3131B',
+	4,
+	294,
+	11);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-12',
+	2024,
+	1,
+	'ABT3141',
+	4,
+	100,
+	26);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-19',
+	2024,
+	1,
+	'ABT3141',
+	4,
+	101,
+	26);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-26',
+	2024,
+	1,
+	'ABT3141',
+	4,
+	102,
+	26);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-02',
+	2024,
+	1,
+	'ABT3141',
+	4,
+	103,
+	26);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-09',
+	2024,
+	1,
+	'ABT3141',
+	4,
+	104,
+	26);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-16',
+	2024,
+	1,
+	'ABT3141',
+	4,
+	105,
+	26);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-23',
+	2024,
+	1,
+	'ABT3141',
+	4,
+	106,
+	26);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-30',
+	2024,
+	1,
+	'ABT3141',
+	4,
+	107,
+	26);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-07',
+	2024,
+	1,
+	'ABT3141',
+	4,
+	108,
+	26);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-14',
+	2024,
+	1,
+	'CRT3111',
+	4,
+	150,
 	3);
 
 insert into prog_taller (
@@ -126607,80 +127905,12 @@ insert into prog_taller (
 	id_taller,
 	id_usuario)
 values (
-	'2024-05-27',
-	2024,
-	1,
-	'CRT3111',
-	2,
-	152,
-	3);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
 	'2024-05-28',
 	2024,
 	1,
 	'CRT3111',
 	4,
 	152,
-	3);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-28',
-	2024,
-	1,
-	'PGG1101',
-	14,
-	265,
-	3);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-28',
-	2024,
-	1,
-	'PGG1101',
-	14,
-	266,
-	3);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-03',
-	2024,
-	1,
-	'CRT3111',
-	2,
-	153,
 	3);
 
 insert into prog_taller (
@@ -126709,80 +127939,12 @@ insert into prog_taller (
 	id_taller,
 	id_usuario)
 values (
-	'2024-06-04',
-	2024,
-	1,
-	'PGG1101',
-	14,
-	267,
-	3);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-10',
-	2024,
-	1,
-	'CRT3111',
-	2,
-	154,
-	3);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
 	'2024-06-11',
 	2024,
 	1,
 	'CRT3111',
 	4,
 	154,
-	3);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-11',
-	2024,
-	1,
-	'PGG1101',
-	14,
-	268,
-	3);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-17',
-	2024,
-	1,
-	'CRT3111',
-	2,
-	155,
 	3);
 
 insert into prog_taller (
@@ -126811,40 +127973,6 @@ insert into prog_taller (
 	id_taller,
 	id_usuario)
 values (
-	'2024-06-18',
-	2024,
-	1,
-	'PGG1101',
-	14,
-	269,
-	3);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-24',
-	2024,
-	1,
-	'CRT3111',
-	2,
-	156,
-	3);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
 	'2024-06-25',
 	2024,
 	1,
@@ -126862,80 +127990,12 @@ insert into prog_taller (
 	id_taller,
 	id_usuario)
 values (
-	'2024-06-25',
-	2024,
-	1,
-	'PGG1101',
-	14,
-	270,
-	3);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-01',
-	2024,
-	1,
-	'CRT3111',
-	2,
-	157,
-	3);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
 	'2024-07-02',
 	2024,
 	1,
 	'CRT3111',
 	4,
 	157,
-	3);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-02',
-	2024,
-	1,
-	'PGG1101',
-	14,
-	271,
-	3);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-08',
-	2024,
-	1,
-	'CRT3111',
-	2,
-	158,
 	3);
 
 insert into prog_taller (
@@ -126964,13 +128024,13 @@ insert into prog_taller (
 	id_taller,
 	id_usuario)
 values (
-	'2024-03-11',
+	'2024-03-12',
 	2024,
 	1,
-	'CRT3111',
-	11,
-	150,
-	4);
+	'PGG1101',
+	4,
+	254,
+	7);
 
 insert into prog_taller (
 	fecha,
@@ -126981,13 +128041,268 @@ insert into prog_taller (
 	id_taller,
 	id_usuario)
 values (
-	'2024-03-13',
+	'2024-03-19',
 	2024,
 	1,
 	'PGG1101',
-	12,
-	254,
-	4);
+	4,
+	255,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-26',
+	2024,
+	1,
+	'PGG1101',
+	4,
+	256,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-02',
+	2024,
+	1,
+	'PGG1101',
+	4,
+	257,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-09',
+	2024,
+	1,
+	'PGG1101',
+	4,
+	258,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-16',
+	2024,
+	1,
+	'PGG1101',
+	4,
+	260,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-23',
+	2024,
+	1,
+	'PGG1101',
+	4,
+	261,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-30',
+	2024,
+	1,
+	'PGG1101',
+	4,
+	262,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-07',
+	2024,
+	1,
+	'PGG1101',
+	4,
+	263,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-14',
+	2024,
+	1,
+	'PGG1101',
+	4,
+	264,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-28',
+	2024,
+	1,
+	'PGG1101',
+	4,
+	265,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-28',
+	2024,
+	1,
+	'PGG1101',
+	4,
+	266,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-04',
+	2024,
+	1,
+	'PGG1101',
+	4,
+	267,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-11',
+	2024,
+	1,
+	'PGG1101',
+	4,
+	268,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-18',
+	2024,
+	1,
+	'PGG1101',
+	4,
+	269,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-25',
+	2024,
+	1,
+	'PGG1101',
+	4,
+	270,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-02',
+	2024,
+	1,
+	'PGG1101',
+	4,
+	271,
+	7);
 
 insert into prog_taller (
 	fecha,
@@ -127001,61 +128316,10 @@ values (
 	'2024-03-14',
 	2024,
 	1,
-	'CRT3111',
-	13,
-	150,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-15',
-	2024,
-	1,
-	'ABT3131',
-	1,
-	91,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-18',
-	2024,
-	1,
-	'CRT3111',
-	11,
-	151,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-20',
-	2024,
-	1,
-	'PGG1101',
-	12,
-	255,
-	4);
+	'PGG1108',
+	4,
+	203,
+	14);
 
 insert into prog_taller (
 	fecha,
@@ -127069,129 +128333,10 @@ values (
 	'2024-03-21',
 	2024,
 	1,
-	'CRT3111',
-	13,
-	151,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-22',
-	2024,
-	1,
-	'ABT3131',
-	1,
-	92,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-25',
-	2024,
-	1,
-	'CRT3111',
-	11,
-	152,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-27',
-	2024,
-	1,
-	'PGG1101',
-	12,
-	256,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-28',
-	2024,
-	1,
-	'CRT3111',
-	13,
-	152,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-29',
-	2024,
-	1,
-	'ABT3131',
-	1,
-	93,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-01',
-	2024,
-	1,
-	'CRT3111',
-	11,
-	153,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-03',
-	2024,
-	1,
-	'PGG1101',
-	12,
-	257,
-	4);
+	'PGG1108',
+	4,
+	205,
+	14);
 
 insert into prog_taller (
 	fecha,
@@ -127205,61 +128350,10 @@ values (
 	'2024-04-04',
 	2024,
 	1,
-	'CRT3111',
-	13,
-	153,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-05',
-	2024,
-	1,
-	'ABT3131',
-	1,
-	94,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-08',
-	2024,
-	1,
-	'CRT3111',
-	11,
-	154,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-10',
-	2024,
-	1,
-	'PGG1101',
-	12,
-	258,
-	4);
+	'PGG1108',
+	4,
+	206,
+	14);
 
 insert into prog_taller (
 	fecha,
@@ -127273,10 +128367,10 @@ values (
 	'2024-04-11',
 	2024,
 	1,
-	'CRT3111',
-	13,
-	154,
-	4);
+	'PGG1108',
+	4,
+	207,
+	14);
 
 insert into prog_taller (
 	fecha,
@@ -127287,47 +128381,13 @@ insert into prog_taller (
 	id_taller,
 	id_usuario)
 values (
-	'2024-04-12',
+	'2024-04-11',
 	2024,
 	1,
-	'ABT3131',
-	1,
-	95,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-15',
-	2024,
-	1,
-	'CRT3111',
-	11,
-	155,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-17',
-	2024,
-	1,
-	'PGG1101',
-	12,
-	260,
-	4);
+	'PGG1108',
+	4,
+	208,
+	14);
 
 insert into prog_taller (
 	fecha,
@@ -127341,61 +128401,10 @@ values (
 	'2024-04-18',
 	2024,
 	1,
-	'CRT3111',
-	13,
-	155,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-19',
-	2024,
-	1,
-	'ABT3131',
-	1,
-	96,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-22',
-	2024,
-	1,
-	'CRT3111',
-	11,
-	156,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-24',
-	2024,
-	1,
-	'PGG1101',
-	12,
-	261,
-	4);
+	'PGG1108',
+	4,
+	209,
+	14);
 
 insert into prog_taller (
 	fecha,
@@ -127409,44 +128418,10 @@ values (
 	'2024-04-25',
 	2024,
 	1,
-	'CRT3111',
-	13,
-	156,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-26',
-	2024,
-	1,
-	'ABT3131',
-	1,
-	97,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-29',
-	2024,
-	1,
-	'CRT3111',
-	11,
-	157,
-	4);
+	'PGG1108',
+	4,
+	210,
+	14);
 
 insert into prog_taller (
 	fecha,
@@ -127460,61 +128435,10 @@ values (
 	'2024-05-02',
 	2024,
 	1,
-	'CRT3111',
-	13,
-	157,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-03',
-	2024,
-	1,
-	'ABT3131',
-	1,
-	98,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-06',
-	2024,
-	1,
-	'CRT3111',
-	11,
-	158,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-08',
-	2024,
-	1,
-	'PGG1101',
-	12,
-	262,
-	4);
+	'PGG1108',
+	4,
+	211,
+	14);
 
 insert into prog_taller (
 	fecha,
@@ -127528,78 +128452,10 @@ values (
 	'2024-05-09',
 	2024,
 	1,
-	'CRT3111',
-	13,
-	158,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-10',
-	2024,
-	1,
-	'ABT3131',
-	1,
-	99,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-13',
-	2024,
-	1,
-	'CRT3111',
-	12,
-	150,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-15',
-	2024,
-	1,
-	'PGG1101',
-	12,
-	263,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-15',
-	2024,
-	1,
-	'PGG1101',
-	12,
-	264,
-	4);
+	'PGG1108',
+	4,
+	212,
+	14);
 
 insert into prog_taller (
 	fecha,
@@ -127613,44 +128469,10 @@ values (
 	'2024-05-16',
 	2024,
 	1,
-	'CRT3111',
-	14,
-	150,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-20',
-	2024,
-	1,
-	'CRT3111',
-	12,
-	151,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-22',
-	2024,
-	1,
-	'PGG1101',
-	12,
-	265,
-	4);
+	'PGG1108',
+	4,
+	213,
+	14);
 
 insert into prog_taller (
 	fecha,
@@ -127664,61 +128486,10 @@ values (
 	'2024-05-23',
 	2024,
 	1,
-	'CRT3111',
-	14,
-	151,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-24',
-	2024,
-	1,
-	'ABT3131B',
-	2,
-	287,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-27',
-	2024,
-	1,
-	'CRT3111',
-	12,
-	152,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-29',
-	2024,
-	1,
-	'PGG1101',
-	12,
-	266,
-	4);
+	'PGG1108',
+	4,
+	214,
+	14);
 
 insert into prog_taller (
 	fecha,
@@ -127732,61 +128503,10 @@ values (
 	'2024-05-30',
 	2024,
 	1,
-	'CRT3111',
-	14,
-	152,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-31',
-	2024,
-	1,
-	'ABT3131B',
-	2,
-	288,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-03',
-	2024,
-	1,
-	'CRT3111',
-	12,
-	153,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-05',
-	2024,
-	1,
-	'PGG1101',
-	12,
-	267,
-	4);
+	'PGG1108',
+	4,
+	215,
+	14);
 
 insert into prog_taller (
 	fecha,
@@ -127800,61 +128520,10 @@ values (
 	'2024-06-06',
 	2024,
 	1,
-	'CRT3111',
-	14,
-	153,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-07',
-	2024,
-	1,
-	'ABT3131B',
-	2,
-	289,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-10',
-	2024,
-	1,
-	'CRT3111',
-	12,
-	154,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-12',
-	2024,
-	1,
-	'PGG1101',
-	12,
-	268,
-	4);
+	'PGG1108',
+	4,
+	216,
+	14);
 
 insert into prog_taller (
 	fecha,
@@ -127868,61 +128537,10 @@ values (
 	'2024-06-13',
 	2024,
 	1,
-	'CRT3111',
-	14,
-	154,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-14',
-	2024,
-	1,
-	'ABT3131B',
-	2,
-	290,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-17',
-	2024,
-	1,
-	'CRT3111',
-	12,
-	155,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-19',
-	2024,
-	1,
-	'PGG1101',
-	12,
-	269,
-	4);
+	'PGG1108',
+	4,
+	217,
+	14);
 
 insert into prog_taller (
 	fecha,
@@ -127936,61 +128554,10 @@ values (
 	'2024-06-20',
 	2024,
 	1,
-	'CRT3111',
-	14,
-	155,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-21',
-	2024,
-	1,
-	'ABT3131B',
-	2,
-	291,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-24',
-	2024,
-	1,
-	'CRT3111',
-	12,
-	156,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-26',
-	2024,
-	1,
-	'PGG1101',
-	12,
-	270,
-	4);
+	'PGG1108',
+	4,
+	218,
+	14);
 
 insert into prog_taller (
 	fecha,
@@ -128004,61 +128571,10 @@ values (
 	'2024-06-27',
 	2024,
 	1,
-	'CRT3111',
-	14,
-	156,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-28',
-	2024,
-	1,
-	'ABT3131B',
-	2,
-	292,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-01',
-	2024,
-	1,
-	'CRT3111',
-	12,
-	157,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-03',
-	2024,
-	1,
-	'PGG1101',
-	12,
-	271,
-	4);
+	'PGG1108',
+	4,
+	219,
+	14);
 
 insert into prog_taller (
 	fecha,
@@ -128072,4549 +128588,10 @@ values (
 	'2024-07-04',
 	2024,
 	1,
-	'CRT3111',
-	14,
-	157,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-05',
-	2024,
-	1,
-	'ABT3131B',
-	2,
-	293,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-08',
-	2024,
-	1,
-	'CRT3111',
-	12,
-	158,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-11',
-	2024,
-	1,
-	'CRT3111',
-	14,
-	158,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-12',
-	2024,
-	1,
-	'ABT3131B',
-	2,
-	294,
-	4);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2023-03-23',
-	2023,
-	1,
-	'ABT3131',
-	3,
-	84,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2023-05-02',
-	2023,
-	1,
-	'ABT3131',
-	3,
-	90,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2023-05-20',
-	2023,
-	1,
-	'ABT3131',
-	3,
-	92,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-13',
-	2024,
-	1,
-	'PGG1101',
-	6,
-	254,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-13',
-	2024,
-	1,
-	'PGG1101',
-	11,
-	254,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-14',
-	2024,
-	1,
-	'CRT3111',
-	7,
-	150,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-15',
-	2024,
-	1,
-	'CRT3111',
-	9,
-	150,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-20',
-	2024,
-	1,
-	'PGG1101',
-	6,
-	255,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-20',
-	2024,
-	1,
-	'PGG1101',
-	11,
-	255,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-21',
-	2024,
-	1,
-	'CRT3111',
-	7,
-	151,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-22',
-	2024,
-	1,
-	'CRT3111',
-	9,
-	151,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-27',
-	2024,
-	1,
-	'PGG1101',
-	6,
-	256,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-27',
-	2024,
-	1,
-	'PGG1101',
-	11,
-	256,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-28',
-	2024,
-	1,
-	'CRT3111',
-	7,
-	152,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-03',
-	2024,
-	1,
-	'PGG1101',
-	6,
-	257,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-03',
-	2024,
-	1,
-	'PGG1101',
-	11,
-	257,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-04',
-	2024,
-	1,
-	'CRT3111',
-	7,
-	153,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-05',
-	2024,
-	1,
-	'CRT3111',
-	9,
-	153,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-10',
-	2024,
-	1,
-	'PGG1101',
-	6,
-	258,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-10',
-	2024,
-	1,
-	'PGG1101',
-	11,
-	258,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-11',
-	2024,
-	1,
-	'CRT3111',
-	7,
-	154,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-12',
-	2024,
-	1,
-	'CRT3111',
-	9,
-	154,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-17',
-	2024,
-	1,
-	'PGG1101',
-	6,
-	260,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-17',
-	2024,
-	1,
-	'PGG1101',
-	11,
-	260,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-18',
-	2024,
-	1,
-	'CRT3111',
-	7,
-	155,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-19',
-	2024,
-	1,
-	'CRT3111',
-	9,
-	155,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-24',
-	2024,
-	1,
-	'PGG1101',
-	6,
-	261,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-24',
-	2024,
-	1,
-	'PGG1101',
-	11,
-	261,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-25',
-	2024,
-	1,
-	'CRT3111',
-	7,
-	156,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-26',
-	2024,
-	1,
-	'CRT3111',
-	9,
-	156,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-02',
-	2024,
-	1,
-	'CRT3111',
-	7,
-	157,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-03',
-	2024,
-	1,
-	'CRT3111',
-	9,
-	157,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-08',
-	2024,
-	1,
-	'PGG1101',
-	6,
-	262,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-08',
-	2024,
-	1,
-	'PGG1101',
-	11,
-	262,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-09',
-	2024,
-	1,
-	'CRT3111',
-	7,
-	158,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-10',
-	2024,
-	1,
-	'CRT3111',
-	9,
-	158,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-15',
-	2024,
-	1,
-	'PGG1101',
-	6,
-	263,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-15',
-	2024,
-	1,
-	'PGG1101',
-	6,
-	264,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-15',
-	2024,
-	1,
-	'PGG1101',
-	11,
-	263,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-15',
-	2024,
-	1,
-	'PGG1101',
-	11,
-	264,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-16',
-	2024,
-	1,
-	'CRT3111',
-	8,
-	150,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-17',
-	2024,
-	1,
-	'CRT3111',
-	10,
-	150,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-22',
-	2024,
-	1,
-	'PGG1101',
-	6,
-	265,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-22',
-	2024,
-	1,
-	'PGG1101',
-	11,
-	265,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-23',
-	2024,
-	1,
-	'CRT3111',
-	8,
-	151,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-24',
-	2024,
-	1,
-	'CRT3111',
-	10,
-	151,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-29',
-	2024,
-	1,
-	'PGG1101',
-	6,
-	266,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-29',
-	2024,
-	1,
-	'PGG1101',
-	11,
-	266,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-30',
-	2024,
-	1,
-	'CRT3111',
-	8,
-	152,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-31',
-	2024,
-	1,
-	'CRT3111',
-	10,
-	152,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-05',
-	2024,
-	1,
-	'PGG1101',
-	6,
-	267,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-05',
-	2024,
-	1,
-	'PGG1101',
-	11,
-	267,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-06',
-	2024,
-	1,
-	'CRT3111',
-	8,
-	153,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-07',
-	2024,
-	1,
-	'CRT3111',
-	10,
-	153,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-12',
-	2024,
-	1,
-	'PGG1101',
-	6,
-	268,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-12',
-	2024,
-	1,
-	'PGG1101',
-	11,
-	268,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-13',
-	2024,
-	1,
-	'CRT3111',
-	8,
-	154,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-14',
-	2024,
-	1,
-	'CRT3111',
-	10,
-	154,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-19',
-	2024,
-	1,
-	'PGG1101',
-	6,
-	269,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-19',
-	2024,
-	1,
-	'PGG1101',
-	11,
-	269,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-20',
-	2024,
-	1,
-	'CRT3111',
-	8,
-	155,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-21',
-	2024,
-	1,
-	'CRT3111',
-	10,
-	155,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-26',
-	2024,
-	1,
-	'PGG1101',
-	6,
-	270,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-26',
-	2024,
-	1,
-	'PGG1101',
-	11,
-	270,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-27',
-	2024,
-	1,
-	'CRT3111',
-	8,
-	156,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-28',
-	2024,
-	1,
-	'CRT3111',
-	10,
-	156,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-03',
-	2024,
-	1,
-	'PGG1101',
-	6,
-	271,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-03',
-	2024,
-	1,
-	'PGG1101',
-	11,
-	271,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-04',
-	2024,
-	1,
-	'CRT3111',
-	8,
-	157,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-05',
-	2024,
-	1,
-	'CRT3111',
-	10,
-	157,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-11',
-	2024,
-	1,
-	'CRT3111',
-	8,
-	158,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-12',
-	2024,
-	1,
-	'CRT3111',
-	10,
-	158,
-	5);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-13',
-	2024,
-	1,
-	'PGG1101',
-	5,
-	254,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-14',
-	2024,
-	1,
-	'PGG1101',
-	9,
-	254,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-15',
-	2024,
-	1,
-	'ABT3131',
-	11,
-	91,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-20',
-	2024,
-	1,
-	'PGG1101',
-	5,
-	255,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-21',
-	2024,
-	1,
-	'PGG1101',
-	9,
-	255,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-22',
-	2024,
-	1,
-	'ABT3131',
-	11,
-	92,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-27',
-	2024,
-	1,
-	'PGG1101',
-	5,
-	256,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-28',
-	2024,
-	1,
-	'PGG1101',
-	9,
-	256,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-29',
-	2024,
-	1,
-	'ABT3131',
-	11,
-	93,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-03',
-	2024,
-	1,
-	'PGG1101',
-	5,
-	257,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-04',
-	2024,
-	1,
-	'PGG1101',
-	9,
-	257,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-05',
-	2024,
-	1,
-	'ABT3131',
-	11,
-	94,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-10',
-	2024,
-	1,
-	'PGG1101',
-	5,
-	258,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-11',
-	2024,
-	1,
-	'PGG1101',
-	9,
-	258,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-12',
-	2024,
-	1,
-	'ABT3131',
-	11,
-	95,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-17',
-	2024,
-	1,
-	'PGG1101',
-	5,
-	260,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-18',
-	2024,
-	1,
-	'PGG1101',
-	9,
-	260,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-19',
-	2024,
-	1,
-	'ABT3131',
-	11,
-	96,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-24',
-	2024,
-	1,
-	'PGG1101',
-	5,
-	261,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-25',
-	2024,
-	1,
-	'PGG1101',
-	9,
-	261,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-26',
-	2024,
-	1,
-	'ABT3131',
-	11,
-	97,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-02',
-	2024,
-	1,
-	'PGG1101',
-	9,
-	262,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-03',
-	2024,
-	1,
-	'ABT3131',
-	11,
-	98,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-08',
-	2024,
-	1,
-	'PGG1101',
-	5,
-	262,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-09',
-	2024,
-	1,
-	'PGG1101',
-	9,
-	263,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-10',
-	2024,
-	1,
-	'ABT3131',
-	11,
-	99,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-15',
-	2024,
-	1,
-	'PGG1101',
-	5,
-	263,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-15',
-	2024,
-	1,
-	'PGG1101',
-	5,
-	264,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-16',
-	2024,
-	1,
-	'PGG1101',
-	9,
-	264,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-17',
-	2024,
-	1,
-	'ABT3131B',
-	12,
-	286,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-22',
-	2024,
-	1,
-	'PGG1101',
-	5,
-	265,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-23',
-	2024,
-	1,
-	'PGG1101',
-	9,
-	265,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-24',
-	2024,
-	1,
-	'ABT3131B',
-	12,
-	287,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-29',
-	2024,
-	1,
-	'PGG1101',
-	5,
-	266,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-30',
-	2024,
-	1,
-	'PGG1101',
-	9,
-	266,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-31',
-	2024,
-	1,
-	'ABT3131B',
-	12,
-	288,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-05',
-	2024,
-	1,
-	'PGG1101',
-	5,
-	267,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-06',
-	2024,
-	1,
-	'PGG1101',
-	9,
-	267,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-07',
-	2024,
-	1,
-	'ABT3131B',
-	12,
-	289,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-12',
-	2024,
-	1,
-	'PGG1101',
-	5,
-	268,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-13',
-	2024,
-	1,
-	'PGG1101',
-	9,
-	268,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-14',
-	2024,
-	1,
-	'ABT3131B',
-	12,
-	290,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-19',
-	2024,
-	1,
-	'PGG1101',
-	5,
-	269,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-20',
-	2024,
-	1,
-	'PGG1101',
-	9,
-	269,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-21',
-	2024,
-	1,
-	'ABT3131B',
-	12,
-	291,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-26',
-	2024,
-	1,
-	'PGG1101',
-	5,
-	270,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-27',
-	2024,
-	1,
-	'PGG1101',
-	9,
-	270,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-28',
-	2024,
-	1,
-	'ABT3131B',
-	12,
-	292,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-03',
-	2024,
-	1,
-	'PGG1101',
-	5,
-	271,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-05',
-	2024,
-	1,
-	'ABT3131B',
-	12,
-	293,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-05',
-	2024,
-	1,
-	'PGG1101',
-	9,
-	271,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-12',
-	2024,
-	1,
-	'ABT3131B',
-	12,
-	294,
-	6);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2023-04-14',
-	2023,
-	1,
-	'ABT3131',
-	3,
-	87,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-12',
-	2024,
-	1,
-	'PGG1101',
-	2,
-	254,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-12',
-	2024,
-	1,
-	'PGG1101',
+	'PGG1108',
 	4,
-	254,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-13',
-	2024,
-	1,
-	'CRT3111',
-	5,
-	150,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-14',
-	2024,
-	1,
-	'PGG1101',
-	8,
-	254,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-19',
-	2024,
-	1,
-	'PGG1101',
-	2,
-	255,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-19',
-	2024,
-	1,
-	'PGG1101',
-	4,
-	255,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-20',
-	2024,
-	1,
-	'CRT3111',
-	5,
-	151,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-21',
-	2024,
-	1,
-	'PGG1101',
-	8,
-	255,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-26',
-	2024,
-	1,
-	'PGG1101',
-	2,
-	256,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-26',
-	2024,
-	1,
-	'PGG1101',
-	4,
-	256,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-27',
-	2024,
-	1,
-	'CRT3111',
-	5,
-	152,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-28',
-	2024,
-	1,
-	'PGG1101',
-	8,
-	256,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-02',
-	2024,
-	1,
-	'PGG1101',
-	2,
-	257,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-02',
-	2024,
-	1,
-	'PGG1101',
-	4,
-	257,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-03',
-	2024,
-	1,
-	'CRT3111',
-	5,
-	153,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-04',
-	2024,
-	1,
-	'PGG1101',
-	8,
-	257,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-09',
-	2024,
-	1,
-	'PGG1101',
-	2,
-	258,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-09',
-	2024,
-	1,
-	'PGG1101',
-	4,
-	258,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-10',
-	2024,
-	1,
-	'CRT3111',
-	5,
-	154,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-11',
-	2024,
-	1,
-	'PGG1101',
-	8,
-	258,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-16',
-	2024,
-	1,
-	'PGG1101',
-	2,
-	260,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-16',
-	2024,
-	1,
-	'PGG1101',
-	4,
-	260,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-17',
-	2024,
-	1,
-	'CRT3111',
-	5,
-	155,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-18',
-	2024,
-	1,
-	'PGG1101',
-	8,
-	260,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-23',
-	2024,
-	1,
-	'PGG1101',
-	2,
-	261,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-23',
-	2024,
-	1,
-	'PGG1101',
-	4,
-	261,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-24',
-	2024,
-	1,
-	'CRT3111',
-	5,
-	156,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-25',
-	2024,
-	1,
-	'PGG1101',
-	8,
-	261,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-30',
-	2024,
-	1,
-	'PGG1101',
-	2,
-	262,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-30',
-	2024,
-	1,
-	'PGG1101',
-	4,
-	262,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-02',
-	2024,
-	1,
-	'PGG1101',
-	8,
-	262,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-07',
-	2024,
-	1,
-	'PGG1101',
-	2,
-	263,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-07',
-	2024,
-	1,
-	'PGG1101',
-	4,
-	263,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-08',
-	2024,
-	1,
-	'CRT3111',
-	5,
-	158,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-09',
-	2024,
-	1,
-	'PGG1101',
-	8,
-	263,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-14',
-	2024,
-	1,
-	'PGG1101',
-	2,
-	264,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-14',
-	2024,
-	1,
-	'PGG1101',
-	4,
-	264,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-15',
-	2024,
-	1,
-	'CRT3111',
-	6,
-	150,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-16',
-	2024,
-	1,
-	'PGG1101',
-	8,
-	264,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-22',
-	2024,
-	1,
-	'CRT3111',
-	6,
-	151,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-23',
-	2024,
-	1,
-	'PGG1101',
-	8,
-	265,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-28',
-	2024,
-	1,
-	'PGG1101',
-	2,
-	265,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-28',
-	2024,
-	1,
-	'PGG1101',
-	2,
-	266,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-28',
-	2024,
-	1,
-	'PGG1101',
-	4,
-	265,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-28',
-	2024,
-	1,
-	'PGG1101',
-	4,
-	266,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-29',
-	2024,
-	1,
-	'CRT3111',
-	6,
-	152,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-30',
-	2024,
-	1,
-	'PGG1101',
-	8,
-	266,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-04',
-	2024,
-	1,
-	'PGG1101',
-	2,
-	267,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-04',
-	2024,
-	1,
-	'PGG1101',
-	4,
-	267,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-05',
-	2024,
-	1,
-	'CRT3111',
-	6,
-	153,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-06',
-	2024,
-	1,
-	'PGG1101',
-	8,
-	267,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-11',
-	2024,
-	1,
-	'PGG1101',
-	2,
-	268,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-11',
-	2024,
-	1,
-	'PGG1101',
-	4,
-	268,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-12',
-	2024,
-	1,
-	'CRT3111',
-	6,
-	154,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-13',
-	2024,
-	1,
-	'PGG1101',
-	8,
-	268,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-18',
-	2024,
-	1,
-	'PGG1101',
-	2,
-	269,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-18',
-	2024,
-	1,
-	'PGG1101',
-	4,
-	269,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-19',
-	2024,
-	1,
-	'CRT3111',
-	6,
-	155,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-20',
-	2024,
-	1,
-	'PGG1101',
-	8,
-	269,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-25',
-	2024,
-	1,
-	'PGG1101',
-	2,
-	270,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-25',
-	2024,
-	1,
-	'PGG1101',
-	4,
-	270,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-26',
-	2024,
-	1,
-	'CRT3111',
-	6,
-	156,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-27',
-	2024,
-	1,
-	'PGG1101',
-	8,
-	270,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-02',
-	2024,
-	1,
-	'PGG1101',
-	2,
-	271,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-02',
-	2024,
-	1,
-	'PGG1101',
-	4,
-	271,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-03',
-	2024,
-	1,
-	'CRT3111',
-	6,
-	157,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-04',
-	2024,
-	1,
-	'PGG1101',
-	8,
-	271,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-10',
-	2024,
-	1,
-	'CRT3111',
-	6,
-	158,
-	7);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2023-06-10',
-	2023,
-	1,
-	'ABT3131',
-	3,
-	95,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-11',
-	2024,
-	1,
-	'ABT3131',
-	9,
-	91,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-11',
-	2024,
-	1,
-	'PGG1101',
-	1,
-	254,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-12',
-	2024,
-	1,
-	'PGG1101',
-	3,
-	254,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-12',
-	2024,
-	1,
-	'PGG1101',
-	15,
-	254,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-18',
-	2024,
-	1,
-	'ABT3131',
-	9,
-	92,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-18',
-	2024,
-	1,
-	'PGG1101',
-	1,
-	255,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-19',
-	2024,
-	1,
-	'PGG1101',
-	3,
-	255,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-19',
-	2024,
-	1,
-	'PGG1101',
-	15,
-	255,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-25',
-	2024,
-	1,
-	'ABT3131',
-	9,
-	93,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-25',
-	2024,
-	1,
-	'PGG1101',
-	1,
-	256,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-26',
-	2024,
-	1,
-	'PGG1101',
-	3,
-	256,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-26',
-	2024,
-	1,
-	'PGG1101',
-	15,
-	256,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-01',
-	2024,
-	1,
-	'ABT3131',
-	9,
-	94,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-01',
-	2024,
-	1,
-	'PGG1101',
-	1,
-	257,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-02',
-	2024,
-	1,
-	'PGG1101',
-	3,
-	257,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-02',
-	2024,
-	1,
-	'PGG1101',
-	15,
-	257,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-08',
-	2024,
-	1,
-	'ABT3131',
-	9,
-	95,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-08',
-	2024,
-	1,
-	'PGG1101',
-	1,
-	258,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-09',
-	2024,
-	1,
-	'PGG1101',
-	3,
-	258,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-09',
-	2024,
-	1,
-	'PGG1101',
-	15,
-	258,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-15',
-	2024,
-	1,
-	'ABT3131',
-	9,
-	96,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-15',
-	2024,
-	1,
-	'PGG1101',
-	1,
-	260,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-16',
-	2024,
-	1,
-	'PGG1101',
-	3,
-	260,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-16',
-	2024,
-	1,
-	'PGG1101',
-	15,
-	260,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-22',
-	2024,
-	1,
-	'ABT3131',
-	9,
-	97,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-22',
-	2024,
-	1,
-	'PGG1101',
-	1,
-	261,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-23',
-	2024,
-	1,
-	'PGG1101',
-	3,
-	261,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-23',
-	2024,
-	1,
-	'PGG1101',
-	15,
-	261,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-29',
-	2024,
-	1,
-	'ABT3131',
-	9,
-	98,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-29',
-	2024,
-	1,
-	'PGG1101',
-	1,
-	262,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-30',
-	2024,
-	1,
-	'PGG1101',
-	3,
-	262,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-30',
-	2024,
-	1,
-	'PGG1101',
-	15,
-	262,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-06',
-	2024,
-	1,
-	'ABT3131',
-	9,
-	99,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-06',
-	2024,
-	1,
-	'PGG1101',
-	1,
-	263,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-07',
-	2024,
-	1,
-	'PGG1101',
-	3,
-	263,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-07',
-	2024,
-	1,
-	'PGG1101',
-	15,
-	263,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-13',
-	2024,
-	1,
-	'ABT3131B',
-	10,
-	286,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-13',
-	2024,
-	1,
-	'PGG1101',
-	1,
-	264,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-14',
-	2024,
-	1,
-	'PGG1101',
-	3,
-	264,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-14',
-	2024,
-	1,
-	'PGG1101',
-	15,
-	264,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-20',
-	2024,
-	1,
-	'ABT3131B',
-	10,
-	287,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-20',
-	2024,
-	1,
-	'PGG1101',
-	1,
-	265,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-27',
-	2024,
-	1,
-	'ABT3131B',
-	10,
-	288,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-27',
-	2024,
-	1,
-	'PGG1101',
-	1,
-	266,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-28',
-	2024,
-	1,
-	'PGG1101',
-	3,
-	265,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-28',
-	2024,
-	1,
-	'PGG1101',
-	3,
-	266,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-28',
-	2024,
-	1,
-	'PGG1101',
-	15,
-	265,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-28',
-	2024,
-	1,
-	'PGG1101',
-	15,
-	266,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-03',
-	2024,
-	1,
-	'ABT3131B',
-	10,
-	289,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-03',
-	2024,
-	1,
-	'PGG1101',
-	1,
-	267,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-04',
-	2024,
-	1,
-	'PGG1101',
-	3,
-	267,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-04',
-	2024,
-	1,
-	'PGG1101',
-	15,
-	267,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-10',
-	2024,
-	1,
-	'ABT3131B',
-	10,
-	290,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-10',
-	2024,
-	1,
-	'PGG1101',
-	1,
-	268,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-11',
-	2024,
-	1,
-	'PGG1101',
-	3,
-	268,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-11',
-	2024,
-	1,
-	'PGG1101',
-	15,
-	268,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-17',
-	2024,
-	1,
-	'ABT3131B',
-	10,
-	291,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-17',
-	2024,
-	1,
-	'PGG1101',
-	1,
-	269,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-18',
-	2024,
-	1,
-	'PGG1101',
-	3,
-	269,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-18',
-	2024,
-	1,
-	'PGG1101',
-	15,
-	269,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-24',
-	2024,
-	1,
-	'ABT3131B',
-	10,
-	292,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-24',
-	2024,
-	1,
-	'PGG1101',
-	1,
-	270,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-25',
-	2024,
-	1,
-	'PGG1101',
-	3,
-	270,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-25',
-	2024,
-	1,
-	'PGG1101',
-	15,
-	270,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-01',
-	2024,
-	1,
-	'ABT3131B',
-	10,
-	293,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-01',
-	2024,
-	1,
-	'PGG1101',
-	1,
-	271,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-02',
-	2024,
-	1,
-	'PGG1101',
-	3,
-	271,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-02',
-	2024,
-	1,
-	'PGG1101',
-	15,
-	271,
-	8);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-08',
-	2024,
-	1,
-	'ABT3131B',
-	10,
-	294,
-	8);
+	220,
+	14);
 
 insert into prog_taller (
 	fecha,
@@ -132781,6605 +128758,9 @@ values (
 	'2024-05-13',
 	2024,
 	1,
-	'ABT3131B',
-	6,
-	286,
-	9);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-20',
-	2024,
-	1,
-	'ABT3131B',
-	6,
-	287,
-	9);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-27',
-	2024,
-	1,
-	'ABT3131B',
-	6,
-	288,
-	9);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-03',
-	2024,
-	1,
-	'ABT3131B',
-	6,
-	289,
-	9);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-10',
-	2024,
-	1,
-	'ABT3131B',
-	6,
-	290,
-	9);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-17',
-	2024,
-	1,
-	'ABT3131B',
-	6,
-	291,
-	9);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-24',
-	2024,
-	1,
-	'ABT3131B',
-	6,
-	292,
-	9);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-01',
-	2024,
-	1,
-	'ABT3131B',
-	6,
-	293,
-	9);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-08',
-	2024,
-	1,
-	'ABT3131B',
-	6,
-	294,
-	9);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2023-06-30',
-	2023,
-	1,
-	'ABT3131',
-	3,
-	98,
-	10);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-11',
-	2024,
-	1,
-	'PGG1101',
-	16,
-	254,
-	10);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-13',
-	2024,
-	1,
-	'PGG1101',
-	13,
-	254,
-	10);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-18',
-	2024,
-	1,
-	'PGG1101',
-	16,
-	255,
-	10);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-20',
-	2024,
-	1,
-	'PGG1101',
-	13,
-	255,
-	10);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-25',
-	2024,
-	1,
-	'PGG1101',
-	16,
-	256,
-	10);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-27',
-	2024,
-	1,
-	'PGG1101',
-	13,
-	256,
-	10);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-01',
-	2024,
-	1,
-	'PGG1101',
-	16,
-	257,
-	10);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-03',
-	2024,
-	1,
-	'PGG1101',
-	13,
-	257,
-	10);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-08',
-	2024,
-	1,
-	'PGG1101',
-	16,
-	258,
-	10);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-10',
-	2024,
-	1,
-	'PGG1101',
-	13,
-	258,
-	10);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-15',
-	2024,
-	1,
-	'PGG1101',
-	16,
-	260,
-	10);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-17',
-	2024,
-	1,
-	'PGG1101',
-	13,
-	260,
-	10);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-22',
-	2024,
-	1,
-	'PGG1101',
-	16,
-	261,
-	10);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-24',
-	2024,
-	1,
-	'PGG1101',
-	13,
-	261,
-	10);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-29',
-	2024,
-	1,
-	'PGG1101',
-	16,
-	262,
-	10);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-06',
-	2024,
-	1,
-	'PGG1101',
-	16,
-	263,
-	10);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-08',
-	2024,
-	1,
-	'PGG1101',
-	13,
-	262,
-	10);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-13',
-	2024,
-	1,
-	'PGG1101',
-	16,
-	264,
-	10);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-15',
-	2024,
-	1,
-	'PGG1101',
-	13,
-	263,
-	10);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-15',
-	2024,
-	1,
-	'PGG1101',
-	13,
-	264,
-	10);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-20',
-	2024,
-	1,
-	'PGG1101',
-	16,
-	265,
-	10);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-22',
-	2024,
-	1,
-	'PGG1101',
-	13,
-	265,
-	10);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-27',
-	2024,
-	1,
-	'PGG1101',
-	16,
-	266,
-	10);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-29',
-	2024,
-	1,
-	'PGG1101',
-	13,
-	266,
-	10);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-03',
-	2024,
-	1,
-	'PGG1101',
-	16,
-	267,
-	10);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-05',
-	2024,
-	1,
-	'PGG1101',
-	13,
-	267,
-	10);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-10',
-	2024,
-	1,
-	'PGG1101',
-	16,
-	268,
-	10);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-12',
-	2024,
-	1,
-	'PGG1101',
-	13,
-	268,
-	10);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-17',
-	2024,
-	1,
-	'PGG1101',
-	16,
-	269,
-	10);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-19',
-	2024,
-	1,
-	'PGG1101',
-	13,
-	269,
-	10);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-24',
-	2024,
-	1,
-	'PGG1101',
-	16,
-	270,
-	10);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-26',
-	2024,
-	1,
-	'PGG1101',
-	13,
-	270,
-	10);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-01',
-	2024,
-	1,
-	'PGG1101',
-	16,
-	271,
-	10);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-03',
-	2024,
-	1,
-	'PGG1101',
-	13,
-	271,
-	10);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-11',
-	2024,
-	1,
-	'ABT3131',
-	3,
-	91,
-	11);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-14',
-	2024,
-	1,
-	'PGG1101',
-	10,
-	254,
-	11);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-18',
-	2024,
-	1,
-	'ABT3131',
-	3,
-	92,
-	11);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-21',
-	2024,
-	1,
-	'PGG1101',
-	10,
-	255,
-	11);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-25',
-	2024,
-	1,
-	'ABT3131',
-	3,
-	93,
-	11);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-28',
-	2024,
-	1,
-	'PGG1101',
-	10,
-	256,
-	11);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-01',
-	2024,
-	1,
-	'ABT3131',
-	3,
-	94,
-	11);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-04',
-	2024,
-	1,
-	'PGG1101',
-	10,
-	257,
-	11);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-08',
-	2024,
-	1,
-	'ABT3131',
-	3,
-	95,
-	11);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-11',
-	2024,
-	1,
-	'PGG1101',
-	10,
-	258,
-	11);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-15',
-	2024,
-	1,
-	'ABT3131',
-	3,
-	96,
-	11);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-18',
-	2024,
-	1,
-	'PGG1101',
-	10,
-	260,
-	11);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-22',
-	2024,
-	1,
-	'ABT3131',
-	3,
-	97,
-	11);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-25',
-	2024,
-	1,
-	'PGG1101',
-	10,
-	261,
-	11);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-29',
-	2024,
-	1,
-	'ABT3131',
-	3,
-	98,
-	11);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-02',
-	2024,
-	1,
-	'PGG1101',
-	10,
-	262,
-	11);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-06',
-	2024,
-	1,
-	'ABT3131',
-	3,
-	99,
-	11);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-09',
-	2024,
-	1,
-	'PGG1101',
-	10,
-	263,
-	11);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-13',
-	2024,
-	1,
-	'ABT3131B',
-	4,
-	286,
-	11);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-16',
-	2024,
-	1,
-	'PGG1101',
-	10,
-	264,
-	11);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-20',
-	2024,
-	1,
-	'ABT3131B',
-	4,
-	287,
-	11);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-23',
-	2024,
-	1,
-	'PGG1101',
-	10,
-	265,
-	11);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-27',
-	2024,
-	1,
-	'ABT3131B',
-	4,
-	288,
-	11);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-30',
-	2024,
-	1,
-	'PGG1101',
-	10,
-	266,
-	11);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-03',
-	2024,
-	1,
-	'ABT3131B',
-	4,
-	289,
-	11);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-06',
-	2024,
-	1,
-	'PGG1101',
-	10,
-	267,
-	11);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-10',
-	2024,
-	1,
-	'ABT3131B',
-	4,
-	290,
-	11);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-13',
-	2024,
-	1,
-	'PGG1101',
-	10,
-	268,
-	11);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-17',
-	2024,
-	1,
-	'ABT3131B',
-	4,
-	291,
-	11);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-20',
-	2024,
-	1,
-	'PGG1101',
-	10,
-	269,
-	11);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-24',
-	2024,
-	1,
-	'ABT3131B',
-	4,
-	292,
-	11);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-27',
-	2024,
-	1,
-	'PGG1101',
-	10,
-	270,
-	11);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-01',
-	2024,
-	1,
-	'ABT3131B',
-	4,
-	293,
-	11);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-04',
-	2024,
-	1,
-	'PGG1101',
-	10,
-	271,
-	11);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-08',
-	2024,
-	1,
-	'ABT3131B',
-	4,
-	294,
-	11);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-11',
-	2024,
-	1,
-	'PGG1108',
-	12,
-	203,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-12',
-	2024,
-	1,
-	'PGG1108',
-	8,
-	203,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-12',
-	2024,
-	1,
-	'PGG1108',
-	10,
-	203,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-13',
-	2024,
-	1,
-	'PGG1108',
-	6,
-	203,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-14',
-	2024,
-	1,
-	'PGG1108',
-	2,
-	203,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-18',
-	2024,
-	1,
-	'PGG1108',
-	12,
-	205,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-19',
-	2024,
-	1,
-	'PGG1108',
-	8,
-	205,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-19',
-	2024,
-	1,
-	'PGG1108',
-	10,
-	205,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-20',
-	2024,
-	1,
-	'PGG1108',
-	6,
-	205,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-21',
-	2024,
-	1,
-	'PGG1108',
-	2,
-	205,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-25',
-	2024,
-	1,
-	'PGG1108',
-	12,
-	206,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-26',
-	2024,
-	1,
-	'PGG1108',
-	8,
-	206,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-26',
-	2024,
-	1,
-	'PGG1108',
-	10,
-	206,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-27',
-	2024,
-	1,
-	'PGG1108',
-	6,
-	206,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-28',
-	2024,
-	1,
-	'PGG1108',
-	2,
-	206,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-01',
-	2024,
-	1,
-	'PGG1108',
-	12,
-	207,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-02',
-	2024,
-	1,
-	'PGG1108',
-	8,
-	207,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-02',
-	2024,
-	1,
-	'PGG1108',
-	10,
-	207,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-03',
-	2024,
-	1,
-	'PGG1108',
-	6,
-	207,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-04',
-	2024,
-	1,
-	'PGG1108',
-	2,
-	207,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-08',
-	2024,
-	1,
-	'PGG1108',
-	12,
-	208,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-09',
-	2024,
-	1,
-	'PGG1108',
-	8,
-	208,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-09',
-	2024,
-	1,
-	'PGG1108',
-	10,
-	208,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-10',
-	2024,
-	1,
-	'PGG1108',
-	6,
-	208,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-11',
-	2024,
-	1,
-	'PGG1108',
-	2,
-	208,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-15',
-	2024,
-	1,
-	'PGG1108',
-	12,
-	209,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-16',
-	2024,
-	1,
-	'PGG1108',
-	8,
-	209,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-16',
-	2024,
-	1,
-	'PGG1108',
-	10,
-	209,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-17',
-	2024,
-	1,
-	'PGG1108',
-	6,
-	209,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-18',
-	2024,
-	1,
-	'PGG1108',
-	2,
-	209,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-22',
-	2024,
-	1,
-	'PGG1108',
-	12,
-	210,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-23',
-	2024,
-	1,
-	'PGG1108',
-	8,
-	210,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-23',
-	2024,
-	1,
-	'PGG1108',
-	10,
-	210,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-24',
-	2024,
-	1,
-	'PGG1108',
-	6,
-	210,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-25',
-	2024,
-	1,
-	'PGG1108',
-	2,
-	210,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-29',
-	2024,
-	1,
-	'PGG1108',
-	12,
-	211,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-30',
-	2024,
-	1,
-	'PGG1108',
-	8,
-	211,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-30',
-	2024,
-	1,
-	'PGG1108',
-	10,
-	211,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-02',
-	2024,
-	1,
-	'PGG1108',
-	2,
-	211,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-06',
-	2024,
-	1,
-	'PGG1108',
-	12,
-	212,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-07',
-	2024,
-	1,
-	'PGG1108',
-	8,
-	212,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-07',
-	2024,
-	1,
-	'PGG1108',
-	10,
-	212,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-08',
-	2024,
-	1,
-	'PGG1108',
-	6,
-	211,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-08',
-	2024,
-	1,
-	'PGG1108',
-	6,
-	212,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-09',
-	2024,
-	1,
-	'PGG1108',
-	2,
-	212,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-13',
-	2024,
-	1,
-	'PGG1108',
-	12,
-	213,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-14',
-	2024,
-	1,
-	'PGG1108',
-	8,
-	213,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-14',
-	2024,
-	1,
-	'PGG1108',
-	10,
-	213,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-15',
-	2024,
-	1,
-	'PGG1108',
-	6,
-	213,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-16',
-	2024,
-	1,
-	'PGG1108',
-	2,
-	213,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-20',
-	2024,
-	1,
-	'PGG1108',
-	12,
-	214,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-22',
-	2024,
-	1,
-	'PGG1108',
-	6,
-	214,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-23',
-	2024,
-	1,
-	'PGG1108',
-	2,
-	214,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-27',
-	2024,
-	1,
-	'PGG1108',
-	12,
-	215,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-28',
-	2024,
-	1,
-	'PGG1108',
-	8,
-	214,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-28',
-	2024,
-	1,
-	'PGG1108',
-	8,
-	215,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-28',
-	2024,
-	1,
-	'PGG1108',
-	10,
-	214,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-28',
-	2024,
-	1,
-	'PGG1108',
-	10,
-	215,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-29',
-	2024,
-	1,
-	'PGG1108',
-	6,
-	215,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-29',
-	2024,
-	1,
-	'PGG1108',
-	6,
-	216,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-30',
-	2024,
-	1,
-	'PGG1108',
-	2,
-	215,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-03',
-	2024,
-	1,
-	'PGG1108',
-	12,
-	216,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-04',
-	2024,
-	1,
-	'PGG1108',
-	8,
-	216,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-04',
-	2024,
-	1,
-	'PGG1108',
-	10,
-	216,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-05',
-	2024,
-	1,
-	'PGG1108',
-	6,
-	217,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-06',
-	2024,
-	1,
-	'PGG1108',
-	2,
-	216,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-10',
-	2024,
-	1,
-	'PGG1108',
-	12,
-	217,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-11',
-	2024,
-	1,
-	'PGG1108',
-	8,
-	217,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-11',
-	2024,
-	1,
-	'PGG1108',
-	10,
-	217,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-12',
-	2024,
-	1,
-	'PGG1108',
-	6,
-	218,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-13',
-	2024,
-	1,
-	'PGG1108',
-	2,
-	217,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-17',
-	2024,
-	1,
-	'PGG1108',
-	12,
-	218,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-18',
-	2024,
-	1,
-	'PGG1108',
-	8,
-	218,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-18',
-	2024,
-	1,
-	'PGG1108',
-	10,
-	218,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-19',
-	2024,
-	1,
-	'PGG1108',
-	6,
-	219,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-20',
-	2024,
-	1,
-	'PGG1108',
-	2,
-	218,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-24',
-	2024,
-	1,
-	'PGG1108',
-	12,
-	219,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-25',
-	2024,
-	1,
-	'PGG1108',
-	8,
-	219,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-25',
-	2024,
-	1,
-	'PGG1108',
-	10,
-	219,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-27',
-	2024,
-	1,
-	'PGG1108',
-	2,
-	219,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-01',
-	2024,
-	1,
-	'PGG1108',
-	12,
-	220,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-02',
-	2024,
-	1,
-	'PGG1108',
-	8,
-	220,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-02',
-	2024,
-	1,
-	'PGG1108',
-	10,
-	220,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-04',
-	2024,
-	1,
-	'PGG1108',
-	2,
-	220,
-	12);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-11',
-	2024,
-	1,
-	'PGG1108',
-	13,
-	203,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-13',
-	2024,
-	1,
-	'PGG1108',
-	11,
-	203,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-14',
-	2024,
-	1,
-	'PGG1108',
-	1,
-	203,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-14',
-	2024,
-	1,
-	'PGG1108',
-	4,
-	203,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-14',
-	2024,
-	1,
-	'PGG1108',
-	15,
-	203,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-18',
-	2024,
-	1,
-	'PGG1108',
-	13,
-	205,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-20',
-	2024,
-	1,
-	'PGG1108',
-	11,
-	205,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-21',
-	2024,
-	1,
-	'PGG1108',
-	1,
-	205,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-21',
-	2024,
-	1,
-	'PGG1108',
-	4,
-	205,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-21',
-	2024,
-	1,
-	'PGG1108',
-	15,
-	205,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-25',
-	2024,
-	1,
-	'PGG1108',
-	13,
-	206,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-27',
-	2024,
-	1,
-	'PGG1108',
-	11,
-	206,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-28',
-	2024,
-	1,
-	'PGG1108',
-	1,
-	206,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-01',
-	2024,
-	1,
-	'PGG1108',
-	13,
-	207,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-03',
-	2024,
-	1,
-	'PGG1108',
-	11,
-	207,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-04',
-	2024,
-	1,
-	'PGG1108',
-	1,
-	207,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-04',
-	2024,
-	1,
-	'PGG1108',
-	4,
-	206,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-04',
-	2024,
-	1,
-	'PGG1108',
-	15,
-	206,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-08',
-	2024,
-	1,
-	'PGG1108',
-	13,
-	208,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-10',
-	2024,
-	1,
-	'PGG1108',
-	11,
-	208,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-11',
-	2024,
-	1,
-	'PGG1108',
-	1,
-	208,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-11',
-	2024,
-	1,
-	'PGG1108',
-	4,
-	207,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-11',
-	2024,
-	1,
-	'PGG1108',
-	4,
-	208,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-11',
-	2024,
-	1,
-	'PGG1108',
-	15,
-	207,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-11',
-	2024,
-	1,
-	'PGG1108',
-	15,
-	208,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-15',
-	2024,
-	1,
-	'PGG1108',
-	13,
-	209,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-17',
-	2024,
-	1,
-	'PGG1108',
-	11,
-	209,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-18',
-	2024,
-	1,
-	'PGG1108',
-	1,
-	209,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-18',
-	2024,
-	1,
-	'PGG1108',
-	4,
-	209,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-18',
-	2024,
-	1,
-	'PGG1108',
-	15,
-	209,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-22',
-	2024,
-	1,
-	'PGG1108',
-	13,
-	210,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-24',
-	2024,
-	1,
-	'PGG1108',
-	11,
-	210,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-25',
-	2024,
-	1,
-	'PGG1108',
-	1,
-	210,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-25',
-	2024,
-	1,
-	'PGG1108',
-	4,
-	210,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-25',
-	2024,
-	1,
-	'PGG1108',
-	15,
-	210,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-29',
-	2024,
-	1,
-	'PGG1108',
-	13,
-	211,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-02',
-	2024,
-	1,
-	'PGG1108',
-	1,
-	211,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-02',
-	2024,
-	1,
-	'PGG1108',
-	4,
-	211,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-02',
-	2024,
-	1,
-	'PGG1108',
-	15,
-	211,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-06',
-	2024,
-	1,
-	'PGG1108',
-	13,
-	212,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-08',
-	2024,
-	1,
-	'PGG1108',
-	11,
-	211,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-08',
-	2024,
-	1,
-	'PGG1108',
-	11,
-	212,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-09',
-	2024,
-	1,
-	'PGG1108',
-	1,
-	212,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-09',
-	2024,
-	1,
-	'PGG1108',
-	4,
-	212,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-09',
-	2024,
-	1,
-	'PGG1108',
-	15,
-	212,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-13',
-	2024,
-	1,
-	'PGG1108',
-	13,
-	213,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-15',
-	2024,
-	1,
-	'PGG1108',
-	11,
-	213,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-16',
-	2024,
-	1,
-	'PGG1108',
-	1,
-	213,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-16',
-	2024,
-	1,
-	'PGG1108',
-	4,
-	213,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-16',
-	2024,
-	1,
-	'PGG1108',
-	15,
-	213,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-20',
-	2024,
-	1,
-	'PGG1108',
-	13,
-	214,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-22',
-	2024,
-	1,
-	'PGG1108',
-	11,
-	214,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-23',
-	2024,
-	1,
-	'PGG1108',
-	1,
-	214,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-23',
-	2024,
-	1,
-	'PGG1108',
-	4,
-	214,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-23',
-	2024,
-	1,
-	'PGG1108',
-	15,
-	214,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-27',
-	2024,
-	1,
-	'PGG1108',
-	13,
-	215,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-29',
-	2024,
-	1,
-	'PGG1108',
-	11,
-	215,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-30',
-	2024,
-	1,
-	'PGG1108',
-	1,
-	215,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-30',
-	2024,
-	1,
-	'PGG1108',
-	4,
-	215,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-30',
-	2024,
-	1,
-	'PGG1108',
-	15,
-	215,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-03',
-	2024,
-	1,
-	'PGG1108',
-	13,
-	216,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-05',
-	2024,
-	1,
-	'PGG1108',
-	11,
-	216,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-06',
-	2024,
-	1,
-	'PGG1108',
-	1,
-	216,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-06',
-	2024,
-	1,
-	'PGG1108',
-	4,
-	216,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-06',
-	2024,
-	1,
-	'PGG1108',
-	15,
-	216,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-10',
-	2024,
-	1,
-	'PGG1108',
-	13,
-	217,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-12',
-	2024,
-	1,
-	'PGG1108',
-	11,
-	217,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-13',
-	2024,
-	1,
-	'PGG1108',
-	1,
-	217,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-13',
-	2024,
-	1,
-	'PGG1108',
-	4,
-	217,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-13',
-	2024,
-	1,
-	'PGG1108',
-	15,
-	217,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-17',
-	2024,
-	1,
-	'PGG1108',
-	13,
-	218,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-19',
-	2024,
-	1,
-	'PGG1108',
-	11,
-	218,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-20',
-	2024,
-	1,
-	'PGG1108',
-	1,
-	218,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-20',
-	2024,
-	1,
-	'PGG1108',
-	4,
-	218,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-20',
-	2024,
-	1,
-	'PGG1108',
-	15,
-	218,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-24',
-	2024,
-	1,
-	'PGG1108',
-	13,
-	219,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-26',
-	2024,
-	1,
-	'PGG1108',
-	11,
-	219,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-27',
-	2024,
-	1,
-	'PGG1108',
-	1,
-	218,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-27',
-	2024,
-	1,
-	'PGG1108',
-	4,
-	219,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-27',
-	2024,
-	1,
-	'PGG1108',
-	15,
-	219,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-01',
-	2024,
-	1,
-	'PGG1108',
-	13,
-	220,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-03',
-	2024,
-	1,
-	'PGG1108',
-	11,
-	220,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-04',
-	2024,
-	1,
-	'PGG1108',
-	4,
-	220,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-04',
-	2024,
-	1,
-	'PGG1108',
-	15,
-	220,
-	14);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-11',
-	2024,
-	1,
-	'ABT3141',
-	2,
-	100,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-14',
-	2024,
-	1,
-	'ABT3131B',
-	14,
-	275,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-15',
-	2024,
-	1,
-	'ABT3141',
-	10,
-	100,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-18',
-	2024,
-	1,
-	'ABT3141',
-	2,
-	101,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-21',
-	2024,
-	1,
-	'ABT3131B',
-	14,
-	276,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-22',
-	2024,
-	1,
-	'ABT3141',
-	10,
-	101,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-25',
-	2024,
-	1,
-	'ABT3141',
-	2,
-	102,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-28',
-	2024,
-	1,
-	'ABT3131B',
-	14,
-	277,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-29',
-	2024,
-	1,
-	'ABT3141',
-	10,
-	102,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-01',
-	2024,
-	1,
-	'ABT3141',
-	2,
-	103,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-04',
-	2024,
-	1,
-	'ABT3131B',
-	14,
-	278,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-05',
-	2024,
-	1,
-	'ABT3141',
-	10,
-	103,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-08',
-	2024,
-	1,
-	'ABT3141',
-	2,
-	104,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-11',
-	2024,
-	1,
-	'ABT3131B',
-	14,
-	279,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-12',
-	2024,
-	1,
-	'ABT3141',
-	10,
-	104,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-15',
-	2024,
-	1,
-	'ABT3141',
-	2,
-	105,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-18',
-	2024,
-	1,
-	'ABT3131B',
-	14,
-	280,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-19',
-	2024,
-	1,
-	'ABT3141',
-	10,
-	105,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-22',
-	2024,
-	1,
-	'ABT3141',
-	2,
-	106,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-25',
-	2024,
-	1,
-	'ABT3131B',
-	14,
-	282,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-26',
-	2024,
-	1,
-	'ABT3141',
-	10,
-	106,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-29',
-	2024,
-	1,
-	'ABT3141',
-	2,
-	107,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-02',
-	2024,
-	1,
-	'ABT3131B',
-	14,
-	283,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-03',
-	2024,
-	1,
-	'ABT3141',
-	10,
-	107,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-06',
-	2024,
-	1,
-	'ABT3141',
-	2,
-	108,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-09',
-	2024,
-	1,
-	'ABT3131B',
-	14,
-	284,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-10',
-	2024,
-	1,
-	'ABT3141',
-	10,
-	108,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-13',
-	2024,
-	1,
-	'ABT3141',
-	1,
-	100,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-16',
-	2024,
-	1,
-	'ABT3131',
-	13,
-	82,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-17',
-	2024,
-	1,
-	'ABT3141',
-	9,
-	100,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-20',
-	2024,
-	1,
-	'ABT3141',
-	1,
-	101,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-23',
-	2024,
-	1,
-	'ABT3131',
-	13,
-	83,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-24',
-	2024,
-	1,
-	'ABT3141',
-	9,
-	101,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-27',
-	2024,
-	1,
-	'ABT3141',
-	1,
-	102,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-30',
-	2024,
-	1,
-	'ABT3131',
-	13,
-	84,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-31',
-	2024,
-	1,
-	'ABT3141',
-	9,
-	102,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-03',
-	2024,
-	1,
-	'ABT3141',
-	1,
-	103,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-06',
-	2024,
-	1,
-	'ABT3131',
-	13,
-	85,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-07',
-	2024,
-	1,
-	'ABT3141',
-	9,
-	103,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-10',
-	2024,
-	1,
-	'ABT3141',
-	1,
-	104,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-11',
-	2024,
-	1,
-	'ABT3141',
-	3,
-	104,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-13',
-	2024,
-	1,
-	'ABT3131',
-	13,
-	86,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-14',
-	2024,
-	1,
-	'ABT3141',
-	9,
-	104,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-17',
-	2024,
-	1,
-	'ABT3141',
-	1,
-	105,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-20',
-	2024,
-	1,
-	'ABT3131',
-	13,
-	87,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-21',
-	2024,
-	1,
-	'ABT3141',
-	9,
-	105,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-24',
-	2024,
-	1,
-	'ABT3141',
-	1,
-	106,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-27',
-	2024,
-	1,
-	'ABT3131',
-	13,
-	88,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-28',
-	2024,
-	1,
-	'ABT3141',
-	9,
-	106,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-01',
-	2024,
-	1,
-	'ABT3141',
-	1,
-	107,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-04',
-	2024,
-	1,
-	'ABT3131',
-	13,
-	89,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-05',
-	2024,
-	1,
-	'ABT3141',
-	9,
-	107,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-08',
-	2024,
-	1,
-	'ABT3141',
-	1,
-	108,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-11',
-	2024,
-	1,
-	'ABT3131',
-	13,
-	90,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-12',
-	2024,
-	1,
-	'ABT3141',
-	9,
-	108,
-	16);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-11',
-	2024,
-	1,
-	'ABT3141',
-	11,
-	100,
-	17);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-14',
-	2024,
-	1,
-	'ABT3141',
-	13,
-	100,
-	17);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-18',
-	2024,
-	1,
-	'ABT3141',
-	11,
-	101,
-	17);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-21',
-	2024,
-	1,
-	'ABT3141',
-	13,
-	101,
-	17);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-25',
-	2024,
-	1,
-	'ABT3141',
-	11,
-	102,
-	17);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-28',
-	2024,
-	1,
-	'ABT3141',
-	13,
-	102,
-	17);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-01',
-	2024,
-	1,
-	'ABT3141',
-	11,
-	103,
-	17);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-04',
-	2024,
-	1,
-	'ABT3141',
-	13,
-	103,
-	17);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-08',
-	2024,
-	1,
-	'ABT3141',
-	11,
-	104,
-	17);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-11',
-	2024,
-	1,
-	'ABT3141',
-	13,
-	104,
-	17);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-15',
-	2024,
-	1,
-	'ABT3141',
-	11,
-	105,
-	17);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-18',
-	2024,
-	1,
-	'ABT3141',
-	13,
-	105,
-	17);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-22',
-	2024,
-	1,
-	'ABT3141',
-	11,
-	106,
-	17);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-25',
-	2024,
-	1,
-	'ABT3141',
-	13,
-	106,
-	17);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-29',
-	2024,
-	1,
-	'ABT3141',
-	11,
-	107,
-	17);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-02',
-	2024,
-	1,
-	'ABT3141',
-	13,
-	107,
-	17);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-06',
-	2024,
-	1,
-	'ABT3141',
-	11,
-	108,
-	17);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-09',
-	2024,
-	1,
-	'ABT3141',
-	13,
-	108,
-	17);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-13',
-	2024,
-	1,
-	'ABT3141',
-	12,
-	100,
-	17);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-16',
-	2024,
-	1,
-	'ABT3141',
-	14,
-	100,
-	17);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-20',
-	2024,
-	1,
-	'ABT3141',
-	12,
-	101,
-	17);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-23',
-	2024,
-	1,
-	'ABT3141',
-	14,
-	101,
-	17);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-27',
-	2024,
-	1,
-	'ABT3141',
-	12,
-	102,
-	17);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-30',
-	2024,
-	1,
-	'ABT3141',
-	14,
-	102,
-	17);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-03',
-	2024,
-	1,
-	'ABT3141',
-	12,
-	103,
-	17);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-06',
-	2024,
-	1,
-	'ABT3141',
-	14,
-	103,
-	17);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-10',
-	2024,
-	1,
-	'ABT3141',
-	12,
-	104,
-	17);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-13',
-	2024,
-	1,
-	'ABT3141',
-	14,
-	104,
-	17);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-17',
-	2024,
-	1,
-	'ABT3141',
-	12,
-	105,
-	17);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-20',
-	2024,
-	1,
-	'ABT3141',
-	14,
-	105,
-	17);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-24',
-	2024,
-	1,
-	'ABT3141',
-	12,
-	106,
-	17);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-27',
-	2024,
-	1,
-	'ABT3141',
-	14,
-	106,
-	17);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-01',
-	2024,
-	1,
-	'ABT3141',
-	12,
-	107,
-	17);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-04',
-	2024,
-	1,
-	'ABT3141',
-	14,
-	107,
-	17);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-08',
-	2024,
-	1,
-	'ABT3141',
-	12,
-	108,
-	17);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-11',
-	2024,
-	1,
-	'ABT3141',
-	14,
-	108,
-	17);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-11',
-	2024,
-	1,
-	'ABT3131B',
-	4,
-	275,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-11',
-	2024,
-	1,
-	'ABT3131B',
-	6,
-	275,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-11',
-	2024,
-	1,
-	'ABT3131B',
-	10,
-	275,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-15',
-	2024,
-	1,
-	'ABT3131B',
-	2,
-	275,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-15',
-	2024,
-	1,
-	'ABT3131B',
-	12,
-	275,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-18',
-	2024,
-	1,
-	'ABT3131B',
-	4,
-	276,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-18',
-	2024,
-	1,
-	'ABT3131B',
-	6,
-	276,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-18',
-	2024,
-	1,
-	'ABT3131B',
-	10,
-	276,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-22',
-	2024,
-	1,
-	'ABT3131B',
-	2,
-	276,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-22',
-	2024,
-	1,
-	'ABT3131B',
-	12,
-	276,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-25',
-	2024,
-	1,
-	'ABT3131B',
-	4,
-	277,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-25',
-	2024,
-	1,
-	'ABT3131B',
-	6,
-	277,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-25',
-	2024,
-	1,
-	'ABT3131B',
-	10,
-	277,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-29',
-	2024,
-	1,
-	'ABT3131B',
-	2,
-	277,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-29',
-	2024,
-	1,
-	'ABT3131B',
-	12,
-	277,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-01',
-	2024,
-	1,
-	'ABT3131B',
-	4,
-	278,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-01',
-	2024,
-	1,
-	'ABT3131B',
-	6,
-	278,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-01',
-	2024,
-	1,
-	'ABT3131B',
-	10,
-	278,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-05',
-	2024,
-	1,
-	'ABT3131B',
-	2,
-	278,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-05',
-	2024,
-	1,
-	'ABT3131B',
-	12,
-	278,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-08',
-	2024,
-	1,
-	'ABT3131B',
-	4,
-	279,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-08',
-	2024,
-	1,
-	'ABT3131B',
-	6,
-	279,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-08',
-	2024,
-	1,
-	'ABT3131B',
-	10,
-	279,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-12',
-	2024,
-	1,
-	'ABT3131B',
-	2,
-	279,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-12',
-	2024,
-	1,
-	'ABT3131B',
-	12,
-	279,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-15',
-	2024,
-	1,
-	'ABT3131B',
-	4,
-	280,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-15',
-	2024,
-	1,
-	'ABT3131B',
-	6,
-	280,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-15',
-	2024,
-	1,
-	'ABT3131B',
-	10,
-	280,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-19',
-	2024,
-	1,
-	'ABT3131B',
-	2,
-	280,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-19',
-	2024,
-	1,
-	'ABT3131B',
-	12,
-	280,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-22',
-	2024,
-	1,
-	'ABT3131B',
-	4,
-	282,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-22',
-	2024,
-	1,
-	'ABT3131B',
-	6,
-	282,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-22',
-	2024,
-	1,
-	'ABT3131B',
-	10,
-	282,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-26',
-	2024,
-	1,
-	'ABT3131B',
-	2,
-	282,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-26',
-	2024,
-	1,
-	'ABT3131B',
-	12,
-	282,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-29',
-	2024,
-	1,
-	'ABT3131B',
-	4,
-	283,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-29',
-	2024,
-	1,
-	'ABT3131B',
-	6,
-	283,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-29',
-	2024,
-	1,
-	'ABT3131B',
-	10,
-	283,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-03',
-	2024,
-	1,
-	'ABT3131B',
-	2,
-	283,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-03',
-	2024,
-	1,
-	'ABT3131B',
-	12,
-	283,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-06',
-	2024,
-	1,
-	'ABT3131B',
-	4,
-	284,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-06',
-	2024,
-	1,
-	'ABT3131B',
-	6,
-	284,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-06',
-	2024,
-	1,
-	'ABT3131B',
-	10,
-	284,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-10',
-	2024,
-	1,
-	'ABT3131B',
-	2,
-	284,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-10',
-	2024,
-	1,
-	'ABT3131B',
-	12,
-	284,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-13',
-	2024,
-	1,
-	'ABT3131',
-	3,
-	82,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-13',
-	2024,
-	1,
 	'ABT3131',
 	5,
 	82,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-13',
-	2024,
-	1,
-	'ABT3131',
-	9,
-	82,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-17',
-	2024,
-	1,
-	'ABT3131',
-	1,
-	82,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-17',
-	2024,
-	1,
-	'ABT3131',
-	11,
-	82,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-20',
-	2024,
-	1,
-	'ABT3131',
-	3,
-	83,
 	18);
 
 insert into prog_taller (
@@ -139408,148 +128789,12 @@ insert into prog_taller (
 	id_taller,
 	id_usuario)
 values (
-	'2024-05-20',
-	2024,
-	1,
-	'ABT3131',
-	9,
-	83,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-24',
-	2024,
-	1,
-	'ABT3131',
-	1,
-	83,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-24',
-	2024,
-	1,
-	'ABT3131',
-	11,
-	83,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-27',
-	2024,
-	1,
-	'ABT3131',
-	3,
-	84,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
 	'2024-05-27',
 	2024,
 	1,
 	'ABT3131',
 	5,
 	84,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-27',
-	2024,
-	1,
-	'ABT3131',
-	9,
-	84,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-31',
-	2024,
-	1,
-	'ABT3131',
-	1,
-	84,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-31',
-	2024,
-	1,
-	'ABT3131',
-	11,
-	84,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-03',
-	2024,
-	1,
-	'ABT3131',
-	3,
-	85,
 	18);
 
 insert into prog_taller (
@@ -139578,148 +128823,12 @@ insert into prog_taller (
 	id_taller,
 	id_usuario)
 values (
-	'2024-06-03',
-	2024,
-	1,
-	'ABT3131',
-	9,
-	85,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-07',
-	2024,
-	1,
-	'ABT3131',
-	1,
-	85,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-07',
-	2024,
-	1,
-	'ABT3131',
-	11,
-	85,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-10',
-	2024,
-	1,
-	'ABT3131',
-	3,
-	86,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
 	'2024-06-10',
 	2024,
 	1,
 	'ABT3131',
 	5,
 	86,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-10',
-	2024,
-	1,
-	'ABT3131',
-	9,
-	86,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-14',
-	2024,
-	1,
-	'ABT3131',
-	1,
-	86,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-14',
-	2024,
-	1,
-	'ABT3131',
-	11,
-	86,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-17',
-	2024,
-	1,
-	'ABT3131',
-	3,
-	87,
 	18);
 
 insert into prog_taller (
@@ -139748,148 +128857,12 @@ insert into prog_taller (
 	id_taller,
 	id_usuario)
 values (
-	'2024-06-17',
-	2024,
-	1,
-	'ABT3131',
-	9,
-	87,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-21',
-	2024,
-	1,
-	'ABT3131',
-	1,
-	87,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-21',
-	2024,
-	1,
-	'ABT3131',
-	11,
-	87,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-24',
-	2024,
-	1,
-	'ABT3131',
-	3,
-	88,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
 	'2024-06-24',
 	2024,
 	1,
 	'ABT3131',
 	5,
 	88,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-24',
-	2024,
-	1,
-	'ABT3131',
-	9,
-	88,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-28',
-	2024,
-	1,
-	'ABT3131',
-	1,
-	88,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-28',
-	2024,
-	1,
-	'ABT3131',
-	11,
-	88,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-01',
-	2024,
-	1,
-	'ABT3131',
-	3,
-	89,
 	18);
 
 insert into prog_taller (
@@ -139918,74 +128891,6 @@ insert into prog_taller (
 	id_taller,
 	id_usuario)
 values (
-	'2024-07-01',
-	2024,
-	1,
-	'ABT3131',
-	9,
-	89,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-05',
-	2024,
-	1,
-	'ABT3131',
-	1,
-	89,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-05',
-	2024,
-	1,
-	'ABT3131',
-	11,
-	89,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-08',
-	2024,
-	1,
-	'ABT3131',
-	3,
-	90,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
 	'2024-07-08',
 	2024,
 	1,
@@ -139993,2828 +128898,6 @@ values (
 	5,
 	90,
 	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-08',
-	2024,
-	1,
-	'ABT3131',
-	9,
-	90,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-12',
-	2024,
-	1,
-	'ABT3131',
-	1,
-	90,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-12',
-	2024,
-	1,
-	'ABT3131',
-	11,
-	90,
-	18);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-14',
-	2024,
-	1,
-	'ABT3131',
-	13,
-	91,
-	23);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-14',
-	2024,
-	1,
-	'PGG1101',
-	7,
-	254,
-	23);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-21',
-	2024,
-	1,
-	'ABT3131',
-	13,
-	92,
-	23);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-21',
-	2024,
-	1,
-	'PGG1101',
-	7,
-	255,
-	23);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-28',
-	2024,
-	1,
-	'ABT3131',
-	13,
-	93,
-	23);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-28',
-	2024,
-	1,
-	'PGG1101',
-	7,
-	256,
-	23);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-04',
-	2024,
-	1,
-	'ABT3131',
-	13,
-	94,
-	23);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-04',
-	2024,
-	1,
-	'PGG1101',
-	7,
-	257,
-	23);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-11',
-	2024,
-	1,
-	'ABT3131',
-	13,
-	95,
-	23);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-11',
-	2024,
-	1,
-	'PGG1101',
-	7,
-	258,
-	23);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-18',
-	2024,
-	1,
-	'ABT3131',
-	13,
-	96,
-	23);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-18',
-	2024,
-	1,
-	'PGG1101',
-	7,
-	260,
-	23);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-25',
-	2024,
-	1,
-	'ABT3131',
-	13,
-	97,
-	23);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-25',
-	2024,
-	1,
-	'PGG1101',
-	7,
-	261,
-	23);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-02',
-	2024,
-	1,
-	'ABT3131',
-	13,
-	98,
-	23);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-02',
-	2024,
-	1,
-	'PGG1101',
-	7,
-	262,
-	23);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-09',
-	2024,
-	1,
-	'ABT3131',
-	13,
-	99,
-	23);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-09',
-	2024,
-	1,
-	'PGG1101',
-	7,
-	263,
-	23);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-16',
-	2024,
-	1,
-	'ABT3131B',
-	14,
-	286,
-	23);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-16',
-	2024,
-	1,
-	'PGG1101',
-	7,
-	264,
-	23);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-23',
-	2024,
-	1,
-	'ABT3131B',
-	14,
-	287,
-	23);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-23',
-	2024,
-	1,
-	'PGG1101',
-	7,
-	265,
-	23);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-30',
-	2024,
-	1,
-	'ABT3131B',
-	14,
-	288,
-	23);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-30',
-	2024,
-	1,
-	'PGG1101',
-	7,
-	266,
-	23);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-06',
-	2024,
-	1,
-	'ABT3131B',
-	14,
-	289,
-	23);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-06',
-	2024,
-	1,
-	'PGG1101',
-	7,
-	267,
-	23);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-13',
-	2024,
-	1,
-	'ABT3131B',
-	14,
-	290,
-	23);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-13',
-	2024,
-	1,
-	'PGG1101',
-	7,
-	268,
-	23);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-20',
-	2024,
-	1,
-	'ABT3131B',
-	14,
-	291,
-	23);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-20',
-	2024,
-	1,
-	'PGG1101',
-	7,
-	269,
-	23);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-27',
-	2024,
-	1,
-	'ABT3131B',
-	14,
-	292,
-	23);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-27',
-	2024,
-	1,
-	'PGG1101',
-	7,
-	270,
-	23);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-04',
-	2024,
-	1,
-	'ABT3131B',
-	14,
-	293,
-	23);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-04',
-	2024,
-	1,
-	'PGG1101',
-	7,
-	271,
-	23);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-11',
-	2024,
-	1,
-	'ABT3131B',
-	14,
-	294,
-	23);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-12',
-	2024,
-	1,
-	'PGG1108',
-	7,
-	203,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-12',
-	2024,
-	1,
-	'PGG1108',
-	9,
-	203,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-13',
-	2024,
-	1,
-	'PGG1108',
-	5,
-	203,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-14',
-	2024,
-	1,
-	'PGG1108',
-	3,
-	203,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-19',
-	2024,
-	1,
-	'PGG1108',
-	7,
-	205,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-19',
-	2024,
-	1,
-	'PGG1108',
-	9,
-	205,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-20',
-	2024,
-	1,
-	'PGG1108',
-	5,
-	205,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-21',
-	2024,
-	1,
-	'PGG1108',
-	3,
-	205,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-26',
-	2024,
-	1,
-	'PGG1108',
-	7,
-	206,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-26',
-	2024,
-	1,
-	'PGG1108',
-	9,
-	206,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-27',
-	2024,
-	1,
-	'PGG1108',
-	5,
-	206,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-02',
-	2024,
-	1,
-	'PGG1108',
-	7,
-	207,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-02',
-	2024,
-	1,
-	'PGG1108',
-	9,
-	207,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-03',
-	2024,
-	1,
-	'PGG1108',
-	5,
-	207,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-04',
-	2024,
-	1,
-	'PGG1108',
-	3,
-	206,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-09',
-	2024,
-	1,
-	'PGG1108',
-	7,
-	208,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-09',
-	2024,
-	1,
-	'PGG1108',
-	9,
-	208,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-10',
-	2024,
-	1,
-	'PGG1108',
-	5,
-	208,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-11',
-	2024,
-	1,
-	'PGG1108',
-	3,
-	207,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-11',
-	2024,
-	1,
-	'PGG1108',
-	3,
-	208,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-16',
-	2024,
-	1,
-	'PGG1108',
-	7,
-	209,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-16',
-	2024,
-	1,
-	'PGG1108',
-	9,
-	209,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-17',
-	2024,
-	1,
-	'PGG1108',
-	5,
-	209,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-18',
-	2024,
-	1,
-	'PGG1108',
-	3,
-	209,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-23',
-	2024,
-	1,
-	'PGG1108',
-	7,
-	210,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-23',
-	2024,
-	1,
-	'PGG1108',
-	9,
-	210,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-24',
-	2024,
-	1,
-	'PGG1108',
-	5,
-	210,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-25',
-	2024,
-	1,
-	'PGG1108',
-	3,
-	210,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-30',
-	2024,
-	1,
-	'PGG1108',
-	7,
-	211,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-30',
-	2024,
-	1,
-	'PGG1108',
-	9,
-	211,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-02',
-	2024,
-	1,
-	'PGG1108',
-	3,
-	211,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-07',
-	2024,
-	1,
-	'PGG1108',
-	7,
-	212,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-07',
-	2024,
-	1,
-	'PGG1108',
-	9,
-	212,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-08',
-	2024,
-	1,
-	'PGG1108',
-	5,
-	211,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-08',
-	2024,
-	1,
-	'PGG1108',
-	5,
-	212,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-09',
-	2024,
-	1,
-	'PGG1108',
-	3,
-	212,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-14',
-	2024,
-	1,
-	'PGG1108',
-	7,
-	213,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-14',
-	2024,
-	1,
-	'PGG1108',
-	9,
-	213,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-15',
-	2024,
-	1,
-	'PGG1108',
-	5,
-	213,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-16',
-	2024,
-	1,
-	'PGG1108',
-	3,
-	213,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-22',
-	2024,
-	1,
-	'PGG1108',
-	5,
-	214,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-23',
-	2024,
-	1,
-	'PGG1108',
-	3,
-	214,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-28',
-	2024,
-	1,
-	'PGG1108',
-	7,
-	214,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-28',
-	2024,
-	1,
-	'PGG1108',
-	7,
-	215,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-28',
-	2024,
-	1,
-	'PGG1108',
-	9,
-	214,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-28',
-	2024,
-	1,
-	'PGG1108',
-	9,
-	215,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-29',
-	2024,
-	1,
-	'PGG1108',
-	5,
-	215,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-30',
-	2024,
-	1,
-	'PGG1108',
-	3,
-	215,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-04',
-	2024,
-	1,
-	'PGG1108',
-	7,
-	216,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-04',
-	2024,
-	1,
-	'PGG1108',
-	9,
-	216,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-05',
-	2024,
-	1,
-	'PGG1108',
-	5,
-	216,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-06',
-	2024,
-	1,
-	'PGG1108',
-	3,
-	216,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-11',
-	2024,
-	1,
-	'PGG1108',
-	7,
-	217,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-11',
-	2024,
-	1,
-	'PGG1108',
-	9,
-	217,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-12',
-	2024,
-	1,
-	'PGG1108',
-	5,
-	217,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-13',
-	2024,
-	1,
-	'PGG1108',
-	3,
-	217,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-18',
-	2024,
-	1,
-	'PGG1108',
-	7,
-	218,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-18',
-	2024,
-	1,
-	'PGG1108',
-	9,
-	218,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-19',
-	2024,
-	1,
-	'PGG1108',
-	5,
-	218,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-20',
-	2024,
-	1,
-	'PGG1108',
-	3,
-	218,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-25',
-	2024,
-	1,
-	'PGG1108',
-	7,
-	219,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-25',
-	2024,
-	1,
-	'PGG1108',
-	9,
-	219,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-26',
-	2024,
-	1,
-	'PGG1108',
-	5,
-	219,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-27',
-	2024,
-	1,
-	'PGG1108',
-	3,
-	219,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-02',
-	2024,
-	1,
-	'PGG1108',
-	7,
-	220,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-03',
-	2024,
-	1,
-	'PGG1108',
-	5,
-	220,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-04',
-	2024,
-	1,
-	'PGG1108',
-	3,
-	220,
-	24);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-14',
-	2024,
-	1,
-	'PGG1108',
-	14,
-	203,
-	25);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-21',
-	2024,
-	1,
-	'PGG1108',
-	14,
-	205,
-	25);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-04',
-	2024,
-	1,
-	'PGG1108',
-	14,
-	206,
-	25);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-11',
-	2024,
-	1,
-	'PGG1108',
-	14,
-	207,
-	25);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-11',
-	2024,
-	1,
-	'PGG1108',
-	14,
-	208,
-	25);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-18',
-	2024,
-	1,
-	'PGG1108',
-	14,
-	209,
-	25);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-25',
-	2024,
-	1,
-	'PGG1108',
-	14,
-	210,
-	25);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-02',
-	2024,
-	1,
-	'PGG1108',
-	14,
-	211,
-	25);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-09',
-	2024,
-	1,
-	'PGG1108',
-	14,
-	212,
-	25);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-16',
-	2024,
-	1,
-	'PGG1108',
-	14,
-	213,
-	25);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-23',
-	2024,
-	1,
-	'PGG1108',
-	14,
-	214,
-	25);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-30',
-	2024,
-	1,
-	'PGG1108',
-	14,
-	215,
-	25);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-06',
-	2024,
-	1,
-	'PGG1108',
-	14,
-	216,
-	25);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-13',
-	2024,
-	1,
-	'PGG1108',
-	14,
-	217,
-	25);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-20',
-	2024,
-	1,
-	'PGG1108',
-	14,
-	218,
-	25);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-27',
-	2024,
-	1,
-	'PGG1108',
-	14,
-	219,
-	25);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-04',
-	2024,
-	1,
-	'PGG1108',
-	14,
-	220,
-	25);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-12',
-	2024,
-	1,
-	'ABT3141',
-	4,
-	100,
-	26);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-14',
-	2024,
-	1,
-	'ABT3141',
-	8,
-	100,
-	26);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-19',
-	2024,
-	1,
-	'ABT3141',
-	4,
-	101,
-	26);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-21',
-	2024,
-	1,
-	'ABT3141',
-	8,
-	101,
-	26);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-26',
-	2024,
-	1,
-	'ABT3141',
-	4,
-	102,
-	26);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-28',
-	2024,
-	1,
-	'ABT3141',
-	8,
-	102,
-	26);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-02',
-	2024,
-	1,
-	'ABT3141',
-	4,
-	103,
-	26);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-04',
-	2024,
-	1,
-	'ABT3141',
-	8,
-	103,
-	26);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-09',
-	2024,
-	1,
-	'ABT3141',
-	4,
-	104,
-	26);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-11',
-	2024,
-	1,
-	'ABT3141',
-	8,
-	104,
-	26);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-16',
-	2024,
-	1,
-	'ABT3141',
-	4,
-	105,
-	26);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-18',
-	2024,
-	1,
-	'ABT3141',
-	8,
-	105,
-	26);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-23',
-	2024,
-	1,
-	'ABT3141',
-	4,
-	106,
-	26);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-25',
-	2024,
-	1,
-	'ABT3141',
-	8,
-	106,
-	26);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-30',
-	2024,
-	1,
-	'ABT3141',
-	4,
-	107,
-	26);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-02',
-	2024,
-	1,
-	'ABT3141',
-	8,
-	107,
-	26);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-07',
-	2024,
-	1,
-	'ABT3141',
-	4,
-	108,
-	26);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-09',
-	2024,
-	1,
-	'ABT3141',
-	8,
-	108,
-	26);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-14',
-	2024,
-	1,
-	'ABT3141',
-	3,
-	100,
-	26);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-16',
-	2024,
-	1,
-	'ABT3141',
-	7,
-	100,
-	26);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-23',
-	2024,
-	1,
-	'ABT3141',
-	7,
-	101,
-	26);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-28',
-	2024,
-	1,
-	'ABT3141',
-	3,
-	101,
-	26);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-28',
-	2024,
-	1,
-	'ABT3141',
-	3,
-	102,
-	26);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-30',
-	2024,
-	1,
-	'ABT3141',
-	7,
-	102,
-	26);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-04',
-	2024,
-	1,
-	'ABT3141',
-	3,
-	103,
-	26);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-06',
-	2024,
-	1,
-	'ABT3141',
-	7,
-	103,
-	26);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-13',
-	2024,
-	1,
-	'ABT3141',
-	7,
-	104,
-	26);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-18',
-	2024,
-	1,
-	'ABT3141',
-	3,
-	105,
-	26);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-20',
-	2024,
-	1,
-	'ABT3141',
-	7,
-	105,
-	26);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-25',
-	2024,
-	1,
-	'ABT3141',
-	3,
-	106,
-	26);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-06-27',
-	2024,
-	1,
-	'ABT3141',
-	7,
-	106,
-	26);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-02',
-	2024,
-	1,
-	'ABT3141',
-	3,
-	107,
-	26);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-04',
-	2024,
-	1,
-	'ABT3141',
-	7,
-	107,
-	26);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-09',
-	2024,
-	1,
-	'ABT3141',
-	3,
-	108,
-	26);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-07-11',
-	2024,
-	1,
-	'ABT3141',
-	7,
-	108,
-	26);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-13',
-	2024,
-	1,
-	'ABT3141',
-	6,
-	100,
-	27);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-20',
-	2024,
-	1,
-	'ABT3141',
-	6,
-	101,
-	27);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-03-27',
-	2024,
-	1,
-	'ABT3141',
-	6,
-	102,
-	27);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-03',
-	2024,
-	1,
-	'ABT3141',
-	6,
-	103,
-	27);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-10',
-	2024,
-	1,
-	'ABT3141',
-	6,
-	104,
-	27);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-17',
-	2024,
-	1,
-	'ABT3141',
-	6,
-	105,
-	27);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-04-24',
-	2024,
-	1,
-	'ABT3141',
-	6,
-	106,
-	27);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-08',
-	2024,
-	1,
-	'ABT3141',
-	6,
-	107,
-	27);
-
-insert into prog_taller (
-	fecha,
-	ano_academ,
-	cod_periodo_academ,
-	sigla,
-	seccion,
-	id_taller,
-	id_usuario)
-values (
-	'2024-05-08',
-	2024,
-	1,
-	'ABT3141',
-	6,
-	108,
-	27);
 
 insert into prog_taller (
 	fecha,
@@ -142968,6 +129051,11634 @@ values (
 	5,
 	108,
 	27);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-13',
+	2024,
+	1,
+	'CRT3111',
+	5,
+	150,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-20',
+	2024,
+	1,
+	'CRT3111',
+	5,
+	151,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-27',
+	2024,
+	1,
+	'CRT3111',
+	5,
+	152,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-03',
+	2024,
+	1,
+	'CRT3111',
+	5,
+	153,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-10',
+	2024,
+	1,
+	'CRT3111',
+	5,
+	154,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-17',
+	2024,
+	1,
+	'CRT3111',
+	5,
+	155,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-24',
+	2024,
+	1,
+	'CRT3111',
+	5,
+	156,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-08',
+	2024,
+	1,
+	'CRT3111',
+	5,
+	158,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-13',
+	2024,
+	1,
+	'PGG1101',
+	5,
+	254,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-20',
+	2024,
+	1,
+	'PGG1101',
+	5,
+	255,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-27',
+	2024,
+	1,
+	'PGG1101',
+	5,
+	256,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-03',
+	2024,
+	1,
+	'PGG1101',
+	5,
+	257,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-10',
+	2024,
+	1,
+	'PGG1101',
+	5,
+	258,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-17',
+	2024,
+	1,
+	'PGG1101',
+	5,
+	260,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-24',
+	2024,
+	1,
+	'PGG1101',
+	5,
+	261,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-08',
+	2024,
+	1,
+	'PGG1101',
+	5,
+	262,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-15',
+	2024,
+	1,
+	'PGG1101',
+	5,
+	263,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-15',
+	2024,
+	1,
+	'PGG1101',
+	5,
+	264,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-22',
+	2024,
+	1,
+	'PGG1101',
+	5,
+	265,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-29',
+	2024,
+	1,
+	'PGG1101',
+	5,
+	266,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-05',
+	2024,
+	1,
+	'PGG1101',
+	5,
+	267,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-12',
+	2024,
+	1,
+	'PGG1101',
+	5,
+	268,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-19',
+	2024,
+	1,
+	'PGG1101',
+	5,
+	269,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-26',
+	2024,
+	1,
+	'PGG1101',
+	5,
+	270,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-03',
+	2024,
+	1,
+	'PGG1101',
+	5,
+	271,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-13',
+	2024,
+	1,
+	'PGG1108',
+	5,
+	203,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-20',
+	2024,
+	1,
+	'PGG1108',
+	5,
+	205,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-27',
+	2024,
+	1,
+	'PGG1108',
+	5,
+	206,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-03',
+	2024,
+	1,
+	'PGG1108',
+	5,
+	207,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-10',
+	2024,
+	1,
+	'PGG1108',
+	5,
+	208,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-17',
+	2024,
+	1,
+	'PGG1108',
+	5,
+	209,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-24',
+	2024,
+	1,
+	'PGG1108',
+	5,
+	210,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-08',
+	2024,
+	1,
+	'PGG1108',
+	5,
+	211,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-08',
+	2024,
+	1,
+	'PGG1108',
+	5,
+	212,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-15',
+	2024,
+	1,
+	'PGG1108',
+	5,
+	213,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-22',
+	2024,
+	1,
+	'PGG1108',
+	5,
+	214,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-29',
+	2024,
+	1,
+	'PGG1108',
+	5,
+	215,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-05',
+	2024,
+	1,
+	'PGG1108',
+	5,
+	216,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-12',
+	2024,
+	1,
+	'PGG1108',
+	5,
+	217,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-19',
+	2024,
+	1,
+	'PGG1108',
+	5,
+	218,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-26',
+	2024,
+	1,
+	'PGG1108',
+	5,
+	219,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-03',
+	2024,
+	1,
+	'PGG1108',
+	5,
+	220,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-11',
+	2024,
+	1,
+	'ABT3131B',
+	6,
+	275,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-18',
+	2024,
+	1,
+	'ABT3131B',
+	6,
+	276,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-25',
+	2024,
+	1,
+	'ABT3131B',
+	6,
+	277,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-01',
+	2024,
+	1,
+	'ABT3131B',
+	6,
+	278,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-08',
+	2024,
+	1,
+	'ABT3131B',
+	6,
+	279,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-15',
+	2024,
+	1,
+	'ABT3131B',
+	6,
+	280,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-22',
+	2024,
+	1,
+	'ABT3131B',
+	6,
+	282,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-29',
+	2024,
+	1,
+	'ABT3131B',
+	6,
+	283,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-06',
+	2024,
+	1,
+	'ABT3131B',
+	6,
+	284,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-13',
+	2024,
+	1,
+	'ABT3131B',
+	6,
+	286,
+	9);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-20',
+	2024,
+	1,
+	'ABT3131B',
+	6,
+	287,
+	9);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-27',
+	2024,
+	1,
+	'ABT3131B',
+	6,
+	288,
+	9);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-03',
+	2024,
+	1,
+	'ABT3131B',
+	6,
+	289,
+	9);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-10',
+	2024,
+	1,
+	'ABT3131B',
+	6,
+	290,
+	9);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-17',
+	2024,
+	1,
+	'ABT3131B',
+	6,
+	291,
+	9);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-24',
+	2024,
+	1,
+	'ABT3131B',
+	6,
+	292,
+	9);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-01',
+	2024,
+	1,
+	'ABT3131B',
+	6,
+	293,
+	9);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-08',
+	2024,
+	1,
+	'ABT3131B',
+	6,
+	294,
+	9);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-13',
+	2024,
+	1,
+	'ABT3141',
+	6,
+	100,
+	27);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-20',
+	2024,
+	1,
+	'ABT3141',
+	6,
+	101,
+	27);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-27',
+	2024,
+	1,
+	'ABT3141',
+	6,
+	102,
+	27);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-03',
+	2024,
+	1,
+	'ABT3141',
+	6,
+	103,
+	27);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-10',
+	2024,
+	1,
+	'ABT3141',
+	6,
+	104,
+	27);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-17',
+	2024,
+	1,
+	'ABT3141',
+	6,
+	105,
+	27);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-24',
+	2024,
+	1,
+	'ABT3141',
+	6,
+	106,
+	27);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-08',
+	2024,
+	1,
+	'ABT3141',
+	6,
+	107,
+	27);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-08',
+	2024,
+	1,
+	'ABT3141',
+	6,
+	108,
+	27);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-15',
+	2024,
+	1,
+	'CRT3111',
+	6,
+	150,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-22',
+	2024,
+	1,
+	'CRT3111',
+	6,
+	151,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-29',
+	2024,
+	1,
+	'CRT3111',
+	6,
+	152,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-05',
+	2024,
+	1,
+	'CRT3111',
+	6,
+	153,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-12',
+	2024,
+	1,
+	'CRT3111',
+	6,
+	154,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-19',
+	2024,
+	1,
+	'CRT3111',
+	6,
+	155,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-26',
+	2024,
+	1,
+	'CRT3111',
+	6,
+	156,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-03',
+	2024,
+	1,
+	'CRT3111',
+	6,
+	157,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-10',
+	2024,
+	1,
+	'CRT3111',
+	6,
+	158,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-13',
+	2024,
+	1,
+	'PGG1101',
+	6,
+	254,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-20',
+	2024,
+	1,
+	'PGG1101',
+	6,
+	255,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-27',
+	2024,
+	1,
+	'PGG1101',
+	6,
+	256,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-03',
+	2024,
+	1,
+	'PGG1101',
+	6,
+	257,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-10',
+	2024,
+	1,
+	'PGG1101',
+	6,
+	258,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-17',
+	2024,
+	1,
+	'PGG1101',
+	6,
+	260,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-24',
+	2024,
+	1,
+	'PGG1101',
+	6,
+	261,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-08',
+	2024,
+	1,
+	'PGG1101',
+	6,
+	262,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-15',
+	2024,
+	1,
+	'PGG1101',
+	6,
+	263,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-15',
+	2024,
+	1,
+	'PGG1101',
+	6,
+	264,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-22',
+	2024,
+	1,
+	'PGG1101',
+	6,
+	265,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-29',
+	2024,
+	1,
+	'PGG1101',
+	6,
+	266,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-05',
+	2024,
+	1,
+	'PGG1101',
+	6,
+	267,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-12',
+	2024,
+	1,
+	'PGG1101',
+	6,
+	268,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-19',
+	2024,
+	1,
+	'PGG1101',
+	6,
+	269,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-26',
+	2024,
+	1,
+	'PGG1101',
+	6,
+	270,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-03',
+	2024,
+	1,
+	'PGG1101',
+	6,
+	271,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-13',
+	2024,
+	1,
+	'PGG1108',
+	6,
+	203,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-20',
+	2024,
+	1,
+	'PGG1108',
+	6,
+	205,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-27',
+	2024,
+	1,
+	'PGG1108',
+	6,
+	206,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-03',
+	2024,
+	1,
+	'PGG1108',
+	6,
+	207,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-10',
+	2024,
+	1,
+	'PGG1108',
+	6,
+	208,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-17',
+	2024,
+	1,
+	'PGG1108',
+	6,
+	209,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-24',
+	2024,
+	1,
+	'PGG1108',
+	6,
+	210,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-08',
+	2024,
+	1,
+	'PGG1108',
+	6,
+	211,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-08',
+	2024,
+	1,
+	'PGG1108',
+	6,
+	212,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-15',
+	2024,
+	1,
+	'PGG1108',
+	6,
+	213,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-22',
+	2024,
+	1,
+	'PGG1108',
+	6,
+	214,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-29',
+	2024,
+	1,
+	'PGG1108',
+	6,
+	215,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-29',
+	2024,
+	1,
+	'PGG1108',
+	6,
+	216,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-05',
+	2024,
+	1,
+	'PGG1108',
+	6,
+	217,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-12',
+	2024,
+	1,
+	'PGG1108',
+	6,
+	218,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-19',
+	2024,
+	1,
+	'PGG1108',
+	6,
+	219,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-16',
+	2024,
+	1,
+	'ABT3141',
+	7,
+	100,
+	26);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-23',
+	2024,
+	1,
+	'ABT3141',
+	7,
+	101,
+	26);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-30',
+	2024,
+	1,
+	'ABT3141',
+	7,
+	102,
+	26);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-06',
+	2024,
+	1,
+	'ABT3141',
+	7,
+	103,
+	26);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-13',
+	2024,
+	1,
+	'ABT3141',
+	7,
+	104,
+	26);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-20',
+	2024,
+	1,
+	'ABT3141',
+	7,
+	105,
+	26);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-27',
+	2024,
+	1,
+	'ABT3141',
+	7,
+	106,
+	26);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-04',
+	2024,
+	1,
+	'ABT3141',
+	7,
+	107,
+	26);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-11',
+	2024,
+	1,
+	'ABT3141',
+	7,
+	108,
+	26);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-14',
+	2024,
+	1,
+	'CRT3111',
+	7,
+	150,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-21',
+	2024,
+	1,
+	'CRT3111',
+	7,
+	151,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-28',
+	2024,
+	1,
+	'CRT3111',
+	7,
+	152,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-04',
+	2024,
+	1,
+	'CRT3111',
+	7,
+	153,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-11',
+	2024,
+	1,
+	'CRT3111',
+	7,
+	154,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-18',
+	2024,
+	1,
+	'CRT3111',
+	7,
+	155,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-25',
+	2024,
+	1,
+	'CRT3111',
+	7,
+	156,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-02',
+	2024,
+	1,
+	'CRT3111',
+	7,
+	157,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-09',
+	2024,
+	1,
+	'CRT3111',
+	7,
+	158,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-14',
+	2024,
+	1,
+	'PGG1101',
+	7,
+	254,
+	23);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-21',
+	2024,
+	1,
+	'PGG1101',
+	7,
+	255,
+	23);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-28',
+	2024,
+	1,
+	'PGG1101',
+	7,
+	256,
+	23);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-04',
+	2024,
+	1,
+	'PGG1101',
+	7,
+	257,
+	23);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-11',
+	2024,
+	1,
+	'PGG1101',
+	7,
+	258,
+	23);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-18',
+	2024,
+	1,
+	'PGG1101',
+	7,
+	260,
+	23);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-25',
+	2024,
+	1,
+	'PGG1101',
+	7,
+	261,
+	23);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-02',
+	2024,
+	1,
+	'PGG1101',
+	7,
+	262,
+	23);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-09',
+	2024,
+	1,
+	'PGG1101',
+	7,
+	263,
+	23);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-16',
+	2024,
+	1,
+	'PGG1101',
+	7,
+	264,
+	23);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-23',
+	2024,
+	1,
+	'PGG1101',
+	7,
+	265,
+	23);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-30',
+	2024,
+	1,
+	'PGG1101',
+	7,
+	266,
+	23);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-06',
+	2024,
+	1,
+	'PGG1101',
+	7,
+	267,
+	23);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-13',
+	2024,
+	1,
+	'PGG1101',
+	7,
+	268,
+	23);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-20',
+	2024,
+	1,
+	'PGG1101',
+	7,
+	269,
+	23);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-27',
+	2024,
+	1,
+	'PGG1101',
+	7,
+	270,
+	23);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-04',
+	2024,
+	1,
+	'PGG1101',
+	7,
+	271,
+	23);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-12',
+	2024,
+	1,
+	'PGG1108',
+	7,
+	203,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-19',
+	2024,
+	1,
+	'PGG1108',
+	7,
+	205,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-26',
+	2024,
+	1,
+	'PGG1108',
+	7,
+	206,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-02',
+	2024,
+	1,
+	'PGG1108',
+	7,
+	207,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-09',
+	2024,
+	1,
+	'PGG1108',
+	7,
+	208,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-16',
+	2024,
+	1,
+	'PGG1108',
+	7,
+	209,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-23',
+	2024,
+	1,
+	'PGG1108',
+	7,
+	210,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-30',
+	2024,
+	1,
+	'PGG1108',
+	7,
+	211,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-07',
+	2024,
+	1,
+	'PGG1108',
+	7,
+	212,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-14',
+	2024,
+	1,
+	'PGG1108',
+	7,
+	213,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-28',
+	2024,
+	1,
+	'PGG1108',
+	7,
+	214,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-28',
+	2024,
+	1,
+	'PGG1108',
+	7,
+	215,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-04',
+	2024,
+	1,
+	'PGG1108',
+	7,
+	216,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-11',
+	2024,
+	1,
+	'PGG1108',
+	7,
+	217,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-18',
+	2024,
+	1,
+	'PGG1108',
+	7,
+	218,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-25',
+	2024,
+	1,
+	'PGG1108',
+	7,
+	219,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-02',
+	2024,
+	1,
+	'PGG1108',
+	7,
+	220,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-14',
+	2024,
+	1,
+	'ABT3141',
+	8,
+	100,
+	26);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-21',
+	2024,
+	1,
+	'ABT3141',
+	8,
+	101,
+	26);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-28',
+	2024,
+	1,
+	'ABT3141',
+	8,
+	102,
+	26);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-04',
+	2024,
+	1,
+	'ABT3141',
+	8,
+	103,
+	26);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-11',
+	2024,
+	1,
+	'ABT3141',
+	8,
+	104,
+	26);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-18',
+	2024,
+	1,
+	'ABT3141',
+	8,
+	105,
+	26);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-25',
+	2024,
+	1,
+	'ABT3141',
+	8,
+	106,
+	26);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-02',
+	2024,
+	1,
+	'ABT3141',
+	8,
+	107,
+	26);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-09',
+	2024,
+	1,
+	'ABT3141',
+	8,
+	108,
+	26);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-16',
+	2024,
+	1,
+	'CRT3111',
+	8,
+	150,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-23',
+	2024,
+	1,
+	'CRT3111',
+	8,
+	151,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-30',
+	2024,
+	1,
+	'CRT3111',
+	8,
+	152,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-06',
+	2024,
+	1,
+	'CRT3111',
+	8,
+	153,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-13',
+	2024,
+	1,
+	'CRT3111',
+	8,
+	154,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-20',
+	2024,
+	1,
+	'CRT3111',
+	8,
+	155,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-27',
+	2024,
+	1,
+	'CRT3111',
+	8,
+	156,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-04',
+	2024,
+	1,
+	'CRT3111',
+	8,
+	157,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-11',
+	2024,
+	1,
+	'CRT3111',
+	8,
+	158,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-14',
+	2024,
+	1,
+	'PGG1101',
+	8,
+	254,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-21',
+	2024,
+	1,
+	'PGG1101',
+	8,
+	255,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-28',
+	2024,
+	1,
+	'PGG1101',
+	8,
+	256,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-04',
+	2024,
+	1,
+	'PGG1101',
+	8,
+	257,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-11',
+	2024,
+	1,
+	'PGG1101',
+	8,
+	258,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-18',
+	2024,
+	1,
+	'PGG1101',
+	8,
+	260,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-25',
+	2024,
+	1,
+	'PGG1101',
+	8,
+	261,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-02',
+	2024,
+	1,
+	'PGG1101',
+	8,
+	262,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-09',
+	2024,
+	1,
+	'PGG1101',
+	8,
+	263,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-16',
+	2024,
+	1,
+	'PGG1101',
+	8,
+	264,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-23',
+	2024,
+	1,
+	'PGG1101',
+	8,
+	265,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-30',
+	2024,
+	1,
+	'PGG1101',
+	8,
+	266,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-06',
+	2024,
+	1,
+	'PGG1101',
+	8,
+	267,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-13',
+	2024,
+	1,
+	'PGG1101',
+	8,
+	268,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-20',
+	2024,
+	1,
+	'PGG1101',
+	8,
+	269,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-27',
+	2024,
+	1,
+	'PGG1101',
+	8,
+	270,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-04',
+	2024,
+	1,
+	'PGG1101',
+	8,
+	271,
+	7);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-12',
+	2024,
+	1,
+	'PGG1108',
+	8,
+	203,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-19',
+	2024,
+	1,
+	'PGG1108',
+	8,
+	205,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-26',
+	2024,
+	1,
+	'PGG1108',
+	8,
+	206,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-02',
+	2024,
+	1,
+	'PGG1108',
+	8,
+	207,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-09',
+	2024,
+	1,
+	'PGG1108',
+	8,
+	208,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-16',
+	2024,
+	1,
+	'PGG1108',
+	8,
+	209,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-23',
+	2024,
+	1,
+	'PGG1108',
+	8,
+	210,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-30',
+	2024,
+	1,
+	'PGG1108',
+	8,
+	211,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-07',
+	2024,
+	1,
+	'PGG1108',
+	8,
+	212,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-14',
+	2024,
+	1,
+	'PGG1108',
+	8,
+	213,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-28',
+	2024,
+	1,
+	'PGG1108',
+	8,
+	214,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-28',
+	2024,
+	1,
+	'PGG1108',
+	8,
+	215,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-04',
+	2024,
+	1,
+	'PGG1108',
+	8,
+	216,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-11',
+	2024,
+	1,
+	'PGG1108',
+	8,
+	217,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-18',
+	2024,
+	1,
+	'PGG1108',
+	8,
+	218,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-25',
+	2024,
+	1,
+	'PGG1108',
+	8,
+	219,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-02',
+	2024,
+	1,
+	'PGG1108',
+	8,
+	220,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-11',
+	2024,
+	1,
+	'ABT3131',
+	9,
+	91,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-18',
+	2024,
+	1,
+	'ABT3131',
+	9,
+	92,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-25',
+	2024,
+	1,
+	'ABT3131',
+	9,
+	93,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-01',
+	2024,
+	1,
+	'ABT3131',
+	9,
+	94,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-08',
+	2024,
+	1,
+	'ABT3131',
+	9,
+	95,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-15',
+	2024,
+	1,
+	'ABT3131',
+	9,
+	96,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-22',
+	2024,
+	1,
+	'ABT3131',
+	9,
+	97,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-29',
+	2024,
+	1,
+	'ABT3131',
+	9,
+	98,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-06',
+	2024,
+	1,
+	'ABT3131',
+	9,
+	99,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-13',
+	2024,
+	1,
+	'ABT3131',
+	9,
+	82,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-20',
+	2024,
+	1,
+	'ABT3131',
+	9,
+	83,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-27',
+	2024,
+	1,
+	'ABT3131',
+	9,
+	84,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-03',
+	2024,
+	1,
+	'ABT3131',
+	9,
+	85,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-10',
+	2024,
+	1,
+	'ABT3131',
+	9,
+	86,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-17',
+	2024,
+	1,
+	'ABT3131',
+	9,
+	87,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-24',
+	2024,
+	1,
+	'ABT3131',
+	9,
+	88,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-01',
+	2024,
+	1,
+	'ABT3131',
+	9,
+	89,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-08',
+	2024,
+	1,
+	'ABT3131',
+	9,
+	90,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-17',
+	2024,
+	1,
+	'ABT3141',
+	9,
+	100,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-24',
+	2024,
+	1,
+	'ABT3141',
+	9,
+	101,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-31',
+	2024,
+	1,
+	'ABT3141',
+	9,
+	102,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-07',
+	2024,
+	1,
+	'ABT3141',
+	9,
+	103,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-14',
+	2024,
+	1,
+	'ABT3141',
+	9,
+	104,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-21',
+	2024,
+	1,
+	'ABT3141',
+	9,
+	105,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-28',
+	2024,
+	1,
+	'ABT3141',
+	9,
+	106,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-05',
+	2024,
+	1,
+	'ABT3141',
+	9,
+	107,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-12',
+	2024,
+	1,
+	'ABT3141',
+	9,
+	108,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-15',
+	2024,
+	1,
+	'CRT3111',
+	9,
+	150,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-22',
+	2024,
+	1,
+	'CRT3111',
+	9,
+	151,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-05',
+	2024,
+	1,
+	'CRT3111',
+	9,
+	153,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-12',
+	2024,
+	1,
+	'CRT3111',
+	9,
+	154,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-19',
+	2024,
+	1,
+	'CRT3111',
+	9,
+	155,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-26',
+	2024,
+	1,
+	'CRT3111',
+	9,
+	156,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-03',
+	2024,
+	1,
+	'CRT3111',
+	9,
+	157,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-10',
+	2024,
+	1,
+	'CRT3111',
+	9,
+	158,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-14',
+	2024,
+	1,
+	'PGG1101',
+	9,
+	254,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-21',
+	2024,
+	1,
+	'PGG1101',
+	9,
+	255,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-28',
+	2024,
+	1,
+	'PGG1101',
+	9,
+	256,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-04',
+	2024,
+	1,
+	'PGG1101',
+	9,
+	257,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-11',
+	2024,
+	1,
+	'PGG1101',
+	9,
+	258,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-18',
+	2024,
+	1,
+	'PGG1101',
+	9,
+	260,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-25',
+	2024,
+	1,
+	'PGG1101',
+	9,
+	261,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-02',
+	2024,
+	1,
+	'PGG1101',
+	9,
+	262,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-09',
+	2024,
+	1,
+	'PGG1101',
+	9,
+	263,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-16',
+	2024,
+	1,
+	'PGG1101',
+	9,
+	264,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-23',
+	2024,
+	1,
+	'PGG1101',
+	9,
+	265,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-30',
+	2024,
+	1,
+	'PGG1101',
+	9,
+	266,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-06',
+	2024,
+	1,
+	'PGG1101',
+	9,
+	267,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-13',
+	2024,
+	1,
+	'PGG1101',
+	9,
+	268,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-20',
+	2024,
+	1,
+	'PGG1101',
+	9,
+	269,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-27',
+	2024,
+	1,
+	'PGG1101',
+	9,
+	270,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-05',
+	2024,
+	1,
+	'PGG1101',
+	9,
+	271,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-12',
+	2024,
+	1,
+	'PGG1108',
+	9,
+	203,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-19',
+	2024,
+	1,
+	'PGG1108',
+	9,
+	205,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-26',
+	2024,
+	1,
+	'PGG1108',
+	9,
+	206,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-02',
+	2024,
+	1,
+	'PGG1108',
+	9,
+	207,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-09',
+	2024,
+	1,
+	'PGG1108',
+	9,
+	208,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-16',
+	2024,
+	1,
+	'PGG1108',
+	9,
+	209,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-23',
+	2024,
+	1,
+	'PGG1108',
+	9,
+	210,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-30',
+	2024,
+	1,
+	'PGG1108',
+	9,
+	211,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-07',
+	2024,
+	1,
+	'PGG1108',
+	9,
+	212,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-14',
+	2024,
+	1,
+	'PGG1108',
+	9,
+	213,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-28',
+	2024,
+	1,
+	'PGG1108',
+	9,
+	214,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-28',
+	2024,
+	1,
+	'PGG1108',
+	9,
+	215,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-04',
+	2024,
+	1,
+	'PGG1108',
+	9,
+	216,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-11',
+	2024,
+	1,
+	'PGG1108',
+	9,
+	217,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-18',
+	2024,
+	1,
+	'PGG1108',
+	9,
+	218,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-25',
+	2024,
+	1,
+	'PGG1108',
+	9,
+	219,
+	24);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-11',
+	2024,
+	1,
+	'ABT3131B',
+	10,
+	275,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-18',
+	2024,
+	1,
+	'ABT3131B',
+	10,
+	276,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-25',
+	2024,
+	1,
+	'ABT3131B',
+	10,
+	277,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-01',
+	2024,
+	1,
+	'ABT3131B',
+	10,
+	278,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-08',
+	2024,
+	1,
+	'ABT3131B',
+	10,
+	279,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-15',
+	2024,
+	1,
+	'ABT3131B',
+	10,
+	280,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-22',
+	2024,
+	1,
+	'ABT3131B',
+	10,
+	282,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-29',
+	2024,
+	1,
+	'ABT3131B',
+	10,
+	283,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-06',
+	2024,
+	1,
+	'ABT3131B',
+	10,
+	284,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-13',
+	2024,
+	1,
+	'ABT3131B',
+	10,
+	286,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-20',
+	2024,
+	1,
+	'ABT3131B',
+	10,
+	287,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-27',
+	2024,
+	1,
+	'ABT3131B',
+	10,
+	288,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-03',
+	2024,
+	1,
+	'ABT3131B',
+	10,
+	289,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-10',
+	2024,
+	1,
+	'ABT3131B',
+	10,
+	290,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-17',
+	2024,
+	1,
+	'ABT3131B',
+	10,
+	291,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-24',
+	2024,
+	1,
+	'ABT3131B',
+	10,
+	292,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-01',
+	2024,
+	1,
+	'ABT3131B',
+	10,
+	293,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-08',
+	2024,
+	1,
+	'ABT3131B',
+	10,
+	294,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-15',
+	2024,
+	1,
+	'ABT3141',
+	10,
+	100,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-22',
+	2024,
+	1,
+	'ABT3141',
+	10,
+	101,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-29',
+	2024,
+	1,
+	'ABT3141',
+	10,
+	102,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-05',
+	2024,
+	1,
+	'ABT3141',
+	10,
+	103,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-12',
+	2024,
+	1,
+	'ABT3141',
+	10,
+	104,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-19',
+	2024,
+	1,
+	'ABT3141',
+	10,
+	105,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-26',
+	2024,
+	1,
+	'ABT3141',
+	10,
+	106,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-03',
+	2024,
+	1,
+	'ABT3141',
+	10,
+	107,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-10',
+	2024,
+	1,
+	'ABT3141',
+	10,
+	108,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-17',
+	2024,
+	1,
+	'CRT3111',
+	10,
+	150,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-24',
+	2024,
+	1,
+	'CRT3111',
+	10,
+	151,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-31',
+	2024,
+	1,
+	'CRT3111',
+	10,
+	152,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-07',
+	2024,
+	1,
+	'CRT3111',
+	10,
+	153,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-14',
+	2024,
+	1,
+	'CRT3111',
+	10,
+	154,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-21',
+	2024,
+	1,
+	'CRT3111',
+	10,
+	155,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-28',
+	2024,
+	1,
+	'CRT3111',
+	10,
+	156,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-05',
+	2024,
+	1,
+	'CRT3111',
+	10,
+	157,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-12',
+	2024,
+	1,
+	'CRT3111',
+	10,
+	158,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-14',
+	2024,
+	1,
+	'PGG1101',
+	10,
+	254,
+	11);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-21',
+	2024,
+	1,
+	'PGG1101',
+	10,
+	255,
+	11);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-28',
+	2024,
+	1,
+	'PGG1101',
+	10,
+	256,
+	11);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-04',
+	2024,
+	1,
+	'PGG1101',
+	10,
+	257,
+	11);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-11',
+	2024,
+	1,
+	'PGG1101',
+	10,
+	258,
+	11);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-18',
+	2024,
+	1,
+	'PGG1101',
+	10,
+	260,
+	11);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-25',
+	2024,
+	1,
+	'PGG1101',
+	10,
+	261,
+	11);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-02',
+	2024,
+	1,
+	'PGG1101',
+	10,
+	262,
+	11);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-09',
+	2024,
+	1,
+	'PGG1101',
+	10,
+	263,
+	11);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-16',
+	2024,
+	1,
+	'PGG1101',
+	10,
+	264,
+	11);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-23',
+	2024,
+	1,
+	'PGG1101',
+	10,
+	265,
+	11);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-30',
+	2024,
+	1,
+	'PGG1101',
+	10,
+	266,
+	11);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-06',
+	2024,
+	1,
+	'PGG1101',
+	10,
+	267,
+	11);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-13',
+	2024,
+	1,
+	'PGG1101',
+	10,
+	268,
+	11);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-20',
+	2024,
+	1,
+	'PGG1101',
+	10,
+	269,
+	11);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-27',
+	2024,
+	1,
+	'PGG1101',
+	10,
+	270,
+	11);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-04',
+	2024,
+	1,
+	'PGG1101',
+	10,
+	271,
+	11);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-12',
+	2024,
+	1,
+	'PGG1108',
+	10,
+	203,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-19',
+	2024,
+	1,
+	'PGG1108',
+	10,
+	205,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-26',
+	2024,
+	1,
+	'PGG1108',
+	10,
+	206,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-02',
+	2024,
+	1,
+	'PGG1108',
+	10,
+	207,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-09',
+	2024,
+	1,
+	'PGG1108',
+	10,
+	208,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-16',
+	2024,
+	1,
+	'PGG1108',
+	10,
+	209,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-23',
+	2024,
+	1,
+	'PGG1108',
+	10,
+	210,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-30',
+	2024,
+	1,
+	'PGG1108',
+	10,
+	211,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-07',
+	2024,
+	1,
+	'PGG1108',
+	10,
+	212,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-14',
+	2024,
+	1,
+	'PGG1108',
+	10,
+	213,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-28',
+	2024,
+	1,
+	'PGG1108',
+	10,
+	214,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-28',
+	2024,
+	1,
+	'PGG1108',
+	10,
+	215,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-04',
+	2024,
+	1,
+	'PGG1108',
+	10,
+	216,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-11',
+	2024,
+	1,
+	'PGG1108',
+	10,
+	217,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-18',
+	2024,
+	1,
+	'PGG1108',
+	10,
+	218,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-25',
+	2024,
+	1,
+	'PGG1108',
+	10,
+	219,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-02',
+	2024,
+	1,
+	'PGG1108',
+	10,
+	220,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-15',
+	2024,
+	1,
+	'ABT3131',
+	11,
+	91,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-22',
+	2024,
+	1,
+	'ABT3131',
+	11,
+	92,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-29',
+	2024,
+	1,
+	'ABT3131',
+	11,
+	93,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-05',
+	2024,
+	1,
+	'ABT3131',
+	11,
+	94,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-12',
+	2024,
+	1,
+	'ABT3131',
+	11,
+	95,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-19',
+	2024,
+	1,
+	'ABT3131',
+	11,
+	96,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-26',
+	2024,
+	1,
+	'ABT3131',
+	11,
+	97,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-03',
+	2024,
+	1,
+	'ABT3131',
+	11,
+	98,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-10',
+	2024,
+	1,
+	'ABT3131',
+	11,
+	99,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-17',
+	2024,
+	1,
+	'ABT3131',
+	11,
+	82,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-24',
+	2024,
+	1,
+	'ABT3131',
+	11,
+	83,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-31',
+	2024,
+	1,
+	'ABT3131',
+	11,
+	84,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-07',
+	2024,
+	1,
+	'ABT3131',
+	11,
+	85,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-14',
+	2024,
+	1,
+	'ABT3131',
+	11,
+	86,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-21',
+	2024,
+	1,
+	'ABT3131',
+	11,
+	87,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-28',
+	2024,
+	1,
+	'ABT3131',
+	11,
+	88,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-05',
+	2024,
+	1,
+	'ABT3131',
+	11,
+	89,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-12',
+	2024,
+	1,
+	'ABT3131',
+	11,
+	90,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-11',
+	2024,
+	1,
+	'ABT3141',
+	11,
+	100,
+	17);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-18',
+	2024,
+	1,
+	'ABT3141',
+	11,
+	101,
+	17);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-25',
+	2024,
+	1,
+	'ABT3141',
+	11,
+	102,
+	17);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-01',
+	2024,
+	1,
+	'ABT3141',
+	11,
+	103,
+	17);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-08',
+	2024,
+	1,
+	'ABT3141',
+	11,
+	104,
+	17);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-15',
+	2024,
+	1,
+	'ABT3141',
+	11,
+	105,
+	17);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-22',
+	2024,
+	1,
+	'ABT3141',
+	11,
+	106,
+	17);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-29',
+	2024,
+	1,
+	'ABT3141',
+	11,
+	107,
+	17);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-06',
+	2024,
+	1,
+	'ABT3141',
+	11,
+	108,
+	17);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-11',
+	2024,
+	1,
+	'CRT3111',
+	11,
+	150,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-18',
+	2024,
+	1,
+	'CRT3111',
+	11,
+	151,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-25',
+	2024,
+	1,
+	'CRT3111',
+	11,
+	152,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-01',
+	2024,
+	1,
+	'CRT3111',
+	11,
+	153,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-08',
+	2024,
+	1,
+	'CRT3111',
+	11,
+	154,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-15',
+	2024,
+	1,
+	'CRT3111',
+	11,
+	155,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-22',
+	2024,
+	1,
+	'CRT3111',
+	11,
+	156,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-29',
+	2024,
+	1,
+	'CRT3111',
+	11,
+	157,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-06',
+	2024,
+	1,
+	'CRT3111',
+	11,
+	158,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-13',
+	2024,
+	1,
+	'PGG1101',
+	11,
+	254,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-20',
+	2024,
+	1,
+	'PGG1101',
+	11,
+	255,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-27',
+	2024,
+	1,
+	'PGG1101',
+	11,
+	256,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-03',
+	2024,
+	1,
+	'PGG1101',
+	11,
+	257,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-10',
+	2024,
+	1,
+	'PGG1101',
+	11,
+	258,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-17',
+	2024,
+	1,
+	'PGG1101',
+	11,
+	260,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-24',
+	2024,
+	1,
+	'PGG1101',
+	11,
+	261,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-08',
+	2024,
+	1,
+	'PGG1101',
+	11,
+	262,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-15',
+	2024,
+	1,
+	'PGG1101',
+	11,
+	263,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-15',
+	2024,
+	1,
+	'PGG1101',
+	11,
+	264,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-22',
+	2024,
+	1,
+	'PGG1101',
+	11,
+	265,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-29',
+	2024,
+	1,
+	'PGG1101',
+	11,
+	266,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-05',
+	2024,
+	1,
+	'PGG1101',
+	11,
+	267,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-12',
+	2024,
+	1,
+	'PGG1101',
+	11,
+	268,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-19',
+	2024,
+	1,
+	'PGG1101',
+	11,
+	269,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-26',
+	2024,
+	1,
+	'PGG1101',
+	11,
+	270,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-03',
+	2024,
+	1,
+	'PGG1101',
+	11,
+	271,
+	5);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-13',
+	2024,
+	1,
+	'PGG1108',
+	11,
+	203,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-20',
+	2024,
+	1,
+	'PGG1108',
+	11,
+	205,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-27',
+	2024,
+	1,
+	'PGG1108',
+	11,
+	206,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-03',
+	2024,
+	1,
+	'PGG1108',
+	11,
+	207,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-10',
+	2024,
+	1,
+	'PGG1108',
+	11,
+	208,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-17',
+	2024,
+	1,
+	'PGG1108',
+	11,
+	209,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-24',
+	2024,
+	1,
+	'PGG1108',
+	11,
+	210,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-08',
+	2024,
+	1,
+	'PGG1108',
+	11,
+	211,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-08',
+	2024,
+	1,
+	'PGG1108',
+	11,
+	212,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-15',
+	2024,
+	1,
+	'PGG1108',
+	11,
+	213,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-22',
+	2024,
+	1,
+	'PGG1108',
+	11,
+	214,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-29',
+	2024,
+	1,
+	'PGG1108',
+	11,
+	215,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-05',
+	2024,
+	1,
+	'PGG1108',
+	11,
+	216,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-12',
+	2024,
+	1,
+	'PGG1108',
+	11,
+	217,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-19',
+	2024,
+	1,
+	'PGG1108',
+	11,
+	218,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-26',
+	2024,
+	1,
+	'PGG1108',
+	11,
+	219,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-03',
+	2024,
+	1,
+	'PGG1108',
+	11,
+	220,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-15',
+	2024,
+	1,
+	'ABT3131B',
+	12,
+	275,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-22',
+	2024,
+	1,
+	'ABT3131B',
+	12,
+	276,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-29',
+	2024,
+	1,
+	'ABT3131B',
+	12,
+	277,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-05',
+	2024,
+	1,
+	'ABT3131B',
+	12,
+	278,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-12',
+	2024,
+	1,
+	'ABT3131B',
+	12,
+	279,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-19',
+	2024,
+	1,
+	'ABT3131B',
+	12,
+	280,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-26',
+	2024,
+	1,
+	'ABT3131B',
+	12,
+	282,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-03',
+	2024,
+	1,
+	'ABT3131B',
+	12,
+	283,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-10',
+	2024,
+	1,
+	'ABT3131B',
+	12,
+	284,
+	18);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-17',
+	2024,
+	1,
+	'ABT3131B',
+	12,
+	286,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-24',
+	2024,
+	1,
+	'ABT3131B',
+	12,
+	287,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-31',
+	2024,
+	1,
+	'ABT3131B',
+	12,
+	288,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-07',
+	2024,
+	1,
+	'ABT3131B',
+	12,
+	289,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-14',
+	2024,
+	1,
+	'ABT3131B',
+	12,
+	290,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-21',
+	2024,
+	1,
+	'ABT3131B',
+	12,
+	291,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-28',
+	2024,
+	1,
+	'ABT3131B',
+	12,
+	292,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-05',
+	2024,
+	1,
+	'ABT3131B',
+	12,
+	293,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-12',
+	2024,
+	1,
+	'ABT3131B',
+	12,
+	294,
+	6);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-13',
+	2024,
+	1,
+	'ABT3141',
+	12,
+	100,
+	17);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-20',
+	2024,
+	1,
+	'ABT3141',
+	12,
+	101,
+	17);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-27',
+	2024,
+	1,
+	'ABT3141',
+	12,
+	102,
+	17);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-03',
+	2024,
+	1,
+	'ABT3141',
+	12,
+	103,
+	17);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-10',
+	2024,
+	1,
+	'ABT3141',
+	12,
+	104,
+	17);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-17',
+	2024,
+	1,
+	'ABT3141',
+	12,
+	105,
+	17);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-24',
+	2024,
+	1,
+	'ABT3141',
+	12,
+	106,
+	17);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-01',
+	2024,
+	1,
+	'ABT3141',
+	12,
+	107,
+	17);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-08',
+	2024,
+	1,
+	'ABT3141',
+	12,
+	108,
+	17);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-13',
+	2024,
+	1,
+	'CRT3111',
+	12,
+	150,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-20',
+	2024,
+	1,
+	'CRT3111',
+	12,
+	151,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-27',
+	2024,
+	1,
+	'CRT3111',
+	12,
+	152,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-03',
+	2024,
+	1,
+	'CRT3111',
+	12,
+	153,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-10',
+	2024,
+	1,
+	'CRT3111',
+	12,
+	154,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-17',
+	2024,
+	1,
+	'CRT3111',
+	12,
+	155,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-24',
+	2024,
+	1,
+	'CRT3111',
+	12,
+	156,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-01',
+	2024,
+	1,
+	'CRT3111',
+	12,
+	157,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-08',
+	2024,
+	1,
+	'CRT3111',
+	12,
+	158,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-13',
+	2024,
+	1,
+	'PGG1101',
+	12,
+	254,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-20',
+	2024,
+	1,
+	'PGG1101',
+	12,
+	255,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-27',
+	2024,
+	1,
+	'PGG1101',
+	12,
+	256,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-03',
+	2024,
+	1,
+	'PGG1101',
+	12,
+	257,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-10',
+	2024,
+	1,
+	'PGG1101',
+	12,
+	258,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-17',
+	2024,
+	1,
+	'PGG1101',
+	12,
+	260,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-24',
+	2024,
+	1,
+	'PGG1101',
+	12,
+	261,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-08',
+	2024,
+	1,
+	'PGG1101',
+	12,
+	262,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-15',
+	2024,
+	1,
+	'PGG1101',
+	12,
+	263,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-15',
+	2024,
+	1,
+	'PGG1101',
+	12,
+	264,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-22',
+	2024,
+	1,
+	'PGG1101',
+	12,
+	265,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-29',
+	2024,
+	1,
+	'PGG1101',
+	12,
+	266,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-05',
+	2024,
+	1,
+	'PGG1101',
+	12,
+	267,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-12',
+	2024,
+	1,
+	'PGG1101',
+	12,
+	268,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-19',
+	2024,
+	1,
+	'PGG1101',
+	12,
+	269,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-26',
+	2024,
+	1,
+	'PGG1101',
+	12,
+	270,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-03',
+	2024,
+	1,
+	'PGG1101',
+	12,
+	271,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-11',
+	2024,
+	1,
+	'PGG1108',
+	12,
+	203,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-18',
+	2024,
+	1,
+	'PGG1108',
+	12,
+	205,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-25',
+	2024,
+	1,
+	'PGG1108',
+	12,
+	206,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-01',
+	2024,
+	1,
+	'PGG1108',
+	12,
+	207,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-08',
+	2024,
+	1,
+	'PGG1108',
+	12,
+	208,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-15',
+	2024,
+	1,
+	'PGG1108',
+	12,
+	209,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-22',
+	2024,
+	1,
+	'PGG1108',
+	12,
+	210,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-29',
+	2024,
+	1,
+	'PGG1108',
+	12,
+	211,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-06',
+	2024,
+	1,
+	'PGG1108',
+	12,
+	212,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-13',
+	2024,
+	1,
+	'PGG1108',
+	12,
+	213,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-20',
+	2024,
+	1,
+	'PGG1108',
+	12,
+	214,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-27',
+	2024,
+	1,
+	'PGG1108',
+	12,
+	215,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-03',
+	2024,
+	1,
+	'PGG1108',
+	12,
+	216,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-10',
+	2024,
+	1,
+	'PGG1108',
+	12,
+	217,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-17',
+	2024,
+	1,
+	'PGG1108',
+	12,
+	218,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-24',
+	2024,
+	1,
+	'PGG1108',
+	12,
+	219,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-01',
+	2024,
+	1,
+	'PGG1108',
+	12,
+	220,
+	12);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-14',
+	2024,
+	1,
+	'ABT3131',
+	13,
+	91,
+	23);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-21',
+	2024,
+	1,
+	'ABT3131',
+	13,
+	92,
+	23);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-28',
+	2024,
+	1,
+	'ABT3131',
+	13,
+	93,
+	23);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-04',
+	2024,
+	1,
+	'ABT3131',
+	13,
+	94,
+	23);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-11',
+	2024,
+	1,
+	'ABT3131',
+	13,
+	95,
+	23);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-18',
+	2024,
+	1,
+	'ABT3131',
+	13,
+	96,
+	23);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-25',
+	2024,
+	1,
+	'ABT3131',
+	13,
+	97,
+	23);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-02',
+	2024,
+	1,
+	'ABT3131',
+	13,
+	98,
+	23);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-09',
+	2024,
+	1,
+	'ABT3131',
+	13,
+	99,
+	23);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-16',
+	2024,
+	1,
+	'ABT3131',
+	13,
+	82,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-23',
+	2024,
+	1,
+	'ABT3131',
+	13,
+	83,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-30',
+	2024,
+	1,
+	'ABT3131',
+	13,
+	84,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-06',
+	2024,
+	1,
+	'ABT3131',
+	13,
+	85,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-13',
+	2024,
+	1,
+	'ABT3131',
+	13,
+	86,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-20',
+	2024,
+	1,
+	'ABT3131',
+	13,
+	87,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-27',
+	2024,
+	1,
+	'ABT3131',
+	13,
+	88,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-04',
+	2024,
+	1,
+	'ABT3131',
+	13,
+	89,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-11',
+	2024,
+	1,
+	'ABT3131',
+	13,
+	90,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-14',
+	2024,
+	1,
+	'ABT3141',
+	13,
+	100,
+	17);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-21',
+	2024,
+	1,
+	'ABT3141',
+	13,
+	101,
+	17);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-28',
+	2024,
+	1,
+	'ABT3141',
+	13,
+	102,
+	17);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-04',
+	2024,
+	1,
+	'ABT3141',
+	13,
+	103,
+	17);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-11',
+	2024,
+	1,
+	'ABT3141',
+	13,
+	104,
+	17);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-18',
+	2024,
+	1,
+	'ABT3141',
+	13,
+	105,
+	17);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-25',
+	2024,
+	1,
+	'ABT3141',
+	13,
+	106,
+	17);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-02',
+	2024,
+	1,
+	'ABT3141',
+	13,
+	107,
+	17);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-09',
+	2024,
+	1,
+	'ABT3141',
+	13,
+	108,
+	17);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-14',
+	2024,
+	1,
+	'CRT3111',
+	13,
+	150,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-21',
+	2024,
+	1,
+	'CRT3111',
+	13,
+	151,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-28',
+	2024,
+	1,
+	'CRT3111',
+	13,
+	152,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-04',
+	2024,
+	1,
+	'CRT3111',
+	13,
+	153,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-11',
+	2024,
+	1,
+	'CRT3111',
+	13,
+	154,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-18',
+	2024,
+	1,
+	'CRT3111',
+	13,
+	155,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-25',
+	2024,
+	1,
+	'CRT3111',
+	13,
+	156,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-02',
+	2024,
+	1,
+	'CRT3111',
+	13,
+	157,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-09',
+	2024,
+	1,
+	'CRT3111',
+	13,
+	158,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-13',
+	2024,
+	1,
+	'PGG1101',
+	13,
+	254,
+	10);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-20',
+	2024,
+	1,
+	'PGG1101',
+	13,
+	255,
+	10);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-27',
+	2024,
+	1,
+	'PGG1101',
+	13,
+	256,
+	10);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-03',
+	2024,
+	1,
+	'PGG1101',
+	13,
+	257,
+	10);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-10',
+	2024,
+	1,
+	'PGG1101',
+	13,
+	258,
+	10);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-17',
+	2024,
+	1,
+	'PGG1101',
+	13,
+	260,
+	10);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-24',
+	2024,
+	1,
+	'PGG1101',
+	13,
+	261,
+	10);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-08',
+	2024,
+	1,
+	'PGG1101',
+	13,
+	262,
+	10);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-15',
+	2024,
+	1,
+	'PGG1101',
+	13,
+	263,
+	10);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-15',
+	2024,
+	1,
+	'PGG1101',
+	13,
+	264,
+	10);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-22',
+	2024,
+	1,
+	'PGG1101',
+	13,
+	265,
+	10);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-29',
+	2024,
+	1,
+	'PGG1101',
+	13,
+	266,
+	10);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-05',
+	2024,
+	1,
+	'PGG1101',
+	13,
+	267,
+	10);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-12',
+	2024,
+	1,
+	'PGG1101',
+	13,
+	268,
+	10);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-19',
+	2024,
+	1,
+	'PGG1101',
+	13,
+	269,
+	10);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-26',
+	2024,
+	1,
+	'PGG1101',
+	13,
+	270,
+	10);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-03',
+	2024,
+	1,
+	'PGG1101',
+	13,
+	271,
+	10);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-11',
+	2024,
+	1,
+	'PGG1108',
+	13,
+	203,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-18',
+	2024,
+	1,
+	'PGG1108',
+	13,
+	205,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-25',
+	2024,
+	1,
+	'PGG1108',
+	13,
+	206,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-01',
+	2024,
+	1,
+	'PGG1108',
+	13,
+	207,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-08',
+	2024,
+	1,
+	'PGG1108',
+	13,
+	208,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-15',
+	2024,
+	1,
+	'PGG1108',
+	13,
+	209,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-22',
+	2024,
+	1,
+	'PGG1108',
+	13,
+	210,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-29',
+	2024,
+	1,
+	'PGG1108',
+	13,
+	211,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-06',
+	2024,
+	1,
+	'PGG1108',
+	13,
+	212,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-13',
+	2024,
+	1,
+	'PGG1108',
+	13,
+	213,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-20',
+	2024,
+	1,
+	'PGG1108',
+	13,
+	214,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-27',
+	2024,
+	1,
+	'PGG1108',
+	13,
+	215,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-03',
+	2024,
+	1,
+	'PGG1108',
+	13,
+	216,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-10',
+	2024,
+	1,
+	'PGG1108',
+	13,
+	217,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-17',
+	2024,
+	1,
+	'PGG1108',
+	13,
+	218,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-24',
+	2024,
+	1,
+	'PGG1108',
+	13,
+	219,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-01',
+	2024,
+	1,
+	'PGG1108',
+	13,
+	220,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-14',
+	2024,
+	1,
+	'ABT3131B',
+	14,
+	275,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-21',
+	2024,
+	1,
+	'ABT3131B',
+	14,
+	276,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-28',
+	2024,
+	1,
+	'ABT3131B',
+	14,
+	277,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-04',
+	2024,
+	1,
+	'ABT3131B',
+	14,
+	278,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-11',
+	2024,
+	1,
+	'ABT3131B',
+	14,
+	279,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-18',
+	2024,
+	1,
+	'ABT3131B',
+	14,
+	280,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-25',
+	2024,
+	1,
+	'ABT3131B',
+	14,
+	282,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-02',
+	2024,
+	1,
+	'ABT3131B',
+	14,
+	283,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-09',
+	2024,
+	1,
+	'ABT3131B',
+	14,
+	284,
+	16);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-16',
+	2024,
+	1,
+	'ABT3131B',
+	14,
+	286,
+	23);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-23',
+	2024,
+	1,
+	'ABT3131B',
+	14,
+	287,
+	23);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-30',
+	2024,
+	1,
+	'ABT3131B',
+	14,
+	288,
+	23);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-06',
+	2024,
+	1,
+	'ABT3131B',
+	14,
+	289,
+	23);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-13',
+	2024,
+	1,
+	'ABT3131B',
+	14,
+	290,
+	23);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-20',
+	2024,
+	1,
+	'ABT3131B',
+	14,
+	291,
+	23);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-27',
+	2024,
+	1,
+	'ABT3131B',
+	14,
+	292,
+	23);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-04',
+	2024,
+	1,
+	'ABT3131B',
+	14,
+	293,
+	23);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-11',
+	2024,
+	1,
+	'ABT3131B',
+	14,
+	294,
+	23);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-16',
+	2024,
+	1,
+	'ABT3141',
+	14,
+	100,
+	17);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-23',
+	2024,
+	1,
+	'ABT3141',
+	14,
+	101,
+	17);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-30',
+	2024,
+	1,
+	'ABT3141',
+	14,
+	102,
+	17);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-06',
+	2024,
+	1,
+	'ABT3141',
+	14,
+	103,
+	17);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-13',
+	2024,
+	1,
+	'ABT3141',
+	14,
+	104,
+	17);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-20',
+	2024,
+	1,
+	'ABT3141',
+	14,
+	105,
+	17);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-27',
+	2024,
+	1,
+	'ABT3141',
+	14,
+	106,
+	17);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-04',
+	2024,
+	1,
+	'ABT3141',
+	14,
+	107,
+	17);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-11',
+	2024,
+	1,
+	'ABT3141',
+	14,
+	108,
+	17);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-16',
+	2024,
+	1,
+	'CRT3111',
+	14,
+	150,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-23',
+	2024,
+	1,
+	'CRT3111',
+	14,
+	151,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-30',
+	2024,
+	1,
+	'CRT3111',
+	14,
+	152,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-06',
+	2024,
+	1,
+	'CRT3111',
+	14,
+	153,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-13',
+	2024,
+	1,
+	'CRT3111',
+	14,
+	154,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-20',
+	2024,
+	1,
+	'CRT3111',
+	14,
+	155,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-27',
+	2024,
+	1,
+	'CRT3111',
+	14,
+	156,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-04',
+	2024,
+	1,
+	'CRT3111',
+	14,
+	157,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-11',
+	2024,
+	1,
+	'CRT3111',
+	14,
+	158,
+	4);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-12',
+	2024,
+	1,
+	'PGG1101',
+	14,
+	254,
+	3);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-19',
+	2024,
+	1,
+	'PGG1101',
+	14,
+	255,
+	3);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-26',
+	2024,
+	1,
+	'PGG1101',
+	14,
+	256,
+	3);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-02',
+	2024,
+	1,
+	'PGG1101',
+	14,
+	257,
+	3);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-09',
+	2024,
+	1,
+	'PGG1101',
+	14,
+	258,
+	3);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-16',
+	2024,
+	1,
+	'PGG1101',
+	14,
+	260,
+	3);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-23',
+	2024,
+	1,
+	'PGG1101',
+	14,
+	261,
+	3);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-30',
+	2024,
+	1,
+	'PGG1101',
+	14,
+	262,
+	3);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-07',
+	2024,
+	1,
+	'PGG1101',
+	14,
+	263,
+	3);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-14',
+	2024,
+	1,
+	'PGG1101',
+	14,
+	264,
+	3);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-28',
+	2024,
+	1,
+	'PGG1101',
+	14,
+	265,
+	3);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-28',
+	2024,
+	1,
+	'PGG1101',
+	14,
+	266,
+	3);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-04',
+	2024,
+	1,
+	'PGG1101',
+	14,
+	267,
+	3);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-11',
+	2024,
+	1,
+	'PGG1101',
+	14,
+	268,
+	3);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-18',
+	2024,
+	1,
+	'PGG1101',
+	14,
+	269,
+	3);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-25',
+	2024,
+	1,
+	'PGG1101',
+	14,
+	270,
+	3);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-02',
+	2024,
+	1,
+	'PGG1101',
+	14,
+	271,
+	3);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-14',
+	2024,
+	1,
+	'PGG1108',
+	14,
+	203,
+	25);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-21',
+	2024,
+	1,
+	'PGG1108',
+	14,
+	205,
+	25);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-04',
+	2024,
+	1,
+	'PGG1108',
+	14,
+	206,
+	25);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-11',
+	2024,
+	1,
+	'PGG1108',
+	14,
+	207,
+	25);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-11',
+	2024,
+	1,
+	'PGG1108',
+	14,
+	208,
+	25);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-18',
+	2024,
+	1,
+	'PGG1108',
+	14,
+	209,
+	25);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-25',
+	2024,
+	1,
+	'PGG1108',
+	14,
+	210,
+	25);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-02',
+	2024,
+	1,
+	'PGG1108',
+	14,
+	211,
+	25);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-09',
+	2024,
+	1,
+	'PGG1108',
+	14,
+	212,
+	25);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-16',
+	2024,
+	1,
+	'PGG1108',
+	14,
+	213,
+	25);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-23',
+	2024,
+	1,
+	'PGG1108',
+	14,
+	214,
+	25);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-30',
+	2024,
+	1,
+	'PGG1108',
+	14,
+	215,
+	25);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-06',
+	2024,
+	1,
+	'PGG1108',
+	14,
+	216,
+	25);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-13',
+	2024,
+	1,
+	'PGG1108',
+	14,
+	217,
+	25);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-20',
+	2024,
+	1,
+	'PGG1108',
+	14,
+	218,
+	25);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-27',
+	2024,
+	1,
+	'PGG1108',
+	14,
+	219,
+	25);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-04',
+	2024,
+	1,
+	'PGG1108',
+	14,
+	220,
+	25);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-12',
+	2024,
+	1,
+	'PGG1101',
+	15,
+	254,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-19',
+	2024,
+	1,
+	'PGG1101',
+	15,
+	255,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-26',
+	2024,
+	1,
+	'PGG1101',
+	15,
+	256,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-02',
+	2024,
+	1,
+	'PGG1101',
+	15,
+	257,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-09',
+	2024,
+	1,
+	'PGG1101',
+	15,
+	258,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-16',
+	2024,
+	1,
+	'PGG1101',
+	15,
+	260,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-23',
+	2024,
+	1,
+	'PGG1101',
+	15,
+	261,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-30',
+	2024,
+	1,
+	'PGG1101',
+	15,
+	262,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-07',
+	2024,
+	1,
+	'PGG1101',
+	15,
+	263,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-14',
+	2024,
+	1,
+	'PGG1101',
+	15,
+	264,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-28',
+	2024,
+	1,
+	'PGG1101',
+	15,
+	265,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-28',
+	2024,
+	1,
+	'PGG1101',
+	15,
+	266,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-04',
+	2024,
+	1,
+	'PGG1101',
+	15,
+	267,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-11',
+	2024,
+	1,
+	'PGG1101',
+	15,
+	268,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-18',
+	2024,
+	1,
+	'PGG1101',
+	15,
+	269,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-25',
+	2024,
+	1,
+	'PGG1101',
+	15,
+	270,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-02',
+	2024,
+	1,
+	'PGG1101',
+	15,
+	271,
+	8);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-14',
+	2024,
+	1,
+	'PGG1108',
+	15,
+	203,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-21',
+	2024,
+	1,
+	'PGG1108',
+	15,
+	205,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-04',
+	2024,
+	1,
+	'PGG1108',
+	15,
+	206,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-11',
+	2024,
+	1,
+	'PGG1108',
+	15,
+	207,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-11',
+	2024,
+	1,
+	'PGG1108',
+	15,
+	208,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-18',
+	2024,
+	1,
+	'PGG1108',
+	15,
+	209,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-25',
+	2024,
+	1,
+	'PGG1108',
+	15,
+	210,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-02',
+	2024,
+	1,
+	'PGG1108',
+	15,
+	211,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-09',
+	2024,
+	1,
+	'PGG1108',
+	15,
+	212,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-16',
+	2024,
+	1,
+	'PGG1108',
+	15,
+	213,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-23',
+	2024,
+	1,
+	'PGG1108',
+	15,
+	214,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-30',
+	2024,
+	1,
+	'PGG1108',
+	15,
+	215,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-06',
+	2024,
+	1,
+	'PGG1108',
+	15,
+	216,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-13',
+	2024,
+	1,
+	'PGG1108',
+	15,
+	217,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-20',
+	2024,
+	1,
+	'PGG1108',
+	15,
+	218,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-27',
+	2024,
+	1,
+	'PGG1108',
+	15,
+	219,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-04',
+	2024,
+	1,
+	'PGG1108',
+	15,
+	220,
+	14);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-11',
+	2024,
+	1,
+	'PGG1101',
+	16,
+	254,
+	10);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-18',
+	2024,
+	1,
+	'PGG1101',
+	16,
+	255,
+	10);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-03-25',
+	2024,
+	1,
+	'PGG1101',
+	16,
+	256,
+	10);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-01',
+	2024,
+	1,
+	'PGG1101',
+	16,
+	257,
+	10);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-08',
+	2024,
+	1,
+	'PGG1101',
+	16,
+	258,
+	10);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-15',
+	2024,
+	1,
+	'PGG1101',
+	16,
+	260,
+	10);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-22',
+	2024,
+	1,
+	'PGG1101',
+	16,
+	261,
+	10);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-04-29',
+	2024,
+	1,
+	'PGG1101',
+	16,
+	262,
+	10);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-06',
+	2024,
+	1,
+	'PGG1101',
+	16,
+	263,
+	10);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-13',
+	2024,
+	1,
+	'PGG1101',
+	16,
+	264,
+	10);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-20',
+	2024,
+	1,
+	'PGG1101',
+	16,
+	265,
+	10);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-05-27',
+	2024,
+	1,
+	'PGG1101',
+	16,
+	266,
+	10);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-03',
+	2024,
+	1,
+	'PGG1101',
+	16,
+	267,
+	10);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-10',
+	2024,
+	1,
+	'PGG1101',
+	16,
+	268,
+	10);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-17',
+	2024,
+	1,
+	'PGG1101',
+	16,
+	269,
+	10);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-06-24',
+	2024,
+	1,
+	'PGG1101',
+	16,
+	270,
+	10);
+
+insert into prog_taller (
+	fecha,
+	ano_academ,
+	cod_periodo_academ,
+	sigla,
+	seccion,
+	id_taller,
+	id_usuario)
+values (
+	'2024-07-01',
+	2024,
+	1,
+	'PGG1101',
+	16,
+	271,
+	10);
 /* Fin tabla: prog_taller */
 
 commit;

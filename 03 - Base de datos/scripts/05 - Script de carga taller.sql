@@ -9,7 +9,7 @@ insert into taller (
 values (
 	1,
 	'Inducción al taller',
-	'Conocimiento big four. Técnicas de repaso. montaje de mesas. ejecución práctica de montaje de mesas: a la carta y al menú. ejecución práctica de tipos de servicio: al plato, inglesa, francesa, con campana, servicio de bebidas calientes. juego de roles. toma inventario big four.',
+	'Conocimiento big four. tecnicas de repaso. montaje de mesas. ejecución práctica de montaje de mesas: a la carta y al menú. ejecución práctica de tipos de servicio: al plato, inglesa, francesa, con campana, servicio de bebidas calientes. juego de roles. toma inventario big four.',
 	1,
 	'ABT3111');
 
@@ -47,7 +47,7 @@ insert into taller (
 	sigla)
 values (
 	4,
-	'Organización y desarrollo de los procesos de servicio y atención de comensales',
+	'Organización y desarrollo de los procesos de servicio y atencion de comensales',
 	'Actividades de mise en place. actividades de servicio. actividades de servicio de vinos. actividades de servicio de aperitivos: pisco sour peruano y bella luna. servicio de pan a la inglesa, servicio emplatado en alimentos, servicio de té e infusiones',
 	4,
 	'ABT3111');
@@ -269,8 +269,7 @@ insert into taller (
 values (
 	21,
 	'Técnicas de elaboración de cócteles',
-	'Cosmopolitan, Manhattan, Caipirihna, Pisco Sour
-Preparar goma en clases',
+	'Cosmopolitan, Manhattan, Caipirihna, Pisco Sour Preparar goma en clases',
 	7,
 	'ABT3121');
 
@@ -283,8 +282,7 @@ insert into taller (
 values (
 	22,
 	'Coctelera',
-	'Daiquiri - Margarita - Aviation - Side Car - Last Word - Alexander - Pisco Sour - White Lady - Florida - Cosmopolitan
-Preparar goma',
+	'Daiquiri - Margarita - Aviation - Side Car - Last Word - Alexander - Pisco Sour - White Lady - Florida - Cosmopolitan Preparar goma',
 	8,
 	'ABT3121');
 
@@ -297,8 +295,7 @@ insert into taller (
 values (
 	23,
 	'Machacados directo al vaso',
-	'Negroni - Screw Driver - John Collins - Black Russian - Caipirihna - Long Island Tea - Mint Julep - Old Fashioned
-Preparar goma',
+	'Negroni - Screw Driver - John Collins - Black Russian - Caipirihna - Long Island Tea - Mint Julep - Old Fashioned Preparar goma',
 	9,
 	'ABT3121');
 
@@ -337,8 +334,7 @@ insert into taller (
 values (
 	26,
 	'Aperitivos',
-	'Side Car, Old Fashioned, Martini Dry, Manhattan, Whisky Sour, Martinez, Americano, Champagmne Cocktail, Kir Royal
-Preparar goma',
+	'Side Car, Old Fashioned, Martini Dry, Manhattan, Whisky Sour, Martinez, Americano, Champagmne Cocktail, Kir Royal Preparar goma',
 	12,
 	'ABT3121');
 
@@ -351,8 +347,7 @@ insert into taller (
 values (
 	27,
 	'Cócteles refrescantes',
-	'Daiquiri, Florida, White Lady, Piña Colada, Blue Lagoon, Tequila Sunrise, Gin Fizz, Mojito, Moscow Mule.
-Preparar jarabe de goma',
+	'Daiquiri, Florida, White Lady, Piña Colada, Blue Lagoon, Tequila Sunrise, Gin Fizz, Mojito, Moscow Mule. Preparar jarabe de goma',
 	13,
 	'ABT3121');
 
@@ -365,8 +360,7 @@ insert into taller (
 values (
 	28,
 	'Cócteles digestivos',
-	'Alexander, Black Russian, Grasshopper, Rusty Nail, Irish Coffee, Velvet Hammer, God Father
-Preparar Jarabe de goma',
+	'Alexander, Black Russian, Grasshopper, Rusty Nail, Irish Coffee, Velvet Hammer, God Father Preparar Jarabe de goma',
 	14,
 	'ABT3121');
 
@@ -1757,15 +1751,7 @@ insert into taller (
 values (
 	135,
 	'Inducción, bases deshidratadas y pre mezclas + sous vide',
-	'* Elaboración de puré en caja
-
-* Pechuga de pollo sous vide sazonada con bases deshidratadas
-
-* Sopa de pollo (sobre)
-
-* Crema de espárragos
-
-* Brownie chocolate premezcla',
+	'* Elaboración de puré en caja  * Pechuga de pollo sous vide sazonada con bases deshidratadas  * Sopa de pollo (sobre)  * Crema de espárragos  * Brownie chocolate premezcla',
 	1,
 	'CIT2111');
 
@@ -1778,15 +1764,7 @@ insert into taller (
 values (
 	136,
 	'Elaborando entradas frías y calientes',
-	'* Ensalada rusa con mayonesa, sopa de pollo deshidratada, huevo cocido a 72Âº por 17 minutos. topping de tocino crocante
-
-* Ensalada César pollo, aderezo César. Crema de espárragos deshidratadas, huevo cocido a 85Âº por 15 minutos
-
-* Ensalada mixta, vinagreta de frambuesa liofilizada, crema de tomtes. Huevo cocinado a 85Âº por 12 minutos, topping de pesto y nueces
-
-* Ensalada templada con aderezo agridulce de mostaza. Crema de papas deshidratada, huevo cocido a 72 Âº por 21 minutos, topping papas hilo
-
-',
+	'* Ensalada rusa con mayonesa, sopa de pollo deshidratada, huevo cocido a 72º por 17 minutos. topping de tocino crocante  * Ensalada César pollo, aderezo César. Crema de espárragos deshidratadas, huevo cocido a 85º por 15 minutos  * Ensalada mixta, vinagreta de frambuesa liofilizada, crema de tomtes. Huevo cocinado a 85º por 12 minutos, topping de pesto y nueces  * Ensalada templada con aderezo agridulce de mostaza. Crema de papas deshidratada, huevo cocido a 72 º por 21 minutos, topping papas hilo  ',
 	2,
 	'CIT2111');
 
@@ -1799,15 +1777,7 @@ insert into taller (
 values (
 	137,
 	'Dietas especiales',
-	'1.- Menú hipocalórico:
-Ensalada de repollo zanahoria con lactonesa y frutos secos. reineta sous vide (marinada cítrica) con verduras asadas. gelatina de piña con manzana rallada
-2.- Menú hipercalórico
-Ensalada capresse con limoneta. lasaña de carne y espinaca. brownie de chocolate
-3.- Menú vegetariano:
-Ensaladamix de hojas verdes, pepino tomate y aceitunas con dressing de mostaza y miel. albóndigas de carne de soya en salsa pomodoro con pasta lisa. peras pochadas al vino tinto
-4.-Menú vegano:
-Ensalada primaveral con vinagreta de aceitunas y pimentón asado.  milanesa deberenjenas con humus. arroz con coco
-',
+	'1.- Menú hipocalórico: Ensalada de repollo zanahoria con lactonesa y frutos secos. reineta sous vide (marinada cítrica) con verduras asadas. gelatina de piña con manzana rallada 2.- Menú hipercalórico Ensalada capresse con limoneta. lasaña de carne y espinaca. brownie de chocolate 3.- Menú vegetariano: Ensaladamix de hojas verdes, pepino tomate y aceitunas con dressing de mostaza y miel. albóndigas de carne de soya en salsa pomodoro con pasta lisa. peras pochadas al vino tinto 4.-Menú vegano: Ensalada primaveral con vinagreta de aceitunas y pimentón asado.  milanesa deberenjenas con humus. arroz con coco ',
 	3,
 	'CIT2111');
 
@@ -1820,15 +1790,7 @@ insert into taller (
 values (
 	138,
 	'Requerimientos alimentarios específicos',
-	'1.- Menú para celíacos:
-Ensalada apio palta con limoneta. fideos de arroz con salsa bolognesa. Leche asada.
-2.- Menú para hipertensos y colesteron alto:
-Ensalada de lechuga con choclo, tomte y zanahoria + vinagreta. Bistec con budín de verduras. Crepe con fruta fesca.
-3.- Menú para diabéticos:
-Ensalada de tomates y pepino con vinagreta. Lentejas con arroz. Brownie de manzana
-4.- Menú mediterranéo (como prevención de enfermedades: cáncer, diabetes etc)
-Crema de zapallo con crutones al oliva. Pechuga de pollo sous vide con brocolis y coliflor. Macedonia de frutas.
-',
+	'1.- Menú para celíacos: Ensalada apio palta con limoneta. fideos de arroz con salsa bolognesa. Leche asada. 2.- Menú para hipertensos y colesteron alto: Ensalada de lechuga con choclo, tomte y zanahoria + vinagreta. Bistec con budín de verduras. Crepe con fruta fesca. 3.- Menú para diabéticos: Ensalada de tomates y pepino con vinagreta. Lentejas con arroz. Brownie de manzana 4.- Menú mediterranéo (como prevención de enfermedades: cáncer, diabetes etc) Crema de zapallo con crutones al oliva. Pechuga de pollo sous vide con brocolis y coliflor. Macedonia de frutas. ',
 	4,
 	'CIT2111');
 
@@ -1841,10 +1803,7 @@ insert into taller (
 values (
 	139,
 	'Evaluación',
-	'1.- Menú hipocalórico
-2.- Menú hipercalórico
-3.- Menú vegetariano
-4.- Menú vegano',
+	'1.- Menú hipocalórico 2.- Menú hipercalórico 3.- Menú vegetariano 4.- Menú vegano',
 	5,
 	'CIT2111');
 
@@ -1857,14 +1816,7 @@ insert into taller (
 values (
 	140,
 	'Elaborando principales en base a vacuno y pescado',
-	'1.- Albóndigas pomodoro, arroz árabe y vegetales salteados: cebollín, berenjenas, choclo, brócoli, zapallo italiano, pimentón.
-
-2.- Hamburguesas en salsa española. Arroz primavera, vegetales salteados. cebollín, berenjenas, choclo, brócoli, zapallo italiano y pimentón.
-
-3.- Asado alemán con salsa de tomates. Arroz al perejil, vegetales salteados: cebollín, berenjenas,choclo, brócoli, zapallo italiano y pimentón
-
-4.- Pimentones rellenos. Arroz pilaf, vegetales salteados: cebollín, berenjenas,choclo, brócoli, zapallo italiano y pimentón
-',
+	'1.- Albóndigas pomodoro, arroz árabe y vegetales salteados: cebollín, berenjenas, choclo, brócoli, zapallo italiano, pimentón.  2.- Hamburguesas en salsa española. Arroz primavera, vegetales salteados. cebollín, berenjenas, choclo, brócoli, zapallo italiano y pimentón.  3.- Asado alemán con salsa de tomates. Arroz al perejil, vegetales salteados: cebollín, berenjenas,choclo, brócoli, zapallo italiano y pimentón  4.- Pimentones rellenos. Arroz pilaf, vegetales salteados: cebollín, berenjenas,choclo, brócoli, zapallo italiano y pimentón ',
 	6,
 	'CIT2111');
 
@@ -1877,15 +1829,7 @@ insert into taller (
 values (
 	141,
 	'Elaborando principales en base a ave y cerdo',
-	'1.- Chapsui de ave/chuleta parrillera la plancha. Papas lyonesa
-
-2.-Chapsui de ave/chuleta de cerdo parrillera a la plancha/papas lyonesa
-
-3.-Trutro de pollo al jugo/chuleta de cerdo a la cazadora/papas lyonesa
-
-4.-Trutro de pollo al jugo/chuleta a la cazadora/papas lyonesa
-
-',
+	'1.- Chapsui de ave/chuleta parrillera la plancha. Papas lyonesa  2.-Chapsui de ave/chuleta de cerdo parrillera a la plancha/papas lyonesa  3.-Trutro de pollo al jugo/chuleta de cerdo a la cazadora/papas lyonesa  4.-Trutro de pollo al jugo/chuleta a la cazadora/papas lyonesa  ',
 	7,
 	'CIT2111');
 
@@ -1898,13 +1842,7 @@ insert into taller (
 values (
 	142,
 	'Elaborando línea de servicio',
-	'1.- Bistec de res a la plancha con tortilla de verduras y arroz pilaf
-
-2.- Bistec de res a la plancha con tortilla de verduras y arroz primavera
-
-3.- Pechuga de ave a la plancha con tortilla de papas y quinoa al curry
-
-4.- Pechuga de ave a la plancha con tortilla de papas y quinoa',
+	'1.- Bistec de res a la plancha con tortilla de verduras y arroz pilaf  2.- Bistec de res a la plancha con tortilla de verduras y arroz primavera  3.- Pechuga de ave a la plancha con tortilla de papas y quinoa al curry  4.- Pechuga de ave a la plancha con tortilla de papas y quinoa',
 	8,
 	'CIT2111');
 
@@ -1917,11 +1855,7 @@ insert into taller (
 values (
 	143,
 	'Evaluación',
-	'Todos los grupos elaboran:
-
-Bistec de res a la plancha con salsa española con tortilla de verduras y papas lyonesa. Peras al vino tinto
-
-',
+	'Todos los grupos elaboran:  Bistec de res a la plancha con salsa española con tortilla de verduras y papas lyonesa. Peras al vino tinto  ',
 	9,
 	'CIT2111');
 
@@ -1934,17 +1868,7 @@ insert into taller (
 values (
 	144,
 	'Recetas clásicas de legumbres',
-	'1.-  Porotos:
-Ensalada chilena/porotos granados con mazamorra y longaniza/jalea de frambuesas con crema
-
-2.- Lentejas:
-ensalada chilena/lentejas con arros y gordas/flan
-
-3.- Garbanzos:
-ensalada chilena/garbanzos con arroz/ensalada de frutas
-
-4.- Arvejas
-ensalada chilena/arvejas partidas con tocino a la parmesana/ compota de manzana',
+	'1.-  Porotos: Ensalada chilena/porotos granados con mazamorra y longaniza/jalea de frambuesas con crema  2.- Lentejas: ensalada chilena/lentejas con arros y gordas/flan  3.- Garbanzos: ensalada chilena/garbanzos con arroz/ensalada de frutas  4.- Arvejas ensalada chilena/arvejas partidas con tocino a la parmesana/ compota de manzana',
 	10,
 	'CIT2111');
 
@@ -1957,21 +1881,7 @@ insert into taller (
 values (
 	145,
 	'Mixtura de legumbres',
-	'1.- Porotos:
-Ensalada de porotos negros con albahaca y pepino + topping de almendras esfiladas
-salmón sous vide compañado de tacu tacu
-
-2.- Lentejas:
-Ensalada de lentejas rojas con tomate cherry y menta + salsa de yoghurt natural
-hamburgeuesas de lentejas con puré de papas con aceitunas
-
-3.- Garbanzos:
-Hummus xo masas crujientes con topping de crudities
-falafel de garbanzos con arroz árabe
-
-4.- Arvejas:
-Ensalada de arvejas con tomate, choclo, menta, limoneta
-tortilla de arvejas con verduras de la estación',
+	'1.- Porotos: Ensalada de porotos negros con albahaca y pepino + topping de almendras esfiladas salmón sous vide compañado de tacu tacu  2.- Lentejas: Ensalada de lentejas rojas con tomate cherry y menta + salsa de yoghurt natural hamburgeuesas de lentejas con puré de papas con aceitunas  3.- Garbanzos: Hummus xo masas crujientes con topping de crudities falafel de garbanzos con arroz árabe  4.- Arvejas: Ensalada de arvejas con tomate, choclo, menta, limoneta tortilla de arvejas con verduras de la estación',
 	11,
 	'CIT2111');
 
@@ -1984,17 +1894,7 @@ insert into taller (
 values (
 	146,
 	'Evaluación legumbres',
-	'1.-  Porotos:
-Ensalada chilena/porotos granados con mazamorra y longaniza/jalea de frambuesas con crema
-
-2.- Lentejas:
-Ensalada chilena/lentejas con arroz y gordas/flan
-
-3.- Garbanzos:
-Ensalada chilena/garbanzos con arroz/ensalada de frutas
-
-4.- Arvejas
-Ensalada chilena/arvejas partidas con tocino a la parmesana/ compota de manzana',
+	'1.-  Porotos: Ensalada chilena/porotos granados con mazamorra y longaniza/jalea de frambuesas con crema  2.- Lentejas: Ensalada chilena/lentejas con arroz y gordas/flan  3.- Garbanzos: Ensalada chilena/garbanzos con arroz/ensalada de frutas  4.- Arvejas Ensalada chilena/arvejas partidas con tocino a la parmesana/ compota de manzana',
 	12,
 	'CIT2111');
 
@@ -2007,13 +1907,7 @@ insert into taller (
 values (
 	147,
 	'Postres en base a pre mezclas',
-	'1.- Brazo de reina/flan
-
-2.- Profiteroles con crema pastelera
-
-3.- Muffins de chocolate con frosting de queso crema y vainilla/ jalea con fruta
-
-4.- Panqueques con crema diplomática/ peras sous vide/sémola con leche',
+	'1.- Brazo de reina/flan  2.- Profiteroles con crema pastelera  3.- Muffins de chocolate con frosting de queso crema y vainilla/ jalea con fruta  4.- Panqueques con crema diplomática/ peras sous vide/sémola con leche',
 	13,
 	'CIT2111');
 
@@ -2026,14 +1920,7 @@ insert into taller (
 values (
 	148,
 	'Elaboración de postres para la cocina institucional',
-	'1.- Tartaleta de frutas/peras confitadas sous vide/leche asada
-
-2.- Pie de limón/compÃ²ta de manzana jengibre sous vide/babaroisse
-
-3.- KÃ¼chen de manzana/manzana sous videarroz con leche de coco
-
-4.- Brownie con mousse de chocolate/peras sous vide/ sémola con leche
-',
+	'1.- Tartaleta de frutas/peras confitadas sous vide/leche asada  2.- Pie de limón/compòta de manzana jengibre sous vide/babaroisse  3.- Küchen de manzana/manzana sous videarroz con leche de coco  4.- Brownie con mousse de chocolate/peras sous vide/ sémola con leche ',
 	14,
 	'CIT2111');
 
@@ -2059,14 +1946,7 @@ insert into taller (
 values (
 	150,
 	'Inducción y nivelación',
-	'Clase demostrativa/participativa (taller laboratorio/nivelación)
-todos los cuartos realizan las mismas preparaciones (técnicas).
-* Filetear, limpiar ,porcionar salmón, limpiar, marinar reservar
-* Limpiar, mencionar y mostrar partes del filete de vacuno , porcionar, marinar  y reservar
-* Fondo de pollo, salsa española mixta, salsa rducción crema (mirepoix, b. garnie, etc)
-* Risotto (sabor libre), vegetales salteados /grillados , tulle salada,craquelado ,deshidratado
-* Papa a la crema, fettuccini de espinaca (opcional), coulis de vegetales
-* Helado(sabor libre) salsa de berries, decoracion de 4/4, brandy snap, chocolate, caramelo,   isomalt, transfer.                                                                                                                                                                                          ',
+	'Clase demostrativa/participativa (taller laboratorio/nivelación) todos los cuartos realizan las mismas preparaciones (técnicas). * Filetear, limpiar ,porcionar salmón, limpiar, marinar reservar * Limpiar, mencionar y mostrar partes del filete de vacuno , porcionar, marinar  y reservar * Fondo de pollo, salsa española mixta, salsa rducción crema (mirepoix, b. garnie, etc) * Risotto (sabor libre), vegetales salteados /grillados , tulle salada,craquelado ,deshidratado * Papa a la crema, fettuccini de espinaca (opcional), coulis de vegetales * Helado(sabor libre) salsa de berries, decoracion de 4/4, brandy snap, chocolate, caramelo,   isomalt, transfer.                                                                                                                                                                                          ',
 	1,
 	'CRT3111');
 
@@ -2079,19 +1959,7 @@ insert into taller (
 values (
 	151,
 	'Evaluación - España',
-	'Evaluación clase cocina española. Clase con comensales.
-Entradas: Cuarto Frío
-- Tortilla de patatas y escalibada.
-- Chipirones en su tinta.
-- Mantequilla con pimiento del piquillo.
-Platos de Fondo: Cuarto Caliente
-- Congrio asado a la plancha acompañado de fideuá.
-- Cordero braseado acompañado de pisto manchego, patatas bravas y alioli.
-- Almuerzo de personal: garbanzos con longaniza y postre.
-Postre: Pastelería
-- Leche frita, helado de mora, zarzaparrilla.
-- Crema catalana, helado de vino dulce e higos.
-- Pan: saborizado con morcilla (prietas) y aceitunas verdes/queso.',
+	'Evaluación clase cocina española. Clase con comensales. Entradas: Cuarto Frío - Tortilla de patatas y escalibada. - Chipirones en su tinta. - Mantequilla con pimiento del piquillo. Platos de Fondo: Cuarto Caliente - Congrio asado a la plancha acompañado de fideuá. - Cordero braseado acompañado de pisto manchego, patatas bravas y alioli. - Almuerzo de personal: garbanzos con longaniza y postre. Postre: Pastelería - Leche frita, helado de mora, zarzaparrilla. - Crema catalana, helado de vino dulce e higos. - Pan: saborizado con morcilla (prietas) y aceitunas verdes/queso.',
 	2,
 	'CRT3111');
 
@@ -2104,19 +1972,7 @@ insert into taller (
 values (
 	152,
 	'Evaluación - España',
-	'Evaluación clase cocina española. Clase con comensales.
-Entradas: Cuarto Frío
-- Tortilla de patatas y escalibada.
-- Chipirones en su tinta.
-- Mantequilla con pimiento del piquillo.
-Platos de Fondo: Cuarto Caliente
-- Congrio asado a la plancha acompañado de fideuá.
-- Cordero braseado acompañado de pisto manchego, patatas bravas y alioli.
-- Almuerzo de personal: garbanzos con longaniza y postre.
-Postre: Pastelería
-- Leche frita, helado de mora, zarzaparrilla.
-- Crema catalana, helado de vino dulce e higos.
-- Pan: saborizado con morcilla (prietas) y aceitunas verdes/queso.',
+	'Evaluación clase cocina española. Clase con comensales. Entradas: Cuarto Frío - Tortilla de patatas y escalibada. - Chipirones en su tinta. - Mantequilla con pimiento del piquillo. Platos de Fondo: Cuarto Caliente - Congrio asado a la plancha acompañado de fideuá. - Cordero braseado acompañado de pisto manchego, patatas bravas y alioli. - Almuerzo de personal: garbanzos con longaniza y postre. Postre: Pastelería - Leche frita, helado de mora, zarzaparrilla. - Crema catalana, helado de vino dulce e higos. - Pan: saborizado con morcilla (prietas) y aceitunas verdes/queso.',
 	3,
 	'CRT3111');
 
@@ -2129,20 +1985,7 @@ insert into taller (
 values (
 	153,
 	'Evaluación - Francia',
-	'Cocina francesa. Clase con comensales.
-Entradas: Cuarto Frío
-- Sopa de cebollas y pan gratinado.
-- Degustación de quiche (lorraine, espinaca, setas), mini ensalada con vinagreta.
-- Mantequilla Maitre dÂ´Hotel. 
-Platos de Fondo: Cuarto Caliente
-- Magret de pato sous vide, papa dauphinoise, torneado/sacabocado de vegetales salteados a la mostaza dijon y reducción de naranja y cedrón.
-- Costillas de cordero a la francesa, puré habas con queso roquefort, ratatouille y salsa reducción de vino tinto.
-- Almuerzo de personal: pescado al horno, puré de papas y postre.
-Postre: Pastelería
-- Creme brulée con helado de nueces aromatizadas con cava.
-- Tarte tatin, helado de creme de cassis.
-- Pan: croissant y mini baguette.
-',
+	'Cocina francesa. Clase con comensales. Entradas: Cuarto Frío - Sopa de cebollas y pan gratinado. - Degustación de quiche (lorraine, espinaca, setas), mini ensalada con vinagreta. - Mantequilla Maitre d´Hotel.  Platos de Fondo: Cuarto Caliente - Magret de pato sous vide, papa dauphinoise, torneado/sacabocado de vegetales salteados a la mostaza dijon y reducción de naranja y cedrón. - Costillas de cordero a la francesa, puré habas con queso roquefort, ratatouille y salsa reducción de vino tinto. - Almuerzo de personal: pescado al horno, puré de papas y postre. Postre: Pastelería - Creme brulée con helado de nueces aromatizadas con cava. - Tarte tatin, helado de creme de cassis. - Pan: croissant y mini baguette. ',
 	4,
 	'CRT3111');
 
@@ -2155,20 +1998,7 @@ insert into taller (
 values (
 	154,
 	'Evaluación - Francia',
-	'EVALUACIÓN COCINA FRANCESA, CLASE CON COMENSALES.
-Entradas: Cuarto Frío
-- Sopa de cebollas y pan gratinado.
-- Degustación de quiche (lorraine, espinaca, setas), mini ensalada con vinagreta.
-- Mantequilla Maitre dÂ´Hotel. 
-Platos de Fondo: Cuarto Caliente
-- Magret de pato sous vide, papa dauphinoise, torneado/sacabocado de vegetales salteados a la mostaza dijon y reducción de naranja y cedrón.
-- Costillas de cordero a la francesa, puré habas con queso roquefort, ratatouille y salsa reducción de vino tinto.
-- Almuerzo de personal: vacuno bourguignon, papa asada y postre.
-Postre: Pastelería
-- Creme brulée con helado de nueces aromatizadas con cava.
-- Tarte tatin, helado de creme de cassis.
-- Pan: croissant y mini baguette.
-',
+	'EVALUACIÓN COCINA FRANCESA, CLASE CON COMENSALES. Entradas: Cuarto Frío - Sopa de cebollas y pan gratinado. - Degustación de quiche (lorraine, espinaca, setas), mini ensalada con vinagreta. - Mantequilla Maitre d´Hotel.  Platos de Fondo: Cuarto Caliente - Magret de pato sous vide, papa dauphinoise, torneado/sacabocado de vegetales salteados a la mostaza dijon y reducción de naranja y cedrón. - Costillas de cordero a la francesa, puré habas con queso roquefort, ratatouille y salsa reducción de vino tinto. - Almuerzo de personal: vacuno bourguignon, papa asada y postre. Postre: Pastelería - Creme brulée con helado de nueces aromatizadas con cava. - Tarte tatin, helado de creme de cassis. - Pan: croissant y mini baguette. ',
 	5,
 	'CRT3111');
 
@@ -2181,19 +2011,7 @@ insert into taller (
 values (
 	155,
 	'Evaluación asistida - Italia',
-	'Cocina Italiana / Evaluación asistida. Clase con comensales.
-Entradas: Cuarto Frío
-- Lasaña de vegetales, salsa pomodoro y pesto.
-- Selección de bruschettas (prosciutto, pulpo y peperonatta).
-- Mantequilla de orégano fresco y pistachos.
-Platos de Fondo: Cuarto Caliente
-- Risotto negro (tinta de calamar) y frutos del mar.
-- Canelones rellenos con pollo asado, tocino y ricotta, gratinados con salsa bechamel y acompañados de salsa pomodoro.
-- Almuerzo de personal:  Pasta con salsa de champiñón, aceitunas y perejil (base tomate) y postre.
-Postre: Pastelería
-- Panna cotta de frambuesa, salsa de naranja ácida y helado de nutella, frutas al zabaione.
-- Tiramisú, helado de pistacho y salsa de moras con arándanos.
-- Pan: ciabatta y focaccia.',
+	'Cocina Italiana / Evaluación asistida. Clase con comensales. Entradas: Cuarto Frío - Lasaña de vegetales, salsa pomodoro y pesto. - Selección de bruschettas (prosciutto, pulpo y peperonatta). - Mantequilla de orégano fresco y pistachos. Platos de Fondo: Cuarto Caliente - Risotto negro (tinta de calamar) y frutos del mar. - Canelones rellenos con pollo asado, tocino y ricotta, gratinados con salsa bechamel y acompañados de salsa pomodoro. - Almuerzo de personal:  Pasta con salsa de champiñón, aceitunas y perejil (base tomate) y postre. Postre: Pastelería - Panna cotta de frambuesa, salsa de naranja ácida y helado de nutella, frutas al zabaione. - Tiramisú, helado de pistacho y salsa de moras con arándanos. - Pan: ciabatta y focaccia.',
 	6,
 	'CRT3111');
 
@@ -2206,19 +2024,7 @@ insert into taller (
 values (
 	156,
 	'Evaluación asistida - Medio Oriente, Tailandia, Japón',
-	'Cocina de Oriente / Evaluación asistida. Clase con comensales.
-Entradas: Cuarto Frío
-- Duo de Tataki (salmón y atún), salsa ponzu y pequeña ensalada (Japón).
-- Hojita de parra rellenas, labban y zahatar (Medio oriente).
-- Mantequilla de especias 
-Platos de Fondo: Cuarto Caliente
-- Pad thai de pollo y tofu (Tailandia).
-- Yakisoba de mariscos (Japón).
-- Almuerzo de personal: zapallo italiano relleno o guiso, arroz y postre.
-- Postre: Pastelería
-- Baklawe, helado de dátiles, salsa de té e higos, peras al jengibre con pistachos y decoración de caramelo (Medio oriente).
-- Satay de piña, helado de té matcha y coco, salsa de mango picante, lichees y pasta frita (Tailandia).
-- Pan: al vapor (Japón), Pita (Medio oriente).',
+	'Cocina de Oriente / Evaluación asistida. Clase con comensales. Entradas: Cuarto Frío - Duo de Tataki (salmón y atún), salsa ponzu y pequeña ensalada (Japón). - Hojita de parra rellenas, labban y zahatar (Medio oriente). - Mantequilla de especias  Platos de Fondo: Cuarto Caliente - Pad thai de pollo y tofu (Tailandia). - Yakisoba de mariscos (Japón). - Almuerzo de personal: zapallo italiano relleno o guiso, arroz y postre. - Postre: Pastelería - Baklawe, helado de dátiles, salsa de té e higos, peras al jengibre con pistachos y decoración de caramelo (Medio oriente). - Satay de piña, helado de té matcha y coco, salsa de mango picante, lichees y pasta frita (Tailandia). - Pan: al vapor (Japón), Pita (Medio oriente).',
 	7,
 	'CRT3111');
 
@@ -2231,19 +2037,7 @@ insert into taller (
 values (
 	157,
 	'Evaluación asistida - Perú',
-	'Cocina Peruana / Evaluación asistida. Clase con comensales.
-Entradas: Cuarto Frío
-- Pulpo a la Parrilla, solterito arequipeño y salsa al olivo.
-- Causa de camarón y tiradito nikkei de salmón.
-- Mantequilla: ají panca y huacatay.
-Platos de Fondo: Cuarto Caliente
-- Pescado fresco a la chorrillana, arroz chaufa y yuca frita.
-- Lomo saltado y tacu tacu.
-- Almuerzo de personal: Arroz chaufa de pollo y postre.
-Postre: Pastelería
-- Suspiro de limeña, helado de mazamorra morada, salsa de maracuyá.
-- Crema volteada, helado de plátano, salsa de tumbo.
-- Pan: Mollete y de papa amarilla.',
+	'Cocina Peruana / Evaluación asistida. Clase con comensales. Entradas: Cuarto Frío - Pulpo a la Parrilla, solterito arequipeño y salsa al olivo. - Causa de camarón y tiradito nikkei de salmón. - Mantequilla: ají panca y huacatay. Platos de Fondo: Cuarto Caliente - Pescado fresco a la chorrillana, arroz chaufa y yuca frita. - Lomo saltado y tacu tacu. - Almuerzo de personal: Arroz chaufa de pollo y postre. Postre: Pastelería - Suspiro de limeña, helado de mazamorra morada, salsa de maracuyá. - Crema volteada, helado de plátano, salsa de tumbo. - Pan: Mollete y de papa amarilla.',
 	8,
 	'CRT3111');
 
@@ -2256,19 +2050,7 @@ insert into taller (
 values (
 	158,
 	'Evaluación final',
-	'Examen final, menú dirigido. Clase con comensales.
-Entradas: Cuarto Frío
-- Degustación de quiche (lorraine, espinaca, setas), mini ensalada con vinagreta (Francia).
-- Causa de camarón y tiradito nikkei de salmón (Perú).
-- Manteqilla de finas hierbas.
-Platos de Fondo: Cuarto Caliente
-- Pad thai de pollo (Tailandia).
-- Risotto negro (tinta de calamar) y frutos del mar (Italia).
-- Almuerzo de personal: pastel de papas y postre.
-Postre: Pastelería
-- Leche frita, helado de mora, zarzaparrilla (España).
-- Tiramisú con helado de nutella y salsa de moras con arándanos (Italia).
-- Pan: Vapor (japonés) y Focaccia (italiano).',
+	'Examen final, menú dirigido. Clase con comensales. Entradas: Cuarto Frío - Degustación de quiche (lorraine, espinaca, setas), mini ensalada con vinagreta (Francia). - Causa de camarón y tiradito nikkei de salmón (Perú). - Manteqilla de finas hierbas. Platos de Fondo: Cuarto Caliente - Pad thai de pollo (Tailandia). - Risotto negro (tinta de calamar) y frutos del mar (Italia). - Almuerzo de personal: pastel de papas y postre. Postre: Pastelería - Leche frita, helado de mora, zarzaparrilla (España). - Tiramisú con helado de nutella y salsa de moras con arándanos (Italia). - Pan: Vapor (japonés) y Focaccia (italiano).',
 	9,
 	'CRT3111');
 
@@ -2281,8 +2063,7 @@ insert into taller (
 values (
 	159,
 	'Preparación',
-	'Langosta marinada, picante de conejo y arroz con ajo, cordero arvejado y puré rústico, 
-quinoa con leche y mango, helado de chumbeque y guayaba, catutos con rosa mosqueta, mini chapalele y mini churrascas.',
+	'Langosta marinada, picante de conejo y arroz con ajo, cordero arvejado y puré rústico,  quinoa con leche y mango, helado de chumbeque y guayaba, catutos con rosa mosqueta, mini chapalele y mini churrascas.',
 	1,
 	'CRT4111');
 
@@ -2308,8 +2089,7 @@ insert into taller (
 values (
 	161,
 	'Evaluación',
-	'Pulpo con vinagreta de aceituna azapa/empanada de prieta/queso de cabra; pastel
-de jaibas en papa michuñe/arriero; cancato/puré de habas; sobrecostilla al pipeño/porotos granados; mote c/huesillos/helado de cola de mono.',
+	'Pulpo con vinagreta de aceituna azapa/empanada de prieta/queso de cabra; pastel de jaibas en papa michuñe/arriero; cancato/puré de habas; sobrecostilla al pipeño/porotos granados; mote c/huesillos/helado de cola de mono.',
 	3,
 	'CRT4111');
 
@@ -2322,8 +2102,7 @@ insert into taller (
 values (
 	162,
 	'Preparación',
-	'Mini chacarero/causeo de atún y cochayuyo; arrollado de huaso/pequén c/queso; 
-pescado del día/arroz al ajo; ccostillar de cerdo/cremoso de motemei; leche nevada/helado de frutillas c/menta.',
+	'Mini chacarero/causeo de atún y cochayuyo; arrollado de huaso/pequén c/queso;  pescado del día/arroz al ajo; ccostillar de cerdo/cremoso de motemei; leche nevada/helado de frutillas c/menta.',
 	4,
 	'CRT4111');
 
@@ -2362,8 +2141,7 @@ insert into taller (
 values (
 	165,
 	'Evaluación guiada',
-	'Mini sánguche pescado frito/lengua de vacuno; Caldillo de congrio/empanadta 
-de charqui; Plateada de cerdo/porotos pallares; Costillas de cordero/charquicán; Mousse de chirimoya alegre y queso de cabra/helado de carmenere y berries.',
+	'Mini sánguche pescado frito/lengua de vacuno; Caldillo de congrio/empanadta  de charqui; Plateada de cerdo/porotos pallares; Costillas de cordero/charquicán; Mousse de chirimoya alegre y queso de cabra/helado de carmenere y berries.',
 	7,
 	'CRT4111');
 
@@ -2376,8 +2154,7 @@ insert into taller (
 values (
 	166,
 	'Evaluación guiada',
-	'Tártaro de centolla/macha con queso, merluza ahumada/huevas de pescado fritas, 
-Congrio frito/salsa camarón mailon, Mini parrilla, Leche asada/helado de arándano, limón y menta',
+	'Tártaro de centolla/macha con queso, merluza ahumada/huevas de pescado fritas,  Congrio frito/salsa camarón mailon, Mini parrilla, Leche asada/helado de arándano, limón y menta',
 	8,
 	'CRT4111');
 
@@ -2390,8 +2167,7 @@ insert into taller (
 values (
 	167,
 	'Evaluación final',
-	'Pulpo con vinagreta de aceitunas de azapa, empanadita de prieta/queso de cabra, 
-Merluza ahumada, huevas de pescado frita, congrio frito, cordero y charquicán, Mousse de chirimoya alegre',
+	'Pulpo con vinagreta de aceitunas de azapa, empanadita de prieta/queso de cabra,  Merluza ahumada, huevas de pescado frita, congrio frito, cordero y charquicán, Mousse de chirimoya alegre',
 	9,
 	'CRT4111');
 
@@ -2651,9 +2427,7 @@ insert into taller (
 values (
 	187,
 	'Preparación',
-	'Brazo de reina con manjar y crema chantilly
-Brazo de reina con frutillas con manjar y crema chantilly
-Brazo de reina con mermelada de guindas, manjar y crema chantilly                                                                                                                                                                                            Brazo de reina con piñas, manjar y crema chantilly ',
+	'Brazo de reina con manjar y crema chantilly Brazo de reina con frutillas con manjar y crema chantilly Brazo de reina con mermelada de guindas, manjar y crema chantilly                                                                                                                                                                                            Brazo de reina con piñas, manjar y crema chantilly ',
 	3,
 	'PRT2121');
 
@@ -2666,10 +2440,7 @@ insert into taller (
 values (
 	188,
 	'Preparación',
-	'Torta de bizcocho relleno con piñas   
-Torta de bizcocho selva negra
-Torta de bizcocho de amapolas, crema chantilly, manjar    
-Torta de bizcocho de limón, relleno con chantilly y frutillas',
+	'Torta de bizcocho relleno con piñas    Torta de bizcocho selva negra Torta de bizcocho de amapolas, crema chantilly, manjar     Torta de bizcocho de limón, relleno con chantilly y frutillas',
 	4,
 	'PRT2121');
 
@@ -2695,9 +2466,7 @@ insert into taller (
 values (
 	190,
 	'Preparación',
-	'Galletas crujientes, aromatizadas con vainilla, rellenas de mermelada y decoradas con cobertura
-Galletas de chocholate mangueadas de chocolate                                                                                                                                                                                                                                         Galletas de parmesano y limon galletas troqueladas de chocolate galletas bicolores
-Galletas bicolores ',
+	'Galletas crujientes, aromatizadas con vainilla, rellenas de mermelada y decoradas con cobertura Galletas de chocholate mangueadas de chocolate                                                                                                                                                                                                                                         Galletas de parmesano y limon galletas troqueladas de chocolate galletas bicolores Galletas bicolores ',
 	6,
 	'PRT2121');
 
@@ -2710,10 +2479,7 @@ insert into taller (
 values (
 	191,
 	'Preparación',
-	'Quiche lorraine
-Quiche pollo con champiñones
-Quiche vegetariano                                                                                                                                                                                                                                                                                                           Tartaletas de frutas
-Pie de limón',
+	'Quiche lorraine Quiche pollo con champiñones Quiche vegetariano                                                                                                                                                                                                                                                                                                           Tartaletas de frutas Pie de limón',
 	7,
 	'PRT2121');
 
@@ -3285,9 +3051,7 @@ insert into taller (
 values (
 	239,
 	'EXAMEN FINAL',
-	'MENÃš A: Ceviche raspado, Lomo a lo pobre, Pan amasado, Pebre.
-
-MENÃš B: Crudo valdiviano, Calugas de congrio apanadas en sémola con papas salteadas al huacatay, Pan amasado, Chancho en piedra.',
+	'MENÚ A: Ceviche raspado, Lomo a lo pobre, Pan amasado, Pebre. MENÚ B: Crudo valdiviano, Calugas de congrio apanadas en sémola con papas salteadas al huacatay, Pan amasado, Chancho en piedra.',
 	16,
 	'RCT5111');
 
@@ -3820,9 +3584,7 @@ insert into taller (
 values (
 	280,
 	'CLASE 6',
-	'Martini dry, Manhattan, Mi to, Capitán (REFRESCADOS)
-
-CLÃSICOS CHILENOS Bitter a la francesa, Pichuncho, Pantera Rosa.',
+	'Martini dry, Manhattan, Mi to, Capitán (REFRESCADOS) CLÁSICOS CHILENOS Bitter a la francesa, Pichuncho, Pantera Rosa.',
 	6,
 	'ABT3131B');
 
