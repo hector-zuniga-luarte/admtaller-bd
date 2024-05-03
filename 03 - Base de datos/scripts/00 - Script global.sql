@@ -62,10 +62,10 @@ create table config_perfil (
 ) comment "tabla que almacena la configuración de un perfil de acuerdo a las opciones de menú disponibles";
 
 create table agrupador (
-    cod_agrupador  tinyint not null comment "Código del agrupador de productos",
+    cod_agrupador  tinyint comment "Código del agrupador de productos para el taller",
     nom_agrupador  varchar(100) not null comment "Nombre del agrupador de productos",
     primary key (cod_agrupador)
-) comment "Tabla que contiene los agrupadores de productos en la especificación de un taller";
+) comment "Tabla que contiene los agrupadores de productos en la especificación de un taller (útil para separar los productos de los talleres de los del almuerzo del personal por ejemplo)";
 
 create table asign (
     sigla            varchar(15) not null comment "Sigla de la asignatura",
@@ -91,7 +91,7 @@ create table categ_producto (
 create table config_taller (
     id_producto    int not null comment "Identificador único abstracto del producto asociado al taller",
     id_taller      int not null comment "Identificador del taller para el cual se asocia el producto",
-    cod_agrupador  tinyint comment "Código del agrupador de productos para el taller (almuerzo personal por ejemplo)",
+    cod_agrupador  tinyint comment "Código del agrupador de productos para el taller",
     cantidad       dec(12,6) comment "Cantidad del producto requerido para el taller",
     primary key (id_producto, id_taller, cod_agrupador)
 ) comment "Tabla que asocia productos con un taller específico";
@@ -102,11 +102,12 @@ create table det_regis_taller (
     cod_periodo_academ  tinyint not null comment "El período académico del registro de ejecución del taller",
     sigla               varchar(15) not null comment "La sigla de la asignatura que se está programando",
     seccion             tinyint not null comment "La sección programada para el taller",
-    id_taller           int not null comment "El identificador único del taller",
     id_producto         int not null comment "Identificador único abstracto del producto indicado en el detalle del registro del taller",
+    id_taller           int not null comment "El identificador único del taller",
+    cod_agrupador       tinyint comment "Código del agrupador de productos para el taller",
     precio              int not null comment "El precio del producto registrado a la fecha de ejecución del taller",
     cantidad            dec(12,6) not null comment "Cantidad de unidades del producto registrado a la fecha de ejecución del taller",
-    primary key (fecha, ano_academ, cod_periodo_academ, sigla, seccion, id_taller, id_producto)
+    primary key (fecha, ano_academ, cod_periodo_academ, sigla, seccion, id_producto, id_taller, precio, cod_agrupador)
 ) comment "Detalle del registro de productos asignados a la ejecución de un taller específico";
 
 create table perfil (
