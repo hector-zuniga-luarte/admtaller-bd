@@ -421,7 +421,7 @@ insert into unidad_medida (
 	factor)
 values (
 	1,
-	'kilogramos',
+	'kilogramo',
 	'Kg.',
 	null,
 	null);
@@ -434,7 +434,7 @@ insert into unidad_medida (
 	factor)
 values (
 	2,
-	'gramos',
+	'gramo',
 	'gr.',
 	2,
 	1000);
@@ -447,7 +447,7 @@ insert into unidad_medida (
 	factor)
 values (
 	3,
-	'litros',
+	'litro',
 	'lt.',
 	null,
 	null);
@@ -460,7 +460,7 @@ insert into unidad_medida (
 	factor)
 values (
 	4,
-	'mililitros',
+	'mililitro',
 	'ml.',
 	3,
 	1000);
@@ -473,7 +473,7 @@ insert into unidad_medida (
 	factor)
 values (
 	5,
-	'unidades',
+	'unidad',
 	'unid',
 	null,
 	null);
@@ -486,7 +486,7 @@ insert into unidad_medida (
 	factor)
 values (
 	6,
-	'metros',
+	'metro',
 	'mt.',
 	null,
 	null);
