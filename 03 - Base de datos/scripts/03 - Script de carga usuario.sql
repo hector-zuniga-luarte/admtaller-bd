@@ -19,7 +19,11 @@ values (
 	'del sistema',
 	'admin',
 	0,
+<<<<<<< HEAD
 	0);
+=======
+	null);
+>>>>>>> 1dd848ad088828c32a52eaf40c21ed6e7145317a
 
 insert into usuario (
 	id_usuario,
@@ -545,6 +549,7 @@ values (
 	'Rocío',
 	2,
 	1);
+<<<<<<< HEAD
 
 insert into usuario (
 	id_usuario,
@@ -569,6 +574,8 @@ values (
 
 commit;
 
+=======
+>>>>>>> 1dd848ad088828c32a52eaf40c21ed6e7145317a
 /* Fin tabla: usuario */
 
 commit;

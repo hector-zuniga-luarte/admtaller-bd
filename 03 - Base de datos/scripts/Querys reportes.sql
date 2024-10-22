@@ -82,3 +82,88 @@ order by c.cod_carrera asc,
 	u.primer_apellido asc,
     u.segundo_apellido asc,
     u.nom_preferido asc;
+
+select cp.nom_categ_producto as nom_categ_producto,
+	ct.id_producto as id_producto,
+    p.nom_producto as nom_producto,
+    sum(ct.cantidad) as cantidad_total_productos,
+    p.precio as precio_producto,
+    sum(ct.cantidad) * p.precio as precio_total_productos
+from prog_taller pt,
+    config_taller ct,
+    producto p,
+    categ_producto cp
+where p.cod_categ_producto = cp.cod_categ_producto and
+	ct.id_producto = p.id_producto and
+	pt.id_taller = ct.id_taller and
+	pt.fecha between '2024-05-01' and '2024-05-31'
+group by cp.nom_categ_producto,
+	ct.id_producto,
+    p.nom_producto
+order by cp.nom_categ_producto asc,
+	p.nom_producto asc;
+
+/* Reporte 4: Resumen de productos por rango de fechas */
+select c.nom_carrera as nom_carrera,
+    cp.nom_categ_producto as nom_categ_producto,
+    p.nom_producto as nom_producto,
+    sum(ct.cantidad) as cantidad_total_productos,
+    um.nom_unidad_medida as nom_unidad_medida,
+    p.precio as precio_producto,
+    round(sum(ct.cantidad) * p.precio, 0) as precio_total_productos
+from prog_taller pt
+join config_taller ct on pt.id_taller = ct.id_taller
+join producto p on ct.id_producto = p.id_producto
+join unidad_medida um on p.cod_unidad_medida = um.cod_unidad_medida
+join categ_producto cp on p.cod_categ_producto = cp.cod_categ_producto
+join asign a on pt.sigla = a.sigla
+join carrera c on a.cod_carrera = c.cod_carrera
+join usuario u on a.cod_carrera = u.cod_carrera
+where pt.ano_academ = 2024 and
+    u.id_usuario = 2 and
+    pt.fecha between '2024-04-22' and '2024-04-28'
+group by c.nom_carrera,
+    cp.nom_categ_producto,
+    ct.id_producto,
+    p.nom_producto,
+    p.precio,
+    um.nom_unidad_medida
+order by c.nom_carrera asc,
+    cp.nom_categ_producto asc,
+    p.nom_producto asc;
+                
+/* Reporte 5: Detalle de productos por taller y por rango de fechas */
+select c.nom_carrera as nom_carrera,
+    cp.nom_categ_producto as nom_categ_producto,
+    p.nom_producto as nom_producto,
+    ct.cantidad as cantidad,
+    um.nom_unidad_medida as nom_unidad_medida,
+    p.precio as precio,
+    ct.cantidad * p.precio as precio_total,
+    pt.fecha as fecha,
+	pa.nom_periodo_academ as nom_periodo_academ,
+    pt.sigla as sigla,
+    a.nom_asign as nom_asign,
+    pt.seccion as seccion,
+    t.semana as semana,
+    t.titulo_preparacion as titulo_preparacion
+from prog_taller pt
+join asign a on pt.sigla = a.sigla
+join config_taller ct on pt.id_taller = ct.id_taller
+join taller t on pt.id_taller = t.id_taller
+join producto p on ct.id_producto = p.id_producto
+join unidad_medida um on p.cod_unidad_medida = um.cod_unidad_medida
+join categ_producto cp on p.cod_categ_producto = cp.cod_categ_producto
+join carrera c on a.cod_carrera = c.cod_carrera
+join usuario u on a.cod_carrera = u.cod_carrera
+join periodo_academ pa on pt.cod_periodo_academ = pa.cod_periodo_academ
+where pt.ano_academ = 2024 and
+    u.id_usuario = 2 and
+	pt.fecha between '2024-04-22' and '2024-04-28'
+order by c.nom_carrera asc,
+    cp.nom_categ_producto asc,
+	p.nom_producto asc,
+	pt.fecha asc,
+	pt.sigla asc,
+    pt.seccion asc,
+    t.semana asc;
